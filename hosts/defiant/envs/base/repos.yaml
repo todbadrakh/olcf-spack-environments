@@ -1,0 +1,9 @@
+repos:
+  - ${FACSPACK_CONF_COMMON}/spack/repos/olcf
+  #############################################################################
+  # Views are managed externally; placing them here triggers a regneration each
+  # time the env is re-concretized which both destroys non-spack files (eg
+  # symlinks) in "hybrid views" and removes previous builds slated to be
+  # re-built from the production view when we want to minimize disruption to
+  # users. See $FACSPACK_CONF_ENV/view-generate-*.sh scripts for managing views.
+
