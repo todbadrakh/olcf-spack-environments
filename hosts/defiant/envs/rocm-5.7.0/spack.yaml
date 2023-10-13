@@ -1,4 +1,4 @@
-# Base environment
+# ROCm 5.7.0 environment
 # Tuguldur T. Odbadrakh
 # 10/13/2023
 
@@ -11,7 +11,6 @@ spack:
     - packages.yaml
   
   definitions:
-
   - core_compiler:
     - '%gcc@7.5.0'
   
@@ -28,11 +27,6 @@ spack:
   
   - amd_compilers:
     - '%clang@17.0.0-rocm5.7.0'
-    - '%clang@16.0.0-rocm5.5.0'
-    - '%clang@15.0.0-rocm5.4.0'
-    - '%clang@15.0.0-rocm5.3.0'
-    - '%clang@14.0.0-rocm5.2.0'
-    - '%clang@14.0.0-rocm5.1.0'
   
   - core_packages:
     - bazel
@@ -47,12 +41,10 @@ spack:
     - gettext
     - go
     - googletest
-    - htop
     - julia
     - m4
     - mesa
     - mercurial
-    - ncurses
     - ninja
     - openblas
     - openjdk
@@ -66,24 +58,23 @@ spack:
     - zstd
 
   - e4s_packages:
-    - adios@2.8.2 # ERROR: Fetch failed
+    - adios@2.8.3
     - amrex@22.11 +rocm amdgpu_target=gfx908
     - globalarrays@5.8 +scalapack
     - hdf5@1.14.0 +cxx+fortran
-    - hpx@1.8.1 +rocm amdgpu_target=gfx908 ^asio cxxstd=17 ^boost cxxstd=17 # ERROR: Use HIP/include
+    - hpx@1.8.1 +rocm amdgpu_target=gfx908 ^asio cxxstd=17 ^boost cxxstd=17
     - hypre@2.26.0 +rocm+openmp+superlu-dist amdgpu_target=gfx908
     - kokkos@3.7.00 +rocm amdgpu_target=gfx908
     - kokkos-kernels@3.7.00
-    - magma@2.6.2 +rocm amdgpu_target=gfx908 # ERROR: use HIP/include
+    - magma@2.6.2 +rocm amdgpu_target=gfx908
     - nco@5.0.1
-    - netlib-scalapack@2.2.0
     - papi@7.0.1
     - parsec@3.0.2209 ~cuda
     - petsc@3.18.1 +rocm amdgpu_target=gfx908 ^superlu-dist +rocm amdgpu_target=gfx908
     - slate@2021.05.02 +rocm amdgpu_target=gfx908
     - superlu-dist@7.2.0 +rocm amdgpu_target=gfx908
     - tau@2.32
-    - upcxx@2023.3.0 +rocm+mpi amdgpu_target=gfx908
+    - upcxx +rocm+mpi amdgpu_target=gfx908
   
   - core_specs:
     - matrix:
@@ -94,7 +85,7 @@ spack:
   - e4s_specs:
     - matrix:
       - - $e4s_packages
-      - - '%gcc@12.2.0'
+      - - $amd_compilers
       - - arch=cray-sles15-zen2
   
   specs:

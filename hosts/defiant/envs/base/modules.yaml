@@ -1,3 +1,7 @@
+# Base environment modules
+# Tuguldur T. Odbadrakh
+# 10/13/2023
+
 modules:
   prefix_inspections:
     bin:
@@ -23,177 +27,15 @@ modules:
   default:
     enable:
     - lmod
-    - tcl
     roots:
-      tcl: ${FACSPACK_ENV_MODULEROOT}/flat
       lmod: ${FACSPACK_ENV_MODULEROOT}/spack
     lmod:
       core_compilers: [gcc@7.5.0]
       all:
-        conflict: []
         environment:
           set:
             OLCF_${PACKAGE}_ROOT: ${PREFIX}
-          unset: []
-        filter:
-          environment_blacklist: []
-        load: []
         autoload: none
-#      amrex:
-#        suffixes:
-#          amrex~rocm: cpu
-#      blaspp:
-#        suffixes:
-#          blaspp~rocm: cpu
-#      boost:
-#        suffixes:
-#          boost cxxstd=17: cxx17
-#      cairo:
-#        conflict: []
-#        environment:
-#          unset: []
-#        filter:
-#          environment_blacklist: []
-#        load: []
-#        suffixes:
-#          cairo+X: X
-#          cairo+pdf: pdf
-#      camp:
-#        suffixes:
-#          camp~rocm: cpu
-#      cdo:
-#        conflict: []
-#        environment:
-#          unset: []
-#        filter:
-#          environment_blacklist: []
-#        load: []
-#        suffixes:
-#          cdo^hdf5+mpi^netcdf+mpi^fftw+mpi: parallel
-#      chai:
-#        suffixes:
-#          chai~rocm: cpu
-#      ferret:
-#        conflict: []
-#        environment:
-#          unset: []
-#        filter:
-#          environment_blacklist: []
-#        load: []
-#        suffixes:
-#          ferret^hdf5+mpi^netcdf+mpi: parallel
-#      fftw:
-#        conflict: []
-#        environment:
-#          unset: []
-#        filter:
-#          environment_blacklist: []
-#        load: []
-#        suffixes:
-#          fftw+openmp: omp
-#      ginkgo:
-#        suffixes:
-#          ginkgo~rocm: cpu
-#      gromacs:
-#        conflict: []
-#        environment:
-#          unset: []
-#        filter:
-#          environment_blacklist: []
-#        load: []
-#        suffixes:
-#          gromacs~mpi: analysis
-#          gromacs~rdtscp: rdtscp_off
-#      hdf5:
-#        conflict: []
-#        environment:
-#          unset: []
-#        filter:
-#          environment_blacklist: []
-#        load: []
-#        suffixes:
-#          hdf5~mpi+szip: sz
-#          hdf5~mpi+threadsafe: threadsafe
-#      heffte:
-#        suffixes:
-#          heffte~rocm: cpu
-#          heffte+fftw: fftw
-#      kokkos-kernels:
-#        suffixes:
-#          kokkos-kernels+openmp: omp
-#      ncl:
-#        conflict: []
-#        environment:
-#          unset: []
-#        filter:
-#          environment_blacklist: []
-#        load: []
-#        suffixes:
-#          builtin.ncl ^hdf5+mpi^netcdf+mpi: parallel
-#      openblas:
-#        conflict: []
-#        environment:
-#          unset: []
-#        filter:
-#          environment_blacklist: []
-#        load: []
-#        suffixes:
-#          openblas threads=openmp: omp
-#          openblas threads=pthreads: pthreads
-#      openmpi:
-#        conflict: []
-#        environment:
-#          unset: []
-#        filter:
-#          environment_blacklist: []
-#        load: []
-#      pango:
-#        conflict: []
-#        environment:
-#          unset: []
-#        filter:
-#          environment_blacklist: []
-#        load: []
-#        suffixes:
-#          pango+X: X
-#      raja:
-#        suffixes:
-#          raja~rocm: cpu
-#      root:
-#        suffixes:
-#          ^cray-libsci: cpe
-#      slate:
-#        suffixes:
-#          slate~rocm: cpu
-#      strumpack:
-#        suffixes:
-#          strumpack~rocm: cpu
-#      sundials:
-#        suffixes:
-#          sundials~rocm: cpu
-#      superlu-dist:
-#        suffixes:
-#          superlu-dist~rocm: cpu
-#      tasmanian:
-#        suffixes:
-#          tasmanian~rocm: cpu
-#      tau:
-#        suffixes:
-#          tau+openmp: omp
-#      umpire:
-#        suffixes:
-#          umpire~rocm: cpu
-#      vtk:
-#        conflict: []
-#        environment:
-#          unset: []
-#        filter:
-#          environment_blacklist: []
-#        load: []
-#        suffixes:
-#          vtk+mpi: parallel
-#          vtk+qt: qt
-#          vtk~mpi: serial
       blacklist_implicits: false
       verbose: true
       whitelist: []
@@ -330,24 +172,4 @@ modules:
       hierarchy: []
       projections: {}
       core_specs: []
-    tcl:
-      hash_length: 3
-      naming_scheme: '{name}/{version}-{compiler.name}-{compiler.version}'
-      blacklist:
-      - slurm
-      - go-bootstrap
-      - openssl
-      all:
-        conflict:
-        - '{name}'
-        environment:
-          set:
-            OLCF_${PACKAGE}_ROOT: ${PREFIX}
-          unset: []
-        filter:
-          environment_blacklist: []
-        load: []
-      verbose: false
-      whitelist: []
-      blacklist_implicits: false
-      projections: {}
+

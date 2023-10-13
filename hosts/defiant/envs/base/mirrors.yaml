@@ -1,5 +1,0 @@
-mirrors:
-  facility_builds: /sw/spock/spack-env/mirrors/builds
-  source_mirror: /sw/sources/facility-spack/source_mirror
-repos:
-- ${FACSPACK_CONF_COMMON}/spack/repos/olcf

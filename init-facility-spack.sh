@@ -321,7 +321,7 @@ case "${FACSPACK_HOST}" in
       echo "WARNING: AFW uses tcl environment modules which this script does not handle correctly"
     fi
     ;;
-  spock)
+  defiant)
     export SPACK_FRONT_END="zen2"
     export SPACK_BACK_END="zen2"
     setup_alternate_module_environment "${_FS_MP}"

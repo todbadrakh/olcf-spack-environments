@@ -1,4 +1,4 @@
-# Base environment configuration
+# ROCm 5.7.0 environment configuration
 # Tuguldur T. Odbadrakh
 # 10/13/2023
 
@@ -23,7 +23,7 @@ config:
   checksum: true
   dirty: false
   build_language: C
-  build_jobs: 24
+  build_jobs: 48
   ccache: false
   db_lock_timeout: 120
   package_lock_timeout: null
@@ -34,13 +34,11 @@ config:
   suppress_gpg_warnings: false
   connect_timeout: 10
   test_stage: ~/.spack/test
-
+  concretization: 'separately'
 concretizer:
   unify: 'when_possible'
-
 mirrors:
   facility_builds: /sw/spock/spack-env/mirrors/builds
   source_mirror: /sw/sources/facility-spack/source_mirror
-
 repos:
 - ${FACSPACK_CONF_COMMON}/spack/repos/olcf
