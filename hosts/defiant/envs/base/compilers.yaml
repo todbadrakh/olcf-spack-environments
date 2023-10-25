@@ -29,7 +29,10 @@ compilers:
     - gcc/12.2.0
     - craype-x86-rome
     - libfabric
-    environment: {}
+    - xpmem/2.6.2-2.5_2.27__gd067c3f.shasta
+    environment:
+      prepend_path:
+        LD_LIBRARY_PATH: /opt/cray/pe/pmi/6.1.12/lib
     extra_rpaths: []
 - compiler:
     spec: gcc@12.1.0
@@ -46,7 +49,10 @@ compilers:
     - gcc/12.1.0
     - craype-x86-rome
     - libfabric
-    environment: {}
+    - xpmem/2.6.2-2.5_2.27__gd067c3f.shasta
+    environment:
+      prepend_path:
+        LD_LIBRARY_PATH: /opt/cray/pe/pmi/6.1.12/lib
     extra_rpaths: []
 - compiler:
     spec: gcc@11.2.0
@@ -63,7 +69,10 @@ compilers:
     - gcc/11.2.0
     - craype-x86-rome
     - libfabric
-    environment: {}
+    - xpmem/2.6.2-2.5_2.27__gd067c3f.shasta
+    environment:
+      prepend_path:
+        LD_LIBRARY_PATH: /opt/cray/pe/pmi/6.1.12/lib
     extra_rpaths: []
 - compiler:
     spec: gcc@10.3.0
@@ -80,7 +89,10 @@ compilers:
     - gcc/10.3.0
     - craype-x86-rome
     - libfabric
-    environment: {}
+    - xpmem/2.6.2-2.5_2.27__gd067c3f.shasta
+    environment:
+      prepend_path:
+        LD_LIBRARY_PATH: /opt/cray/pe/pmi/6.1.12/lib
     extra_rpaths: []
 - compiler:
     spec: cce@16.0.0
@@ -97,6 +109,7 @@ compilers:
     - cce/16.0.0
     - craype-x86-rome
     - libfabric
+    - xpmem/2.6.2-2.5_2.27__gd067c3f.shasta
     environment:
       set:
         RFE_811452_DISABLE: '1'
@@ -120,6 +133,7 @@ compilers:
     - cce/15.0.1
     - craype-x86-rome
     - libfabric
+    - xpmem/2.6.2-2.5_2.27__gd067c3f.shasta
     environment:
       set:
         RFE_811452_DISABLE: '1'
@@ -143,6 +157,7 @@ compilers:
     - cce/14.0.4
     - craype-x86-rome
     - libfabric
+    - xpmem/2.6.2-2.5_2.27__gd067c3f.shasta
     environment:
       set:
         RFE_811452_DISABLE: '1'
@@ -166,6 +181,7 @@ compilers:
     - amd/5.7.0
     - craype-x86-rome
     - libfabric
+    - xpmem/2.6.2-2.5_2.27__gd067c3f.shasta
     environment:
       set:
         RFE_811452_DISABLE: '1'
@@ -192,6 +208,7 @@ compilers:
     - amd/5.5.1
     - craype-x86-rome
     - libfabric
+    - xpmem/2.6.2-2.5_2.27__gd067c3f.shasta
     environment:
       set:
         RFE_811452_DISABLE: '1'
@@ -218,6 +235,7 @@ compilers:
     - amd/5.5.0
     - craype-x86-rome
     - libfabric
+    - xpmem/2.6.2-2.5_2.27__gd067c3f.shasta
     environment:
       set:
         RFE_811452_DISABLE: '1'
@@ -244,6 +262,7 @@ compilers:
     - amd/5.4.0
     - craype-x86-rome
     - libfabric
+    - xpmem/2.6.2-2.5_2.27__gd067c3f.shasta
     environment:
       set:
         RFE_811452_DISABLE: '1'
@@ -270,6 +289,7 @@ compilers:
     - amd/5.3.0
     - craype-x86-rome
     - libfabric
+    - xpmem/2.6.2-2.5_2.27__gd067c3f.shasta
     environment:
       set:
         RFE_811452_DISABLE: '1'
@@ -296,6 +316,7 @@ compilers:
     - amd/5.2.0
     - craype-x86-rome
     - libfabric
+    - xpmem/2.6.2-2.5_2.27__gd067c3f.shasta
     environment:
       set:
         RFE_811452_DISABLE: '1'
@@ -322,6 +343,7 @@ compilers:
     - amd/5.1.0
     - craype-x86-rome
     - libfabric
+    - xpmem/2.6.2-2.5_2.27__gd067c3f.shasta
     environment:
       set:
         RFE_811452_DISABLE: '1'

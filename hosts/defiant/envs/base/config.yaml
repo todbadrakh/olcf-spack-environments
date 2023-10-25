@@ -33,7 +33,7 @@ config:
   suppress_gpg_warnings: false
   connect_timeout: 10
   test_stage: ~/.spack/test
-  concretization: together
+  concretization: separately
   view: false
 
 concretizer:

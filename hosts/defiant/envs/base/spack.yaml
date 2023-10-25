@@ -35,38 +35,56 @@ spack:
     - '%clang@14.0.0-rocm5.1.0'
   
   - core_packages:
-    - bazel
-    - darshan-util@3.4.0
-    - go
-    - googletest
-    - julia
-    - libbsd
-    - mesa
-    - mercurial
-    - ninja
-    - openblas
-    - py-jupyterhub
-    - subversion
+    - bazel@5.2.0
+    - bzip2@1.0.8
+    - ccache@4.6.1
+    - cmake@3.24.3
+    - darshan-util@3.4.0 +bzip2
+    - exuberant-ctags@5.8
+    - gdb@12.1
+    - git@2.38.1 +svn
+    - git-lfs@2.11.0
+    - gmake@4.3
+    - gnupg@2.3.8
+    - go@1.18
+    - googletest@1.12.1 cxxstd=17
+    - htop@3.0.2
+    - libbsd@0.11.5
+    - libpng@1.6.37
+    - libzmq@4.3.4 +libbsd+libsodium+libunwind
+    - mesa@22.1.2 ~llvm
+    - ninja@1.11.1
+    - openblas@0.3.21
+    - openjdk@11.0.17_8
+    - python@3.10.8 +optimizations
+    #- py-jupyterhub@1.4.1
+    - screen@4.8.0
+    - sqlite@3.39.4
+    - texinfo@6.5
+    - tmux@3.2a
+    - wget@1.21.3 +python
+    - zlib@1.2.13
+    - zstd@1.5.2
 
   - e4s_packages:
     - adios@1.13.1 +bzip2+fortran+hdf5+netcdf+zlib
     - amrex@22.11 +rocm amdgpu_target=gfx908
-    - globalarrays@5.8 +scalapack
+    #- globalarrays@5.8 +scalapack
     - hdf5@1.14.0 +cxx+fortran
-    - hpx@1.8.1 +rocm amdgpu_target=gfx908 ^asio cxxstd=17 ^boost cxxstd=17 # ERROR: Use HIP/include
-    - hypre@2.26.0 +rocm+openmp+superlu-dist amdgpu_target=gfx908
-    - kokkos@3.7.00 +rocm amdgpu_target=gfx908
-    - kokkos-kernels@3.7.00
-    - magma@2.6.2 +rocm amdgpu_target=gfx908 # ERROR: use HIP/include
-    - nco@5.0.1
-    - netlib-scalapack@2.2.0
-    - papi@7.0.1
-    - parsec@3.0.2209 ~cuda
-    - petsc@3.18.1 +rocm amdgpu_target=gfx908 ^superlu-dist +rocm amdgpu_target=gfx908
-    - slate@2021.05.02 +rocm amdgpu_target=gfx908
-    - superlu-dist@7.2.0 +rocm amdgpu_target=gfx908
-    - tau@2.32
-    - upcxx@2023.3.0 +rocm+mpi amdgpu_target=gfx908
+    #- hpx@1.8.1 +rocm amdgpu_target=gfx908 ^asio cxxstd=17 ^boost cxxstd=17 # ERROR: Use HIP/include
+    #- hypre@2.26.0 +rocm+openmp+superlu-dist amdgpu_target=gfx908
+    #- kokkos@3.7.00 +rocm amdgpu_target=gfx908
+    #- kokkos-kernels@3.7.00
+    #- magma@2.6.2 +rocm amdgpu_target=gfx908 # ERROR: use HIP/include
+    #- nco@5.0.1
+    #- netlib-scalapack@2.2.0
+    #- papi@7.0.1 +rocm amdgpu_target=gfx908
+    #- parsec@3.0.2209 ~cuda
+    #- petsc@3.18.1 +rocm amdgpu_target=gfx908 ^superlu-dist +rocm amdgpu_target=gfx908
+    #- slate@2021.05.02 +rocm amdgpu_target=gfx908
+    #- superlu-dist@7.2.0 +rocm amdgpu_target=gfx908
+    #- tau@2.32
+    #- upcxx@2023.3.0 +rocm+mpi amdgpu_target=gfx908
   
   - core_specs:
     - matrix:
@@ -74,7 +92,7 @@ spack:
       - - $core_compiler
       - - arch=linux-sles15-x86_64
   
-  - e4s_specs:
+  - PrgEnv-gnu_specs:
     - matrix:
       - - $e4s_packages
       - - '%gcc@12.2.0'
@@ -82,6 +100,6 @@ spack:
   
   specs:
   - $core_specs
-  - $e4s_specs
+  - $PrgEnv-gnu_specs
 
   view: false

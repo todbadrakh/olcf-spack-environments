@@ -14,6 +14,7 @@ packages:
       lapack: [openblas, cray-libsci]
       mpi: [cray-mpich]
     version: []
+    target: [zen2]
   
   ### system default externals ---------------------------------------------------------------------
   autoconf:
@@ -29,10 +30,6 @@ packages:
     - spec: binutils@2.40
       prefix: /opt/cray/pe/cce/16.0.1/binutils/x86_64/x86_64-pc-linux-gnu
     - spec: binutils@2.39.0
-      prefix: /usr
-  cmake:
-    externals:
-    - spec: cmake@3.20.4
       prefix: /usr
   coreutils:
     externals:
@@ -66,10 +63,6 @@ packages:
     externals:
     - spec: gettext@0.20.2
       prefix: /usr
-  git:
-    externals:
-    - spec: git@2.35.3+tcltk
-      prefix: /usr
   gmake:
     externals:
     - spec: gmake@4.2.1
@@ -80,14 +73,6 @@ packages:
       prefix: /usr
   openmpi:
     buildable: false
-  libbsd:
-    externals:
-    - spec: libbsd@0.8.7
-      prefix: /usr
-  libbz2:
-    externals:
-    - spec: libbz2
-      prefix: /usr
   libssh2:
     externals:
     - spec: libssh2@1.0.1
