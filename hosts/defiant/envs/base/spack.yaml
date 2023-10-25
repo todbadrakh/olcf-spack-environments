@@ -7,7 +7,7 @@ spack:
   include:
     - config.yaml
     - compilers.yaml
-    - modules.yaml
+      #- modules.yaml
     - packages.yaml
   
   definitions:
@@ -36,37 +36,20 @@ spack:
   
   - core_packages:
     - bazel
-    - bison
-    - boost
-    - cairo
-    - ccache
-    - cmake
-    - darshan-util
-    - expat
-    - gdbm
-    - gettext
+    - darshan-util@3.4.0
     - go
     - googletest
-    - htop
     - julia
-    - m4
+    - libbsd
     - mesa
     - mercurial
-    - ncurses
     - ninja
     - openblas
-    - openjdk
-    - perl
-    - python
     - py-jupyterhub
-    - sqlite
     - subversion
-    - texinfo
-    - tmux
-    - zstd
 
   - e4s_packages:
-    - adios@2.8.2 # ERROR: Fetch failed
+    - adios@1.13.1 +bzip2+fortran+hdf5+netcdf+zlib
     - amrex@22.11 +rocm amdgpu_target=gfx908
     - globalarrays@5.8 +scalapack
     - hdf5@1.14.0 +cxx+fortran
@@ -100,3 +83,5 @@ spack:
   specs:
   - $core_specs
   - $e4s_specs
+
+  view: false

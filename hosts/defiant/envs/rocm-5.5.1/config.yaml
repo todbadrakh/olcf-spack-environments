@@ -1,6 +1,6 @@
-# Base environment configuration
+# ROCm 5.5.1 environment configuration
 # Tuguldur T. Odbadrakh
-# 10/13/2023
+# 10/23/2023
 
 config:
   install_tree:
@@ -12,17 +12,18 @@ config:
   - ${FACSPACK_CONF_COMMON}/spack/templates
   - $spack/share/spack/templates
   build_stage:
-  - /tmp/sauesw/spack-stage
+  - $tempdir/$user/spack-stage
+  - $spack/var/spack/stage
   source_cache: ${FACSPACK_SOURCE_CACHE}
   extensions:
-  - /sw/sources/facility-spack/defiant/share/spack/extensions/spack-olcf
+  - /sw/sources/facility-spack/spock/share/spack/extensions/spack-olcf
   misc_cache: ${FACSPACK_ENV}/.mcache
   verify_ssl: true
   install_missing_compilers: false
   checksum: true
   dirty: false
   build_language: C
-  build_jobs: 32
+  build_jobs: 48
   ccache: false
   db_lock_timeout: 120
   package_lock_timeout: null
@@ -33,16 +34,11 @@ config:
   suppress_gpg_warnings: false
   connect_timeout: 10
   test_stage: ~/.spack/test
-  concretization: together
-  view: false
-
+  concretization: 'separately'
 concretizer:
-  unify: when_possible
-
+  unify: 'when_possible'
 mirrors:
-  facility_builds: /sw/defiant/spack-env/mirrors/builds
+  facility_builds: /sw/spock/spack-env/mirrors/builds
   source_mirror: /sw/sources/facility-spack/source_mirror
-
 repos:
 - ${FACSPACK_CONF_COMMON}/spack/repos/olcf
-
