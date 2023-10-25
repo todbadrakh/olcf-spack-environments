@@ -69,22 +69,22 @@ spack:
   - e4s_packages:
     - adios@1.13.1 +bzip2+fortran+hdf5+netcdf+zlib
     - amrex@22.11 +rocm amdgpu_target=gfx908
-    #- globalarrays@5.8 +scalapack
+    - globalarrays@5.8 +scalapack
     - hdf5@1.14.0 +cxx+fortran
-    #- hpx@1.8.1 +rocm amdgpu_target=gfx908 ^asio cxxstd=17 ^boost cxxstd=17 # ERROR: Use HIP/include
-    #- hypre@2.26.0 +rocm+openmp+superlu-dist amdgpu_target=gfx908
-    #- kokkos@3.7.00 +rocm amdgpu_target=gfx908
-    #- kokkos-kernels@3.7.00
-    #- magma@2.6.2 +rocm amdgpu_target=gfx908 # ERROR: use HIP/include
-    #- nco@5.0.1
-    #- netlib-scalapack@2.2.0
-    #- papi@7.0.1 +rocm amdgpu_target=gfx908
-    #- parsec@3.0.2209 ~cuda
-    #- petsc@3.18.1 +rocm amdgpu_target=gfx908 ^superlu-dist +rocm amdgpu_target=gfx908
-    #- slate@2021.05.02 +rocm amdgpu_target=gfx908
-    #- superlu-dist@7.2.0 +rocm amdgpu_target=gfx908
-    #- tau@2.32
-    #- upcxx@2023.3.0 +rocm+mpi amdgpu_target=gfx908
+    - hpx@1.8.1 +rocm amdgpu_target=gfx908 ^asio cxxstd=17 ^boost cxxstd=17 # ERROR: Use HIP/include
+    - hypre@2.26.0 +rocm+openmp+superlu-dist amdgpu_target=gfx908
+    - kokkos@3.7.00 +rocm amdgpu_target=gfx908
+    - kokkos-kernels@3.7.00
+    - magma@2.6.2 +rocm amdgpu_target=gfx908 # ERROR: use HIP/include
+    - nco@5.0.1
+    - netlib-scalapack@2.2.0
+    - papi@7.0.1 +rocm amdgpu_target=gfx908
+    - parsec@3.0.2209 ~cuda
+    - petsc@3.18.1 +rocm amdgpu_target=gfx908 ^superlu-dist +rocm amdgpu_target=gfx908
+    - slate@2021.05.02 +rocm amdgpu_target=gfx908
+    - superlu-dist@7.2.0 +rocm amdgpu_target=gfx908
+    - tau@2.32
+    - upcxx@2023.3.0 +rocm+mpi amdgpu_target=gfx908
   
   - core_specs:
     - matrix:
