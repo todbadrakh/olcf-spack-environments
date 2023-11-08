@@ -30,146 +30,254 @@ modules:
     roots:
       lmod: ${FACSPACK_ENV_MODULEROOT}/spack
     lmod:
-      core_compilers: [gcc@7.5.0]
+      core_compilers: [gcc]
+      hash_length: 0
+      hierarchy:
+        - compiler
+        - mpi
+      projections:
+        all: '{name}/{version}'
+        ^hip: '{name}/{version}'
+        ^mpi: "{name}/{version}"
       all:
         environment:
           set:
             OLCF_${PACKAGE}_ROOT: ${PREFIX}
         autoload: none
-          #      blacklist_implicits: false
-          #      verbose: true
-          #      whitelist: []
-          #      blacklist:
-          #      - binutils
-          #      - boost%gcc cxxstd=98
-          #      - boost%gcc visibility=global
-          #      - dyninst%gcc ^elfutils+bzip2
-          #      - elfutils+bzip2
-          #      - gasnet~pshm
-          #      - gettext
-          #      - kokkos~rocm
-          #      - libunwind+xz
-          #      - libxml2 ^xz~pic
-          #      - xz~pic
-          #      - z3 ^libuuid
-          #      - gobject-introspection ^cairo+X
-          #      - blaspp ^openblas
-          #      - slate ^openblas
-          #      - lapackpp ^openblas
-          #      - lapackpp ^blaspp~rocm
-          #      - netlib-scalapack ^openblas
-          #      - berkeley-db
-          #      - boost%gcc visibility=global
-          #      - cray-mpich
-          #      - cray-libsci
-          #      - glib
-          #      - glproto
-          #      - go-bootstrap
-          #      - help2man
-          #      - inputproto
-          #      - kbproto
-          #      - libassuan
-          #      - libdwarf
-          #      - libfabric
-          #      - libfontenc
-          #      - libgcrypt
-          #      - libgd
-          #      - libgpg-error
-          #      - libiconv
-          #      - libidn2
-          #      - libksba
-          #      - libpciaccess
-          #      - libpthread-stubs
-          #      - libsigsegv
-          #      - libsodium
-          #      - libunistring
-          #      - libuuid
-          #      - libx11
-          #      - libxau
-          #      - libxcb
-          #      - libxdmcp
-          #      - libxext
-          #      - libxfont
-          #      - libxpm
-          #      - libxslt
-          #      - llvm
-          #      - lua
-          #      - m4
-          #      - meson
-          #      - mkfontdir
-          #      - mkfontscale
-          #      - mpfr
-          #      - mpich
-          #      - msgpack-c
-          #      - nasm
-          #      - ncurses
-          #      - npth
-          #      - numactl
-          #      - openssh
-          #      - openssl
-          #      - pkgconf
-          #      - popt
-          #      - py-certifi
-          #      - py-docutils
-          #      - py-mako
-          #      - py-markupsafe
-          #      - py-msgpack
-          #      - py-pygments
-          #      - py-pyyaml
-          #      - py-setuptools
-          #      - py-virtualenv
-          #      - py-wheel
-          #      - python
-          #      - readline
-          #      - slurm
-          #      - tcl
-          #      - tcsh
-          #      - util-linux-uuid
-          #      - util-macros
-          #      - xcb-proto
-          #      - xextproto
-          #      - xtrans
-          #      - harfbuzz ^cairo~X
-          #      - pango ^cairo~pdf
-          #      - '%gcc@7-os'
-          #      ## ROCm components; we provide a separate metamodule for these
-          #      - comgr
-          #      - hip
-          #      - hip-rocclr
-          #      - hipblas
-          #      - hipcub
-          #      - hipfft
-          #      - hipfort
-          #      - hipify-clang
-          #      - hipsparse
-          #      - hsa-rocr-dev
-          #      - hsakmt-roct
-          #      - llvm-amdgpu
-          #      - miopen-hip
-          #      - rccl
-          #      - rocalution
-          #      - rocblas
-          #      - rocfft
-          #      - rocm-clang-ocl
-          #      - rocm-cmake
-          #      - rocm-dbgapi
-          #      - rocm-device-libs
-          #      - rocm-gdb
-          #      - rocm-opencl
-          #      - rocm-opencl-runtime
-          #      - rocm-openmp-extras
-          #      - rocm-smi
-          #      - rocm-smi-lib
-          #      - rocminfo
-          #      - rocprim
-          #      - rocprofiler-dev
-          #      - rocrand
-          #      - rocsolver
-          #      - rocsparse
-          #      - rocthrust
-          #      - roctracer-dev
-          #      hash_length: 0
-          #      hierarchy: []
-          #      projections: {}
-          #      core_specs: []
-          #
+        suffixes:
+          ^hip@5.7.0: 'rocm-5.7.0'
+          ^hip@5.5.1: 'rocm-5.5.1'
+          ^hip@5.5.0: 'rocm-5.5.0'
+          ^hip@5.4.0: 'rocm-5.4.0'
+
+      blacklist_implicits: false
+      verbose: true
+      whitelist: []
+      blacklist:
+        - antlr
+        - apr
+        - apr-util
+        - asio
+        - autoconf
+        - automake
+        - bazel
+        - berkeley-db
+        - binutils
+        - bison
+        - blaspp
+        - boost
+        - bzip2
+        - ca-certificates-mozilla
+        - c-blosc
+        - ccache
+        - cmake
+        - cray-libsci
+        - cray-mpich
+        - curl
+        - diffutils
+        - elfutils
+        - expat
+        - exuberant-ctags
+        - flex
+        - gawk
+        - gdbm
+        - gettext
+        - git
+        - git-lfs
+        - glproto
+        - gmake
+        - gnupg
+        - go-bootstrap
+        - gsl
+        - hip
+        - hipblas
+        - hipify-clang
+        - hipsolver
+        - hipsparse
+        - hiredis
+        - hsa-rocr-dev
+        - htop
+        - hwloc
+        - inputproto
+        - kbproto
+        - lapackpp
+        - libassuan
+        - libbsd
+        - libdwarf
+        - libevent
+        - libffi
+        - libgcrypt
+        - libgpg-error
+        - libice
+        - libiconv
+        - libidn2
+        - libksba
+        - libmd
+        - libpciaccess
+        - libpng
+        - libpthread-stubs
+        - libsm
+        - libsodium
+        - libtool
+        - libunistring
+        - libunwind
+        - libx11
+        - libxau
+        - libxcb
+        - libxdmcp
+        - libxext
+        - libxml2
+        - libxrandr
+        - libxrender
+        - libxt
+        - libzmq
+        - llvm-amdgpu
+        - lz4
+        - m4
+        - meson
+        - metis
+        - ncurses
+        - netcdf-c
+        - ninja
+        - npth
+        - openjdk
+        - openmpi
+        - openssh
+        - openssl
+        - otf2
+        - parmetis
+        - pcre2
+        - pdt
+        - perl
+        - perl-alien-svn
+        - perl-module-build
+        - pinentry
+        - pkgconf
+        - pkg-config
+        - pmix
+        - python
+        - py-alembic
+        - py-argon2-cffi
+        - py-argon2-cffi-bindings
+        - py-asttokens
+        - py-async-generator
+        - py-attrs
+        - py-backcall
+        - py-beautifulsoup4
+        - py-bleach
+        - py-certifi
+        - py-certipy
+        - py-cffi
+        - py-charset-normalizer
+        - py-cryptography
+        - py-cythona9
+        - py-debugpy
+        - py-decorator
+        - py-defusedxml
+        - py-deprecation
+        - py-editables
+        - py-entrypoints
+        - py-executing
+        - py-fastjsonschema
+        - py-flit-core
+        - py-gevent
+        - py-greenlet
+        - py-hatch-fancy-pypi-readme
+        - py-hatchling
+        - py-hatch-vcs
+        - py-idna
+        - py-ipykernel
+        - py-ipython
+        - py-ipython-genutils
+        - py-jedi
+        - py-jinja2
+        - py-jsonschema
+        - py-jupyter-client
+        - py-jupyter-core
+        - py-jupyterhub
+        - py-jupyterlab-pygments
+        - py-jupyter-packaging11
+        - py-jupyter-telemetry
+        - py-mako
+        - py-markupsafe
+        - py-matplotlib-inline
+        - py-mistune
+        - py-nbclient
+        - py-nbconvert
+        - py-nbformat
+        - py-nest-asyncio
+        - py-notebook
+        - py-oauthlib
+        - py-packaging
+        - py-pamela
+        - py-pandocfilters
+        - py-parso
+        - py-pathspec
+        - py-pexpect
+        - py-pickleshare
+        - py-pip
+        - py-pluggy
+        - py-poetry-core
+        - py-prometheus-client
+        - py-prompt-toolkit
+        - py-psutil
+        - py-ptyprocess
+        - py-pure-eval
+        - py-pycparser
+        - py-pygments
+        - py-pyopenssl
+        - py-pyparsing
+        - py-pyrsistent
+        - py-python-dateutil
+        - py-python-editor
+        - py-python-json-logger
+        - py-pyzmq
+        - py-requests
+        - py-ruamel-yaml
+        - py-send2trash
+        - py-setuptools
+        - py-setuptools-scm
+        - py-six
+        - py-soupsievepost1
+        - py-sqlalchemy
+        - py-stack-data
+        - py-terminado
+        - py-tinycss2
+        - py-tomli
+        - py-tomlkit
+        - py-tornado
+        - py-traitlets
+        - py-typing-extensions
+        - py-urllib3
+        - py-wcwidth
+        - py-webencodings
+        - py-wheel
+        - py-zope-event
+        - py-zope-interface
+        - randrproto
+        - readline
+        - renderproto
+        - rocblas
+        - rocprim
+        - rocrand
+        - rocsolver
+        - rocsparse
+        - rocthrust
+        - screen
+        - snappy
+        - sqlite
+        - sz
+        - texinfo
+        - udunits
+        - util-linux-uuid
+        - util-macros
+        - wget
+        - xcb-proto
+        - xextproto
+        - xproto
+        - xrandr
+        - xtrans
+        - xz
+        - zfp
+        - zip
+        - zlib

@@ -6,7 +6,8 @@ config:
   install_tree:
     root: ${FACSPACK_ENV}/opt
     projections:
-      all: ${ARCHITECTURE}/${COMPILERNAME}-${COMPILERVER}/${PACKAGE}-${VERSION}-${HASH}
+      #all: ${ARCHITECTURE}/${COMPILERNAME}-${COMPILERVER}/${PACKAGE}-${VERSION}-${HASH}
+      all: ${COMPILERNAME}-${COMPILERVER}/${PACKAGE}-${VERSION}-${HASH}
   template_dirs:
   - ${FACSPACK_CONF_HOST}/templates
   - ${FACSPACK_CONF_COMMON}/spack/templates
@@ -33,7 +34,7 @@ config:
   suppress_gpg_warnings: false
   connect_timeout: 10
   test_stage: ~/.spack/test
-  concretization: separately
+  concretization: together
   view: false
 
 concretizer:

@@ -7,7 +7,7 @@ spack:
   include:
     - config.yaml
     - compilers.yaml
-      #- modules.yaml
+    - modules.yaml
     - packages.yaml
   
   definitions:
@@ -57,7 +57,8 @@ spack:
     - openblas@0.3.21
     - openjdk@11.0.17_8
     - python@3.10.8 +optimizations
-    #- py-jupyterhub@1.4.1
+    - py-jupyterhub@1.4.1
+    - rust@1.60.0
     - screen@4.8.0
     - sqlite@3.39.4
     - texinfo@6.5
@@ -67,24 +68,28 @@ spack:
     - zstd@1.5.2
 
   - e4s_packages:
-    - adios@1.13.1 +bzip2+fortran+hdf5+netcdf+zlib
-    - amrex@22.11 +rocm amdgpu_target=gfx908
+    - adios2@2.8.3 +hdf5~bzip2
+    - boost@1.80.0 +mpi+python+numpy+thread cxxstd=17
     - globalarrays@5.8 +scalapack
     - hdf5@1.14.0 +cxx+fortran
-    - hpx@1.8.1 +rocm amdgpu_target=gfx908 ^asio cxxstd=17 ^boost cxxstd=17 # ERROR: Use HIP/include
-    - hypre@2.26.0 +rocm+openmp+superlu-dist amdgpu_target=gfx908
-    - kokkos@3.7.00 +rocm amdgpu_target=gfx908
     - kokkos-kernels@3.7.00
-    - magma@2.6.2 +rocm amdgpu_target=gfx908 # ERROR: use HIP/include
     - nco@5.0.1
     - netlib-scalapack@2.2.0
-    - papi@7.0.1 +rocm amdgpu_target=gfx908
+    - papi@7.0.1
     - parsec@3.0.2209 ~cuda
-    - petsc@3.18.1 +rocm amdgpu_target=gfx908 ^superlu-dist +rocm amdgpu_target=gfx908
-    - slate@2021.05.02 +rocm amdgpu_target=gfx908
-    - superlu-dist@7.2.0 +rocm amdgpu_target=gfx908
-    - tau@2.32
-    - upcxx@2023.3.0 +rocm+mpi amdgpu_target=gfx908
+      #- tau@2.32
+
+  - e4s_rocm_packages:
+    - amrex@22.11
+      #- blaspp@2022.07.00
+      #- hpx@1.8.1 ^boost cxxstd=17 ^asio cxxstd=17
+    - hypre@2.26.0 +openmp
+    - kokkos@3.7.00
+      #- lapackpp@2022.07.00
+      #- petsc@3.18.1
+      #- slate@2022.07.00
+    - superlu-dist@8.1.1 +openmp
+    - upcxx@2023.3.0 +mpi
   
   - core_specs:
     - matrix:
@@ -97,9 +102,17 @@ spack:
       - - $e4s_packages
       - - '%gcc@12.2.0'
       - - arch=cray-sles15-zen2
-  
+
+  - PrgEnv-gnu-rocm_specs:
+    - matrix:
+      - - $e4s_rocm_packages
+      - - '%gcc@12.2.0'
+        - '+rocm amdgpu_target=gfx908'
+      - - arch=cray-sles15-zen2
+
   specs:
   - $core_specs
   - $PrgEnv-gnu_specs
+  - $PrgEnv-gnu-rocm_specs
 
   view: false
