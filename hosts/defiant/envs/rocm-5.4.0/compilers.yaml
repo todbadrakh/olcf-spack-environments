@@ -63,17 +63,17 @@ compilers:
 
 # AMD Compilers
 - compiler:
-    spec: clang@16.0.0-rocm5.5.1
+    spec: clang@15.0.0-rocm5.4.0
     paths:
-      cc: /opt/rocm-5.5.1/llvm/bin/amdclang
-      cxx: /opt/rocm-5.5.1/llvm/bin/amdclang++
-      f77: /opt/rocm-5.5.1/llvm/bin/amdflang
-      fc: /opt/rocm-5.5.1/llvm/bin/amdflang
+      cc: /opt/rocm-5.4.0/llvm/bin/amdclang
+      cxx: /opt/rocm-5.4.0/llvm/bin/amdclang++
+      f77: /opt/rocm-5.4.0/llvm/bin/amdflang
+      fc: /opt/rocm-5.4.0/llvm/bin/amdflang
     operating_system: sles15
     target: x86_64
     modules:
     - PrgEnv-amd
-    - amd/5.5.1
+    - amd/5.4.0
     - craype-x86-rome
     - libfabric
     - xpmem
@@ -83,13 +83,13 @@ compilers:
         RFE_811452_DISABLE: '1'
       prepend_path:
         LD_LIBRARY_PATH: /opt/cray/pe/pmi/6.1.12/lib
-        LIBRARY_PATH: /opt/rocm-5.5.1/lib:/opt/rocm-5.5.1/lib64
+        LIBRARY_PATH: /opt/rocm-5.4.0/lib:/opt/rocm-5.4.0/lib64
       append_path:
         PKG_CONFIG_PATH: /opt/cray/xpmem/2.6.2-2.5_2.27__gd067c3f.shasta/lib64/pkgconfig:/usr/lib64/pkgconfig
         LD_LIBRARY_PATH: /opt/cray/pe/gcc-libs:/opt/cray/libfabric/1.15.2.0/lib64
     extra_rpaths:
-    - /opt/rocm-5.5.1/lib
-    - /opt/rocm-5.5.1/lib64
+    - /opt/rocm-5.4.0/lib
+    - /opt/rocm-5.4.0/lib64
     - /opt/cray/pe/gcc-libs
     - /opt/cray/gcc-libs
 

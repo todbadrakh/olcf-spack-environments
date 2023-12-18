@@ -87,7 +87,13 @@ _FS_DEFAULT_ENV_NAME="base"
 export FACSPACK_CONF_HOST="${FACSPACK_SPACK_ROOT}/hosts/${FACSPACK_HOST}"
 export FACSPACK_CONF_COMMON="${FACSPACK_SPACK_ROOT}/share"
 
-_FS_SITE_SOURCE_CACHE="/sw/sources/facility-spack/source_cache"
+#_FS_SITE_SOURCE_CACHE="/sw/sources/facility-spack/source_cache"
+#
+# Tuguldur T. Odbadrakh
+# 11/20/2023
+# Changing sources dir to inside /sw/defiant/.testing for testing purposes
+_FS_SITE_SOURCE_CACHE="${FACSPACK_ENV}/sources/source_cache"
+
 if [ -e "${_FS_SITE_SOURCE_CACHE}" -a -w "${_FS_SITE_SOURCE_CACHE}" ]; then
   export FACSPACK_SOURCE_CACHE="${_FS_SITE_SOURCE_CACHE}"
 else
@@ -109,7 +115,7 @@ if [[ -z "${FACSPACK_MY_ENVS:-}" ]]; then
 elif [[ ! -d "${FACSPACK_MY_ENVS:-}" ]]; then
   echo "${_FS_ERR_MSG} does not exist!"
   return 1
-elif [[ "$(stat -c '%U' ${FACSPACK_MY_ENVS})" != ${USER} ]] && [[ ! "${USER}" =~ ^(m9b|belhorn|2ff|jmfinney)$ ]]; then
+elif [[ "$(stat -c '%U' ${FACSPACK_MY_ENVS})" != ${USER} ]] && [[ ! "${USER}" =~ ^(m9b|belhorn|2ff|jmfinney|tok|todbadrakh)$ ]]; then
   echo "${_FS_ERR_MSG} is not owned by ${USER}!"
   return 1
 fi
@@ -321,15 +327,14 @@ case "${FACSPACK_HOST}" in
       echo "WARNING: AFW uses tcl environment modules which this script does not handle correctly"
     fi
     ;;
-  defiant)
-    export SPACK_FRONT_END="zen2"
-    export SPACK_BACK_END="zen2"
-    setup_alternate_module_environment "${_FS_MP}"
-    if [[ "${FACSPACK_MY_ENVS:-YY}" == "${_FS_DEFAULT_ENV_PREFIX:-XX}" \
-          && "${FACSPACK_HOST}" == "${_THIS_HOST}" ]]; then
-    module reset
-    fi
-    ;;
+  #defiant)
+  #  #export SPACK_FRONT_END="zen2"
+  #  #export SPACK_BACK_END="zen2"
+  #  #setup_alternate_module_environment "${_FS_MP}"
+  #  if [[ "${FACSPACK_MY_ENVS:-YY}" == "${_FS_DEFAULT_ENV_PREFIX:-XX}" \
+  #        && "${FACSPACK_HOST}" == "${_THIS_HOST}" ]]; then
+  #  fi
+  #  ;;
   bones)
     export SPACK_FRONT_END="zen2"
     export SPACK_BACK_END="zen2"
