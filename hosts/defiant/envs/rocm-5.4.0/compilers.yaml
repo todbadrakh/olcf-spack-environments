@@ -64,6 +64,7 @@ compilers:
 # AMD Compilers
 - compiler:
     spec: clang@15.0.0-rocm5.4.0
+  #spec: amdclang@5.4.0
     paths:
       cc: /opt/rocm-5.4.0/llvm/bin/amdclang
       cxx: /opt/rocm-5.4.0/llvm/bin/amdclang++

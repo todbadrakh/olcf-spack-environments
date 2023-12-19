@@ -9,13 +9,13 @@ config:
       all: '{compiler.name}-{compiler.version}/{name}-{version}-{hash}'
         
   template_dirs:
-  - ${FACSPACK_CONF_COMMON}/spack/templates
+  - /sw/defiant/spack/templates
   - $spack/share/spack/templates
  
   build_stage: '/tmp/sauesw/spack-stage'
   test_stage: '/tmp/sauesw/spack-test'
-  source_cache: '${FACSPACK_SOURCE_CACHE}'
-  misc_cache: '${FACSPACK_ENV}/.mcache'
+  source_cache: '/sw/defiant/spack/scache'
+  misc_cache: '/sw/defiant/spack/mcache'
 
   extensions:
   - ${FACSPACK_CONF_COMMON}/spack/extensions/spack-olcf
@@ -43,9 +43,6 @@ concretizer:
     #unify: true
 
 mirrors:
-  facility_builds: ${FACSPACK_CONF_COMMON}/mirrors/builds
-  source_mirror: ${FACSPACK_CONF_COMMON}/mirrors/source_mirror
-
-    #repos:
-    #- ${FACSPACK_CONF_COMMON}/spack/repos/olcf
+  facility_builds: /sw/defiant/spack/bmirrors
+  source_mirror: /sw/defiant/spack/smirrors
 

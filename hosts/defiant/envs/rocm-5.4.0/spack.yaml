@@ -33,6 +33,7 @@ spack:
     - exuberant-ctags
     - gnupg
     - go
+    - gtkplus ~cups
     - googletest cxxstd=17
     - htop
     - libbsd
@@ -158,6 +159,8 @@ spack:
       - - arch=linux-sles15-x86_64
       exclude:
       - '^cray-libsci'
+      - '^libffi'
+      - '^gtkplus'
       - paraview
 
   specs:
