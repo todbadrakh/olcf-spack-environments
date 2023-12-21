@@ -84,7 +84,7 @@ packages:
         modules:
           - cray-libsci/23.09.1.1
         prefix: /opt/cray/pe/libsci/23.09.1.1/gnu/10.3/x86_64
-      - spec: cray-libsci@23.09.1.1 %clang@17.0.0-rocm5.7.0
+      - spec: cray-libsci@23.09.1.1 %rocmcc@5.7.0
         modules:
           - cray-libsci/23.09.1.1
         prefix: /opt/cray/pe/libsci/23.09.1.1/AMD/5.0/x86_skylake
@@ -96,7 +96,7 @@ packages:
         modules:
           - cray-mpich/8.1.27
           - libfabric/1.15.2.0
-      - spec: cray-mpich@8.1.27 %clang@17.0.0-rocm5.7.0
+      - spec: cray-mpich@8.1.27 %rocmcc@5.7.0
         prefix: /opt/cray/pe/mpich/8.1.27/ofi/amd/5.0
         modules:
           - cray-mpich/8.1.27
