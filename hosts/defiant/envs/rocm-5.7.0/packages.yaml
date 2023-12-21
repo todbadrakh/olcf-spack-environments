@@ -1,4 +1,4 @@
-# ROCm 5.4.0 environment packages
+# ROCm 5.7.0 environment packages
 # Tuguldur T. Odbadrakh
 # 11/21/2023
 
@@ -45,8 +45,8 @@ packages:
   comgr:
     buildable: false
     externals:
-      - spec: comgr@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: comgr@5.7.0
+        prefix: /opt/rocm-5.7.0
   cray-dyninst:
     buildable: false
     externals:
@@ -84,7 +84,7 @@ packages:
         modules:
           - cray-libsci/23.09.1.1
         prefix: /opt/cray/pe/libsci/23.09.1.1/gnu/10.3/x86_64
-      - spec: cray-libsci@23.09.1.1 %clang@15.0.0-rocm5.4.0
+      - spec: cray-libsci@23.09.1.1 %clang@17.0.0-rocm5.7.0
         modules:
           - cray-libsci/23.09.1.1
         prefix: /opt/cray/pe/libsci/23.09.1.1/AMD/5.0/x86_skylake
@@ -96,7 +96,7 @@ packages:
         modules:
           - cray-mpich/8.1.27
           - libfabric/1.15.2.0
-      - spec: cray-mpich@8.1.27 %clang@15.0.0-rocm5.4.0
+      - spec: cray-mpich@8.1.27 %clang@17.0.0-rocm5.7.0
         prefix: /opt/cray/pe/mpich/8.1.27/ofi/amd/5.0
         modules:
           - cray-mpich/8.1.27
@@ -116,93 +116,93 @@ packages:
   hip:
     buildable: false
     externals:
-      - spec: hip@5.4.0
-        prefix: /opt/rocm-5.4.0/hip
+      - spec: hip@5.7.0
+        prefix: /opt/rocm-5.7.0/hip
         extra_attributes:
           compilers:
-            c: /opt/rocm-5.4.0/llvm/bin/clang++
-            cxx: /opt/rocm-5.4.0/llvm/bin/clang++
-            hip: /opt/rocm-5.4.0/hip/bin/hipcc
+            c: /opt/rocm-5.7.0/llvm/bin/clang++
+            cxx: /opt/rocm-5.7.0/llvm/bin/clang++
+            hip: /opt/rocm-5.7.0/hip/bin/hipcc
   hip-rocclr:
     buildable: false
     externals:
-      - spec: hip-rocclr@5.4.0
-        prefix: /opt/rocm-5.4.0/hip
+      - spec: hip-rocclr@5.7.0
+        prefix: /opt/rocm-5.7.0/hip
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   hipblas:
     buildable: false
     externals:
-      - spec: hipblas@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: hipblas@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   hipcub:
     buildable: false
     externals:
-      - spec: hipcub@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: hipcub@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   hipfft:
     buildable: false
     externals:
-      - spec: hipfft@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: hipfft@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   hipfort:
     buildable: false
     externals:
-      - spec: hipfort@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: hipfort@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   hipify-clang:
     buildable: false
     externals:
-      - spec: hipify-clang@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: hipify-clang@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   hiprand:
     buildable: false
     externals:
-      - spec: hiprand@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: hiprand@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   hipsolver:
     buildable: false
     externals:
-      - spec: hipsolver@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: hipsolver@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   hipsparse:
     buildable: false
     externals:
-      - spec: hipsparse@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: hipsparse@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   hsa-rocr-dev:
     buildable: false
     externals:
-      - spec: hsa-rocr-dev@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: hsa-rocr-dev@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
         extra_attributes:
-          c: /opt/rocm-5.4.0/llvm/bin/clang++
-          cxx: /opt/rocm-5.4.0/llvm/bin/clang++
+          c: /opt/rocm-5.7.0/llvm/bin/clang++
+          cxx: /opt/rocm-5.7.0/llvm/bin/clang++
   hsakmt-roct:
     buildable: false
     externals:
-      - spec: hsakmt-roct@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: hsakmt-roct@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   libfabric:
     buildable: true
     externals:
@@ -212,160 +212,160 @@ packages:
   llvm-amdgpu:
     buildable: false
     externals:
-      - spec: llvm-amdgpu@5.4.0
-        prefix: /opt/rocm-5.4.0/llvm
+      - spec: llvm-amdgpu@5.7.0
+        prefix: /opt/rocm-5.7.0/llvm
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
         extra_attributes:
           compilers:
-            c: /opt/rocm-5.4.0/llvm/bin/clang++
-            cxx: /opt/rocm-5.4.0/llvm/bin/clang++
+            c: /opt/rocm-5.7.0/llvm/bin/clang++
+            cxx: /opt/rocm-5.7.0/llvm/bin/clang++
   miopen-hip:
     buildable: false
     externals:
-      - spec: miopen-hip@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: miopen-hip@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   rccl:
     buildable: false
     externals:
-      - spec: rccl@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rccl@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   rocalution:
     buildable: false
     externals:
-      - spec: rocalution@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rocalution@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   rocblas:
     buildable: false
     externals:
-      - spec: rocblas@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rocblas@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   rocfft:
     buildable: false
     externals:
-      - spec: rocfft@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rocfft@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
     variants: amdgpu_target=gfx908 amdgpu_target_sram_ecc=gfx908
   rocm-clang-ocl:
     buildable: false
     externals:
-      - spec: rocm-clang-ocl@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rocm-clang-ocl@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   rocm-cmake:
     buildable: false
     externals:
-      - spec: rocm-cmake@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rocm-cmake@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   rocm-device-libs:
     buildable: false
     externals:
-      - spec: rocm-device-libs@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rocm-device-libs@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   rocm-gdb:
     buildable: false
     externals:
-      - spec: rocm-gdb@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rocm-gdb@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   rocm-opencl:
     buildable: false
     externals:
-      - spec: rocm-opencl@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rocm-opencl@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   rocm-openmp-extras:
     buildable: false
     externals:
-      - spec: rocm-openmp-extras@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rocm-openmp-extras@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   rocm-smi:
     buildable: false
     externals:
-      - spec: rocm-smi@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rocm-smi@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   rocm-smi-lib:
     buildable: false
     externals:
-      - spec: rocm-smi-lib@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rocm-smi-lib@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   rocminfo:
     buildable: false
     externals:
-      - spec: rocminfo@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rocminfo@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   rocprim:
     buildable: false
     externals:
-      - spec: rocprim@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rocprim@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   rocprofiler-dev:
     buildable: false
     externals:
-      - spec: rocprofiler-dev@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rocprofiler-dev@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   rocrand:
     buildable: false
     externals:
-      - spec: rocrand@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rocrand@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   rocsolver:
     buildable: false
     externals:
-      - spec: rocsolver@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rocsolver@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   rocsparse:
     buildable: false
     externals:
-      - spec: rocsparse@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rocsparse@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   rocthrust:
     buildable: false
     externals:
-      - spec: rocthrust@5.4.0
-        prefix: /opt/rocm-5.4.0
+      - spec: rocthrust@5.7.0
+        prefix: /opt/rocm-5.7.0
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
   roctracer-dev:
     buildable: false
     externals:
-      - spec: roctracer-dev@5.4.0
-        prefix: /opt/rocm-5.4.0/roctracer
+      - spec: roctracer-dev@5.7.0
+        prefix: /opt/rocm-5.7.0/roctracer
         modules:
-          - amd/5.4.0
+          - amd/5.7.0
 

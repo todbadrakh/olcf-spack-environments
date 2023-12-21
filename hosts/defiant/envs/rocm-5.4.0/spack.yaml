@@ -90,7 +90,6 @@ spack:
     - roctracer-dev
   - e4s_packages:
     - arpack-ng@3.9.0 ^cray-libsci
-    - adios2@2.9.2 +hdf5
     - boost@1.83.0 +mpi+python+numpy+thread cxxstd=17
     - darshan-runtime@3.4.0 scheduler=slurm
     - darshan-util@3.4.0 +bzip2
@@ -105,7 +104,7 @@ spack:
     - tau@2.33 +craycnl+dyninst+mpi+python+x86_64 # ROCm 4.3.0 is latest in docs so doing non-gpu
     - visit@3.3.3 ~conduit
   - e4s_rocm_packages:
-    - adios2@2.9.2 +hdf5+python
+    - adios2@2.9.2 +hdf5+python ^py-numpy@1.23.3
     - amrex@22.11 dimensions=3
     - blaspp@2023.08.25 ^cray-libsci
       #- hpx@1.9.1 # c++11 error
@@ -147,7 +146,7 @@ spack:
       - - '%clang@15.0.0-rocm5.4.0'
       - - arch=linux-sles15-x86_64
       exclude:
-      - '^cray-libsci'
+      - ^cray-libsci
       - plasma
       - parsec
       - stat
@@ -158,18 +157,257 @@ spack:
       - - '%clang@15.0.0-rocm5.4.0 +rocm amdgpu_target=gfx908'
       - - arch=linux-sles15-x86_64
       exclude:
-      - '^cray-libsci'
-      - '^libffi'
-      - '^gtkplus'
+      - ^cray-libsci
+      - ^libffi
+      - ^gtkplus
       - paraview
 
   specs:
-  - $core_specs
+    #- $core_specs
   - $amd_specs
-  - $PrgEnv-gnu_specs
+    #- $PrgEnv-gnu_specs
   - $PrgEnv-gnu-rocm_specs
   - $PrgEnv-amd_specs
   - $PrgEnv-amd-rocm_specs
 
   view: false
 
+  compilers:
+  - compiler:
+      spec: gcc@7.5.0
+      paths:
+        cc: /usr/bin/gcc
+        cxx: /usr/bin/g++
+        f77: /usr/bin/gfortran
+        fc: /usr/bin/gfortran
+      operating_system: sles15
+      target: x86_64
+      modules: []
+      environment:
+        append_path:
+          PKG_CONFIG_PATH: /usr/lib64/pkgconfig
+
+# Cray GCC compilers
+  - compiler:
+      spec: gcc@12.2.0
+      paths:
+        cc: /opt/cray/pe/gcc/12.2.0/snos/bin/gcc
+        cxx: /opt/cray/pe/gcc/12.2.0/snos/bin/g++
+        f77: /opt/cray/pe/gcc/12.2.0/snos/bin/gfortran
+        fc: /opt/cray/pe/gcc/12.2.0/snos/bin/gfortran
+      operating_system: sles15
+      target: x86_64
+      modules:
+      - PrgEnv-gnu
+      - gcc/12.2.0
+      - craype-x86-rome
+      - libfabric
+      - xpmem
+      - cray-pmi
+      environment:
+        append_path:
+          PKG_CONFIG_PATH: /opt/cray/xpmem/2.6.2-2.5_2.27__gd067c3f.shasta/lib64/pkgconfig:/usr/lib64/pkgconfig
+      #
+      # Removing Cray compilers for now until I figure out how to use them.
+      #- compiler:
+      #    spec: cce@16.0.0
+      #    paths:
+      #      cc: /opt/cray/pe/craype/2.7.23/bin/cc
+      #      cxx: /opt/cray/pe/craype/2.7.23/bin/CC
+      #      f77: /opt/cray/pe/craype/2.7.23/bin/ftn
+      #      fc: /opt/cray/pe/craype/2.7.23/bin/ftn
+      #    flags: {}
+      #    operating_system: sles15
+      #    target: any
+      #    modules:
+      #    - PrgEnv-cray
+      #    - cce/16.0.0
+      #    - craype-x86-rome
+      #    - libfabric
+      #    - xpmem/2.6.2-2.5_2.27__gd067c3f.shasta
+      #    environment:
+      #      set:
+      #        RFE_811452_DISABLE: '1'
+      #      append_path:
+      #        LD_LIBRARY_PATH: /opt/cray/pe/gcc-libs:/opt/cray/libfabric/1.15.2.0/lib64
+      #    extra_rpaths:
+      #    - /opt/cray/pe/gcc-libs
+      #    - /opt/cray/gcc-libs
+
+# AMD Compilers
+  - compiler:
+      spec: clang@15.0.0-rocm5.4.0
+  #spec: amdclang@5.4.0
+      paths:
+        cc: /opt/rocm-5.4.0/llvm/bin/amdclang
+        cxx: /opt/rocm-5.4.0/llvm/bin/amdclang++
+        f77: /opt/rocm-5.4.0/llvm/bin/amdflang
+        fc: /opt/rocm-5.4.0/llvm/bin/amdflang
+      operating_system: sles15
+      target: x86_64
+      modules:
+      - PrgEnv-amd
+      - amd/5.4.0
+      - craype-x86-rome
+      - libfabric
+      - xpmem
+      - cray-pmi
+      environment:
+        set:
+          RFE_811452_DISABLE: '1'
+        prepend_path:
+          LD_LIBRARY_PATH: /opt/cray/pe/pmi/6.1.12/lib
+          LIBRARY_PATH: /opt/rocm-5.4.0/lib:/opt/rocm-5.4.0/lib64
+        append_path:
+          PKG_CONFIG_PATH: /opt/cray/xpmem/2.6.2-2.5_2.27__gd067c3f.shasta/lib64/pkgconfig:/usr/lib64/pkgconfig
+          LD_LIBRARY_PATH: /opt/cray/pe/gcc-libs:/opt/cray/libfabric/1.15.2.0/lib64
+      extra_rpaths:
+      - /opt/rocm-5.4.0/lib
+      - /opt/rocm-5.4.0/lib64
+      - /opt/cray/pe/gcc-libs
+      - /opt/cray/gcc-libs
+
+  - compiler:
+      spec: rocmcc@=5.1.0
+      paths:
+        cc: /opt/rocm-5.1.0/bin/amdclang
+        cxx: /opt/rocm-5.1.0/bin/amdclang++
+        f77: null
+        fc: /opt/rocm-5.1.0/bin/amdflang
+      flags: {}
+      operating_system: sles15sp4
+      target: x86_64
+      modules: []
+      environment: {}
+      extra_rpaths: []
+  - compiler:
+      spec: gcc@=7.5.0
+      paths:
+        cc: /usr/bin/gcc
+        cxx: /usr/bin/g++
+        f77: null
+        fc: /usr/bin/gfortran
+      flags: {}
+      operating_system: sles15sp4
+      target: x86_64
+      modules: []
+      environment: {}
+      extra_rpaths: []
+  - compiler:
+      spec: cce@=16.0.1
+      paths:
+        cc: /opt/cray/pe/cce/16.0.1/bin/craycc
+        cxx: /opt/cray/pe/cce/16.0.1/bin/craycxx
+        f77: null
+        fc: /opt/cray/pe/cce/16.0.1/bin/crayftn
+      flags: {}
+      operating_system: sles15sp4
+      target: x86_64
+      modules: []
+      environment: {}
+      extra_rpaths: []
+  - compiler:
+      spec: gcc@=12.2.0
+      paths:
+        cc: /opt/cray/pe/gcc/12.2.0/gcc
+        cxx: /opt/cray/pe/gcc/12.2.0/g++
+        f77: null
+        fc: /opt/cray/pe/gcc/12.2.0/gfortran
+      flags: {}
+      operating_system: sles15sp4
+      target: x86_64
+      modules: []
+      environment: {}
+      extra_rpaths: []
+  - compiler:
+      spec: rocmcc@=5.5.1
+      paths:
+        cc: /opt/rocm-5.5.1/bin/amdclang
+        cxx: /opt/rocm-5.5.1/bin/amdclang++
+        f77: null
+        fc: /opt/rocm-5.5.1/bin/amdflang
+      flags: {}
+      operating_system: sles15sp4
+      target: x86_64
+      modules: []
+      environment: {}
+      extra_rpaths: []
+  - compiler:
+      spec: cce@=16.0.0
+      paths:
+        cc: /opt/cray/pe/cce/16.0.0/bin/craycc
+        cxx: /opt/cray/pe/cce/16.0.0/bin/craycxx
+        f77: null
+        fc: /opt/cray/pe/cce/16.0.0/bin/crayftn
+      flags: {}
+      operating_system: sles15sp4
+      target: x86_64
+      modules: []
+      environment: {}
+      extra_rpaths: []
+  - compiler:
+      spec: rocmcc@=5.4.1
+      paths:
+        cc: /opt/rocm-5.4.1/bin/amdclang
+        cxx: /opt/rocm-5.4.1/bin/amdclang++
+        f77: null
+        fc: /opt/rocm-5.4.1/bin/amdflang
+      flags: {}
+      operating_system: sles15sp4
+      target: x86_64
+      modules: []
+      environment: {}
+      extra_rpaths: []
+  - compiler:
+      spec: cce@=15.0.1
+      paths:
+        cc: /opt/cray/pe/cce/15.0.1/bin/craycc
+        cxx: /opt/cray/pe/cce/15.0.1/bin/craycxx
+        f77: null
+        fc: /opt/cray/pe/cce/15.0.1/bin/crayftn
+      flags: {}
+      operating_system: sles15sp4
+      target: x86_64
+      modules: []
+      environment: {}
+      extra_rpaths: []
+  - compiler:
+      spec: rocmcc@=5.2.0
+      paths:
+        cc: /opt/rocm-5.2.0/bin/amdclang
+        cxx: /opt/rocm-5.2.0/bin/amdclang++
+        f77: null
+        fc: /opt/rocm-5.2.0/bin/amdflang
+      flags: {}
+      operating_system: sles15sp4
+      target: x86_64
+      modules: []
+      environment: {}
+      extra_rpaths: []
+  - compiler:
+      spec: cce@=14.0.4
+      paths:
+        cc: /opt/cray/pe/cce/14.0.4/bin/craycc
+        cxx: /opt/cray/pe/cce/14.0.4/bin/craycxx
+        f77: null
+        fc: /opt/cray/pe/cce/14.0.4/bin/crayftn
+      flags: {}
+      operating_system: sles15sp4
+      target: x86_64
+      modules: []
+      environment: {}
+      extra_rpaths: []
+  - compiler:
+      spec: gcc@=12.1.0
+      paths:
+        cc: /opt/cray/pe/gcc/12.1.0/gcc
+        cxx: /opt/cray/pe/gcc/12.1.0/g++
+        f77: null
+        fc: /opt/cray/pe/gcc/12.1.0/gfortran
+      flags: {}
+      operating_system: sles15sp4
+      target: x86_64
+      modules: []
+      environment: {}
+      extra_rpaths: []
+  packages: {}

@@ -20,7 +20,7 @@ spack:
       #    - '%cce@15.0.1'
       #    - '%cce@14.0.4'
   - amd_compilers:
-    - '%clang@16.0.0-rocm5.5.1'
+    - '%rocmcc@5.7.0'
 
   - core_packages:
     - bazel
@@ -33,18 +33,15 @@ spack:
     - exuberant-ctags
     - gnupg
     - go
+    - gtkplus ~cups
     - googletest cxxstd=17
-    - gtkplus@3.24.26 ~cups
     - htop
     - libbsd
-    - libksba
     - libpng
-    - libssh2
     - libx11
     - libzmq +libbsd+libsodium+libunwind
     - mercurial
     - mesa
-    - meson
     - ninja
     - openblas
     - openjdk
@@ -107,7 +104,7 @@ spack:
     - tau@2.33 +craycnl+dyninst+mpi+python+x86_64 # ROCm 4.3.0 is latest in docs so doing non-gpu
     - visit@3.3.3 ~conduit
   - e4s_rocm_packages:
-    - adios2@2.9.2 +hdf5+python
+    - adios2@2.9.2 +hdf5+python ^py-numpy@1.23.3
     - amrex@22.11 dimensions=3
     - blaspp@2023.08.25 ^cray-libsci
       #- hpx@1.9.1 # c++11 error
@@ -130,8 +127,8 @@ spack:
   - amd_specs:
     - matrix:
       - - $amd_packages
-      - - '@5.5.1 %gcc@12.2.0'
-        - '@5.5.1 %clang@16.0.0-rocm5.5.1'
+      - - '@5.7.0 %gcc@12.2.0'
+        - '@5.7.0 %rocmcc@5.7.0'
       - - arch=linux-sles15-x86_64
   - PrgEnv-gnu_specs:
     - matrix:
@@ -146,10 +143,10 @@ spack:
   - PrgEnv-amd_specs:
     - matrix:
       - - $e4s_packages
-      - - '%clang@16.0.0-rocm5.5.1'
+      - - '%rocmcc@5.7.0'
       - - arch=linux-sles15-x86_64
       exclude:
-      - '^cray-libsci'
+      - ^cray-libsci
       - plasma
       - parsec
       - stat
@@ -157,19 +154,20 @@ spack:
   - PrgEnv-amd-rocm_specs:
     - matrix:
       - - $e4s_rocm_packages
-      - - '%clang@16.0.0-rocm5.5.1 +rocm amdgpu_target=gfx908'
+      - - '%rocmcc@5.7.0 +rocm amdgpu_target=gfx908'
       - - arch=linux-sles15-x86_64
       exclude:
-      - '^cray-libsci'
+      - ^cray-libsci
+      - ^libffi
+      - ^gtkplus
       - paraview
 
   specs:
-  - $core_specs
+    #- $core_specs
   - $amd_specs
-  - $PrgEnv-gnu_specs
-  - $PrgEnv-gnu-rocm_specs
+    #- $PrgEnv-gnu_specs
+    #- $PrgEnv-gnu-rocm_specs
   - $PrgEnv-amd_specs
   - $PrgEnv-amd-rocm_specs
 
   view: false
-
