@@ -75,20 +75,38 @@ packages:
     buildable: false
     externals:
       - spec: cray-libsci@23.09.1.1 %gcc
+        modules:
+          - cray-libsci/23.09.1.1
         prefix: /opt/cray/pe/libsci/23.09.1.1/GNU/10.3/x86_64
       - spec: cray-libsci@23.09.1.1 %rocmcc
+        modules:
+          - cray-libsci/23.09.1.1
         prefix: /opt/cray/pe/libsci/23.09.1.1/AMD/5.0/x86_64
       - spec: cray-libsci@23.09.1.1 %cce
+        modules:
+          - cray-libsci/23.09.1.1
         prefix: /opt/cray/pe/libsci/23.09.1.1/CRAY/12.0/x86_64
   cray-mpich:
     buildable: false
     externals:
       - spec: cray-mpich@8.1.27 %gcc
         prefix: /opt/cray/pe/mpich/8.1.27/ofi/gnu/9.1
+        modules:
+          - cray-pmi
+          - cray-mpich/8.1.27
+          - libfabric/1.15.2.0
       - spec: cray-mpich@8.1.27 %rocmcc
         prefix: /opt/cray/pe/mpich/8.1.27/ofi/amd/5.0
+        modules:
+          - cray-pmi
+          - cray-mpich/8.1.27
+          - libfabric/1.15.2.0
       - spec: cray-mpich@8.1.27 %cce
         prefix: /opt/cray/pe/mpich/8.1.27/ofi/crayclang/14.0
+        modules:
+          - cray-pmi
+          - cray-mpich/8.1.27
+          - libfabric/1.15.2.0
   cray-parallel-netcdf:
     buildable: false
     externals:

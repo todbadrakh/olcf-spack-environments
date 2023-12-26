@@ -13,14 +13,12 @@ spack:
 
   - core_compiler:
     - '%gcc@7.5.0'
-  - gcc_compilers:
+  - gnu_compilers:
     - '%gcc@12.2.0'
-      #  - cray_compilers:
-      #    - '%cce@16.0.0'
-      #    - '%cce@15.0.1'
-      #    - '%cce@14.0.4'
+  - cray_compilers:
+    - '%cce@16.0.1'
   - amd_compilers:
-    - '%clang@16.0.0-rocm5.5.1'
+    - '%rocmcc@5.5.1'
 
   - core_packages:
     - bazel
@@ -34,7 +32,7 @@ spack:
     - gnupg
     - go
     - googletest cxxstd=17
-    - gtkplus@3.24.26 ~cups
+    - gtkplus ~cups
     - htop
     - libbsd
     - libksba
@@ -49,7 +47,7 @@ spack:
     - openblas
     - openjdk
     - py-jupyterhub
-    - py-numpy ^openblas
+    - py-numpy@1.23.3
     - qt +opengl
     - rust
     - sqlite
@@ -104,7 +102,7 @@ spack:
     - parsec@3.0.2209 ~cuda
     - plasma@23.8.2 ^cray-libsci
     - stat@4.2.1
-    - tau@2.33 +craycnl+dyninst+mpi+python+x86_64 # ROCm 4.3.0 is latest in docs so doing non-gpu
+    - tau@2.33 +mpi+python+x86_64~pdt # ROCm 4.3.0 is latest in docs so doing non-gpu
     - visit@3.3.3 ~conduit
   - e4s_rocm_packages:
     - adios2@2.9.2 +hdf5+python
@@ -131,37 +129,47 @@ spack:
     - matrix:
       - - $amd_packages
       - - '@5.5.1 %gcc@12.2.0'
-        - '@5.5.1 %clang@16.0.0-rocm5.5.1'
+        - '@5.5.1 %rocmcc@5.5.1'
       - - arch=linux-sles15-x86_64
   - PrgEnv-gnu_specs:
     - matrix:
       - - $e4s_packages
-      - - '%gcc@12.2.0'
+      - - $gnu_compilers
       - - arch=linux-sles15-x86_64
   - PrgEnv-gnu-rocm_specs:
     - matrix:
       - - $e4s_rocm_packages
-      - - '%gcc@12.2.0 +rocm amdgpu_target=gfx908'
+      - - $gnu_compilers
+      - - '+rocm amdgpu_target=gfx908'
       - - arch=linux-sles15-x86_64
   - PrgEnv-amd_specs:
     - matrix:
       - - $e4s_packages
-      - - '%clang@16.0.0-rocm5.5.1'
+      - - $amd_compilers
       - - arch=linux-sles15-x86_64
       exclude:
       - '^cray-libsci'
-      - plasma
-      - parsec
-      - stat
-      - visit
   - PrgEnv-amd-rocm_specs:
     - matrix:
       - - $e4s_rocm_packages
-      - - '%clang@16.0.0-rocm5.5.1 +rocm amdgpu_target=gfx908'
+      - - $amd_compilers
+      - - '+rocm amdgpu_target=gfx908'
       - - arch=linux-sles15-x86_64
       exclude:
       - '^cray-libsci'
-      - paraview
+  - PrgEnv-cray_specs:
+    - matrix:
+      - - $e4s_packages
+      - - $cray_compilers
+      - - arch=linux-sles15-x86_64
+      exclude:
+      - plasma # cce conflict
+  - PrgEnv-cray-rocm_specs:
+    - matrix:
+      - - $e4s_rocm_packages
+      - - $cray_compilers
+      - - '+rocm amdgpu_target=gfx908'
+      - - arch=linux-sles15-x86_64
 
   specs:
   - $core_specs
@@ -170,6 +178,8 @@ spack:
   - $PrgEnv-gnu-rocm_specs
   - $PrgEnv-amd_specs
   - $PrgEnv-amd-rocm_specs
+  - $PrgEnv-cray_specs
+  - $PrgEnv-cray-rocm_specs
 
   view: false
 
