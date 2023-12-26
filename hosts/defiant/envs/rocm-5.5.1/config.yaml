@@ -1,0 +1,48 @@
+# Base environment configuration
+# Tuguldur T. Odbadrakh
+# 10/13/2023
+
+config:
+  install_tree:
+    root: '${FACSPACK_ENV}/opt'
+    projections:
+      all: '{compiler.name}-{compiler.version}/{name}-{version}-{hash}'
+        
+  template_dirs:
+  - /sw/defiant/spack/templates
+  - $spack/share/spack/templates
+ 
+  build_stage: '/tmp/sauesw/spack-stage'
+  test_stage: '/tmp/sauesw/spack-test'
+  source_cache: '/sw/defiant/spack/scache'
+  misc_cache: '/sw/defiant/spack/mcache'
+
+  extensions:
+  - ${FACSPACK_CONF_COMMON}/spack/extensions/spack-olcf
+  
+  verify_ssl: true
+  install_missing_compilers: false
+  checksum: true
+  dirty: false
+  build_language: C
+  build_jobs: 32
+  ccache: false
+  db_lock_timeout: 120
+  package_lock_timeout: null
+  shared_linking: rpath
+  allow_sgid: true
+  concretizer: 'clingo'
+  locks: true
+  suppress_gpg_warnings: false
+  connect_timeout: 10
+  concretization: together
+  view: false
+
+concretizer:
+  unify: when_possible
+    #unify: true
+
+mirrors:
+  facility_builds: /sw/defiant/spack/bmirrors
+  source_mirror: /sw/defiant/spack/smirrors
+

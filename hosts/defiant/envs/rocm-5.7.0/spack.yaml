@@ -1,0 +1,172 @@
+# Base environment
+# Tuguldur T. Odbadrakh
+# 10/13/2023
+
+spack:
+  include:
+  - config.yaml
+  - compilers.yaml
+  - modules.yaml
+  - packages.yaml
+
+  definitions:
+
+  - core_compiler:
+    - '%gcc@7.5.0'
+  - gcc_compilers:
+    - '%gcc@12.2.0'
+      #  - cray_compilers:
+      #    - '%cce@16.0.0'
+      #    - '%cce@15.0.1'
+      #    - '%cce@14.0.4'
+  - amd_compilers:
+    - '%rocmcc@5.7.0'
+
+  - core_packages:
+    - bazel
+    - bison
+    - bzip2
+    - cairo
+    - ccache
+    - cmake
+    - cups
+    - exuberant-ctags
+    - gnupg
+    - go
+    - gtkplus ~cups
+    - googletest cxxstd=17
+    - htop
+    - libbsd
+    - libpng
+    - libx11
+    - libzmq +libbsd+libsodium+libunwind
+    - mercurial
+    - mesa
+    - ninja
+    - openblas
+    - openjdk
+    - py-jupyterhub
+    - py-numpy ^openblas
+    - qt +opengl
+    - rust
+    - sqlite
+    - subversion
+    - tcl
+    - texinfo
+    - zlib
+    - zstd
+  - amd_packages:
+    - comgr
+    - hip
+    - hip-rocclr
+    - hipblas
+    - hipcub
+    - hipfft
+    - hipfort
+    - hiprand
+    - hipsolver
+    - hipsparse
+    - hsa-rocr-dev
+    - hsakmt-roct
+    - llvm-amdgpu
+    - rccl
+    - rocalution
+    - rocblas
+    - rocfft
+    - rocm-clang-ocl
+    - rocm-cmake
+    - rocm-device-libs
+    - rocm-gdb
+    - rocm-opencl
+    - rocm-openmp-extras
+    - rocm-smi
+    - rocm-smi-lib
+    - rocprim
+    - rocprofiler-dev
+    - rocrand
+    - rocsolver
+    - rocsparse
+    - rocthrust
+    - roctracer-dev
+  - e4s_packages:
+    - arpack-ng@3.9.0 ^cray-libsci
+    - boost@1.83.0 +mpi+python+numpy+thread cxxstd=17
+    - darshan-runtime@3.4.0 scheduler=slurm
+    - darshan-util@3.4.0 +bzip2
+    - globalarrays@5.8.2 +scalapack ^cray-libsci
+    - hdf5@1.14.3 +cxx+fortran
+    - kokkos-kernels@4.0.00 +openmp
+    - nco@5.1.6
+    - netlib-scalapack@2.2.0 ^cray-libsci
+    - parsec@3.0.2209 ~cuda
+    - plasma@23.8.2 ^cray-libsci
+    - stat@4.2.1
+    - tau@2.33 +craycnl+dyninst+mpi+python+x86_64 # ROCm 4.3.0 is latest in docs so doing non-gpu
+    - visit@3.3.3 ~conduit
+  - e4s_rocm_packages:
+    - adios2@2.9.2 +hdf5+python ^py-numpy@1.23.3
+    - amrex@22.11 dimensions=3
+    - blaspp@2023.08.25 ^cray-libsci
+      #- hpx@1.9.1 # c++11 error
+    - hypre@2.29.0 ^cray-libsci
+    - kokkos@4.0.00 +openmp
+    - lapackpp@2023.08.25 ^cray-libsci
+    - magma@2.7.2 ^cray-libsci
+    - paraview@5.11.2
+    - petsc@3.20.1 ^cray-libsci
+    - slate@2023.08.25 ^cray-libsci
+    - superlu-dist@8.1.2 ^cray-libsci
+    - upcxx@2023.3.0 +mpi
+    - vtk-m@2.0.0
+
+  - core_specs:
+    - matrix:
+      - - $core_packages
+      - - $core_compiler
+      - - arch=linux-sles15-x86_64
+  - amd_specs:
+    - matrix:
+      - - $amd_packages
+        #- - '@5.7.0 %gcc@12.2.0'
+      - - '@5.7.0 %rocmcc@5.7.0'
+      - - arch=linux-sles15-x86_64
+  - PrgEnv-gnu_specs:
+    - matrix:
+      - - $e4s_packages
+      - - '%gcc@12.2.0'
+      - - arch=linux-sles15-x86_64
+  - PrgEnv-gnu-rocm_specs:
+    - matrix:
+      - - $e4s_rocm_packages
+      - - '%gcc@12.2.0 +rocm amdgpu_target=gfx908'
+      - - arch=linux-sles15-x86_64
+  - PrgEnv-amd_specs:
+    - matrix:
+      - - $e4s_packages
+      - - '%rocmcc@5.7.0'
+      - - arch=linux-sles15-x86_64
+      exclude:
+      - ^cray-libsci
+      - plasma
+      - parsec
+      - stat
+      - visit
+  - PrgEnv-amd-rocm_specs:
+    - matrix:
+      - - $e4s_rocm_packages
+      - - '%rocmcc@5.7.0 +rocm amdgpu_target=gfx908'
+      - - arch=linux-sles15-x86_64
+      exclude:
+      - ^cray-libsci
+      - ^gtkplus
+      - paraview
+
+  specs:
+    #- $core_specs
+  - $amd_specs
+    #- $PrgEnv-gnu_specs
+    #- $PrgEnv-gnu-rocm_specs
+  - $PrgEnv-amd_specs
+  - $PrgEnv-amd-rocm_specs
+
+  view: false

@@ -1,0 +1,96 @@
+# Core compiler GCC 7.5.0
+compilers:
+- compiler:
+    spec: gcc@7.5.0
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    operating_system: sles15
+    target: x86_64
+    modules: []
+    environment:
+      append_path:
+        PKG_CONFIG_PATH: /usr/lib64/pkgconfig
+
+# Cray GCC compilers
+- compiler:
+    spec: gcc@12.2.0
+    paths:
+      cc: /opt/cray/pe/gcc/12.2.0/snos/bin/gcc
+      cxx: /opt/cray/pe/gcc/12.2.0/snos/bin/g++
+      f77: /opt/cray/pe/gcc/12.2.0/snos/bin/gfortran
+      fc: /opt/cray/pe/gcc/12.2.0/snos/bin/gfortran
+    operating_system: sles15
+    target: x86_64
+    modules:
+    - PrgEnv-gnu
+    - gcc/12.2.0
+    - craype-x86-rome
+    - libfabric
+    - xpmem
+    - cray-pmi
+    environment:
+      append_path:
+        PKG_CONFIG_PATH: /opt/cray/xpmem/2.6.2-2.5_2.27__gd067c3f.shasta/lib64/pkgconfig:/usr/lib64/pkgconfig
+
+# Cray Compilers
+- compiler:
+    spec: cce@16.0.1
+    paths:
+      cc: /opt/cray/pe/cce/16.0.1/bin/craycc
+      cxx: /opt/cray/pe/cce/16.0.1/bin/crayCC
+      f77: /opt/cray/pe/cce/16.0.1/bin/crayftn
+      fc: /opt/cray/pe/cce/16.0.1/bin/crayftn
+    flags: {}
+    operating_system: sles15
+    target: any
+    modules:
+    - PrgEnv-cray
+    - cce/16.0.1
+    - craype-x86-rome
+    - libfabric
+    - xpmem
+    - cray-pmi
+    environment:
+      set:
+        RFE_811452_DISABLE: '1'
+      append_path:
+        LD_LIBRARY_PATH: /opt/cray/pe/gcc-libs:/opt/cray/libfabric/1.15.2.0/lib64
+    extra_rpaths:
+    - /opt/cray/pe/gcc-libs
+    - /opt/cray/gcc-libs
+
+# AMD Compilers
+- compiler:
+    spec: rocmcc@5.5.1
+    paths:
+      cc: /opt/rocm-5.5.1/llvm/bin/amdclang
+      cxx: /opt/rocm-5.5.1/llvm/bin/amdclang++
+      f77: /opt/rocm-5.5.1/llvm/bin/amdflang
+      fc: /opt/rocm-5.5.1/llvm/bin/amdflang
+    operating_system: sles15
+    target: x86_64
+    modules:
+    - PrgEnv-amd
+    - amd/5.5.1
+    - craype-x86-rome
+    - libfabric
+    - xpmem
+    - cray-pmi
+    environment:
+      set:
+        RFE_811452_DISABLE: '1'
+      prepend_path:
+        LD_LIBRARY_PATH: /opt/cray/pe/pmi/6.1.12/lib
+        LIBRARY_PATH: /opt/rocm-5.5.1/lib:/opt/rocm-5.5.1/lib64
+      append_path:
+        PKG_CONFIG_PATH: /opt/cray/xpmem/2.6.2-2.5_2.27__gd067c3f.shasta/lib64/pkgconfig:/usr/lib64/pkgconfig
+        LD_LIBRARY_PATH: /opt/cray/pe/gcc-libs:/opt/cray/libfabric/1.15.2.0/lib64
+    extra_rpaths:
+    - /opt/rocm-5.5.1/lib
+    - /opt/rocm-5.5.1/lib64
+    - /opt/cray/pe/gcc-libs
+    - /opt/cray/gcc-libs
+
