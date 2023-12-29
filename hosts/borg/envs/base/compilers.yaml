@@ -79,6 +79,27 @@ compilers:
     environment:
       prepend_path:
         LD_LIBRARY_PATH: /opt/cray/pe/pmi/6.0.16/lib
+
+### Tuguldur T Odbadrakh 12/29/2023 Borg
+- compiler:
+    spec: gcc@12.2.0
+    paths:
+      cc: /opt/cray/pe/gcc/12.2.0/snos/bin/gcc
+      cxx: /opt/cray/pe/gcc/12.2.0/snos/bin/g++
+      f77: /opt/cray/pe/gcc/12.2.0/snos/bin/gfortran
+      fc: /opt/cray/pe/gcc/12.2.0/snos/bin/gfortran
+    operating_system: sles15
+    target: any
+    modules:
+    - PrgEnv-gnu
+    - gcc/12.2.0
+    - craype-x86-trento
+    - libfabric
+    environment:
+      prepend_path:
+        LD_LIBRARY_PATH: /opt/cray/pe/pmi/6.1.13/lib
+### ------------------------------------
+
 - compiler:
     spec: cce@13.0.0
     paths:
@@ -152,7 +173,8 @@ compilers:
     extra_rpaths:
     - /opt/cray/pe/gcc-libs
     - /opt/cray/gcc-libs
-# Tuguldur T Odbadrakh 12/29/2023 Borg
+
+### Tuguldur T Odbadrakh 12/29/2023 Borg
 - compiler:
     spec: cce@17.0.0
     paths:
@@ -178,7 +200,7 @@ compilers:
     extra_rpaths:
     - /opt/cray/pe/gcc-libs
     - /opt/cray/gcc-libs
-# ------------------------------------
+### ------------------------------------
 - compiler:
     spec: clang@13.0.0-rocm4.5.0
     paths:
@@ -235,7 +257,8 @@ compilers:
     - /opt/rocm-5.1.0/lib64
     - /opt/cray/pe/gcc-libs
     - /opt/cray/gcc-libs
-# Tuguldur T Odbadrakh 12/29/2023 Borg
+
+### Tuguldur T Odbadrakh 12/29/2023 Borg
 - compiler:
     spec: clang@17.0.0-rocm5.7.1
     paths:
@@ -264,4 +287,4 @@ compilers:
     - /opt/rocm-5.7.1/lib64
     - /opt/cray/pe/gcc-libs
     - /opt/cray/gcc-libs
-# ------------------------------------
+### ------------------------------------

@@ -7,18 +7,22 @@ spack:
   - core_compiler:
     - '%gcc@7.5.0'
   - gcc_compilers:
+    - '%gcc@12.2.0'
     - '%gcc@11.2.0'
     - '%gcc@10.3.0'
   - cray_compilers:
     - '%cce@13.0.2'
     - '%cce@14.0.0'
+    - '%cce@17.0.0'
   - amd_compilers:
     - '%clang@13.0.0-rocm4.5.0'
     - '%clang@14.0.0-rocm5.1.0'
+    - '%clang@17.0.0-rocm5.7.1'
   - all_compilers:
     - $gcc_compilers
     - $cray_compilers
     - $amd_compilers
+  
   - core_packages:
     - git
     - htop
@@ -51,6 +55,7 @@ spack:
     - openblas@0.3.17 threads=none
     - openblas@0.3.17 threads=openmp
     - openblas@0.3.17 threads=pthreads
+  
   - e4s_21.11_cpu_specs:
     - adios2@2.7.1 ~python
     #### - adios@1.13.1
@@ -197,6 +202,7 @@ spack:
     - kokkos@3.5.00 +rocm~cuda~wrapper~openmp amdgpu_target=gfx90a
     - strumpack@6.3.0 ~slate+rocm~cuda amdgpu_target=gfx90a
     - sundials@6.1.1 +rocm~cuda amdgpu_target=gfx90a
+
   - e4s_21.11_gpu_packages_rocm4.5.0:
     - matrix:
       - - $e4s_21.11_gpu_specs
@@ -213,6 +219,18 @@ spack:
     - matrix:
       - - $e4s_22.02_gpu_specs
       - - ^hip@5.1.0 ^hsa-rocr-dev@5.1.0 ^llvm-amdgpu@5.1.0
+  
+  ### Tuguldur T Odbadrakh 12/29/2023 Borg ---------------------------------------------------------
+  - e4s_21.11_gpu_packages_rocm5.7.1:
+    - matrix:
+      - - $e4s_21.11_gpu_specs
+      - - ^hip@5.7.1 ^hsa-rocr-dev@5.7.1 ^llvm-amdgpu@5.7.1
+  - e4s_22.02_gpu_packages_rocm5.7.1:
+    - matrix:
+      - - $e4s_22.02_gpu_specs
+      - - ^hip@5.7.1 ^hsa-rocr-dev@5.7.1 ^llvm-amdgpu@5.7.1
+  ### ----------------------------------------------------------------------------------------------
+  
   - core_specs:
     - matrix:
       - - $core_packages
@@ -244,6 +262,17 @@ spack:
       - strumpack%gcc # fails due to failure to find mpi.h
       - trilinos@:13.2.0+rocm # FIXME
       - unifyfs%gcc@11.2.0
+    ### Tuguldur T Odbadrakh 12/29/2023 Borg -------------------------------------------------------
+        - matrix:
+      - - $e4s_21.11_cpu_specs
+        - $e4s_21.11_gpu_packages_rocm5.1.0
+        - $e4s_22.02_cpu_specs
+        - $e4s_22.02_gpu_packages_rocm5.1.0
+        - slate@2021.05.02
+      - - '%gcc@12.2.0'
+      - - arch=cray-sles15-zen3
+    ### --------------------------------------------------------------------------------------------
+    
   - cpe_cce_specs:
     - matrix:
       - - $e4s_21.11_cpu_specs
@@ -313,6 +342,17 @@ spack:
       - tau+elf
       - trilinos@:13.2.0+rocm # FIXME
       - unifyfs%cce
+    ### Tuguldur T Odbadrakh 12/29/2023 Borg -------------------------------------------------------
+    - matrix:
+      - - $e4s_21.11_cpu_specs
+        - $e4s_21.11_gpu_packages_rocm5.7.1
+        - $e4s_22.02_cpu_specs
+        - $e4s_22.02_gpu_packages_rocm5.7.1
+        - slate@2021.05.02
+      - - '%cce@17.0.0'
+      - - arch=cray-sles15-zen3
+    ### --------------------------------------------------------------------------------------------
+
   - cpe_amd_specs:
     - matrix:
       - - $e4s_21.11_cpu_specs
@@ -371,22 +411,27 @@ spack:
       - tau%clang+elf
       - trilinos@:13.2.0+rocm # FIXME
       - unifyfs%clang
+    ### Tuguldur T Odbadrakh 12/29/2023 Borg -------------------------------------------------------
+    - matrix:
+      - - $e4s_21.11_cpu_specs
+        - $e4s_21.11_gpu_packages_rocm5.7.1
+        - $e4s_22.02_cpu_specs
+        - $e4s_22.02_gpu_packages_rocm5.7.1
+        - slate@2021.05.02
+      - - '%clang@17.0.0-rocm5.7.1'
+      - - arch=cray-sles15-zen3
+    ### --------------------------------------------------------------------------------------------
+
   specs:
   - $core_specs
   - $cpe_gcc_specs
   - $cpe_cce_specs
   - $cpe_amd_specs
-  #############################################################################
+
   mirrors:
     facility_builds: /sw/borg/spack-env/mirrors/builds
     source_mirror: /sw/sources/facility-spack/source_mirror
   repos:
   - ${FACSPACK_CONF_COMMON}/spack/repos/olcf
-  #############################################################################
-  # Views are managed externally; placing them here triggers a regneration each
-  # time the env is re-concretized which both destroys non-spack files (eg
-  # symlinks) in "hybrid views" and removes previous builds slated to be
-  # re-built from the production view when we want to minimize disruption to
-  # users. See $FACSPACK_CONF_ENV/view-generate-*.sh scripts for managing views.
   view: false
 
