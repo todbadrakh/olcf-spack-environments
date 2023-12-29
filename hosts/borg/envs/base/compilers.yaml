@@ -9,14 +9,12 @@ compilers:
       cxx: /usr/bin/g++
       f77: /usr/bin/gfortran
       fc: /usr/bin/gfortran
-    flags: {}
     operating_system: sles15
     target: any
     modules: []
     environment:
       append_path:
         PKG_CONFIG_PATH: /usr/lib64/pkgconfig
-    extra_rpaths: []
 - compiler:
     spec: gcc@7-os
     paths:
@@ -24,15 +22,12 @@ compilers:
       cxx: /usr/bin/g++
       f77: /usr/bin/gfortran
       fc: /usr/bin/gfortran
-    flags: {}
     operating_system: sles15
     target: any
     modules: []
     environment:
       append_path:
         PKG_CONFIG_PATH: /usr/lib64/pkgconfig
-      unset: []
-    extra_rpaths: []
 - compiler:
     spec: gcc@9.3.0
     paths:
@@ -40,7 +35,6 @@ compilers:
       cxx: /opt/cray/pe/craype/2.7.15/bin/CC
       f77: /opt/cray/pe/craype/2.7.15/bin/ftn
       fc: /opt/cray/pe/craype/2.7.15/bin/ftn
-    flags: {}
     operating_system: sles15
     target: any
     modules:
@@ -51,7 +45,6 @@ compilers:
     environment:
       prepend_path:
         LD_LIBRARY_PATH: /opt/cray/pe/pmi/6.0.16/lib
-    extra_rpaths: []
 - compiler:
     spec: gcc@10.3.0
     paths:
@@ -59,7 +52,6 @@ compilers:
       cxx: /opt/cray/pe/craype/2.7.15/bin/CC
       f77: /opt/cray/pe/craype/2.7.15/bin/ftn
       fc: /opt/cray/pe/craype/2.7.15/bin/ftn
-    flags: {}
     operating_system: sles15
     target: any
     modules:
@@ -70,7 +62,6 @@ compilers:
     environment:
       prepend_path:
         LD_LIBRARY_PATH: /opt/cray/pe/pmi/6.0.16/lib
-    extra_rpaths: []
 - compiler:
     spec: gcc@11.2.0
     paths:
@@ -78,7 +69,6 @@ compilers:
       cxx: /opt/cray/pe/craype/2.7.15/bin/CC
       f77: /opt/cray/pe/craype/2.7.15/bin/ftn
       fc: /opt/cray/pe/craype/2.7.15/bin/ftn
-    flags: {}
     operating_system: sles15
     target: any
     modules:
@@ -89,7 +79,6 @@ compilers:
     environment:
       prepend_path:
         LD_LIBRARY_PATH: /opt/cray/pe/pmi/6.0.16/lib
-    extra_rpaths: []
 - compiler:
     spec: cce@13.0.0
     paths:
@@ -97,7 +86,6 @@ compilers:
       cxx: /opt/cray/pe/craype/2.7.15/bin/CC
       f77: /opt/cray/pe/craype/2.7.15/bin/ftn
       fc: /opt/cray/pe/craype/2.7.15/bin/ftn
-    flags: {}
     operating_system: sles15
     target: any
     modules:
@@ -115,13 +103,13 @@ compilers:
     extra_rpaths:
     - /opt/cray/pe/gcc-libs
     - /opt/cray/gcc-libs
+- compiler:  
     spec: cce@13.0.2
     paths:
       cc: /opt/cray/pe/craype/2.7.15/bin/cc
       cxx: /opt/cray/pe/craype/2.7.15/bin/CC
       f77: /opt/cray/pe/craype/2.7.15/bin/ftn
       fc: /opt/cray/pe/craype/2.7.15/bin/ftn
-    flags: {}
     operating_system: sles15
     target: any
     modules:
@@ -146,7 +134,6 @@ compilers:
       cxx: /opt/cray/pe/craype/2.7.15/bin/CC
       f77: /opt/cray/pe/craype/2.7.15/bin/ftn
       fc: /opt/cray/pe/craype/2.7.15/bin/ftn
-    flags: {}
     operating_system: sles15
     target: any
     modules:
@@ -165,6 +152,33 @@ compilers:
     extra_rpaths:
     - /opt/cray/pe/gcc-libs
     - /opt/cray/gcc-libs
+# Tuguldur T Odbadrakh 12/29/2023 Borg
+- compiler:
+    spec: cce@17.0.0
+    paths:
+      cc: /opt/cray/pe/cce/17.0.0/bin/craycc
+      cxx: /opt/cray/pe/cce/17.0.0/bin/crayCC
+      f77: /opt/cray/pe/cce/17.0.0/bin/crayftn
+      fc: /opt/cray/pe/cce/17.0.0/bin/crayftn
+    operating_system: sles15
+    target: any
+    modules:
+    - PrgEnv-cray/8.5.0
+    - cce/17.0.0
+    - craype-x86-trento
+    - libfabric
+    - cray-pmi/6.1.13
+    environment:
+      set:
+        RFE_811452_DISABLE: '1'
+      append_path:
+        LD_LIBRARY_PATH: /opt/cray/pe/gcc-libs:/opt/cray/libfabric/1.15.2.0/lib64
+      prepend_path:
+        LD_LIBRARY_PATH: /opt/cray/pe/pmi/6.1.13/lib
+    extra_rpaths:
+    - /opt/cray/pe/gcc-libs
+    - /opt/cray/gcc-libs
+# ------------------------------------
 - compiler:
     spec: clang@13.0.0-rocm4.5.0
     paths:
@@ -172,7 +186,6 @@ compilers:
       cxx: /opt/cray/pe/craype/2.7.15/bin/CC
       f77: /opt/cray/pe/craype/2.7.15/bin/ftn
       fc: /opt/cray/pe/craype/2.7.15/bin/ftn
-    flags: {}
     operating_system: sles15
     target: any
     modules:
@@ -222,3 +235,33 @@ compilers:
     - /opt/rocm-5.1.0/lib64
     - /opt/cray/pe/gcc-libs
     - /opt/cray/gcc-libs
+# Tuguldur T Odbadrakh 12/29/2023 Borg
+- compiler:
+    spec: clang@17.0.0-rocm5.7.1
+    paths:
+      cc: /opt/rocm-5.7.1/llvm/bin/amdclang
+      cxx: /opt/rocm-5.7.1/llvm/bin/amdclang++
+      f77: /opt/rocm-5.7.1/llvm/bin/amdflang
+      fc: /opt/rocm-5.7.1/llvm/bin/amdflang
+    operating_system: sles15
+    target: any
+    modules:
+    - PrgEnv-amd/8.5.0
+    - amd/5.7.1
+    - craype-x86-trento
+    - libfabric
+    - cray-pmi/6.1.13
+    environment:
+      set:
+        RFE_811452_DISABLE: '1'
+      append_path:
+        LD_LIBRARY_PATH: /opt/cray/pe/gcc-libs:/opt/cray/libfabric/1.15.2.0/lib64
+      prepend_path:
+        LD_LIBRARY_PATH: /opt/cray/pe/pmi/6.1.13/lib
+        LIBRARY_PATH: /opt/rocm-5.7.1/lib:/opt/rocm-5.7.1/lib64
+    extra_rpaths:
+    - /opt/rocm-5.7.1/lib
+    - /opt/rocm-5.7.1/lib64
+    - /opt/cray/pe/gcc-libs
+    - /opt/cray/gcc-libs
+# ------------------------------------

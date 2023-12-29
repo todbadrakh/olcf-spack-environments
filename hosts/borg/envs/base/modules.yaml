@@ -33,14 +33,9 @@ modules:
     lmod:
       core_compilers: [gcc@7.5.0]
       all:
-        conflict: []
         environment:
           set:
             OLCF_${PACKAGE}_ROOT: ${PREFIX}
-          unset: []
-        filter:
-          environment_blacklist: []
-        load: []
         autoload: none
       amrex:
         suffixes:
@@ -52,12 +47,6 @@ modules:
         suffixes:
           boost cxxstd=17: cxx17
       cairo:
-        conflict: []
-        environment:
-          unset: []
-        filter:
-          environment_blacklist: []
-        load: []
         suffixes:
           cairo+X: X
           cairo+pdf: pdf
@@ -65,12 +54,6 @@ modules:
         suffixes:
           camp~rocm: cpu
       cdo:
-        conflict: []
-        environment:
-          unset: []
-        filter:
-          environment_blacklist: []
-        load: []
         suffixes:
           cdo^hdf5+mpi^netcdf+mpi^fftw+mpi: parallel
       chai:
@@ -80,43 +63,19 @@ modules:
         suffixes:
           datatransferkit ^superlu-dist+rocm: gpu
       ferret:
-        conflict: []
-        environment:
-          unset: []
-        filter:
-          environment_blacklist: []
-        load: []
         suffixes:
           ferret^hdf5+mpi^netcdf+mpi: parallel
       fftw:
-        conflict: []
-        environment:
-          unset: []
-        filter:
-          environment_blacklist: []
-        load: []
         suffixes:
           fftw+openmp: omp
       ginkgo:
         suffixes:
           ginkgo~rocm: cpu
       gromacs:
-        conflict: []
-        environment:
-          unset: []
-        filter:
-          environment_blacklist: []
-        load: []
         suffixes:
           gromacs~mpi: analysis
           gromacs~rdtscp: rdtscp_off
       hdf5:
-        conflict: []
-        environment:
-          unset: []
-        filter:
-          environment_blacklist: []
-        load: []
         suffixes:
           hdf5~mpi+szip: sz
           hdf5~mpi+threadsafe: threadsafe
@@ -128,41 +87,23 @@ modules:
         suffixes:
           kokkos-kernels+openmp: omp
       ncl:
-        conflict: []
-        environment:
-          unset: []
-        filter:
-          environment_blacklist: []
-        load: []
         suffixes:
           builtin.ncl ^hdf5+mpi^netcdf+mpi: parallel
       omega-h:
         suffixes: 
           omega-h ^superlu-dist~rocm: cpu
       openblas:
-        conflict: []
-        environment:
-          unset: []
-        filter:
-          environment_blacklist: []
-        load: []
         suffixes:
           openblas threads=openmp: omp
           openblas threads=pthreads: pthreads
-      openmpi:
-        conflict: []
-        environment:
-          unset: []
-        filter:
-          environment_blacklist: []
-        load: []
+            #      openmpi:
+            #        conflict: []
+            #        environment:
+            #          unset: []
+            #        filter:
+            #          environment_blacklist: []
+            #        load: []
       pango:
-        conflict: []
-        environment:
-          unset: []
-        filter:
-          environment_blacklist: []
-        load: []
         suffixes:
           pango+X: X
       petsc:
@@ -203,20 +144,13 @@ modules:
         suffixes:
           umpire~rocm: cpu
       vtk:
-        conflict: []
-        environment:
-          unset: []
-        filter:
-          environment_blacklist: []
-        load: []
         suffixes:
           vtk+mpi: parallel
           vtk+qt: qt
           vtk~mpi: serial
-      blacklist_implicits: false
+      exclude_implicits: false
       verbose: true
-      whitelist: []
-      blacklist:
+      exclude:
       - binutils
       - boost%gcc cxxstd=98
       - boost%gcc visibility=global
@@ -355,7 +289,7 @@ modules:
     tcl:
       hash_length: 3
       naming_scheme: '{name}/{version}-{compiler.name}-{compiler.version}'
-      blacklist:
+      exclude:
       - slurm
       - go-bootstrap
       - openssl
@@ -365,11 +299,6 @@ modules:
         environment:
           set:
             OLCF_${PACKAGE}_ROOT: ${PREFIX}
-          unset: []
-        filter:
-          environment_blacklist: []
-        load: []
       verbose: false
-      whitelist: []
-      blacklist_implicits: false
-      projections: {}
+      exclude_implicits: false
+
