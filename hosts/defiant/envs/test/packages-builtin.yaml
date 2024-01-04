@@ -1,0 +1,377 @@
+# ROCm 5.5.1 environment packages
+# Tuguldur T. Odbadrakh
+# 11/21/2023
+
+packages:
+  
+  ### System packages ------------------------------------------------------------------------------
+  autoconf:
+    buildable: false
+    externals:
+      - spec: autoconf@2.69
+        prefix: /usr
+  automake:
+    buildable: false
+    externals:
+      - spec: automake@1.15.1
+        prefix: /usr
+  bison:
+    buildable: false
+    externals:
+      - spec: bison@3.0.4
+        prefix: /usr
+  cmake:
+    buildable: true
+    externals:
+      - spec: cmake@3.20.4
+        prefix: /usr
+  double-conversion:
+    buildable: false
+    externals:
+      - spec: double-conversion@3.1.5
+        prefix: /usr
+  elfutils:
+    buildable: false
+    externals:
+      - spec: elfutils@0.185
+        prefix: /usr
+  flex:
+    buildable: false
+    externals:
+      - spec: flex@2.6.4
+        prefix: /usr
+  fontconfig:
+    buildable: false
+    externals:
+      - spec: fontconfig@2.13.1
+        prefix: /usr
+  freetype:
+    buildable: true
+    externals:
+      - spec: freetype@2.10.4
+        prefix: /usr
+  gdbm:
+    buildable: false
+    externals:
+      - spec: gdbm@1.12
+        prefix: /usr
+  gettext:
+    buildable: false
+    externals:
+      - spec: gettext@0.20.2
+        prefix: /usr
+  glib:
+    buildable: false
+    externals:
+      - spec: glib@2.70.5
+        prefix: /usr
+  gmake:
+    buildable: false
+    externals:
+      - spec: gmake@4.2.1
+        prefix: /usr
+  gmp:
+    buildable: false
+    externals:
+      - spec: gmp@6.1.2
+        prefix: /usr
+  json-glib:
+    buildable: false
+    externals:
+      - spec: json-glib@1.6.6
+        prefix: /usr
+  jsoncpp:
+    buildable: false
+    externals:
+      - spec: jsoncpp@1.8.4
+        prefix: /usr
+  libarchive:
+    buildable: false
+    externals:
+      - spec: libarchive@3.5.1
+        prefix: /usr
+  libdrm:
+    buildable: false
+    externals:
+      - spec: libdrm@2.4.107
+        prefix: /usr
+  libffi:
+    buildable: false
+    externals:
+      - spec: libffi@3.2.1
+        prefix: /usr
+  libice:
+    buildable: false
+    externals:
+      - spec: libice@1.0.9
+        prefix: /usr
+  libogg:
+    buildable: false
+    externals:
+      - spec: libogg@1.3.2
+        prefix: /usr
+  libpciaccess:
+    buildable: false
+    externals:
+      - spec: libpciaccess@0.14
+        prefix: /usr
+  libpng:
+    buildable: false
+    externals:
+      - spec: libpng@1.6.34
+        prefix: /usr
+  librsvg:
+    buildable: false
+    externals:
+      - spec: librsvg@2.52.10
+        prefix: /usr
+  libssh2:
+    buildable: false
+    externals:
+      - spec: libssh2@1.9.0
+        prefix: /usr
+  libsm:
+    buildable: false
+    externals:
+      - spec: libsm@1.2.2
+        prefix: /usr
+  libtheora:
+    buildable: false
+    externals:
+      - spec: libtheora@1.1.1
+        prefix: /usr
+  libtiff:
+    buildable: false
+    externals:
+      - spec: libtiff@4.0.9
+        prefix: /usr
+  libtool:
+    buildable: false
+    externals:
+      - spec: libtool@2.4.6
+        prefix: /usr
+  libunwind:
+    buildable: false
+    externals:
+      - spec: libunwind@1.5.0
+        prefix: /usr
+  libx11:
+    buildable: false
+    externals:
+      - spec: libx11@1.6.5
+        prefix: /usr
+  libxcb:
+    buildable: false
+    externals:
+      - spec: libxcb@1.13
+        prefix: /usr
+  libxcrypt:
+    buildable: false
+    externals:
+      - spec: libxcrypt@4.4.15
+        prefix: /usr
+  libxext:
+    buildable: false
+    externals:
+      - spec: libxext@1.3.3
+        prefix: /usr
+  libxft:
+    buildable: false
+    externals:
+      - spec: libxft@2.3.2
+        prefix: /usr
+  libxi:
+    buildable: false
+    externals:
+      - spec: libxi@1.7.9
+        prefix: /usr
+  libxkbcommon:
+    buildable: false
+    externals:
+      - spec: libxkbcommon@1.3.0
+        prefix: /usr
+  libxfont:
+    buildable: false
+    externals: 
+      - spec: libxfont@2.0.3
+        prefix: /usr
+  libxml2:
+    buildable: false
+    externals:
+      - spec: libxml2@2.9.14
+        prefix: /usr
+  libxrandr:
+    buildable: false
+    externals:
+      - spec: libxrandr@1.5.1
+        prefix: /usr
+  libxrender:
+    buildable: false
+    externals:
+      - spec: libxrender@0.9.10
+        prefix: /usr
+  libxt:
+    buildable: false
+    externals:
+      - spec: libxt@1.1.5
+        prefix: /usr
+  lizard:
+    buildable: false
+    externals:
+      - spec: lizard@1.1.8
+        prefix: /usr
+  lz4:
+    buildable: false
+    externals:
+      - spec: lz4@1.9.3
+        prefix: /usr
+  lzo:
+    buildable: false
+    externals:
+      - spec: lzo@2.10
+        prefix: /usr
+  m4:
+    buildable: false
+    externals:
+      - spec: m4@1.4.18
+        prefix: /usr
+  mpfr:
+    buildable: false
+    externals:
+      - spec: mpfr@4.0.2
+        prefix: /usr
+  mrnet:
+    buildable: false
+    externals:
+      - spec: mrnet@5.0.4
+        prefix: /opt/cray/pe/mrnet/5.0.4
+      - spec: mrnet@5.1.0
+        prefix: /opt/cray/pe/mrnet/5.1.0
+      - spec: mrnet@5.1.1
+        prefix: /opt/cray/pe/mrnet/5.1.1
+  ncurses:
+    buildable: false
+    externals:
+      - spec: ncurses@6.1
+        prefix: /usr
+  nghttp2:
+    buildable: false
+    externals:
+      - spec: nghttp2@1.40.0
+        prefix: /usr
+  pango:
+    buildable: false
+    externals:
+      - spec: pango@1.50.4
+        prefix: /usr
+  papi:
+    buildable: false
+    externals:
+      - spec: papi@6.0.0.16
+        modules:
+          - papi/6.0.0.16
+      - spec: papi@7.0.0.1
+        modules:
+          - papi/7.0.0.1
+      - spec: papi@7.0.0.2
+        modules:
+          - papi/7.0.0.2
+      - spec: papi@7.0.1.1
+        modules:
+          - papi/7.0.1.1
+  pcre2:
+    buildable: false
+    externals:
+      - spec: pcre2@10.39
+        prefix: /usr
+  pigz:
+    buildable: false
+    externals:
+      - spec: pigz@2.3.3
+        prefix: /usr
+  protobuf:
+    buildable: false
+    externals:
+      - spec: protobuf@3.19.2
+        prefix: /opt/rocm-5.5.1/lib/rdc/grpc
+  qt:
+    buildable: false
+    externals:
+      - spec: qt@5.15.2
+        prefix: /usr
+  re2c:
+    buildable: false
+    externals:
+      - spec: re2c@1.0.3
+        prefix: /usr
+  readline:
+    buildable: false
+    externals:
+      - spec: readline@4.4
+        prefix: /usr
+  sed:
+    buildable: false
+    externals:
+      - spec: sed@4.4
+        prefix: /usr
+  snappy:
+    buildable: false
+    externals:
+      - spec: snappy@1.1.8
+        prefix: /usr
+  sqlite:
+    buildable: false
+    externals:
+      - spec: sqlite@3.39.3
+        prefix: /usr
+  tar:
+    buildable: false
+    externals:
+      - spec: tar@1.34
+        prefix: /usr
+  util-linux-uuid:
+    buildable: false
+    externals:
+      - spec: util-linux-uuid@2.37.2
+        prefix: /usr
+  xcb-util:
+    buildable: false
+    externals:
+      - spec: xcb-util@0.4.0
+        prefix: /usr
+  xcb-util-image:
+    buildable: false
+    externals:
+      - spec: xcb-util-image@0.4.0
+        prefix: /usr
+  xcb-util-keysyms:
+    buildable: false
+    externals:
+      - spec: xcb-util-keysyms@0.4.0
+        prefix: /usr
+  xcb-util-renderutil:
+    buildable: false
+    externals:
+      - spec: xcb-util-renderutil@0.3.9
+        prefix: /usr
+  xz:
+    buildable: false
+    externals:
+      - spec: xz@5.2.3
+        prefix: /usr
+  yaml-cpp:
+    buildable: false
+    externals:
+      - spec: yaml-cpp@0.6.3
+        prefix: /usr
+  zlib:
+    buildable: true
+    externals:
+      - spec: zlib@1.2.11
+        prefix: /usr
+  zstd:
+    buildable: false
+    externals:
+      - spec: zstd@1.5.0
+        prefix: /usr
+

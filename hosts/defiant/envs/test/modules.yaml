@@ -34,8 +34,8 @@ modules:
       hash_length: 0
       exclude_implicits: true
       naming_scheme: '{name}/{version}'
-        #hierarchy:
-        #- mpi
+      hierarchy:
+        - mpi
       projections:
         all: '{name}/{version}'
         ^mpi: '{name}/{version}'
@@ -44,7 +44,7 @@ modules:
       all:
         environment:
           set:
-            'OLCF_{name}_ROOT': '{prefix}'
+            'OLCF_${PACKAGE}_ROOT': '{prefix}'
         autoload: none
       exclude:
       - comgr
@@ -137,15 +137,29 @@ modules:
       - py-jupyter-core
       - py-jupyter-events
       - py-jupyterhub
+      - py-jupyterhub%gcc
+      - py-jupyterhub%gcc
+      - py-jupyterhub%gcc
+      - py-jupyterhub%gcc
+      - py-jupyterhub%gcc
+      - py-jupyterhub%gcc
+      - py-jupyterhub%gcc
+      - py-jupyterhub%gcc
       - py-jupyterlab-pygments
       - py-jupyter-packaging
       - py-jupyter-server
       - py-jupyter-server-terminals
       - py-jupyter-telemetry
       - py-mako
+      - py-mako
+      - py-mako
+      - py-markupsafe
+      - py-markupsafe
       - py-markupsafe
       - py-matplotlib-inline
       - py-mistune
+      - py-mpi4py
+      - py-mpi4py
       - py-mpi4py
       - py-nbclassic
       - py-nbclient
@@ -154,6 +168,16 @@ modules:
       - py-nest-asyncio
       - py-notebook
       - py-notebook-shim
+      - py-numpy
+      - py-numpy
+      - py-numpy
+      - py-numpy
+      - py-numpy
+      - py-numpy
+      - py-numpy
+      - py-numpy
+      - py-numpy
+      - py-numpy
       - py-numpy
       - py-oauthlib
       - py-overrides
@@ -165,6 +189,8 @@ modules:
       - py-pexpect
       - py-pickleshare
       - py-pip
+      - py-pip
+      - py-pip
       - py-platformdirs
       - py-pluggy
       - py-poetry-core
@@ -173,6 +199,8 @@ modules:
       - py-psutil
       - py-ptyprocess
       - py-pure-eval
+      - py-pycairo
+      - py-pycairo
       - py-pycairo
       - py-pycparser
       - py-pygments
@@ -192,6 +220,9 @@ modules:
       - py-ruamel-yaml-clib
       - py-semantic-version
       - py-send2trash
+      - py-setuptools
+      - py-setuptools
+      - py-setuptools
       - py-setuptools
       - py-setuptools-rust
       - py-setuptools-scm
@@ -214,6 +245,8 @@ modules:
       - py-webcolors
       - py-webencodings
       - py-websocket-client
+      - py-wheel
+      - py-wheel
       - py-wheel
       - py-zipp
       - py-zope-event

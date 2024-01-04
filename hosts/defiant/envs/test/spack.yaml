@@ -8,15 +8,12 @@ spack:
   - compilers.yaml
   - modules.yaml
   - packages.yaml
+  - packages-builtin.yaml
 
   definitions:
 
   - core_compiler:
     - '%gcc@7.5.0'
-  - gnu_compilers:
-    - '%gcc@12.2.0'
-  - cray_compilers:
-    - '%cce@16.0.1'
   - amd_compilers:
     - '%rocmcc@5.5.1'
 
@@ -28,6 +25,7 @@ spack:
     - ccache
     - cmake
     - cups
+    - expat ^libbsd@0.11.7
     - exuberant-ctags
     - gnupg
     - go
@@ -48,14 +46,12 @@ spack:
     - openjdk
     - py-jupyterhub
     - py-numpy@1.23.3
-    - qt
+    - qt +opengl
     - rust
     - sqlite
     - subversion
     - tcl
     - texinfo
-    - tmux
-    - unzip
     - zlib
     - zstd
   - amd_packages:
@@ -92,33 +88,33 @@ spack:
     - rocthrust
     - roctracer-dev
   - e4s_packages:
-    - arpack-ng@3.9.0 ^openblas
+    - arpack-ng@3.9.0 ^cray-libsci
     - boost@1.83.0 +mpi+python+numpy+thread cxxstd=17
     - darshan-runtime@3.4.0 scheduler=slurm
-    - darshan-util@3.4.0
-    - globalarrays@5.8.2 ^openblas
+    - darshan-util@3.4.0 +bzip2
+    - globalarrays@5.8.2 +scalapack ^cray-libsci
     - hdf5@1.14.3 +cxx+fortran
     - kokkos-kernels@4.0.00 +openmp
     - nco@5.1.6
-    - netlib-scalapack@2.2.0 ^openblas
+    - netlib-scalapack@2.2.0 ^cray-libsci
     - parsec@3.0.2209 ~cuda
-    - plasma@23.8.2 ^openblas
+    - plasma@23.8.2 ^cray-libsci
     - stat@4.2.1
-    - tau@2.33 +mpi+python~pdt # ROCm 4.3.0 is latest in docs so doing non-gpu
+    - tau@2.33 +mpi+python+x86_64~pdt # ROCm 4.3.0 is latest in docs so doing non-gpu
     - visit@3.3.3 ~conduit
   - e4s_rocm_packages:
-    - adios2@2.9.2 ~python
+    - adios2@2.9.2 +hdf5+python
     - amrex@22.11 dimensions=3
-    - blaspp@2023.08.25 ^openblas
-    - hpx@1.9.1 cxxstd=17 ^boost cxxstd=17 ^asio cxxstd=17
-    - hypre@2.29.0 ^openblas
+    - blaspp@2023.08.25 ^cray-libsci
+    - hpx@1.9.1 cxxstd=17
+    - hypre@2.29.0 ^cray-libsci
     - kokkos@4.0.00 +openmp
-    - lapackpp@2023.08.25 ^openblas
-    - magma@2.7.2 ^openblas
+    - lapackpp@2023.08.25 ^cray-libsci
+    - magma@2.7.2 ^cray-libsci
     - paraview@5.11.2
-    - petsc@3.20.1 ^openblas
-    - slate@2023.08.25 ^openblas
-    - superlu-dist@8.1.2 ^openblas
+    - petsc@3.20.1 ^cray-libsci
+    - slate@2023.08.25 ^cray-libsci
+    - superlu-dist@8.1.2 ^cray-libsci
     - upcxx@2023.3.0 +mpi
     - vtk-m@2.0.0
 
@@ -130,21 +126,9 @@ spack:
   - amd_specs:
     - matrix:
       - - $amd_packages
-      - - '@5.5.1 %gcc@12.2.0'
-        - '@5.5.1 %rocmcc@5.5.1'
-        - '@5.5.1 %cce@16.0.1'
+      - - '@5.5.1 %rocmcc@5.5.1'
       - - arch=linux-sles15-x86_64
-  - PrgEnv-gnu_specs:
-    - matrix:
-      - - $e4s_packages
-      - - $gnu_compilers
-      - - arch=linux-sles15-x86_64
-  - PrgEnv-gnu-rocm_specs:
-    - matrix:
-      - - $e4s_rocm_packages
-      - - $gnu_compilers
-      - - '+rocm amdgpu_target=gfx908'
-      - - arch=linux-sles15-x86_64
+
   - PrgEnv-amd_specs:
     - matrix:
       - - $e4s_packages
@@ -156,29 +140,14 @@ spack:
       - - $amd_compilers
       - - '+rocm amdgpu_target=gfx908'
       - - arch=linux-sles15-x86_64
-  - PrgEnv-cray_specs:
-    - matrix:
-      - - $e4s_packages
-      - - $cray_compilers
-      - - arch=linux-sles15-x86_64
       exclude:
-      - plasma # cce conflict
-  - PrgEnv-cray-rocm_specs:
-    - matrix:
-      - - $e4s_rocm_packages
-      - - $cray_compilers
-      - - '+rocm amdgpu_target=gfx908'
-      - - arch=linux-sles15-x86_64
+      - '^cray-libsci'
 
   specs:
   - $core_specs
-    #- $amd_specs
-  - $PrgEnv-gnu_specs
-  - $PrgEnv-gnu-rocm_specs
+  - $amd_specs
   - $PrgEnv-amd_specs
   - $PrgEnv-amd-rocm_specs
-  - $PrgEnv-cray_specs
-  - $PrgEnv-cray-rocm_specs
 
   view: false
 

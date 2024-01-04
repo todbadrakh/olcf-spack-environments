@@ -12,54 +12,22 @@ packages:
       dsmml: [cray-dsmml]
       dyninst: [cray-dyninst]
       fftw: [cray-fftw]
-      hdf5: [cray-hdf5-parallel, cray-hdf5]
       lapack: [cray-libsci, openblas]
       clapack: [cray-libsci, openblas]
       mpi: [cray-mpich]  
       parallel-netcdf: [cray-parallel-netcdf]
-
-  ### Already-installed packages -------------------------------------------------------------------
-  dyninst:
-    buildable: false
-    externals:
-      - spec: dyninst@12.3.0
-        modules:
-          - cray-dyninst/12.3.0
-  gtkplus:
-    buildable: false
-    externals:
-      - spec: gtkplus@3.24.34
-        prefix: /usr
-  papi:
-    buildable: false
-    externals:
-      - spec: papi@6.0.0.16
-        modules:
-          - papi/6.0.0.16
-      - spec: papi@7.0.0.1
-        modules:
-          - papi/7.0.0.1
-      - spec: papi@7.0.0.2
-        modules:
-          - papi/7.0.0.2
-      - spec: papi@7.0.1.1
-        modules:
-          - papi/7.0.1.1
-  unzip:
-    buildable: false
-    externals:
-      - spec: unzip@6.0
-        prefix: /usr
+      tbb: [intel-oneapi-tbb]
+ 
   ### Cray packages --------------------------------------------------------------------------------
   comgr:
     buildable: false
     externals:
       - spec: comgr@5.5.1
         prefix: /opt/rocm-5.5.1
-  cray-dyninst:
+  dyninst:
     buildable: false
     externals:
-      - spec: cray-dyninst@12.3.0
+      - spec: dyninst@12.3.0
         modules:
           - cray-dyninst/12.3.0
   cray-fftw:
@@ -74,10 +42,10 @@ packages:
       - spec: cray-hdf5@1.12.2.7
         modules:
           - cray-hdf5/1.12.2.7
-  cray-hdf5-parallel:
-    buildable: false
+  hdf5:
+    buildable: true
     externals:
-      - spec: cray-hdf5-parallel@1.12.2.7
+      - spec: hdf5@1.12.2.7
         modules:
           - cray-hdf5-parallel/1.12.2.7
   cray-mrnet:
@@ -89,24 +57,14 @@ packages:
   cray-libsci:
     buildable: false
     externals:
-      - spec: cray-libsci@23.09.1.1 %gcc
-        prefix: /opt/cray/pe/libsci/23.09.1.1/GNU/10.3/x86_64
       - spec: cray-libsci@23.09.1.1 %rocmcc
         prefix: /opt/cray/pe/libsci/23.09.1.1/AMD/5.0/x86_64
-      - spec: cray-libsci@23.09.1.1 %cce
-        prefix: /opt/cray/pe/libsci/23.09.1.1/CRAY/12.0/x86_64
   cray-mpich:
     buildable: false
     externals:
-      - spec: cray-mpich@8.1.27 %gcc
-        prefix: /opt/cray/pe/mpich/8.1.27/ofi/gnu/9.1
-        modules: [cray-mpich,libfabric]
       - spec: cray-mpich@8.1.27 %rocmcc
         prefix: /opt/cray/pe/mpich/8.1.27/ofi/amd/5.0
-        modules: [cray-mpich,libfabric]
-      - spec: cray-mpich@8.1.27 %cce
-        prefix: /opt/cray/pe/mpich/8.1.27/ofi/crayclang/14.0
-        modules: [cray-mpich,libfabric]
+        modules: [libfabric]
   cray-parallel-netcdf:
     buildable: false
     externals:
