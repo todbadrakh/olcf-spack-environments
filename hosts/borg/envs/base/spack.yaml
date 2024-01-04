@@ -22,7 +22,7 @@ spack:
     - $gcc_compilers
     - $cray_compilers
     - $amd_compilers
-  
+
   - core_packages:
     - git
     - htop
@@ -55,7 +55,7 @@ spack:
     - openblas@0.3.17 threads=none
     - openblas@0.3.17 threads=openmp
     - openblas@0.3.17 threads=pthreads
-  
+
   - e4s_21.11_cpu_specs:
     - adios2@2.7.1 ~python
     #### - adios@1.13.1
@@ -219,7 +219,7 @@ spack:
     - matrix:
       - - $e4s_22.02_gpu_specs
       - - ^hip@5.1.0 ^hsa-rocr-dev@5.1.0 ^llvm-amdgpu@5.1.0
-  
+
   ### Tuguldur T Odbadrakh 12/29/2023 Borg ---------------------------------------------------------
   - e4s_21.11_gpu_packages_rocm5.7.1:
     - matrix:
@@ -230,7 +230,6 @@ spack:
       - - $e4s_22.02_gpu_specs
       - - ^hip@5.7.1 ^hsa-rocr-dev@5.7.1 ^llvm-amdgpu@5.7.1
   ### ----------------------------------------------------------------------------------------------
-  
   - core_specs:
     - matrix:
       - - $core_packages
@@ -263,7 +262,7 @@ spack:
       - trilinos@:13.2.0+rocm # FIXME
       - unifyfs%gcc@11.2.0
     ### Tuguldur T Odbadrakh 12/29/2023 Borg -------------------------------------------------------
-        - matrix:
+    - matrix:
       - - $e4s_21.11_cpu_specs
         - $e4s_21.11_gpu_packages_rocm5.1.0
         - $e4s_22.02_cpu_specs
@@ -272,7 +271,6 @@ spack:
       - - '%gcc@12.2.0'
       - - arch=cray-sles15-zen3
     ### --------------------------------------------------------------------------------------------
-    
   - cpe_cce_specs:
     - matrix:
       - - $e4s_21.11_cpu_specs
@@ -434,4 +432,17 @@ spack:
   repos:
   - ${FACSPACK_CONF_COMMON}/spack/repos/olcf
   view: false
-
+  compilers:
+  - compiler:
+      spec: gcc@=7.5.0
+      paths:
+        cc: /usr/bin/gcc
+        cxx: /usr/bin/g++
+        f77: /usr/bin/gfortran
+        fc: /usr/bin/gfortran
+      flags: {}
+      operating_system: sles15
+      target: x86_64
+      modules: []
+      environment: {}
+      extra_rpaths: []

@@ -37,7 +37,6 @@ compilers:
       cxx: /opt/cray/pe/cce/16.0.1/bin/crayCC
       f77: /opt/cray/pe/cce/16.0.1/bin/crayftn
       fc: /opt/cray/pe/cce/16.0.1/bin/crayftn
-    flags: {}
     operating_system: sles15
     target: any
     environment:
