@@ -5,9 +5,12 @@
 spack:
   include:
   - config.yaml
+  - concretizer.yaml
   - compilers.yaml
+  - mirrors.yaml
   - modules.yaml
   - packages.yaml
+  - repos.yaml
 
   definitions:
 

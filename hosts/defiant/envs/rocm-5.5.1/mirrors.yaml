@@ -1,0 +1,5 @@
+# Tuguldur T Odbadrakh 1/5/2023 Defiant
+
+mirrors:
+  facility_builds: /sw/defiant/spack/bmirrors
+  source_mirror: /sw/defiant/spack/smirrors
