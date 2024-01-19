@@ -25,10 +25,8 @@ modules:
     : - CMAKE_PREFIX_PATH
   default:
     roots:
-      #tcl: ${FACSPACK_ENV_MODULEROOT}/flat
-      #lmod: ${FACSPACK_ENV_MODULEROOT}/spack
-      tcl: /sw/borg/.testing/base/modules/flat
-      lmod: /sw/borg/.testing/base/modules/spack
+      tcl: ${FACSPACK_ENV_MODULEROOT}/flat
+      lmod: ${FACSPACK_ENV_MODULEROOT}/spack
     enable:
     - lmod
     - tcl

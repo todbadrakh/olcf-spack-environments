@@ -34,4 +34,3 @@ config:
   connect_timeout: 10
   test_stage: ~/.spack/test
   concretization: separately
-  view: false

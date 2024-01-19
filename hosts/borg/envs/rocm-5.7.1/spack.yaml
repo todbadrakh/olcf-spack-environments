@@ -1,0 +1,87 @@
+# OLCF Borg Spack Environment
+# Tuguldur T Odbadrakh 12/29/2023 Borg
+
+spack:
+  view: false
+  include:
+  - config.yaml
+  - concretizer.yaml
+  - compilers.yaml
+  - mirrors.yaml
+  - modules.yaml
+  - packages.yaml
+  - repos.yaml
+
+  definitions:
+  - core_compiler:
+    - '%gcc@7.5.0'
+  - gcc_compilers:
+    - '%gcc@12.2.0'
+  - cray_compilers:
+    - '%cce@17.0.0'
+  - amd_compilers:
+    - '%clang@17.0.0-rocm5.7.1'
+  - all_compilers:
+    - $gcc_compilers
+    - $cray_compilers
+    - $amd_compilers
+
+  - e4s_21.11_gpu_specs:
+    - amrex@21.11 +rocm~cuda amdgpu_target=gfx90a
+    - chai@2.4.0 ~benchmarks~examples~tests+rocm~cuda amdgpu_target=gfx90a
+    - datatransferkit@3.1-rc3 ^superlu-dist+rocm amdgpu_target=gfx90a
+    - ginkgo@1.4.0+rocm~cuda amdgpu_target=gfx90a
+    - kokkos@3.4.01 +rocm~cuda~wrapper~openmp amdgpu_target=gfx908
+    - kokkos@3.5.00 +rocm~cuda~wrapper~openmp amdgpu_target=gfx90a
+    - magma@2.6.1 +rocm~cuda amdgpu_target=gfx90a
+    - omega-h@9.34.1 ^superlu-dist+rocm amdgpu_target=gfx90a
+    - petsc@3.16.4 ~cuda+rocm amdgpu_target=gfx90a ^superlu-dist+rocm amdgpu_target=gfx90a
+    - precice@2.3.0 ^superlu-dist+rocm amdgpu_target=gfx90a
+    - raja@0.14.0 ~exercises~examples~tests+rocm~cuda~openmp amdgpu_target=gfx90a
+    - slate@2021.05.02 +rocm~cuda amdgpu_target=gfx90a
+    - strumpack@6.1.0 ~slate+rocm~cuda amdgpu_target=gfx90a
+    - sundials@5.8.0 +rocm~cuda amdgpu_target=gfx90a
+    - superlu-dist@7.1.1 ~cuda+rocm amdgpu_target=gfx90a
+    - tasmanian@7.7 +rocm~cuda amdgpu_target=gfx90a
+    - trilinos@13.0.1 ~cuda~wrapper+rocm amdgpu_target=gfx90a ^superlu-dist+rocm amdgpu_target=gfx90a
+    - trilinos@13.2.0 ~cuda~wrapper+rocm amdgpu_target=gfx90a ^superlu-dist+rocm amdgpu_target=gfx90a
+    - umpire@6.0.0 +shared+rocm~cuda amdgpu_target=gfx90a
+  - e4s_22.02_gpu_specs:
+    # Minimal diff from v21.11
+    - amrex@22.02 +rocm~cuda amdgpu_target=gfx90a
+    - kokkos@3.5.00 +rocm~cuda~wrapper~openmp amdgpu_target=gfx90a
+    - strumpack@6.3.0 ~slate+rocm~cuda amdgpu_target=gfx90a
+    - sundials@6.1.1 +rocm~cuda amdgpu_target=gfx90a
+
+  - e4s_21.11_gpu_packages_rocm5.7.1:
+    - matrix:
+      - - $e4s_21.11_gpu_specs
+      - - ^hip@5.7.1 ^hsa-rocr-dev@5.7.1 ^llvm-amdgpu@5.7.1
+  - e4s_22.02_gpu_packages_rocm5.7.1:
+    - matrix:
+      - - $e4s_22.02_gpu_specs
+      - - ^hip@5.7.1 ^hsa-rocr-dev@5.7.1 ^llvm-amdgpu@5.7.1
+  
+  - cpe_gcc_specs:
+    - matrix:
+      - - $e4s_21.11_gpu_packages_rocm5.7.1
+        - $e4s_22.02_gpu_packages_rocm5.7.1
+      - - '%gcc@12.2.0'
+      - - arch=linux-sles15-zen3
+  - cpe_cce_specs:
+    - matrix:
+      - - $e4s_21.11_gpu_packages_rocm5.7.1
+        - $e4s_22.02_gpu_packages_rocm5.7.1
+      - - '%cce@17.0.0'
+      - - arch=linux-sles15-zen3
+  - cpe_amd_specs:
+    - matrix:
+      - - $e4s_21.11_gpu_packages_rocm5.7.1
+        - $e4s_22.02_gpu_packages_rocm5.7.1
+      - - '%clang@17.0.0-rocm5.7.1'
+      - - arch=linux-sles15-zen3
+
+  specs:
+  - $cpe_gcc_specs
+  - $cpe_cce_specs
+  - $cpe_amd_specs

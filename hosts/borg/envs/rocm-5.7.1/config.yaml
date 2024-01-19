@@ -5,7 +5,7 @@ config:
   install_tree:
     root: ${FACSPACK_ENV}/opt
     projections:
-      all: ${ARCHITECTURE}/${COMPILERNAME}-${COMPILERVER}/${PACKAGE}-${VERSION}-${HASH}
+      all: '{architecture}/{compiler.name}-{compiler.version}/{name}-{version}-{hash}'
   template_dirs:
   - ${FACSPACK_CONF_HOST}/templates
   - ${FACSPACK_CONF_COMMON}/spack/templates
