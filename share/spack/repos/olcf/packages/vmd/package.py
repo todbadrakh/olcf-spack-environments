@@ -24,7 +24,7 @@ class Vmd(Package):
     homepage = "https://www.ks.uiuc.edu/Research/vmd/"
     url      = "http://www.ks.uiuc.edu/Research/vmd/vmd-1.9.3/files/final/vmd-1.9.3.bin.LINUXAMD64-CUDA8-OptiX4-OSPRay111p1.opengl.tar.gz"
     version('1.9.3',
-            sha256sum='9427a7acb1c7809525f70f635bceeb7eff8e7574e7e3565d6f71f3d6ce405a71',
+            #sha256sum='9427a7acb1c7809525f70f635bceeb7eff8e7574e7e3565d6f71f3d6ce405a71',
             url='http://www.ks.uiuc.edu/Research/vmd/vmd-1.9.3/files/final/vmd-1.9.3.bin.LINUXAMD64-CUDA8-OptiX4-OSPRay111p1.opengl.tar.gz')
 
     phases = ['configure', 'install']

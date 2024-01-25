@@ -26,7 +26,7 @@ modules:
     : - CMAKE_PREFIX_PATH
   default:
     roots:
-      lmod: /sw/defiant/modules/rocm-5.5.1 #${FACSPACK_ENV_MODULEROOT}
+      lmod: ${FACSPACK_ENV_MODULEROOT}
     enable:
     - lmod
     lmod:

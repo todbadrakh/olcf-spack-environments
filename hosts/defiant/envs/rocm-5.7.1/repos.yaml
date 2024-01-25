@@ -1,0 +1,4 @@
+# Tuguldur T Odbadrakh 1/5/2023 Defiant
+
+repos:
+  - ${FACSPACK_CONF_COMMON}/spack/repos/olcf

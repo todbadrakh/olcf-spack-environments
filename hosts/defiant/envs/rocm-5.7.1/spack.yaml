@@ -21,7 +21,7 @@ spack:
   - cray_compilers:
     - '%cce@16.0.1'
   - amd_compilers:
-    - '%rocmcc@5.5.1'
+    - '%rocmcc@5.7.1'
 
   - core_packages:
     - autoconf
@@ -80,17 +80,17 @@ spack:
     - visit@3.3.3 ~conduit
   - e4s_rocm_packages:
     - adios2@2.9.2 ~python 
-    - amrex@22.11 dimensions=3 ^hiprand@5.5.1 ^rocprim@5.5.1 ^rocrand@5.5.1
+    - amrex@22.11 dimensions=3 ^hiprand@5.7.1 ^rocprim@5.7.1 ^rocrand@5.7.1
     - blaspp@2023.08.25
-    - hpx@1.9.1
-    - hypre@2.29.0 ^rocprim@5.5.1 ^rocrand@5.5.1 ^rocsparse@5.5.1 ^rocthrust@5.5.1
+    - hpx@1.9.1 cxxstd=17 ^boost cxxstd=17 ^asio cxxstd=17
+    - hypre@2.29.0 ^rocprim@5.7.1 ^rocrand@5.7.1 ^rocsparse@5.7.1 ^rocthrust@5.7.1
     - kokkos@4.0.00 +openmp
-    - lapackpp@2023.08.25 ^rocblas@5.5.1 ^rocsolver@5.5.1
-    - magma@2.7.2 ^hipblas@5.5.1 ^hipsparse@5.5.1
+    - lapackpp@2023.08.25 ^rocblas@5.7.1 ^rocsolver@5.7.1
+    - magma@2.7.2 ^hipblas@5.7.1 ^hipsparse@5.7.1
     - paraview@5.11.2
-    - petsc@3.20.1 ^hipblas@5.5.1 ^hipsolver@5.5.1 ^hipsparse@5.5.1 ^rocblas@5.5.1 ^rocprim@5.5.1 ^rocrand@5.5.1 ^rocsolver@5.5.1
+    - petsc@3.20.1 ^hipblas@5.7.1 ^hipsolver@5.7.1 ^hipsparse@5.7.1 ^rocblas@5.7.1 ^rocprim@5.7.1 ^rocrand@5.7.1 ^rocsolver@5.7.1
     - slate@2023.08.25
-    - superlu-dist@8.1.2 ^hipblas@5.5.1 ^rocsolver@5.5.1
+    - superlu-dist@8.1.2 ^hipblas@5.7.1 ^rocsolver@5.7.1
     - upcxx@2023.3.0 +mpi
     - vtk-m@2.0.0
 
@@ -108,7 +108,7 @@ spack:
     - matrix:
       - - $e4s_rocm_packages
       - - $gnu_compilers
-      - - '+rocm amdgpu_target=gfx908 ^hip@5.5.1 ^hsa-rocr-dev@5.5.1 ^llvm-amdgpu@5.5.1'
+      - - '+rocm amdgpu_target=gfx908 ^hip@5.7.1 ^hsa-rocr-dev@5.7.1 ^llvm-amdgpu@5.7.1'
       - - arch=linux-sles15-x86_64
   - PrgEnv-amd_specs:
     - matrix:
@@ -119,7 +119,7 @@ spack:
     - matrix:
       - - $e4s_rocm_packages
       - - $amd_compilers
-      - - '+rocm amdgpu_target=gfx908 ^hip@5.5.1 ^hsa-rocr-dev@5.5.1 ^llvm-amdgpu@5.5.1'
+      - - '+rocm amdgpu_target=gfx908 ^hip@5.7.1 ^hsa-rocr-dev@5.7.1 ^llvm-amdgpu@5.7.1'
       - - arch=linux-sles15-x86_64
   - PrgEnv-cray_specs:
     - matrix:
@@ -132,7 +132,7 @@ spack:
     - matrix:
       - - $e4s_rocm_packages
       - - $cray_compilers
-      - - '+rocm amdgpu_target=gfx908 ^hip@5.5.1 ^hsa-rocr-dev@5.5.1 ^llvm-amdgpu@5.5.1'
+      - - '+rocm amdgpu_target=gfx908 ^hip@5.7.1 ^hsa-rocr-dev@5.7.1 ^llvm-amdgpu@5.7.1'
       - - arch=linux-sles15-x86_64
 
   specs:
