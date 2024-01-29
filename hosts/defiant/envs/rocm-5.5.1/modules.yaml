@@ -59,6 +59,7 @@ modules:
       - hipsparse
       - hsa-rocr-dev
       - hsakmt-roct
+      - launchmon
       - llvm-amdgpu
       - rccl
       - rocalution

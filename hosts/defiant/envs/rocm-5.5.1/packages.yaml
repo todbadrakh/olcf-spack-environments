@@ -7,24 +7,25 @@ packages:
   all:
     buildable: true
     providers:
-      blas: [cray-libsci, openblas]
-      cblas: [cray-libsci, openblas]
+      blas: [openblas, cray-libsci]
+      cblas: [openblas, cray-libsci]
       dsmml: [cray-dsmml]
-      dyninst: [cray-dyninst]
+        #      dyninst: [cray-dyninst]
       fftw: [cray-fftw]
       hdf5: [cray-hdf5-parallel, cray-hdf5]
-      lapack: [cray-libsci, openblas]
-      clapack: [cray-libsci, openblas]
+      lapack: [openblas, cray-libsci]
+      clapack: [openblas, cray-libsci]
       mpi: [cray-mpich]  
       parallel-netcdf: [cray-parallel-netcdf]
+      tbb: [intel-oneapi-tbb]
 
   ### Already-installed packages -------------------------------------------------------------------
-  dyninst:
-    buildable: false
-    externals:
-      - spec: dyninst@12.3.0
-        modules:
-          - cray-dyninst/12.3.0
+  #  dyninst:
+  #    buildable: false
+  #    externals:
+  #      - spec: dyninst@12.3.0
+  #        modules:
+  #          - cray-dyninst/12.3.0
   gtkplus:
     buildable: false
     externals:

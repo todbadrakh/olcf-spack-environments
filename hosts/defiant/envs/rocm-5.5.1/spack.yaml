@@ -81,7 +81,7 @@ spack:
   - e4s_rocm_packages:
     - adios2@2.9.2 ~python 
     - amrex@22.11 dimensions=3 ^hiprand@5.5.1 ^rocprim@5.5.1 ^rocrand@5.5.1
-    - blaspp@2023.08.25
+    - blaspp@2023.08.25 ^openblas
     - hpx@1.9.1
     - hypre@2.29.0 ^rocprim@5.5.1 ^rocrand@5.5.1 ^rocsparse@5.5.1 ^rocthrust@5.5.1
     - kokkos@4.0.00 +openmp
@@ -139,10 +139,10 @@ spack:
   - $core_specs
   - $PrgEnv-gnu_specs
   - $PrgEnv-gnu-rocm_specs
-    #- $PrgEnv-amd_specs
-    #- $PrgEnv-amd-rocm_specs
-    #- $PrgEnv-cray_specs
-    #- $PrgEnv-cray-rocm_specs
+  - $PrgEnv-amd_specs
+  - $PrgEnv-amd-rocm_specs
+  - $PrgEnv-cray_specs
+  - $PrgEnv-cray-rocm_specs
 
   view: false
 
