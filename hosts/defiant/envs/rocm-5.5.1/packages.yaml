@@ -10,7 +10,7 @@ packages:
       blas: [openblas, cray-libsci]
       cblas: [openblas, cray-libsci]
       dsmml: [cray-dsmml]
-        #      dyninst: [cray-dyninst]
+      dyninst: [intel-tbb]
       fftw: [cray-fftw]
       hdf5: [cray-hdf5-parallel, cray-hdf5]
       lapack: [openblas, cray-libsci]

@@ -33,6 +33,7 @@ spack:
     - ccache
     - cmake
     - cups
+    - dyninst ^intel-tbb
     - exuberant-ctags
     - go
     - googletest cxxstd=17
@@ -73,6 +74,7 @@ spack:
     - kokkos-kernels@4.0.00 +openmp
     - nco@5.0.1
     - netlib-scalapack@2.2.0 
+    - openblas@0.3.24 
     - parsec@3.0.2209 ~cuda
     - plasma@23.8.2 
     - stat@4.2.1
@@ -82,12 +84,12 @@ spack:
     - adios2@2.9.2 ~python 
     - amrex@22.11 dimensions=3 ^hiprand@5.5.1 ^rocprim@5.5.1 ^rocrand@5.5.1
     - blaspp@2023.08.25 ^openblas
-    - hpx@1.9.1
+    - hpx cxxstd=17 ^boost cxxstd=17 ^asio cxxstd=17
     - hypre@2.29.0 ^rocprim@5.5.1 ^rocrand@5.5.1 ^rocsparse@5.5.1 ^rocthrust@5.5.1
     - kokkos@4.0.00 +openmp
     - lapackpp@2023.08.25 ^rocblas@5.5.1 ^rocsolver@5.5.1
     - magma@2.7.2 ^hipblas@5.5.1 ^hipsparse@5.5.1
-    - paraview@5.11.2
+    - paraview@5.11.2 cppflags="-Wno-error=incompatible-function-pointer-types"
     - petsc@3.20.1 ^hipblas@5.5.1 ^hipsolver@5.5.1 ^hipsparse@5.5.1 ^rocblas@5.5.1 ^rocprim@5.5.1 ^rocrand@5.5.1 ^rocsolver@5.5.1
     - slate@2023.08.25
     - superlu-dist@8.1.2 ^hipblas@5.5.1 ^rocsolver@5.5.1

@@ -45,7 +45,7 @@ compilers:
     environment:
       set:
         RFE_811452_DISABLE: '1'
-        GCC_X86_64: /opt/cray/pe/gcc/12.2.0/snos
+        GCC_X86_64: /opt/cray/pe/gcc/10.3.0/snos
       prepend_path:
         LD_LIBRARY_PATH: /opt/cray/pe/gcc-libs
     extra_rpaths:
