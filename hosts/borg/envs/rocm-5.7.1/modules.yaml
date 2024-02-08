@@ -35,7 +35,7 @@ modules:
       all:
         environment:
           set:
-            OLCF_{NAME}_ROOT: ${PREFIX}
+            OLCF_{NAME}_ROOT: '{prefix}'
         autoload: none
       amrex:
         suffixes:
@@ -151,6 +151,17 @@ modules:
       exclude_implicits: false
       verbose: true
       exclude:
+      - elfutils@=0.189%gcc@=12.2.0/z5wv5tc
+      - hdf5@=1.12.0%gcc@=12.2.0/dt4b3i6
+      - sz@=2.1.12.5%gcc@=12.2.0/xbpaiek
+      - xerces-c@=3.2.4%gcc@=12.2.0/3qe7km7
+      - autoconf
+      - automake
+      - bison
+      - diffutils
+      - hwloc
+      - libxml2
+      - lua-luaposix
       - binutils
       - boost%gcc cxxstd=98
       - boost%gcc visibility=global
@@ -162,7 +173,7 @@ modules:
       - gettext
       - kokkos~rocm
       - libunwind+xz
-      # - libxml2 ^xz~pic
+      - libxml2 ^xz~pic
       - xz~pic
       - z3 ^libuuid
       - gobject-introspection ^cairo+X
@@ -221,19 +232,38 @@ modules:
       - numactl
       - openssh
       - openssl
+      - perl-data-dumper
       - pkgconf
       - popt
+      - py-attrs
+      - py-calver
       - py-certifi
+      - py-cffi
+      - py-cython
       - py-docutils
-      - py-mako
-      - py-markupsafe
-      - py-msgpack
+      - py-editables
+      - py-flit-core
+      - py-hatch-fancy-pypi-readme
+      - py-hatchling
+      - py-hatch-vcs
+      - py-jsonschema
+      - py-packaging
+      - py-packaging
+      - py-pathspec
+      - py-pip
+      - py-pluggy
+      - py-pycparser
+      - py-pyelftools
       - py-pygments
+      - py-pyrsistent
       - py-pyyaml
       - py-setuptools
-      - py-virtualenv
+      - py-setuptools-scm
+      - py-toml
+      - py-tomli
+      - py-trove-classifiers
+      - py-typing-extensions
       - py-wheel
-      - python
       - readline
       - slurm
       - tcl
@@ -298,7 +328,7 @@ modules:
         - '{name}'
         environment:
           set:
-            OLCF_{NAME}_ROOT: ${PREFIX}
+            OLCF_{NAME}_ROOT: '{prefix}'
       verbose: false
       exclude_implicits: false
 

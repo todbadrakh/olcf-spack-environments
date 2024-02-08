@@ -1,0 +1,69 @@
+# OLCF Borg Spack Environment
+# Tuguldur T Odbadrakh 12/29/2023 Borg
+
+spack:
+  view: false
+  include:
+  - config.yaml
+  - concretizer.yaml
+  - compilers.yaml
+  - mirrors.yaml
+  - modules.yaml
+  - packages.yaml
+  - repos.yaml
+
+  definitions:
+  - gcc_compilers:
+    - '%gcc@12.2.0'
+  - cray_compilers:
+    - '%cce@17.0.0'
+  - amd_compilers:
+    - '%rocmcc@5.5.1'
+  - e4s_packages:
+    - boost@1.83.0 +mpi+python+numpy+thread cxxstd=17
+    - darshan-runtime@3.3.1 scheduler=slurm
+    - darshan-util@3.3.1
+    - globalarrays@5.8.2
+    - hdf5@1.14.3 +cxx+fortran
+    - kokkos-kernels@4.0.00 +openmp
+    - nco@5.0.1
+    - netlib-scalapack@2.2.0
+    - openblas@0.3.24
+    - parsec@3.0.2209 ~cuda
+    - plasma@23.8.2
+    - stat@4.2.1
+    - tau@2.33 +mpi+python~pdt # ROCm 4.3.0 is latest in docs so doing non-gpu
+    - visit@3.3.3 ~conduit
+  - e4s_rocm_packages:
+    - adios2@2.9.2 ~python
+    - amrex@22.11 dimensions=3 ^hiprand@5.5.1 ^rocprim@5.5.1 ^rocrand@5.5.1
+    - blaspp@2023.08.25 ^openblas
+    - hpx cxxstd=17 ^boost cxxstd=17 ^asio cxxstd=17
+    - hypre@2.29.0 ^rocprim@5.5.1 ^rocrand@5.5.1 ^rocsparse@5.5.1 ^rocthrust@5.5.1
+    - kokkos@4.0.00 +openmp
+    - lapackpp@2023.08.25 ^rocblas@5.5.1 ^rocsolver@5.5.1
+    - magma@2.7.2 ^hipblas@5.5.1 ^hipsparse@5.5.1
+    - paraview@5.11.2 cppflags="-Wno-error=incompatible-function-pointer-types"
+    - petsc@3.20.1 ^hipblas@5.5.1 ^hipsolver@5.5.1 ^hipsparse@5.5.1 ^rocblas@5.5.1 ^rocprim@5.5.1 ^rocrand@5.5.1 ^rocsolver@5.5.1
+    - slate@2023.08.25
+    - superlu-dist@8.1.2 ^hipblas@5.5.1 ^rocsolver@5.5.1
+    - upcxx@2023.3.0 +mpi
+    - vtk-m@2.0.0
+  
+  - cpe_gcc_cpu_specs:
+    - matrix:
+      - - $e4s_packages
+      - - $gcc_compilers
+      - - arch=linux-sles15-x86_64
+  - cpe_gcc_gpu_specs:
+    - matrix:
+      - - $e4s_rocm_packages
+      - - $gcc_compilers
+      - - '+rocm amdgpu_target=gfx90a ^hip@5.5.1 ^hsa-rocr-dev@5.5.1 ^llvm-amdgpu@5.5.1'
+      - - arch=linux-sles15-x86_64
+
+  
+  specs:
+  - $cpe_gcc_cpu_specs
+  - $cpe_gcc_gpu_specs
+

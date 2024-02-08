@@ -1,0 +1,2144 @@
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/bzip2-1.0.8-pb2vfxjulvaaaz7wx6x3cpgqetxiv63u
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/lz4-1.9.4-ykz3z4s5yarownmo4y4y3slgd5cxa3tg
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/snappy-1.1.10-dr4ftngsqq4txfhb2i6he7mcwkhfid4n
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/zlib-ng-2.1.4-rlovcyzw2muliedhqkme3sxzhf6w6gql
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/zstd-1.5.5-74s56pkoiellpqiem4s7hic3vw77eboi
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/nghttp2-1.57.0-qskpnpkxojf2eqcksfcde6hnnywbgjtz
+[+] /usr (external openssl-1.1.1-os-qbjqykddbqdsy5ajk2v7lb5wmqlzvl4u)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/ncurses-6.4-bdmikzikshl3spedc2ztgdayao32xetz
+==> cray-mpich@8.1.28 : has external module in ['cray-mpich/8.1.28']
+[+] None (external cray-mpich-8.1.28-j36oag6n7x353ro7ugxapvaprvkgxrrl)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex
+[+] /opt/cray/libfabric/1.15.2.0 (external libfabric-1.15.2.0-gwqteiqofickoecpev3ga43b53p74cod)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/mbedtls-2.28.2-4cvgdqcumumgfrg7vpii2m6k7refjs7o
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/xz-5.4.1-pwa5bps3bumpnzlsmeifbbjjmtqg2jdc
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/zlib-ng-2.1.4-vleqlyckwss4f7lmkr7sbmie35t2clpk
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/nghttp2-1.48.0-rn32j3ptnlzims6mvxl52fx4zdsqy4eu
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/gmake-4.4.1-oxotubn45k22ai6iean5bbmaxriafc7u
+==> hip@5.7.1 : has external module in ['amd/5.7.1', 'craype-accel-amd-gfx90a']
+[+] /opt/rocm-5.7.1/hip (external hip-5.7.1-wjdvlxgs4h4lfjfetnvsednzfzxgq4ok)
+[+] /opt/rocm-5.7.1 (external hiprand-5.7.1-uhlpg6mwkjsuth3ubzsbycsa6tntl4ed)
+[+] /opt/rocm-5.7.1 (external hsa-rocr-dev-5.7.1-qrl6guct5ghqqnamqdb7xuopzr2kyfsg)
+[+] /opt/rocm-5.7.1/llvm (external llvm-amdgpu-5.7.1-gp666nibnjg637jxx57rfox5oijxe6io)
+[+] /opt/rocm-5.7.1 (external rocprim-5.7.1-iqo7ambzy2fpqx2a5zmbqmrukd6mjwxw)
+[+] /opt/rocm-5.7.1 (external rocrand-5.7.1-pgvkfl6dtwrwy7gppab5d6tyenhvtlfj)
+[+] /usr (external openssl-1.1.1-os-z4zjkrdbi7mmhrb2awz2qgpy3e2xbwfa)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/libiconv-1.17-ywgioj6f2u7zjbfrf64tvbyjwl5nvkbx
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/ninja-1.10.2-rzqh67zx2mvjbrf5p5izbew4uhbmhe6q
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/libmd-1.0.4-xl4souw3rsi3fpm62umvbvkqcbdel3nq
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/libxcrypt-4.4.35-mwyn5uc6ymu5mbpzuwbv4axm4ohcycvn
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/util-linux-uuid-2.38.1-eb26r3kzp3xnvfs5ztgbqiiagbhd25yo
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s
+[+] /opt/rocm-5.7.1 (external hipblas-5.7.1-j56sgwmgry5eavwjyzfcnr5unx4fnflf)
+[+] /opt/rocm-5.7.1 (external rocsolver-5.7.1-du5cbtvbsurgnqjexe2j3wgpbh7feefu)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/libsodium-1.0.18-r44ff3pdbeoxcgbv3oseycev2646x6mg
+[+] /opt/rocm-5.7.1 (external hipfft-5.7.1-omxfkctjisykv2fbeph5fm4azfcqvsw6)
+[+] /opt/rocm-5.7.1 (external hipsparse-5.7.1-5naecf6pc343iqhnnqw4bkkk3bne7t6d)
+[+] /opt/rocm-5.7.1 (external rocthrust-5.7.1-ndg4zuechurvbtxlnfbshdo5yko7ucrq)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/openjdk-11.0.20.1_1-k2edkjdi3vd23rgyhafpehbdokxp6faz
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/intel-xed-2023.07.09-yezzacojc5bcvvsar4oxl2ecb7wgf4nd
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/libjpeg-turbo-3.0.0-nh7jhcx7agavzxcny33aa65q4bnxie5t
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/ninja-1.11.1-hvqhyxvw64b2fhvnf2kmmyl7kp4t2x7h
+==> cray-libsci@23.12.5 : has external module in ['cpe/23.12', 'cray-libsci/23.12.5']
+[+] None (external cray-libsci-23.12.5-e2xt7gkm2mhir456lfrha7qnvrdz32ln)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/dsfmt-2.2.5-prjml7nv67qpzvkygifldrwlwoyhai5e
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/gmp-6.2.1-67lkvvpfkwbtkphsax2w2fcg5dirwsla
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/libblastrampoline-5.8.0-eu7ao4viowztqucyftanqm3bxgabshdu
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/libunwind-1.6.2-djot3imou4e35kkq2qwqmertno3evm46
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/libuv-julia-1.44.2-7ihtfby4pibphsmlhxgupiniw5felnau
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/libwhich-1.1.0-qzypijyfcjcv7yjksbu5rqjsg27mddfi
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/openlibm-0.8.1-p5bwsbm7vypsm77ynt7dj55tclypnidc
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/p7zip-17.05-5zxw7mcq2q4opkfi7luxggd7peuf7m6w
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/patchelf-0.18.0-fxd6fcyft4ba453cguisv37h57bx5xpf
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/pcre2-10.42-xr2n7yuxywtwqqwdlna7kca6bqayb2vz
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/utf8proc-2.8.0-hpm372jhodhnnkphf4iaai74f4jyrzye
+[+] /opt/rocm-5.7.1 (external hipsolver-5.7.1-a6wi7xwwzl45yxoxblegrrunuoi6gnwz)
+[+] /opt/rocm-5.7.1 (external rocblas-5.7.1-adoupargvj45ze5pykcdqreg75lwi6h3)
+[+] /opt/rocm-5.7.1 (external rocsparse-5.7.1-r3l7hcbodjh7k2uwfmbs3dz4pngdswqj)
+[+] /opt/rocm-5.7.1 (external hipify-clang-5.7.1-yxqttqx26rqq3o5j53ftaocgary7u5nt)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/readline-8.2-qqkoob6tvuabergsam5xfea6b434onl3
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/libedit-3.1-20210216-hegi22fseekdypugr3j3yyjp2zd3canx
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/sed-4.9-irmbhpwtms6lrapj3qhec6pacai64unc
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/metis-5.1.0-5pbezdzhdkbedfbdiwd5xerjd3mctdgr
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/unzip-6.0-p36eda5dv5lwaibhngr4m2hmypgqk4nb
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/pcre-8.45-7wrvuoy3qaa2megewzgc4zu5jfxkh5hc
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/sz-2.1.12.5-vpulqtums6xnikzezjzha5hf4wpt2rbo
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/mbedtls-2.28.2-tnni7uftoodk3sntg2zbfesxrvzshn3v
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libffi-3.4.4-ebes2wlm47mxdx4wbsacg6yb3u4lbgff
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/jansson-2.14-5lonokg7sbr3ncbih4qu56ajttxaazjm
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/libyaml-0.2.5-zglwx5gnevtlcc353xnborln7puldtjh
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/flex-2.6.3-zdomdomgpcyz5yjkptfr462gabi2ge7d
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/flex-2.6.3-ko2xznisd5hzzklbw2clqef5xmctjj4d
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/xproto-7.0.31-bb5i56vmq5al5sz47ls7nof6iianwsjx
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/camp-0.2.3-6asycrbcndjwbsfoxedgmrfznmtvgmux
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/libiberty-2.41-scet4brxjoe6h4kw25nlpxuazpsalf2r
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/lzo-2.10-263vufjhwadiipcfmdk2m7wngzjdra6t
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/libcap-2.68-4lajt2bjwk254rm7f3lvt4gnzxpj6kep
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/binutils-2.41-uymwr6mav5gspyxu63x6dmyszxkmumwd
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/mbedtls-3.3.0-dehtnujtm2fe5pnh4zl2kwaox3y5ddth
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/pkgconf-1.9.5-z5tdzwxru2awxbhxbdlalipu4shdsval
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/numactl-2.0.14-wbqdm6lsvaxxxo5wzgempmsaw77y4usa
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libxcrypt-4.4.35-vu3zja2mmtiyo26q74ycyffc2bmwd2g3
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/pigz-2.7-hwuyeafpstthww4o2wqcthrfrcf47ja2
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/zfp-0.5.5-t7gwr6soyuiniwqfcodk5ng2lcutfyyc
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/icu4c-67.1-kdlcgrfg4x63z5rivdqb36cmrmkxtqqd
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/pcre-8.45-vxomczfuv25gsebl3cjesgksgli7ahey
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/berkeley-db-18.1.40-dby6xfzi2vi4ywmoyav546wypx4jo3zh
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/tcl-8.6.12-4jwqr7kzpu3cjnl7pgjwihbfg3qvk4fh
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libiconv-1.17-ftdn3bsix3bxpwwzfuzq6l5shm5bf5e2
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/xz-5.4.1-dpusr356b4ingvp3ipni2llpbzq4pd6c
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/libmonitor-2023.03.15-l76d767telmw5zdzg6fft2odyxo7leee
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/metis-5.1.0-qjwrmpc5aeawlvdnro73p45ds4bpinin
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/mpark-variant-1.4.0-24c7y7hpyq7ewugtnqffjvccwj4t27g6
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libtool-2.4.6-zvlbguuokghqiwalk4qkf34zg2n6qgxg
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libsigsegv-2.14-7qq6pk3q5radzmhph2i2q5g7i2smpbqw
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libmd-1.0.4-a3uixcro2gl6gztozqkznkdrqxpvhn6s
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/kokkos-3.4.01-hhadirrbe4oims2yb7wygrhdowg45w7f
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/libpthread-stubs-0.4-pygi2s2frydhmfrm6v5dn7rhdu65deep
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libpng-1.6.39-ximayb62w2ttixundnabhmri7d5mhgrn
+==> Installing libquo-1.3.1-twbblp3oynyxpi5uzr4mztyiyaxmqbcz [96/286]
+==> No binary for libquo-1.3.1-twbblp3oynyxpi5uzr4mztyiyaxmqbcz found: installing from source
+Process Process-1:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install libquo due to InstallError: The process has stopped unexpectedly (exit 1)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/eigen-3.4.0-tmaixro66fi6bgxgpejx5imkltrpyhun
+==> Installing lwgrp-1.0.5-3bhooebfn3upv7cq7mchgl4pl4opxepc [98/286]
+==> No binary for lwgrp-1.0.5-3bhooebfn3upv7cq7mchgl4pl4opxepc found: installing from source
+Process Process-2:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Warning: Skipping build of dtcmp-1.1.4-f5ing3gponjvq4fam2jykow74y43bpqg since lwgrp-1.0.5-3bhooebfn3upv7cq7mchgl4pl4opxepc failed
+==> Warning: Skipping build of mpifileutils-0.11.1-wfutkrwf7btb6vwrl3cljdjscb4ihv3w since dtcmp-1.1.4-f5ing3gponjvq4fam2jykow74y43bpqg failed
+==> Error: Failed to install lwgrp due to InstallError: The process has stopped unexpectedly (exit 1)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/patchelf-0.18.0-pmkg5rsbf4hzonyqmkgwbh7wjm3ewttq
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/vtk-m-1.6.0-6nblc3nhkqhocrpsdem65d5225hr6ykg
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/papi-6.0.0.1-e6mfu7n64vmrslrn3js3e6zyplt3dtpe
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/nlohmann-json-3.11.2-imkhrcyvpnuy6le5iagao7na3bmjodi7
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/c-blosc-1.21.5-epknx3kjd66pusvqiwl5bzd5qg5yxcv7
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/exmcutils-0.6.0-l4bawjia625bv5ldvmd34lokgjiirjt2
+==> Installing fftw-3.3.10-exrsuhmzh4msashel4hbrfcwauh6y7kd [105/286]
+==> No binary for fftw-3.3.10-exrsuhmzh4msashel4hbrfcwauh6y7kd found: installing from source
+Process Process-3:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Warning: Skipping build of heffte-2.2.0-ywc4wfjh74gfyowu6r4nslkb5u4tqmsk since fftw-3.3.10-exrsuhmzh4msashel4hbrfcwauh6y7kd failed
+==> Error: Failed to install fftw due to InstallError: The process has stopped unexpectedly (exit 1)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/libssh2-1.10.0-ere2k6mvrne5bhtpgdxgwirjw4oqehdb
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/libpciaccess-0.17-ywg3zvbjblcmsdffhq4whyyimcs7dxt5
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/camp-0.2.3-ebnytj3wixoti4xa6z6epmnzceqdzxnw
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/diffutils-3.9-emvtidw6lras5qx6uop4pry3skehkpnx
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/libbsd-0.11.7-astffplagxrkwobxzyelt33gpxv335a4
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/apr-1.7.4-7ue2wjdlgsl6qeiagg4mg6r4niycvy4w
+==> Installing hypre-2.23.0-lh4vgqytfijgy2rtbxr3jhy5sceem4md [112/286]
+==> No binary for hypre-2.23.0-lh4vgqytfijgy2rtbxr3jhy5sceem4md found: installing from source
+Process Process-4:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Warning: Skipping build of petsc-3.16.4-2vu2hempwbg5q2roz53ivlxagcy6hd76 since hypre-2.23.0-lh4vgqytfijgy2rtbxr3jhy5sceem4md failed
+==> Warning: Skipping build of precice-2.3.0-m3wyuwqmg7duphi5ehhxjecpdjcgn75z since petsc-3.16.4-2vu2hempwbg5q2roz53ivlxagcy6hd76 failed
+==> Warning: Skipping build of slepc-3.16.0-2etweqrvz3xoc7pmly7v6ukeqxetblzx since petsc-3.16.4-2vu2hempwbg5q2roz53ivlxagcy6hd76 failed
+==> Warning: Skipping build of mfem-4.3.0-of64dytk2qff7p2nvfycnglh75c3zuwm since hypre-2.23.0-lh4vgqytfijgy2rtbxr3jhy5sceem4md failed
+==> Error: Failed to install hypre due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing globalarrays-5.8.2-c4e4sih6enmnl5xuhqbem46q2gxvlu5x [113/286]
+==> No binary for globalarrays-5.8.2-c4e4sih6enmnl5xuhqbem46q2gxvlu5x found: installing from source
+Process Process-5:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install globalarrays due to InstallError: The process has stopped unexpectedly (exit 1)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/hpcviewer-2023.07-ta76qjrmos2vqtsb4zu6mzrdeoti6fb2
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libtiff-4.5.1-dqjkktgp5dy6n45loy7gix2clk2anqat
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/mpfr-4.2.0-i2xo6heb247abjfnobxnwoatpd6hkc6f
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/gdbm-1.19-sfrtr3uicryf6iuxnm6po7p63cbifsmy
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/sqlite-3.43.2-pxkcevhq2d5t7ffshsmyywdl3y5uaxk5
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/raja-0.14.0-qy57xp2n4g2q6oqkctszc6ljufpasho4
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/umpire-6.0.0-kq4g7o3y6ud6jfivy4irfjiuotjkjkdd
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/util-linux-uuid-2.38.1-rgnpjp2mksmjm2bwrgvd46sdikmhyjvb
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/curl-8.4.0-3afymgp4d3wvp3iqpgf5fxxolkj2uxoj
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/ncurses-6.4-rxak4chbzoqhasvgktm54simlg64q45e
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/xtrans-1.4.0-q6ewhz7kkgdsg27eh764iirhx765dkog
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/font-util-1.4.0-3hpoeormj4ohnggzinj7zih3ohmaril6
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/zsh-5.8-uh3taihseplmkozrrsvlnz3tm2dntzsk
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/libunwind-1.5.0-oltocpknkunvkwiboolj4mor7he336hv
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/boost-1.78.0-buu5my2tccd3cxtl6udde67ppz47bliv
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libxml2-2.10.3-lod4kqzodo4drwqkhfahzznlf7ij5rda
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libxml2-2.10.3-6wzl6qjc4mokmpvrjx542lxgvxeo7yuu
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/tar-1.34-pz34z522h3wb6lq4f7gc4msm24m2e3xa
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libssh2-1.10.0-wklcd6o754beohp4qcer7452b4faem7k
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/tar-1.34-gur6hbiqadgp6bugt5npwtdziggt7x73
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/swig-4.0.2-fortran-ked2f6bqxlqbaiokppz5qiqg2q4uzre4
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libpciaccess-0.17-gkzbnafqwiijepmgyrn3otqz6ep6u4tc
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/swig-4.0.2-fortran-u3fwbvuy3wzxdinqswbpw2fm7kscdlvq
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/fribidi-1.0.12-74fdgtpv64v7p7ud7ks33td55nf4u7vx
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/memkind-1.13.0-qlnrpmvsmfnpti2ermmm4f4lytjs532j
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libbsd-0.11.7-z5ynhgfoqtmxkjnjq36meqlppj7ghyhq
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/pixman-0.42.2-kfi3kabuh454sawdwmet5pdfriqkkqus
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/freetype-2.11.1-uafj5inkul23c5nerhz65s5uorxbfjeo
+==> Installing intel-parallel-studio-cluster.2020.4-p3rd7ityhfkznnf43s3arvkwafjxachx [142/286]
+==> No binary for intel-parallel-studio-cluster.2020.4-p3rd7ityhfkznnf43s3arvkwafjxachx found: installing from source
+==> Using cached archive: /ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/share/mirrors/sources/_source-cache/archive/f3/f36e49da97b6ce24d2d464d73d7ff49d71cff20e1698c20e607919819602a9f5.tgz
+==> No patches needed for intel-parallel-studio
+==> Found already existing license /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/licenses/intel/license.lic
+==> intel-parallel-studio: Executing phase: 'install'
+==> Error: ProcessError: Command exited with status 4:
+    './install.sh' '--silent' 'silent.cfg'
+
+1 error found in build log:
+  >> 6    Error during the silent install. ACTIVATION_TYPE=exist_lic specified although no
+     7    existing license is found on the system. Please use other activation types.
+     8    --------------------------------------------------------------------------------
+
+See build log for details:
+  /tmp/sauesw/spack-stage/spack-stage-intel-parallel-studio-cluster.2020.4-p3rd7ityhfkznnf43s3arvkwafjxachx/spack-build-out.txt
+
+==> Warning: Skipping build of arpack-ng-3.9.0-65er35pxpqiuchwcwyey3wxomkdjrxh4 since intel-parallel-studio-cluster.2020.4-p3rd7ityhfkznnf43s3arvkwafjxachx failed
+==> Warning: Skipping build of butterflypack-2.4.0-otnxx22sxzltixh2p3icbeeuos64t2ms since arpack-ng-3.9.0-65er35pxpqiuchwcwyey3wxomkdjrxh4 failed
+==> Warning: Skipping build of strumpack-6.1.0-vdpaa22nyoeezwjox6vdyhiqd2ktotj3 since butterflypack-2.4.0-otnxx22sxzltixh2p3icbeeuos64t2ms failed
+==> Warning: Skipping build of strumpack-6.1.0-ekq2y5ftuv6qb6jyxtjijdesepsf5475 since intel-parallel-studio-cluster.2020.4-p3rd7ityhfkznnf43s3arvkwafjxachx failed
+==> Warning: Skipping build of butterflypack-2.4.0-xrmvagqcviv4tts5raar3sp36as2eabk since intel-parallel-studio-cluster.2020.4-p3rd7ityhfkznnf43s3arvkwafjxachx failed
+==> Warning: Skipping build of dyninst-11.0.1-d234ycrh5yrw7gyy3n2ige4ybpimrdwv since intel-parallel-studio-cluster.2020.4-p3rd7ityhfkznnf43s3arvkwafjxachx failed
+==> Warning: Skipping build of hpctoolkit-2021.10.15-pb5igy4xxtwikmc26hx6c5ivcwwereuc since dyninst-11.0.1-d234ycrh5yrw7gyy3n2ige4ybpimrdwv failed
+==> Installing adlbx-1.0.0-5ms4ilkpsupmqsm45t3kgauwv64htuuo [143/286]
+==> No binary for adlbx-1.0.0-5ms4ilkpsupmqsm45t3kgauwv64htuuo found: installing from source
+Process Process-7:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Warning: Skipping build of turbine-1.3.0-n4w6tbiawm6dfjuqkp6psucwfusy5vs6 since adlbx-1.0.0-5ms4ilkpsupmqsm45t3kgauwv64htuuo failed
+==> Error: Failed to install adlbx due to InstallError: The process has stopped unexpectedly (exit 1)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/curl-8.4.0-gsq4y77v7t2rfrok2hf4xr7zfn3lar7s
+==> Installing libcircle-0.3.0-73bvit2dyigxkr3iw63yjoxj6n2jpjbw [145/286]
+==> No binary for libcircle-0.3.0-73bvit2dyigxkr3iw63yjoxj6n2jpjbw found: installing from source
+Process Process-8:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install libcircle due to InstallError: The process has stopped unexpectedly (exit 1)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/binutils-2.41-edcz6qge7qchar6vgwe6tp3x4zfpmjst
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/m4-1.4.18-zusw6xpnw66r2gnhi72i2u47lcmibowc
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/libzmq-4.3.5-j2kahorgy6j2ejjppotpeim2sadiahcm
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/expat-2.5.0-rbwheblocprei4gutpjxi4tsvkvovk2z
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/perl-5.38.0-zkuc2kt5r6azmycy7rln3kl23rq2hyhp
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/xerces-c-3.2.4-qwxzxyo72k5tlm4wiytoivjywoqybwhh
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/cmake-3.27.7-q3cikmlolylqvhwmtkp73pqbdlyz676z
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/lua-5.3.6-h66ylzer2cwmkxqpjpzncpr7wlsfm7w3
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/readline-8.2-64o53abymoazptm3n75qnremsb76rewv
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libedit-3.1-20210216-xpozvlx4dl5d374julc4v23ih2rj6k5w
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libice-1.0.9-yt46z2yzngpdodxfbbuxmai5ltvmx3sv
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libarchive-3.7.1-ylxg6ow33f44aixkal2p3qktqbljvnzf
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/hwloc-2.9.1-kxewmm6jbpa7duhqi35gfv74t37tjpfv
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gettext-0.22.3-ljzxatqvjqscu7ewtjicvntl4gtkltb5
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/curl-8.4.0-xbdrqgvixlaxl37e6wfwc6rrnbumcgpx
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libgit2-1.5.2-u2pg7ztutbazxn4joijq4paj6gbcbwsu
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gettext-0.22.3-mmhkrtgcbirmjv4thfbmeabfbyb3eeae
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/hwloc-2.9.1-vg53wf5aykzuxuyazrac74x5nqi22elq
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/expat-2.5.0-zbsye6zqifau3mxs5obx3lsp5vz74ami
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/fontconfig-2.14.2-qhrierx2qtnw5j5v2dbx2lskckf3df46
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.27.7-33ptfibcewcd6ooyuvbiltplkn566lye
+==> Installing suite-sparse-5.7.2-zqebwuqtf5uf6tknzugtpccl3ttd6lw6 [167/286]
+==> No binary for suite-sparse-5.7.2-zqebwuqtf5uf6tknzugtpccl3ttd6lw6 found: installing from source
+==> Using cached archive: /ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/share/mirrors/sources/_source-cache/archive/fe/fe3bc7c3bd1efdfa5cffffb5cebf021ff024c83b5daf0ab445429d3d741bd3ad.tar.gz
+==> No patches needed for suite-sparse
+==> suite-sparse: Executing phase: 'install'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j24' '-C' 'CHOLMOD' 'library' 'AUTOCC=no' 'CUDA=no' 'CUDA_PATH=' 'CFOPENMP=' 'CFLAGS=-O3 -fPIC' 'FFLAGS=-fPIC' 'F77FLAGS=-fPIC' 'MY_METIS_LIB=-L/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/metis-5.1.0-5pbezdzhdkbedfbdiwd5xerjd3mctdgr/lib -lmetis' 'MY_METIS_INC=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/metis-5.1.0-5pbezdzhdkbedfbdiwd5xerjd3mctdgr/include' 'BLAS= ' 'LAPACK= ' 'CFLAGS+=-fno-common -fexceptions' 'CMAKE_OPTIONS=-DCMAKE_INSTALL_PREFIX=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/suite-sparse-5.7.2-zqebwuqtf5uf6tknzugtpccl3ttd6lw6 -DCMAKE_LIBRARY_PATH=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/suite-sparse-5.7.2-zqebwuqtf5uf6tknzugtpccl3ttd6lw6/lib' 'INSTALL=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/suite-sparse-5.7.2-zqebwuqtf5uf6tknzugtpccl3ttd6lw6'
+
+61 errors found in build log:
+     598    a - cholmod_l_metis.o
+     599    a - cholmod_l_nesdis.o
+     600    a - cholmod_l_camd.o
+     601    /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/env/gcc/g++ -L/tmp/sauesw/spack-stage/spack-stage-suite-sparse-5.7.2-zqebwuqtf5uf
+            6tknzugtpccl3ttd6lw6/spack-src/lib -shared -Wl,-soname -Wl,libcholmod.so.3 -Wl,--no-undefined  cholmod_aat.o cholmod_add.o cholmod_band.o cholmod_change_factor.o cholmo
+            d_common.o cholmod_complex.o cholmod_copy.o cholmod_dense.o cholmod_error.o cholmod_factor.o cholmod_memory.o cholmod_sparse.o cholmod_transpose.o cholmod_triplet.o cho
+            lmod_version.o cholmod_check.o cholmod_read.o cholmod_write.o cholmod_amd.o cholmod_analyze.o cholmod_colamd.o cholmod_etree.o cholmod_factorize.o cholmod_postorder.o c
+            holmod_rcond.o cholmod_resymbol.o cholmod_rowcolcounts.o cholmod_rowfac.o cholmod_solve.o cholmod_spsolve.o cholmod_drop.o cholmod_horzcat.o cholmod_norm.o cholmod_scal
+            e.o cholmod_sdmult.o cholmod_ssmult.o cholmod_submatrix.o cholmod_vertcat.o cholmod_symmetry.o cholmod_rowadd.o cholmod_rowdel.o cholmod_updown.o cholmod_super_numeric.
+            o cholmod_super_solve.o cholmod_super_symbolic.o cholmod_ccolamd.o cholmod_csymamd.o cholmod_metis.o cholmod_nesdis.o cholmod_camd.o cholmod_l_aat.o cholmod_l_add.o cho
+            lmod_l_band.o cholmod_l_change_factor.o cholmod_l_common.o cholmod_l_complex.o cholmod_l_copy.o cholmod_l_dense.o cholmod_l_error.o cholmod_l_factor.o cholmod_l_memory.
+            o cholmod_l_sparse.o cholmod_l_transpose.o cholmod_l_triplet.o cholmod_l_version.o cholmod_l_check.o cholmod_l_read.o cholmod_l_write.o cholmod_l_amd.o cholmod_l_analyz
+            e.o cholmod_l_colamd.o cholmod_l_etree.o cholmod_l_factorize.o cholmod_l_postorder.o cholmod_l_rcond.o cholmod_l_resymbol.o cholmod_l_rowcolcounts.o cholmod_l_rowfac.o 
+            cholmod_l_solve.o cholmod_l_spsolve.o cholmod_l_drop.o cholmod_l_horzcat.o cholmod_l_norm.o cholmod_l_scale.o cholmod_l_sdmult.o cholmod_l_ssmult.o cholmod_l_submatrix.
+            o cholmod_l_vertcat.o cholmod_l_symmetry.o cholmod_l_rowadd.o cholmod_l_rowdel.o cholmod_l_updown.o cholmod_l_super_numeric.o cholmod_l_super_solve.o cholmod_l_super_sy
+            mbolic.o cholmod_l_ccolamd.o cholmod_l_csymamd.o cholmod_l_metis.o cholmod_l_nesdis.o cholmod_l_camd.o -o /tmp/sauesw/spack-stage/spack-stage-suite-sparse-5.7.2-zqebwuq
+            tf5uf6tknzugtpccl3ttd6lw6/spack-src/lib/libcholmod.so.3.0.14 -lm -lrt -Wl,-rpath=/tmp/sauesw/spack-stage/spack-stage-suite-sparse-5.7.2-zqebwuqtf5uf6tknzugtpccl3ttd6lw6
+            /spack-src/lib -lamd -lcolamd -lsuitesparseconfig -lccolamd -lcamd -L/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/metis-5.1.0-5pbezdzhdkbedfbdiwd5x
+            erjd3mctdgr/lib -lmetis
+     602    ranlib libcholmod.a
+     603    /usr/bin/ld: cholmod_super_numeric.o: in function `cholmod_super_numeric':
+  >> 604    cholmod_super_numeric.c:(.text+0xcf6): undefined reference to `dsyrk_'
+  >> 605    /usr/bin/ld: cholmod_super_numeric.c:(.text+0xe04): undefined reference to `dgemm_'
+  >> 606    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x110c): undefined reference to `dpotrf_'
+  >> 607    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x1330): undefined reference to `dtrsm_'
+  >> 608    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x1b8a): undefined reference to `zherk_'
+  >> 609    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x1c9a): undefined reference to `zgemm_'
+  >> 610    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x207f): undefined reference to `zpotrf_'
+  >> 611    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x2287): undefined reference to `ztrsm_'
+  >> 612    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x2af2): undefined reference to `zherk_'
+  >> 613    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x2bf7): undefined reference to `zgemm_'
+  >> 614    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x2ff4): undefined reference to `zpotrf_'
+  >> 615    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x320e): undefined reference to `ztrsm_'
+     616    /usr/bin/ld: cholmod_super_solve.o: in function `cholmod_super_lsolve':
+  >> 617    cholmod_super_solve.c:(.text+0x378): undefined reference to `dtrsm_'
+  >> 618    /usr/bin/ld: cholmod_super_solve.c:(.text+0x414): undefined reference to `dgemm_'
+  >> 619    /usr/bin/ld: cholmod_super_solve.c:(.text+0x6e2): undefined reference to `dtrsm_'
+  >> 620    /usr/bin/ld: cholmod_super_solve.c:(.text+0xac6): undefined reference to `ztrsm_'
+  >> 621    /usr/bin/ld: cholmod_super_solve.c:(.text+0xbef): undefined reference to `zgemm_'
+  >> 622    /usr/bin/ld: cholmod_super_solve.c:(.text+0xf97): undefined reference to `dtrsv_'
+  >> 623    /usr/bin/ld: cholmod_super_solve.c:(.text+0x1017): undefined reference to `dgemv_'
+  >> 624    /usr/bin/ld: cholmod_super_solve.c:(.text+0x1200): undefined reference to `ztrsv_'
+  >> 625    /usr/bin/ld: cholmod_super_solve.c:(.text+0x127d): undefined reference to `zgemv_'
+     626    /usr/bin/ld: cholmod_super_solve.o: in function `cholmod_super_ltsolve':
+  >> 627    cholmod_super_solve.c:(.text+0x1795): undefined reference to `dgemm_'
+  >> 628    /usr/bin/ld: cholmod_super_solve.c:(.text+0x180f): undefined reference to `dtrsm_'
+  >> 629    /usr/bin/ld: cholmod_super_solve.c:(.text+0x1d99): undefined reference to `zgemm_'
+  >> 630    /usr/bin/ld: cholmod_super_solve.c:(.text+0x1e2b): undefined reference to `ztrsm_'
+  >> 631    /usr/bin/ld: cholmod_super_solve.c:(.text+0x2123): undefined reference to `dgemv_'
+  >> 632    /usr/bin/ld: cholmod_super_solve.c:(.text+0x2173): undefined reference to `dtrsv_'
+  >> 633    /usr/bin/ld: cholmod_super_solve.c:(.text+0x2331): undefined reference to `zgemv_'
+  >> 634    /usr/bin/ld: cholmod_super_solve.c:(.text+0x2386): undefined reference to `ztrsv_'
+     635    /usr/bin/ld: cholmod_l_super_numeric.o: in function `cholmod_l_super_numeric':
+  >> 636    cholmod_super_numeric.c:(.text+0xf9c): undefined reference to `dsyrk_'
+  >> 637    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x1297): undefined reference to `dgemm_'
+  >> 638    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x12f3): undefined reference to `dpotrf_'
+  >> 639    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x20d2): undefined reference to `zherk_'
+  >> 640    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x23d6): undefined reference to `zgemm_'
+  >> 641    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x2432): undefined reference to `zpotrf_'
+  >> 642    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x322a): undefined reference to `zherk_'
+  >> 643    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x34f7): undefined reference to `zgemm_'
+  >> 644    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x3575): undefined reference to `zpotrf_'
+  >> 645    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x3ab4): undefined reference to `dtrsm_'
+  >> 646    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x3bce): undefined reference to `ztrsm_'
+  >> 647    /usr/bin/ld: cholmod_super_numeric.c:(.text+0x3c8a): undefined reference to `ztrsm_'
+     648    /usr/bin/ld: cholmod_l_super_solve.o: in function `cholmod_l_super_lsolve':
+  >> 649    cholmod_super_solve.c:(.text+0x7fb): undefined reference to `dtrsm_'
+  >> 650    /usr/bin/ld: cholmod_super_solve.c:(.text+0xeed): undefined reference to `dtrsv_'
+  >> 651    /usr/bin/ld: cholmod_super_solve.c:(.text+0xf9f): undefined reference to `dgemv_'
+  >> 652    /usr/bin/ld: cholmod_super_solve.c:(.text+0x11a8): undefined reference to `ztrsm_'
+  >> 653    /usr/bin/ld: cholmod_super_solve.c:(.text+0x12ef): undefined reference to `dgemm_'
+  >> 654    /usr/bin/ld: cholmod_super_solve.c:(.text+0x1545): undefined reference to `ztrsv_'
+  >> 655    /usr/bin/ld: cholmod_super_solve.c:(.text+0x1609): undefined reference to `zgemv_'
+  >> 656    /usr/bin/ld: cholmod_super_solve.c:(.text+0x17d4): undefined reference to `zgemm_'
+     657    /usr/bin/ld: cholmod_l_super_solve.o: in function `cholmod_l_super_ltsolve':
+  >> 658    cholmod_super_solve.c:(.text+0x1d63): undefined reference to `dgemm_'
+  >> 659    /usr/bin/ld: cholmod_super_solve.c:(.text+0x1e44): undefined reference to `dtrsm_'
+  >> 660    /usr/bin/ld: cholmod_super_solve.c:(.text+0x2237): undefined reference to `ztrsm_'
+  >> 661    /usr/bin/ld: cholmod_super_solve.c:(.text+0x2316): undefined reference to `zgemm_'
+  >> 662    /usr/bin/ld: cholmod_super_solve.c:(.text+0x25dc): undefined reference to `dgemv_'
+  >> 663    /usr/bin/ld: cholmod_super_solve.c:(.text+0x265e): undefined reference to `dtrsv_'
+  >> 664    /usr/bin/ld: cholmod_super_solve.c:(.text+0x2818): undefined reference to `zgemv_'
+  >> 665    /usr/bin/ld: cholmod_super_solve.c:(.text+0x28a9): undefined reference to `ztrsv_'
+  >> 666    collect2: error: ld returned 1 exit status
+  >> 667    make[2]: *** [Makefile:544: /tmp/sauesw/spack-stage/spack-stage-suite-sparse-5.7.2-zqebwuqtf5uf6tknzugtpccl3ttd6lw6/spack-src/lib/libcholmod.so.3.0.14] Error 1
+     668    make[2]: Leaving directory '/tmp/sauesw/spack-stage/spack-stage-suite-sparse-5.7.2-zqebwuqtf5uf6tknzugtpccl3ttd6lw6/spack-src/CHOLMOD/Lib'
+  >> 669    make[1]: *** [Makefile:31: library] Error 2
+     670    make[1]: Leaving directory '/tmp/sauesw/spack-stage/spack-stage-suite-sparse-5.7.2-zqebwuqtf5uf6tknzugtpccl3ttd6lw6/spack-src/CHOLMOD/Lib'
+  >> 671    make: *** [Makefile:19: library] Error 2
+     672    make: Leaving directory '/tmp/sauesw/spack-stage/spack-stage-suite-sparse-5.7.2-zqebwuqtf5uf6tknzugtpccl3ttd6lw6/spack-src/CHOLMOD'
+
+See build log for details:
+  /tmp/sauesw/spack-stage/spack-stage-suite-sparse-5.7.2-zqebwuqtf5uf6tknzugtpccl3ttd6lw6/spack-build-out.txt
+
+==> Warning: Skipping build of julia-1.9.2-z4f3ddkni2jrwejkaccfafr7xwmpvq2u since suite-sparse-5.7.2-zqebwuqtf5uf6tknzugtpccl3ttd6lw6 failed
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/czmq-4.1.1-dwiyj7rfnoon2v6b6ewosdga3krrtm5a
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/apr-util-1.6.3-lj7xgwlnmqpfqw7iietraek7rlyvh2wp
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/automake-1.16.5-m6vfyptfpypuzx7hjuvgvd7bnezadq7m
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/autoconf-2.69-6f67ravnhc6szudafiktt3trx7cz2rqj
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/perl-data-dumper-2.173-v3ydhiopg4gl2o3jxnnuhvpnmixngfkn
+==> Installing parallel-netcdf-1.12.2-cwfaxvkso7fl7ko4wymotqien4v4ldl4 [173/286]
+==> No binary for parallel-netcdf-1.12.2-cwfaxvkso7fl7ko4wymotqien4v4ldl4 found: installing from source
+Process Process-10:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install parallel-netcdf due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing vtk-h-0.7.1-uav6qf222g7wmmnmsutwtqemcnm5rkco [174/286]
+==> No binary for vtk-h-0.7.1-uav6qf222g7wmmnmsutwtqemcnm5rkco found: installing from source
+Process Process-11:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Warning: Skipping build of ascent-0.7.1-6x6qodtnuaib4bvxnwhrgf2557ris6y3 since vtk-h-0.7.1-uav6qf222g7wmmnmsutwtqemcnm5rkco failed
+==> Error: Failed to install vtk-h due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing netlib-scalapack-2.1.0-22edrawdrdvpijnvkw7dbtqj5xhvgxih [175/286]
+==> No binary for netlib-scalapack-2.1.0-22edrawdrdvpijnvkw7dbtqj5xhvgxih found: installing from source
+Process Process-12:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Warning: Skipping build of strumpack-6.3.0-7xti2mxzi5xxqyrynkudgr3konakgu2z since netlib-scalapack-2.1.0-22edrawdrdvpijnvkw7dbtqj5xhvgxih failed
+==> Warning: Skipping build of butterflypack-2.0.0-jc75a5nxo6f4bxk3dqzvfthingcx2wi6 since netlib-scalapack-2.1.0-22edrawdrdvpijnvkw7dbtqj5xhvgxih failed
+==> Error: Failed to install netlib-scalapack due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing faodel-1.2108.1-rnxym7bah24u3zdxtufojqodewfvbvi7 [176/286]
+==> No binary for faodel-1.2108.1-rnxym7bah24u3zdxtufojqodewfvbvi7 found: installing from source
+Process Process-13:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install faodel due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing amrex-21.11-ydgbksdiyeyc7bl2qtndeccpnsti7vle [177/286]
+==> No binary for amrex-21.11-ydgbksdiyeyc7bl2qtndeccpnsti7vle found: installing from source
+Process Process-14:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install amrex due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing tasmanian-7.7-l2rua6zsxwabkuspgdm4hw5l72ybqvru [178/286]
+==> No binary for tasmanian-7.7-l2rua6zsxwabkuspgdm4hw5l72ybqvru found: installing from source
+==> Using cached archive: /ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/share/mirrors/sources/_source-cache/archive/85/85fb3a7b302ea21a3b700712767a59a623d9ab93da03308fa47d4413654c3878.tar.gz
+==> No patches needed for tasmanian
+==> tasmanian: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    '/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/cmake-3.27.7-q3cikmlolylqvhwmtkp73pqbdlyz676z/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/tasmanian-7.7-l2rua6zsxwabkuspgdm4hw5l72ybqvru' '-DCMAKE_BUILD_TYPE:STRING=Release' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/tasmanian-7.7-l2rua6zsxwabkuspgdm4hw5l72ybqvru/lib;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/tasmanian-7.7-l2rua6zsxwabkuspgdm4hw5l72ybqvru/lib64;/opt/rocm-5.7.1/hip/lib;/opt/rocm-5.7.1/lib;/opt/rocm-5.7.1/llvm/lib;/opt/cray/pe/gcc/12.2.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/cmake-3.27.7-q3cikmlolylqvhwmtkp73pqbdlyz676z;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex;/opt/rocm-5.7.1;/opt/rocm-5.7.1;/opt/rocm-5.7.1;/opt/rocm-5.7.1/llvm;/opt/rocm-5.7.1;/opt/rocm-5.7.1/hip' '-DTasmanian_ENABLE_OPENMP:BOOL=OFF' '-DTasmanian_ENABLE_BLAS:BOOL=OFF' '-DTasmanian_ENABLE_PYTHON:BOOL=OFF' '-DTasmanian_ENABLE_MPI:BOOL=OFF' '-DTasmanian_ENABLE_CUDA:BOOL=OFF' '-DTasmanian_ENABLE_HIP:BOOL=ON' '-DTasmanian_ENABLE_MAGMA:BOOL=OFF' '-DTasmanian_ENABLE_FORTRAN:BOOL=OFF' '/tmp/sauesw/spack-stage/spack-stage-tasmanian-7.7-l2rua6zsxwabkuspgdm4hw5l72ybqvru/spack-src'
+
+5 errors found in build log:
+     4     ==> [2024-01-22-14:40:24.077825] '/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/cmake-3.27.7-q3cikmlolylqvhwmtkp73pqbdlyz676z/bin/cmake' '-G' 'Unix Ma
+           kefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/tasmanian-7.7-l2rua6zsxwabkuspgdm4hw5l72ybqvru' '-DCMAKE_BUILD_TY
+           PE:STRING=Release' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPAT
+           H:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/tasmanian-7.7-l2rua6zsxwabkuspgdm4hw5l72ybqvru/lib;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles
+           15-zen3/gcc-12.2.0/tasmanian-7.7-l2rua6zsxwabkuspgdm4hw5l72ybqvru/lib64;/opt/rocm-5.7.1/hip/lib;/opt/rocm-5.7.1/lib;/opt/rocm-5.7.1/llvm/lib;/opt/cray/pe/gcc/12.2.0/snos
+           ' '-DCMAKE_PREFIX_PATH:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/cmake-3.27.7-q3cikmlolylqvhwmtkp73pqbdlyz676z;/sw/borg/spack-envs/rocm-5.7
+           .1/opt/linux-sles15-x86_64/gcc-12.2.0/gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex;/opt/rocm-5.7.1;/opt/rocm-5.7.1;/opt/rocm-5.7.1;/opt/rocm-5.7.1/llvm;/opt/rocm-5.7.1;/
+           opt/rocm-5.7.1/hip' '-DTasmanian_ENABLE_OPENMP:BOOL=OFF' '-DTasmanian_ENABLE_BLAS:BOOL=OFF' '-DTasmanian_ENABLE_PYTHON:BOOL=OFF' '-DTasmanian_ENABLE_MPI:BOOL=OFF' '-DTas
+           manian_ENABLE_CUDA:BOOL=OFF' '-DTasmanian_ENABLE_HIP:BOOL=ON' '-DTasmanian_ENABLE_MAGMA:BOOL=OFF' '-DTasmanian_ENABLE_FORTRAN:BOOL=OFF' '/tmp/sauesw/spack-stage/spack-st
+           age-tasmanian-7.7-l2rua6zsxwabkuspgdm4hw5l72ybqvru/spack-src'
+     5     -- The CXX compiler identification is unknown
+     6     -- Detecting CXX compiler ABI info
+     7     -- Detecting CXX compiler ABI info - failed
+     8     -- Check for working CXX compiler: /opt/rocm-5.7.1/hip/bin/hipcc
+     9     -- Check for working CXX compiler: /opt/rocm-5.7.1/hip/bin/hipcc - broken
+  >> 10    CMake Error at /autofs/nccs-svm1_sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/cmake-3.27.7-q3cikmlolylqvhwmtkp73pqbdlyz676z/share/cmake-3.27/Modules/C
+           MakeTestCXXCompiler.cmake:60 (message):
+     11      The C++ compiler
+     12    
+     13        "/opt/rocm-5.7.1/hip/bin/hipcc"
+     14    
+     15      is not able to compile a simple test program.
+     16    
+
+     ...
+
+     20    
+     21        Run Build Command(s): /autofs/nccs-svm1_sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/cmake-3.27.7-q3cikmlolylqvhwmtkp73pqbdlyz676z/bin/cmake -E en
+           v VERBOSE=1 /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex/bin/gmake -f Makefile cmTC_cbb77/fast
+     22        /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex/bin/gmake  -f CMakeFiles/cmTC_cbb77.dir/build.make CMa
+           keFiles/cmTC_cbb77.dir/build
+     23        gmake[1]: Entering directory '/tmp/sauesw/spack-stage/spack-stage-tasmanian-7.7-l2rua6zsxwabkuspgdm4hw5l72ybqvru/spack-build-l2rua6z/CMakeFiles/CMakeScratch/TryCompi
+           le-E6sz22'
+     24        Building CXX object CMakeFiles/cmTC_cbb77.dir/testCXXCompiler.cxx.o
+     25        /opt/rocm-5.7.1/hip/bin/hipcc    -o CMakeFiles/cmTC_cbb77.dir/testCXXCompiler.cxx.o -c /tmp/sauesw/spack-stage/spack-stage-tasmanian-7.7-l2rua6zsxwabkuspgdm4hw5l72yb
+           qvru/spack-build-l2rua6z/CMakeFiles/CMakeScratch/TryCompile-E6sz22/testCXXCompiler.cxx
+  >> 26    clang++: error: cannot find HIP runtime; provide its path via '--rocm-path', or pass '-nogpuinc' to build without HIP runtime
+  >> 27        clang++: error: cannot find HIP runtime; provide its path via '--rocm-path', or pass '-nogpuinc' to build without HIP runtime
+  >> 28        gmake[1]: *** [CMakeFiles/cmTC_cbb77.dir/build.make:78: CMakeFiles/cmTC_cbb77.dir/testCXXCompiler.cxx.o] Error 1
+     29        gmake[1]: Leaving directory '/tmp/sauesw/spack-stage/spack-stage-tasmanian-7.7-l2rua6zsxwabkuspgdm4hw5l72ybqvru/spack-build-l2rua6z/CMakeFiles/CMakeScratch/TryCompil
+           e-E6sz22'
+  >> 30        gmake: *** [Makefile:127: cmTC_cbb77/fast] Error 2
+     31    
+     32    
+     33    
+     34    
+     35    
+     36      CMake will not be able to correctly generate this project.
+
+See build log for details:
+  /tmp/sauesw/spack-stage/spack-stage-tasmanian-7.7-l2rua6zsxwabkuspgdm4hw5l72ybqvru/spack-build-out.txt
+
+==> Installing arpack-ng-3.9.0-vk7uviacuyfe2rr5w7pyaiz5pflzbr3d [179/286]
+==> No binary for arpack-ng-3.9.0-vk7uviacuyfe2rr5w7pyaiz5pflzbr3d found: installing from source
+Process Process-16:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install arpack-ng due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing papyrus-1.0.1-5hbfjrsdnxpsuz5msmdbkp5itnnwaoeb [180/286]
+==> No binary for papyrus-1.0.1-5hbfjrsdnxpsuz5msmdbkp5itnnwaoeb found: installing from source
+Process Process-17:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install papyrus due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing cabana-0.4.0-rmyzi2ctf4xkxehpgbokf75i2qk26ucd [181/286]
+==> No binary for cabana-0.4.0-rmyzi2ctf4xkxehpgbokf75i2qk26ucd found: installing from source
+Process Process-18:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install cabana due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing sundials-6.1.1-4za4myjqdj3ynv34xwmvxacqm2lgqfry [182/286]
+==> No binary for sundials-6.1.1-4za4myjqdj3ynv34xwmvxacqm2lgqfry found: installing from source
+Process Process-19:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install sundials due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing blaspp-2023.08.25-6aczopz2fvslugnbxq64ogajji2pasan [183/286]
+==> No binary for blaspp-2023.08.25-6aczopz2fvslugnbxq64ogajji2pasan found: installing from source
+==> Using cached archive: /ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/share/mirrors/sources/_source-cache/archive/1d/1d9c7227a6d8776944aa866592142b7b51c6e4ba5529d168eb8ae2b329c47401.tar.gz
+==> No patches needed for blaspp
+==> blaspp: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    '/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/cmake-3.27.7-q3cikmlolylqvhwmtkp73pqbdlyz676z/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/blaspp-2023.08.25-6aczopz2fvslugnbxq64ogajji2pasan' '-DCMAKE_BUILD_TYPE:STRING=Release' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/blaspp-2023.08.25-6aczopz2fvslugnbxq64ogajji2pasan/lib;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/blaspp-2023.08.25-6aczopz2fvslugnbxq64ogajji2pasan/lib64;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s/lib;/opt/cray/pe/gcc/12.2.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/cmake-3.27.7-q3cikmlolylqvhwmtkp73pqbdlyz676z;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex' '-Dbuild_tests=False' '-Duse_openmp=True' '-DBUILD_SHARED_LIBS=True' '-Dgpu_backend=none' '-DBLAS_LIBRARIES=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s/lib/libopenblas64_.so' '/tmp/sauesw/spack-stage/spack-stage-blaspp-2023.08.25-6aczopz2fvslugnbxq64ogajji2pasan/spack-src'
+
+1 error found in build log:
+     26       libs:  /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s/lib/libopenblas64_.so
+     27       -DBLAS_FORTRAN_ADD_                              no (didn't link: routine not found)
+     28       -DBLAS_FORTRAN_LOWER                             no (didn't link: routine not found)
+     29       -DBLAS_FORTRAN_UPPER                             no (didn't link: routine not found)
+     30       BLAS library not found.
+     31    
+  >> 32    CMake Error at CMakeLists.txt:418 (message):
+     33      BLAS++ requires a BLAS library and none was found.  Ensure that it is
+     34      accessible in environment variables $CPATH, $LIBRARY_PATH, and
+     35      $LD_LIBRARY_PATH.
+     36    
+     37    
+     38    -- Configuring incomplete, errors occurred!
+
+See build log for details:
+  /tmp/sauesw/spack-stage/spack-stage-blaspp-2023.08.25-6aczopz2fvslugnbxq64ogajji2pasan/spack-build-out.txt
+
+==> Warning: Skipping build of lapackpp-2023.08.25-ic4xyd5yjyfp55d4rfs456ysp26wjt7f since blaspp-2023.08.25-6aczopz2fvslugnbxq64ogajji2pasan failed
+==> Warning: Skipping build of slate-2021.05.02-6uupb7wtcl4wjtytwbghv5kostaa6k5k since lapackpp-2023.08.25-ic4xyd5yjyfp55d4rfs456ysp26wjt7f failed
+==> Installing pumi-2.2.6-bf55umnxyyngr7odqayvs2ccvcl3ocv6 [184/286]
+==> No binary for pumi-2.2.6-bf55umnxyyngr7odqayvs2ccvcl3ocv6 found: installing from source
+Process Process-21:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install pumi due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing hdf5-1.12.1-ts5cosgkh33gyrluxnnxcvyodfcmwuai [185/286]
+==> No binary for hdf5-1.12.1-ts5cosgkh33gyrluxnnxcvyodfcmwuai found: installing from source
+Process Process-22:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Warning: Skipping build of conduit-0.7.2-4loglya5c2kbunfejak47gn2p3jnniuc since hdf5-1.12.1-ts5cosgkh33gyrluxnnxcvyodfcmwuai failed
+==> Warning: Skipping build of legion-21.03.0-g7cbqmn2rzwbjlivsapyf6hhc4mf5d3u since hdf5-1.12.1-ts5cosgkh33gyrluxnnxcvyodfcmwuai failed
+==> Error: Failed to install hdf5 due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing rankstr-0.2.0-e756jznrzxs5nrm5btge32jowfoj3mwa [186/286]
+==> No binary for rankstr-0.2.0-e756jznrzxs5nrm5btge32jowfoj3mwa found: installing from source
+Process Process-23:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Warning: Skipping build of redset-0.2.0-agaljikl7wdczwqvp7xq5xosvzstc3hu since rankstr-0.2.0-e756jznrzxs5nrm5btge32jowfoj3mwa failed
+==> Warning: Skipping build of er-0.1.0-owvp5sx4dcacd5gwye3zjvbjk2vqvj7j since redset-0.2.0-agaljikl7wdczwqvp7xq5xosvzstc3hu failed
+==> Warning: Skipping build of veloc-1.5-vykywbry3m6cars3agntsgtajclgbnja since er-0.1.0-owvp5sx4dcacd5gwye3zjvbjk2vqvj7j failed
+==> Error: Failed to install rankstr due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing magma-2.6.1-lh4oobxvncttcnwuefazpuyxuzkwmmle [187/286]
+==> No binary for magma-2.6.1-lh4oobxvncttcnwuefazpuyxuzkwmmle found: installing from source
+==> Using cached archive: /ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/share/mirrors/sources/_source-cache/archive/6c/6cd83808c6e8bc7a44028e05112b3ab4e579bcc73202ed14733f66661127e213.tar.gz
+==> No patches needed for magma
+==> magma: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    '/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/cmake-3.27.7-q3cikmlolylqvhwmtkp73pqbdlyz676z/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/magma-2.6.1-lh4oobxvncttcnwuefazpuyxuzkwmmle' '-DCMAKE_BUILD_TYPE:STRING=Release' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/magma-2.6.1-lh4oobxvncttcnwuefazpuyxuzkwmmle/lib;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/magma-2.6.1-lh4oobxvncttcnwuefazpuyxuzkwmmle/lib64;/opt/rocm-5.7.1/hip/lib;/opt/rocm-5.7.1/lib;/opt/rocm-5.7.1/llvm/lib;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s/lib;/opt/cray/pe/gcc/12.2.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/cmake-3.27.7-q3cikmlolylqvhwmtkp73pqbdlyz676z;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex;/opt/rocm-5.7.1/llvm;/opt/rocm-5.7.1;/opt/rocm-5.7.1;/opt/rocm-5.7.1;/opt/rocm-5.7.1/hip' '-DCMAKE_INSTALL_PREFIX:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/magma-2.6.1-lh4oobxvncttcnwuefazpuyxuzkwmmle' '-DCMAKE_INSTALL_NAME_DIR:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/magma-2.6.1-lh4oobxvncttcnwuefazpuyxuzkwmmle/lib' '-DBLAS_LIBRARIES:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s/lib/libopenblas64_.so' '-DLAPACK_LIBRARIES:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s/lib/libopenblas64_.so' '-DBUILD_SHARED_LIBS:BOOL=ON' '-DUSE_FORTRAN:BOOL=ON' '-DMAGMA_ENABLE_HIP:BOOL=ON' '-DCMAKE_CXX_COMPILER:STRING=/opt/rocm-5.7.1/hip/bin/hipcc' '/tmp/sauesw/spack-stage/spack-stage-magma-2.6.1-lh4oobxvncttcnwuefazpuyxuzkwmmle/spack-src'
+
+5 errors found in build log:
+     25    -- Detecting C compile features
+     26    -- Detecting C compile features - done
+     27    -- Detecting CXX compiler ABI info
+     28    -- Detecting CXX compiler ABI info - failed
+     29    -- Check for working CXX compiler: /opt/rocm-5.7.1/hip/bin/hipcc
+     30    -- Check for working CXX compiler: /opt/rocm-5.7.1/hip/bin/hipcc - broken
+  >> 31    CMake Error at /autofs/nccs-svm1_sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/cmake-3.27.7-q3cikmlolylqvhwmtkp73pqbdlyz676z/share/cmake-3.27/Modules/C
+           MakeTestCXXCompiler.cmake:60 (message):
+     32      The C++ compiler
+     33    
+     34        "/opt/rocm-5.7.1/hip/bin/hipcc"
+     35    
+     36      is not able to compile a simple test program.
+     37    
+
+     ...
+
+     41    
+     42        Run Build Command(s): /autofs/nccs-svm1_sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/cmake-3.27.7-q3cikmlolylqvhwmtkp73pqbdlyz676z/bin/cmake -E en
+           v VERBOSE=1 /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex/bin/gmake -f Makefile cmTC_47de4/fast
+     43        /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex/bin/gmake  -f CMakeFiles/cmTC_47de4.dir/build.make CMa
+           keFiles/cmTC_47de4.dir/build
+     44        gmake[1]: Entering directory '/tmp/sauesw/spack-stage/spack-stage-magma-2.6.1-lh4oobxvncttcnwuefazpuyxuzkwmmle/spack-build-lh4oobx/CMakeFiles/CMakeScratch/TryCompile
+           -uqSGkK'
+     45        Building CXX object CMakeFiles/cmTC_47de4.dir/testCXXCompiler.cxx.o
+     46        /opt/rocm-5.7.1/hip/bin/hipcc    -o CMakeFiles/cmTC_47de4.dir/testCXXCompiler.cxx.o -c /tmp/sauesw/spack-stage/spack-stage-magma-2.6.1-lh4oobxvncttcnwuefazpuyxuzkwmm
+           le/spack-build-lh4oobx/CMakeFiles/CMakeScratch/TryCompile-uqSGkK/testCXXCompiler.cxx
+  >> 47    clang++: error: cannot find HIP runtime; provide its path via '--rocm-path', or pass '-nogpuinc' to build without HIP runtime
+  >> 48        clang++: error: cannot find HIP runtime; provide its path via '--rocm-path', or pass '-nogpuinc' to build without HIP runtime
+  >> 49        gmake[1]: *** [CMakeFiles/cmTC_47de4.dir/build.make:78: CMakeFiles/cmTC_47de4.dir/testCXXCompiler.cxx.o] Error 1
+     50        gmake[1]: Leaving directory '/tmp/sauesw/spack-stage/spack-stage-magma-2.6.1-lh4oobxvncttcnwuefazpuyxuzkwmmle/spack-build-lh4oobx/CMakeFiles/CMakeScratch/TryCompile-
+           uqSGkK'
+  >> 51        gmake: *** [Makefile:127: cmTC_47de4/fast] Error 2
+     52    
+     53    
+     54    
+     55    
+     56    
+     57      CMake will not be able to correctly generate this project.
+
+See build log for details:
+  /tmp/sauesw/spack-stage/spack-stage-magma-2.6.1-lh4oobxvncttcnwuefazpuyxuzkwmmle/spack-build-out.txt
+
+==> Installing arborx-1.1-rrxf7k5gvtokb2mojdde6jjjbsqw23yb [188/286]
+==> No binary for arborx-1.1-rrxf7k5gvtokb2mojdde6jjjbsqw23yb found: installing from source
+Process Process-25:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install arborx due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing adios2-2.7.1-7vyvs3usjepbnnnug7lequrkltwd4vlc [189/286]
+==> No binary for adios2-2.7.1-7vyvs3usjepbnnnug7lequrkltwd4vlc found: installing from source
+Process Process-26:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Warning: Skipping build of openpmd-api-0.14.3-kdgjywrjy3valpxs7h45bcyek3fvgxpx since adios2-2.7.1-7vyvs3usjepbnnnug7lequrkltwd4vlc failed
+==> Error: Failed to install adios2 due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing parmetis-4.0.3-pyxwovr2j6qlnizysyies4l7m7h5kogc [190/286]
+==> No binary for parmetis-4.0.3-pyxwovr2j6qlnizysyies4l7m7h5kogc found: installing from source
+Process Process-27:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Warning: Skipping build of superlu-dist-7.1.1-kjiutvn7k5b3q66fm5z6cdidjyo5hal7 since parmetis-4.0.3-pyxwovr2j6qlnizysyies4l7m7h5kogc failed
+==> Warning: Skipping build of trilinos-13.0.1-7rummwyp54saa5vzqmsa6pxl3uzcwcxy since superlu-dist-7.1.1-kjiutvn7k5b3q66fm5z6cdidjyo5hal7 failed
+==> Warning: Skipping build of datatransferkit-3.1-rc3-eunfnmwyeju5ibbmfuqssvko3hv236o5 since trilinos-13.0.1-7rummwyp54saa5vzqmsa6pxl3uzcwcxy failed
+==> Warning: Skipping build of fortrilinos-2.0.0-b3yetx43m65w3msz4yttu4bcwb4y7u6q since trilinos-13.0.1-7rummwyp54saa5vzqmsa6pxl3uzcwcxy failed
+==> Warning: Skipping build of omega-h-9.34.1-vtqytki4df3ubl4x564nzm5raokqamdd since trilinos-13.0.1-7rummwyp54saa5vzqmsa6pxl3uzcwcxy failed
+==> Error: Failed to install parmetis due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing kvtree-1.2.0-ajcyvewbpfinpk3y2fgc5uzojefintxp [191/286]
+==> No binary for kvtree-1.2.0-ajcyvewbpfinpk3y2fgc5uzojefintxp found: installing from source
+Process Process-28:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Warning: Skipping build of axl-0.3.0-a4hafeqibiqmmjqs75h4bzhwatidpoxf since kvtree-1.2.0-ajcyvewbpfinpk3y2fgc5uzojefintxp failed
+==> Warning: Skipping build of shuffile-0.2.0-2oumtfxbqsb7iz45ooyw43f3dxfaa4jv since kvtree-1.2.0-ajcyvewbpfinpk3y2fgc5uzojefintxp failed
+==> Error: Failed to install kvtree due to InstallError: The process has stopped unexpectedly (exit 1)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/lua-luaposix-36.1-5fepgvyo3l35tcxejdiyxmnhexrtki6o
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/sqlite-3.43.2-c22bllagils7zuve4dqmjulecejvy42h
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gdbm-1.19-t4ipr2ivbibnewhph2gizo2xzt2pjbwe
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libsm-1.2.3-2jn2vyhmp4p752vdn4ncxpqgq22zsji7
+==> Installing qthreads-1.16-dn5pbvrgqdxeqyjdi27ium7gkvwno2ru [196/286]
+==> No binary for qthreads-1.16-dn5pbvrgqdxeqyjdi27ium7gkvwno2ru found: installing from source
+==> Fetching file:///sw/sources/facility-spack/source_mirror/qthreads/qthreads-1.16.tar.bz2
+==> Error: ChecksumError: sha256 checksum failed for /tmp/sauesw/spack-stage/spack-stage-qthreads-1.16-dn5pbvrgqdxeqyjdi27ium7gkvwno2ru/qthread-1.16.tar.bz2
+    Expected 923d58f3ecf7d838a18c3616948ea32ddace7196c6805518d052c51a27219970 but got 0a95e20b08cb486de6c33bff16590f41e444ca64ab738aee697ef982fbb021d8. File size = 999800 bytes. Contents = b'BZh91AY&SY\x1e\x96\xd8>\x05\xd1...5\xf0T\x17\xff\xf8\xbb\x92)\xc2\x84\x85\xad\xd6\x88\xf8'
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/intel-tbb-2021.9.0-jbfwb2fyfmocpn6hgtilve5giau4ccsw
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/libmicrohttpd-0.9.50-43tpeaqwqcv2tncszyfu2qxw6zvp2gan
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/bison-3.8.2-o3pzkyy7k45gpbnj3bpstek7jlbsvinb
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/texinfo-7.0.3-bcyitpci4etwslxuuqxxs65mnk7krllf
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/python-3.11.6-n2a5hptuetvjbknptamb4t65wrdmjy7n
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/lua-5.3.6-uhgjwvrjums6idyizamz7hnjpfzjcm7x
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/bison-3.8.2-5p2qx6iwutifmkl3ztmetnpqoyijaa7n
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/elfutils-0.189-qjzanxy53pb4saoo4bot2ctdddkzg23i
+==> Installing kokkos-3.4.01-tdgf2sxpeuwxrvmmwnk6iqn7bc7kicqn [206/286]
+==> No binary for kokkos-3.4.01-tdgf2sxpeuwxrvmmwnk6iqn7bc7kicqn found: installing from source
+==> Using cached archive: /ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/share/mirrors/sources/_source-cache/archive/14/146d5e233228e75ef59ca497e8f5872d9b272cb93e8e9cdfe05ad34a23f483d1.tar.gz
+==> No patches needed for kokkos
+==> kokkos: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    '/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.27.7-33ptfibcewcd6ooyuvbiltplkn566lye/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/kokkos-3.4.01-tdgf2sxpeuwxrvmmwnk6iqn7bc7kicqn' '-DCMAKE_BUILD_TYPE:STRING=Release' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/kokkos-3.4.01-tdgf2sxpeuwxrvmmwnk6iqn7bc7kicqn/lib;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/kokkos-3.4.01-tdgf2sxpeuwxrvmmwnk6iqn7bc7kicqn/lib64;/opt/rocm-5.7.1/hip/lib;/opt/rocm-5.7.1/lib;/opt/rocm-5.7.1/llvm/lib;/opt/cray/pe/gcc/12.2.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/gmake-4.4.1-oxotubn45k22ai6iean5bbmaxriafc7u;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.27.7-33ptfibcewcd6ooyuvbiltplkn566lye;/opt/rocm-5.7.1/llvm;/opt/rocm-5.7.1;/opt/rocm-5.7.1/hip' '-DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF' '-DCMAKE_CXX_STANDARD:STRING=17' '-DBUILD_SHARED_LIBS:BOOL=ON' '-DKokkos_ARCH_ZEN3:BOOL=ON' '-DKokkos_ARCH_VEGA908:BOOL=ON' '-DKokkos_ENABLE_CUDA:BOOL=OFF' '-DKokkos_ENABLE_OPENMP:BOOL=OFF' '-DKokkos_ENABLE_THREADS:BOOL=OFF' '-DKokkos_ENABLE_SERIAL:BOOL=ON' '-DKokkos_ENABLE_HIP:BOOL=ON' '-DKokkos_ENABLE_SYCL:BOOL=OFF' '-DKokkos_ENABLE_OPENMPTARGET:BOOL=OFF' '-DKokkos_ENABLE_AGGRESSIVE_VECTORIZATION:BOOL=OFF' '-DKokkos_ENABLE_COMPILER_WARNINGS:BOOL=OFF' '-DKokkos_ENABLE_DEBUG:BOOL=OFF' '-DKokkos_ENABLE_DEBUG_BOUNDS_CHECK:BOOL=OFF' '-DKokkos_ENABLE_DEBUG_DUALVIEW_MODIFY_CHECK:BOOL=OFF' '-DKokkos_ENABLE_DEPRECATED_CODE:BOOL=OFF' '-DKokkos_ENABLE_EXAMPLES:BOOL=OFF' '-DKokkos_ENABLE_HPX_ASYNC_DISPATCH:BOOL=OFF' '-DKokkos_ENABLE_TUNING:BOOL=OFF' '-DKokkos_ENABLE_TESTS:BOOL=OFF' '-DKokkos_ENABLE_HPX:BOOL=OFF' '-DKokkos_ENABLE_HWLOC:BOOL=OFF' '-DKokkos_ENABLE_NUMACTL:BOOL=OFF' '-DKokkos_ENABLE_MEMKIND:BOOL=OFF' '-DCMAKE_CXX_COMPILER:STRING=/opt/rocm-5.7.1/hip/bin/hipcc' '/tmp/sauesw/spack-stage/spack-stage-kokkos-3.4.01-tdgf2sxpeuwxrvmmwnk6iqn7bc7kicqn/spack-src'
+
+5 errors found in build log:
+     5     -- Setting default Kokkos CXX standard to 17
+     6     -- The CXX compiler identification is unknown
+     7     -- Detecting CXX compiler ABI info
+     8     -- Detecting CXX compiler ABI info - failed
+     9     -- Check for working CXX compiler: /opt/rocm-5.7.1/hip/bin/hipcc
+     10    -- Check for working CXX compiler: /opt/rocm-5.7.1/hip/bin/hipcc - broken
+  >> 11    CMake Error at /autofs/nccs-svm1_sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.27.7-33ptfibcewcd6ooyuvbiltplkn566lye/share/cmake-3.27/Modules/
+           CMakeTestCXXCompiler.cmake:60 (message):
+     12      The C++ compiler
+     13    
+     14        "/opt/rocm-5.7.1/hip/bin/hipcc"
+     15    
+     16      is not able to compile a simple test program.
+     17    
+
+     ...
+
+     21    
+     22        Run Build Command(s): /autofs/nccs-svm1_sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.27.7-33ptfibcewcd6ooyuvbiltplkn566lye/bin/cmake -E e
+           nv VERBOSE=1 /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/gmake-4.4.1-oxotubn45k22ai6iean5bbmaxriafc7u/bin/gmake -f Makefile cmTC_b0c4f/fast
+     23        /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/gmake-4.4.1-oxotubn45k22ai6iean5bbmaxriafc7u/bin/gmake  -f CMakeFiles/cmTC_b0c4f.dir/build.make CMake
+           Files/cmTC_b0c4f.dir/build
+     24        gmake[1]: Entering directory '/tmp/sauesw/spack-stage/spack-stage-kokkos-3.4.01-tdgf2sxpeuwxrvmmwnk6iqn7bc7kicqn/spack-build-tdgf2sx/CMakeFiles/CMakeScratch/TryCompi
+           le-9O1d3U'
+     25        Building CXX object CMakeFiles/cmTC_b0c4f.dir/testCXXCompiler.cxx.o
+     26        /opt/rocm-5.7.1/hip/bin/hipcc    -o CMakeFiles/cmTC_b0c4f.dir/testCXXCompiler.cxx.o -c /tmp/sauesw/spack-stage/spack-stage-kokkos-3.4.01-tdgf2sxpeuwxrvmmwnk6iqn7bc7k
+           icqn/spack-build-tdgf2sx/CMakeFiles/CMakeScratch/TryCompile-9O1d3U/testCXXCompiler.cxx
+  >> 27    clang++: error: cannot find HIP runtime; provide its path via '--rocm-path', or pass '-nogpuinc' to build without HIP runtime
+  >> 28        clang++: error: cannot find HIP runtime; provide its path via '--rocm-path', or pass '-nogpuinc' to build without HIP runtime
+  >> 29        gmake[1]: *** [CMakeFiles/cmTC_b0c4f.dir/build.make:78: CMakeFiles/cmTC_b0c4f.dir/testCXXCompiler.cxx.o] Error 1
+     30        gmake[1]: Leaving directory '/tmp/sauesw/spack-stage/spack-stage-kokkos-3.4.01-tdgf2sxpeuwxrvmmwnk6iqn7bc7kicqn/spack-build-tdgf2sx/CMakeFiles/CMakeScratch/TryCompil
+           e-9O1d3U'
+  >> 31        gmake: *** [Makefile:127: cmTC_b0c4f/fast] Error 2
+     32    
+     33    
+     34    
+     35    
+     36    
+     37      CMake will not be able to correctly generate this project.
+
+See build log for details:
+  /tmp/sauesw/spack-stage/spack-stage-kokkos-3.4.01-tdgf2sxpeuwxrvmmwnk6iqn7bc7kicqn/spack-build-out.txt
+
+==> Installing sundials-5.8.0-bupddenhafalv7o5hw3eknwbldg2ytkb [207/286]
+==> No binary for sundials-5.8.0-bupddenhafalv7o5hw3eknwbldg2ytkb found: installing from source
+Process Process-31:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install sundials due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing amrex-21.11-4vlafaror4swl55xtbzaeavyi65h6eum [208/286]
+==> No binary for amrex-21.11-4vlafaror4swl55xtbzaeavyi65h6eum found: installing from source
+Process Process-32:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install amrex due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing kokkos-3.5.00-bi4bybhqvrmz2pdpvhf7qj4oxmf7a7zg [209/286]
+==> No binary for kokkos-3.5.00-bi4bybhqvrmz2pdpvhf7qj4oxmf7a7zg found: installing from source
+==> Using cached archive: /ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/share/mirrors/sources/_source-cache/archive/74/748f06aed63b1e77e3653cd2f896ef0d2c64cb2e2d896d9e5a57fec3ff0244ff.tar.gz
+==> No patches needed for kokkos
+==> kokkos: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    '/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.27.7-33ptfibcewcd6ooyuvbiltplkn566lye/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/kokkos-3.5.00-bi4bybhqvrmz2pdpvhf7qj4oxmf7a7zg' '-DCMAKE_BUILD_TYPE:STRING=Release' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/kokkos-3.5.00-bi4bybhqvrmz2pdpvhf7qj4oxmf7a7zg/lib;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/kokkos-3.5.00-bi4bybhqvrmz2pdpvhf7qj4oxmf7a7zg/lib64;/opt/rocm-5.7.1/hip/lib;/opt/rocm-5.7.1/lib;/opt/rocm-5.7.1/llvm/lib;/opt/cray/pe/gcc/12.2.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/gmake-4.4.1-oxotubn45k22ai6iean5bbmaxriafc7u;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.27.7-33ptfibcewcd6ooyuvbiltplkn566lye;/opt/rocm-5.7.1/llvm;/opt/rocm-5.7.1;/opt/rocm-5.7.1/hip' '-DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF' '-DCMAKE_CXX_STANDARD:STRING=17' '-DBUILD_SHARED_LIBS:BOOL=ON' '-DKokkos_ARCH_ZEN3:BOOL=ON' '-DKokkos_ARCH_VEGA90A:BOOL=ON' '-DKokkos_ENABLE_CUDA:BOOL=OFF' '-DKokkos_ENABLE_OPENMP:BOOL=OFF' '-DKokkos_ENABLE_THREADS:BOOL=OFF' '-DKokkos_ENABLE_SERIAL:BOOL=ON' '-DKokkos_ENABLE_HIP:BOOL=ON' '-DKokkos_ENABLE_SYCL:BOOL=OFF' '-DKokkos_ENABLE_OPENMPTARGET:BOOL=OFF' '-DKokkos_ENABLE_AGGRESSIVE_VECTORIZATION:BOOL=OFF' '-DKokkos_ENABLE_COMPILER_WARNINGS:BOOL=OFF' '-DKokkos_ENABLE_DEBUG:BOOL=OFF' '-DKokkos_ENABLE_DEBUG_BOUNDS_CHECK:BOOL=OFF' '-DKokkos_ENABLE_DEBUG_DUALVIEW_MODIFY_CHECK:BOOL=OFF' '-DKokkos_ENABLE_DEPRECATED_CODE:BOOL=OFF' '-DKokkos_ENABLE_EXAMPLES:BOOL=OFF' '-DKokkos_ENABLE_HPX_ASYNC_DISPATCH:BOOL=OFF' '-DKokkos_ENABLE_TUNING:BOOL=OFF' '-DKokkos_ENABLE_TESTS:BOOL=OFF' '-DKokkos_ENABLE_HPX:BOOL=OFF' '-DKokkos_ENABLE_HWLOC:BOOL=OFF' '-DKokkos_ENABLE_NUMACTL:BOOL=OFF' '-DKokkos_ENABLE_MEMKIND:BOOL=OFF' '-DCMAKE_CXX_COMPILER:STRING=/opt/rocm-5.7.1/hip/bin/hipcc' '/tmp/sauesw/spack-stage/spack-stage-kokkos-3.5.00-bi4bybhqvrmz2pdpvhf7qj4oxmf7a7zg/spack-src'
+
+5 errors found in build log:
+     5     -- Setting default Kokkos CXX standard to 17
+     6     -- The CXX compiler identification is unknown
+     7     -- Detecting CXX compiler ABI info
+     8     -- Detecting CXX compiler ABI info - failed
+     9     -- Check for working CXX compiler: /opt/rocm-5.7.1/hip/bin/hipcc
+     10    -- Check for working CXX compiler: /opt/rocm-5.7.1/hip/bin/hipcc - broken
+  >> 11    CMake Error at /autofs/nccs-svm1_sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.27.7-33ptfibcewcd6ooyuvbiltplkn566lye/share/cmake-3.27/Modules/
+           CMakeTestCXXCompiler.cmake:60 (message):
+     12      The C++ compiler
+     13    
+     14        "/opt/rocm-5.7.1/hip/bin/hipcc"
+     15    
+     16      is not able to compile a simple test program.
+     17    
+
+     ...
+
+     21    
+     22        Run Build Command(s): /autofs/nccs-svm1_sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.27.7-33ptfibcewcd6ooyuvbiltplkn566lye/bin/cmake -E e
+           nv VERBOSE=1 /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/gmake-4.4.1-oxotubn45k22ai6iean5bbmaxriafc7u/bin/gmake -f Makefile cmTC_44f37/fast
+     23        /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/gmake-4.4.1-oxotubn45k22ai6iean5bbmaxriafc7u/bin/gmake  -f CMakeFiles/cmTC_44f37.dir/build.make CMake
+           Files/cmTC_44f37.dir/build
+     24        gmake[1]: Entering directory '/tmp/sauesw/spack-stage/spack-stage-kokkos-3.5.00-bi4bybhqvrmz2pdpvhf7qj4oxmf7a7zg/spack-build-bi4bybh/CMakeFiles/CMakeScratch/TryCompi
+           le-gU37oJ'
+     25        Building CXX object CMakeFiles/cmTC_44f37.dir/testCXXCompiler.cxx.o
+     26        /opt/rocm-5.7.1/hip/bin/hipcc    -o CMakeFiles/cmTC_44f37.dir/testCXXCompiler.cxx.o -c /tmp/sauesw/spack-stage/spack-stage-kokkos-3.5.00-bi4bybhqvrmz2pdpvhf7qj4oxmf7
+           a7zg/spack-build-bi4bybh/CMakeFiles/CMakeScratch/TryCompile-gU37oJ/testCXXCompiler.cxx
+  >> 27    clang++: error: cannot find HIP runtime; provide its path via '--rocm-path', or pass '-nogpuinc' to build without HIP runtime
+  >> 28        clang++: error: cannot find HIP runtime; provide its path via '--rocm-path', or pass '-nogpuinc' to build without HIP runtime
+  >> 29        gmake[1]: *** [CMakeFiles/cmTC_44f37.dir/build.make:78: CMakeFiles/cmTC_44f37.dir/testCXXCompiler.cxx.o] Error 1
+     30        gmake[1]: Leaving directory '/tmp/sauesw/spack-stage/spack-stage-kokkos-3.5.00-bi4bybhqvrmz2pdpvhf7qj4oxmf7a7zg/spack-build-bi4bybh/CMakeFiles/CMakeScratch/TryCompil
+           e-gU37oJ'
+  >> 31        gmake: *** [Makefile:127: cmTC_44f37/fast] Error 2
+     32    
+     33    
+     34    
+     35    
+     36    
+     37      CMake will not be able to correctly generate this project.
+
+See build log for details:
+  /tmp/sauesw/spack-stage/spack-stage-kokkos-3.5.00-bi4bybhqvrmz2pdpvhf7qj4oxmf7a7zg/spack-build-out.txt
+
+==> Installing rempi-1.1.0-lkpjgeglzn7p4nacvujw7yqldktm6sz4 [210/286]
+==> No binary for rempi-1.1.0-lkpjgeglzn7p4nacvujw7yqldktm6sz4 found: installing from source
+Process Process-34:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install rempi due to InstallError: The process has stopped unexpectedly (exit 1)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/python-3.11.6-q7j3kxavq47w2ppqdvq3a6bp5yubw2k7
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/perl-5.38.0-crjtlo4xdji5capkklcdifnrqcey5kjz
+==> Installing elfutils-0.189-k6i7o4wdtlervneygmuvs5r2ekoq7yan [213/286]
+==> No binary for elfutils-0.189-k6i7o4wdtlervneygmuvs5r2ekoq7yan found: installing from source
+==> Using cached archive: /ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/share/mirrors/sources/_source-cache/archive/39/39bd8f1a338e2b7cd4abc3ff11a0eddc6e690f69578a57478d8179b4148708c8.tar.bz2
+==> Ran patch() for elfutils
+==> elfutils: Executing phase: 'autoreconf'
+==> elfutils: Executing phase: 'configure'
+==> elfutils: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j24' 'V=1'
+
+6 errors found in build log:
+     1193    	-Wl,--soname,libelf.so.1 \
+     1194    	-Wl,--version-script,libelf.map \
+     1195    	-Wl,--no-undefined \
+     1196    	-Wl,--whole-archive libelf_pic.a -Wl,--no-whole-archive \
+     1197    	../lib/libeu.a -lz -lzstd -llzma -lbz2
+     1198    /usr/bin/ld: libelf_pic.a(elf_error.os): in function `elf_errmsg':
+  >> 1199    /tmp/sauesw/spack-stage/spack-stage-elfutils-0.189-k6i7o4wdtlervneygmuvs5r2ekoq7yan/spack-src/libelf/elf_error.c:353: undefined reference to `libintl_dgettext'
+  >> 1200    /usr/bin/ld: /tmp/sauesw/spack-stage/spack-stage-elfutils-0.189-k6i7o4wdtlervneygmuvs5r2ekoq7yan/spack-src/libelf/elf_error.c:350: undefined reference to `libintl_dget
+             text'
+  >> 1201    collect2: error: ld returned 1 exit status
+  >> 1202    make[2]: *** [Makefile:1353: libelf.so] Error 1
+  >> 1203    make[1]: *** [Makefile:537: all-recursive] Error 1
+  >> 1204    make: *** [Makefile:453: all] Error 2
+
+See build log for details:
+  /tmp/sauesw/spack-stage/spack-stage-elfutils-0.189-k6i7o4wdtlervneygmuvs5r2ekoq7yan/spack-build-out.txt
+
+==> Warning: Skipping build of libdwarf-20180129-6cmuxcandh2on4ud3hms3o74vjg2mqig since elfutils-0.189-k6i7o4wdtlervneygmuvs5r2ekoq7yan failed
+==> Warning: Skipping build of gdb-10.2-wquhayaaibh3u4dnqpjxrqmqvjtyvetm since elfutils-0.189-k6i7o4wdtlervneygmuvs5r2ekoq7yan failed
+==> Warning: Skipping build of llvm-openmp-ompt-tr6_forwards-pkywjpx567iwqnjtn56oh5rfiety2ehp since elfutils-0.189-k6i7o4wdtlervneygmuvs5r2ekoq7yan failed
+==> Warning: Skipping build of archer-2.0.0-xhnyvllxupmzzc33xxewgu4ydespytlg since llvm-openmp-ompt-tr6_forwards-pkywjpx567iwqnjtn56oh5rfiety2ehp failed
+==> Warning: Skipping build of llvm-8.0.0-tj3nkqr5soo6fsbk7dphlshd4uwd5u4j since elfutils-0.189-k6i7o4wdtlervneygmuvs5r2ekoq7yan failed
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/py-pyyaml-5.4.1-rjvifvigjpeyupzhkvil7dmbz2o3seas
+==> Installing parsec-3.0.2012-u4jaczap7rm6pvssgtx2jlutch4xlfe2 [215/286]
+==> No binary for parsec-3.0.2012-u4jaczap7rm6pvssgtx2jlutch4xlfe2 found: installing from source
+Process Process-36:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install parsec due to InstallError: The process has stopped unexpectedly (exit 1)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/serf-1.3.10-simlzjnc5l5ii5r6whwv226oqro3sppp
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/py-pycparser-2.21-n3ofohlfu37lqr63q4irarjktn3ixfqm
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/py-jsonschema-2.6.0-eji46zkaxxe5fah7mcyw2tcifgacwdw3
+==> Installing parmetis-4.0.3-6tibccbbdyyd7rtsw3opth44ygpovxlh [219/286]
+==> No binary for parmetis-4.0.3-6tibccbbdyyd7rtsw3opth44ygpovxlh found: installing from source
+Process Process-37:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Warning: Skipping build of superlu-dist-7.2.0-stft6nbb245szfq6ktxyh3dueqzkz66b since parmetis-4.0.3-6tibccbbdyyd7rtsw3opth44ygpovxlh failed
+==> Warning: Skipping build of trilinos-13.2.0-jsabyzzvvqtyrj5z44twmwgwswrbiyca since superlu-dist-7.2.0-stft6nbb245szfq6ktxyh3dueqzkz66b failed
+==> Error: Failed to install parmetis due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing sundials-5.8.0-4z7wri3hw3nkvaeu6l42mlpbekveb4iv [220/286]
+==> No binary for sundials-5.8.0-4z7wri3hw3nkvaeu6l42mlpbekveb4iv found: installing from source
+Process Process-38:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install sundials due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing amrex-22.02-i77sz2tragqcxo4qbzlxcljgtsrtjhji [221/286]
+==> No binary for amrex-22.02-i77sz2tragqcxo4qbzlxcljgtsrtjhji found: installing from source
+Process Process-39:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install amrex due to InstallError: The process has stopped unexpectedly (exit 1)
+==> Installing arpack-ng-3.9.0-sx2ohjnxexiyz7polmfu4jt3um2m4c6l [222/286]
+==> No binary for arpack-ng-3.9.0-sx2ohjnxexiyz7polmfu4jt3um2m4c6l found: installing from source
+Process Process-40:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install arpack-ng due to InstallError: The process has stopped unexpectedly (exit 1)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/blt-0.4.1-fxba3zonv3g6vegtkolk5ejvhehpgrzi
+==> Installing ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc [224/286]
+==> No binary for ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc found: installing from source
+==> Warning: Fetching from mirror without a checksum!
+  This package is normally checked out from a version control system, but it has been archived on a spack mirror.  This means we cannot know a checksum for the tarball in advance. Be sure that your connection to this mirror is secure!
+==> Using cached archive: /ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/share/mirrors/sources/_source-cache/git//ginkgo-project/ginkgo.git/f811917c1def4d0fcd8db3fe5c948ce13409e28e.tar.gz
+==> Applied patch /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/ginkgo/1.4.0_skip_invalid_smoke_tests.patch
+==> ginkgo: Executing phase: 'cmake'
+==> ginkgo: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j24'
+
+5 errors found in build log:
+     311    cd /tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-build-pkkdbme/reference && /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olc
+            f-spack-environments/spack/lib/spack/env/gcc/g++ -Dginkgo_reference_EXPORTS -I/tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-bu
+            ild-pkkdbme/include -I/tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-src/include -I/tmp/sauesw/spack-stage/spack-stage-ginkgo-1
+            .4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-src -O3 -DNDEBUG -fPIC -Wpedantic -MD -MT reference/CMakeFiles/ginkgo_reference.dir/solver/idr_kernels.cpp.o -MF CMakeFiles/
+            ginkgo_reference.dir/solver/idr_kernels.cpp.o.d -o CMakeFiles/ginkgo_reference.dir/solver/idr_kernels.cpp.o -c /tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmel
+            ghe6fw3zdwrcydhv7ynptmxc/spack-src/reference/solver/idr_kernels.cpp
+     312    -- Removing /tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-build-pkkdbme/hip/CMakeFiles/ginkgo_hip.dir/stop/./ginkgo_hip_genera
+            ted_residual_norm_kernels.hip.cpp.o
+     313    /autofs/nccs-svm1_sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl/bin/cmake -E remove /tmp/sauesw/spack-s
+            tage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-build-pkkdbme/hip/CMakeFiles/ginkgo_hip.dir/stop/./ginkgo_hip_generated_residual_norm_kernels.hip.c
+            pp.o
+     314    -- Generating dependency file: /tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-build-pkkdbme/hip/CMakeFiles/ginkgo_hip.dir/stop/
+            ginkgo_hip_generated_residual_norm_kernels.hip.cpp.o.depend.pre
+     315    /opt/rocm-5.7.1/bin/hipcc -M /tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-src/hip/stop/residual_norm_kernels.hip.cpp -o /tmp/
+            sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-build-pkkdbme/hip/CMakeFiles/ginkgo_hip.dir/stop/ginkgo_hip_generated_residual_norm_k
+            ernels.hip.cpp.o.depend.pre -std=c++14 -DGKO_COMPILING_HIP -D__HIP_PLATFORM_HCC__=1 -D__HIP_PLATFORM_AMD__=1 --amdgpu-target=gfx90a -fPIC -O3 -DNDEBUG -I/opt/rocm-5.7.1
+            /include -I/opt/rocm-5.7.1/include -I/opt/rocm-5.7.1/include -I/opt/rocm-5.7.1/include -I/opt/rocm-5.7.1/include -I/opt/rocm-5.7.1/include -I/tmp/sauesw/spack-stage/spa
+            ck-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-build-pkkdbme/include -I/tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/s
+            pack-src/include -I/tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-src -I/tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbm
+            elghe6fw3zdwrcydhv7ynptmxc/spack-build-pkkdbme/include -I/tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-src/include -I/tmp/saue
+            sw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-src -I/opt/rocm-5.7.1/include -I/opt/rocm-5.7.1/include -I/opt/rocm-5.7.1/include -I/opt/
+            rocm-5.7.1/include -I/opt/rocm-5.7.1/include -I/opt/rocm-5.7.1/include/hiprand -I/opt/rocm-5.7.1/include -I/opt/rocm-5.7.1/include/rocrand -I/opt/rocm-5.7.1/include
+     316    Warning: The --amdgpu-target option has been deprecated and will be removed in the future.  Use --offload-arch instead.
+  >> 317    clang++: error: cannot find HIP runtime; provide its path via '--rocm-path', or pass '-nogpuinc' to build without HIP runtime
+  >> 318    CMake Error at ginkgo_hip_generated_residual_norm_kernels.hip.cpp.o.cmake:146 (message):
+     319      Error generating
+     320      /tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-build-pkkdbme/hip/CMakeFiles/ginkgo_hip.dir/stop/./ginkgo_hip_generated_residu
+            al_norm_kernels.hip.cpp.o
+     321    
+     322    
+  >> 323    make[2]: *** [hip/CMakeFiles/ginkgo_hip.dir/build.make:360: hip/CMakeFiles/ginkgo_hip.dir/stop/ginkgo_hip_generated_residual_norm_kernels.hip.cpp.o] Error 1
+     324    make[2]: Leaving directory '/tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-build-pkkdbme'
+  >> 325    make[1]: *** [CMakeFiles/Makefile2:569: hip/CMakeFiles/ginkgo_hip.dir/all] Error 2
+     326    make[1]: *** Waiting for unfinished jobs....
+     327    [ 23%] Building CXX object reference/CMakeFiles/ginkgo_reference.dir/solver/ir_kernels.cpp.o
+     328    cd /tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-build-pkkdbme/reference && /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olc
+            f-spack-environments/spack/lib/spack/env/gcc/g++ -Dginkgo_reference_EXPORTS -I/tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-bu
+            ild-pkkdbme/include -I/tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-src/include -I/tmp/sauesw/spack-stage/spack-stage-ginkgo-1
+            .4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-src -O3 -DNDEBUG -fPIC -Wpedantic -MD -MT reference/CMakeFiles/ginkgo_reference.dir/solver/ir_kernels.cpp.o -MF CMakeFiles/g
+            inkgo_reference.dir/solver/ir_kernels.cpp.o.d -o CMakeFiles/ginkgo_reference.dir/solver/ir_kernels.cpp.o -c /tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe
+            6fw3zdwrcydhv7ynptmxc/spack-src/reference/solver/ir_kernels.cpp
+     329    [ 23%] Building CXX object reference/CMakeFiles/ginkgo_reference.dir/solver/lower_trs_kernels.cpp.o
+     330    cd /tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-build-pkkdbme/reference && /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olc
+            f-spack-environments/spack/lib/spack/env/gcc/g++ -Dginkgo_reference_EXPORTS -I/tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-bu
+            ild-pkkdbme/include -I/tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-src/include -I/tmp/sauesw/spack-stage/spack-stage-ginkgo-1
+            .4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-src -O3 -DNDEBUG -fPIC -Wpedantic -MD -MT reference/CMakeFiles/ginkgo_reference.dir/solver/lower_trs_kernels.cpp.o -MF CMake
+            Files/ginkgo_reference.dir/solver/lower_trs_kernels.cpp.o.d -o CMakeFiles/ginkgo_reference.dir/solver/lower_trs_kernels.cpp.o -c /tmp/sauesw/spack-stage/spack-stage-gin
+            kgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-src/reference/solver/lower_trs_kernels.cpp
+     331    [ 24%] Building CXX object reference/CMakeFiles/ginkgo_reference.dir/solver/upper_trs_kernels.cpp.o
+
+     ...
+
+     344    cd /tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-build-pkkdbme/reference && /autofs/nccs-svm1_sw/borg/spack-envs/rocm-5.7.1/op
+            t/linux-sles15-x86_64/gcc-12.2.0/cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl/bin/cmake -E cmake_link_script CMakeFiles/ginkgo_reference.dir/link.txt --verbose=1
+     345    /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/env/gcc/g++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libginkgo_reference.so.1.4.0 -
+            o ../lib/libginkgo_reference.so.1.4.0 CMakeFiles/ginkgo_reference.dir/base/version.cpp.o CMakeFiles/ginkgo_reference.dir/components/absolute_array.cpp.o CMakeFiles/gink
+            go_reference.dir/components/fill_array.cpp.o CMakeFiles/ginkgo_reference.dir/components/precision_conversion.cpp.o CMakeFiles/ginkgo_reference.dir/components/prefix_sum
+            .cpp.o CMakeFiles/ginkgo_reference.dir/factorization/factorization_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/factorization/ic_kernels.cpp.o CMakeFiles/ginkgo_refere
+            nce.dir/factorization/ilu_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/factorization/par_ic_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/factorization/par_ict_kernels
+            .cpp.o CMakeFiles/ginkgo_reference.dir/factorization/par_ilu_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/factorization/par_ilut_kernels.cpp.o CMakeFiles/ginkgo_refere
+            nce.dir/matrix/coo_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/matrix/csr_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/matrix/dense_kernels.cpp.o CMakeFiles/ginkgo_r
+            eference.dir/matrix/diagonal_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/matrix/ell_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/matrix/fbcsr_kernels.cpp.o CMakeFile
+            s/ginkgo_reference.dir/matrix/hybrid_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/matrix/sellp_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/matrix/sparsity_csr_kernel
+            s.cpp.o CMakeFiles/ginkgo_reference.dir/multigrid/amgx_pgm_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/preconditioner/isai_kernels.cpp.o CMakeFiles/ginkgo_reference.d
+            ir/preconditioner/jacobi_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/reorder/rcm_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/solver/bicg_kernels.cpp.o CMakeFiles/gi
+            nkgo_reference.dir/solver/bicgstab_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/solver/cg_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/solver/cgs_kernels.cpp.o CMakeF
+            iles/ginkgo_reference.dir/solver/fcg_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/solver/gmres_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/solver/cb_gmres_kernels.cp
+            p.o CMakeFiles/ginkgo_reference.dir/solver/idr_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/solver/ir_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/solver/lower_trs_ke
+            rnels.cpp.o CMakeFiles/ginkgo_reference.dir/solver/upper_trs_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/stop/criterion_kernels.cpp.o CMakeFiles/ginkgo_reference.dir/
+            stop/residual_norm_kernels.cpp.o ../devices/reference/CMakeFiles/ginkgo_reference_device.dir/dummy.cpp.o  -Wl,-rpath,/tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pk
+            kdbmelghe6fw3zdwrcydhv7ynptmxc/spack-build-pkkdbme/lib::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+            :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: ../lib/libginkgo_device.so.1.4.0
+     346    cd /tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-build-pkkdbme/reference && /autofs/nccs-svm1_sw/borg/spack-envs/rocm-5.7.1/op
+            t/linux-sles15-x86_64/gcc-12.2.0/cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl/bin/cmake -E cmake_symlink_library ../lib/libginkgo_reference.so.1.4.0 ../lib/libginkgo_r
+            eference.so.1.4.0 ../lib/libginkgo_reference.so
+     347    make[2]: Leaving directory '/tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-build-pkkdbme'
+     348    [ 25%] Built target ginkgo_reference
+     349    make[1]: Leaving directory '/tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-build-pkkdbme'
+  >> 350    make: *** [Makefile:159: all] Error 2
+
+See build log for details:
+  /tmp/sauesw/spack-stage/spack-stage-ginkgo-1.4.0-pkkdbmelghe6fw3zdwrcydhv7ynptmxc/spack-build-out.txt
+
+==> Installing blaspp-2023.08.25-dyv5gaj3gnfcxks72ctglzx5hz3fw2ib [225/286]
+==> No binary for blaspp-2023.08.25-dyv5gaj3gnfcxks72ctglzx5hz3fw2ib found: installing from source
+==> Using cached archive: /ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/share/mirrors/sources/_source-cache/archive/1d/1d9c7227a6d8776944aa866592142b7b51c6e4ba5529d168eb8ae2b329c47401.tar.gz
+==> No patches needed for blaspp
+==> blaspp: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    '/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/blaspp-2023.08.25-dyv5gaj3gnfcxks72ctglzx5hz3fw2ib' '-DCMAKE_BUILD_TYPE:STRING=Release' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/blaspp-2023.08.25-dyv5gaj3gnfcxks72ctglzx5hz3fw2ib/lib;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/blaspp-2023.08.25-dyv5gaj3gnfcxks72ctglzx5hz3fw2ib/lib64;/opt/rocm-5.7.1/hip/lib;/opt/rocm-5.7.1/lib;/opt/rocm-5.7.1/llvm/lib;/opt/cray/pe/gcc/12.2.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex;/opt/rocm-5.7.1;/opt/rocm-5.7.1/llvm;/opt/rocm-5.7.1;/opt/rocm-5.7.1/hip;None' '-Dbuild_tests=False' '-Duse_openmp=True' '-DBUILD_SHARED_LIBS=True' '-Dgpu_backend=hip' '-DBLAS_LIBRARIES=' '-DBLAS_VENDOR:STRING=CRAY' '/tmp/sauesw/spack-stage/spack-stage-blaspp-2023.08.25-dyv5gaj3gnfcxks72ctglzx5hz3fw2ib/spack-src'
+
+1 error found in build log:
+     98     
+     99     AMD ACML sequential
+     100       libs:  -lacml
+     101       -DBLAS_FORTRAN_ADD_                              no (library not found)
+     102       BLAS library not found.
+     103    
+  >> 104    CMake Error at CMakeLists.txt:418 (message):
+     105      BLAS++ requires a BLAS library and none was found.  Ensure that it is
+     106      accessible in environment variables $CPATH, $LIBRARY_PATH, and
+     107      $LD_LIBRARY_PATH.
+     108    
+     109    
+     110    -- Configuring incomplete, errors occurred!
+
+See build log for details:
+  /tmp/sauesw/spack-stage/spack-stage-blaspp-2023.08.25-dyv5gaj3gnfcxks72ctglzx5hz3fw2ib/spack-build-out.txt
+
+==> Warning: Skipping build of lapackpp-2023.08.25-bpy7banbvxdhz7t2ud4aiskxmsk4f7cu since blaspp-2023.08.25-dyv5gaj3gnfcxks72ctglzx5hz3fw2ib failed
+==> Warning: Skipping build of slate-2021.05.02-3iv33i5ejib3ockgqyqmh57g3spbasnh since lapackpp-2023.08.25-bpy7banbvxdhz7t2ud4aiskxmsk4f7cu failed
+==> Installing hdf5-1.12.0-7fynw5moitpgozjgoufukmdjgkskzdrt [226/286]
+==> No binary for hdf5-1.12.0-7fynw5moitpgozjgoufukmdjgkskzdrt found: installing from source
+Process Process-43:
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1108, in _setup_pkg_and_run
+    pkg, dirty=kwargs.get("dirty", False), context=Context.from_string(context)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 754, in setup_package
+    set_wrapper_variables(pkg, env_mods)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 524, in set_wrapper_variables
+    update_compiler_args_for_dep(dspec)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 518, in update_compiler_args_for_dep
+    _prepend_all(include_dirs, query.headers.directories)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1223, in __get__
+    value = f()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/spec.py", line 1212, in <lambda>
+    callbacks_chain.append(lambda: getattr(pkg, self.attribute_name))
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1127, in _setup_pkg_and_run
+    package_context = get_package_context(tb)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/build_environment.py", line 1335, in get_package_context
+    func = getattr(obj, tb.tb_frame.f_code.co_name, "")
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/cray-mpich/package.py", line 112, in headers
+    return hdrs
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/llnl/util/filesystem.py", line 1931, in __getitem__
+    return self.files[item]
+IndexError: list index out of range
+==> Error: Failed to install hdf5 due to InstallError: The process has stopped unexpectedly (exit 1)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/py-setuptools-68.0.0-khhl5eera7skb4tivvzcg5t2p7w4daju
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/perl-data-dumper-2.173-mlllns7oldsucpschnvkmdvkurfnjljy
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/glib-2.72.4-lr6xkr3dfdddj6ggaf6bvpdkkpscdclr
+==> Installing subversion-1.9.7-hbbcrtujlouvxfgaiadq4dfwpx2pvd76 [230/286]
+==> No binary for subversion-1.9.7-hbbcrtujlouvxfgaiadq4dfwpx2pvd76 found: installing from source
+==> Using cached archive: /ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/share/mirrors/sources/_source-cache/archive/c7/c72a209c883e20245f14c4e644803f50ae83ae24652e385ff5e82300a0d06c3c.tar.gz
+==> No patches needed for subversion
+==> subversion: Executing phase: 'autoreconf'
+==> subversion: Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 1:
+    '/tmp/sauesw/spack-stage/spack-stage-subversion-1.9.7-hbbcrtujlouvxfgaiadq4dfwpx2pvd76/spack-src/configure' '--prefix=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/subversion-1.9.7-hbbcrtujlouvxfgaiadq4dfwpx2pvd76' '--with-apr=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/apr-1.7.4-7ue2wjdlgsl6qeiagg4mg6r4niycvy4w' '--with-apr-util=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/apr-util-1.6.3-lj7xgwlnmqpfqw7iietraek7rlyvh2wp' '--with-sqlite=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/sqlite-3.43.2-pxkcevhq2d5t7ffshsmyywdl3y5uaxk5' '--with-expat=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/expat-2.5.0-rbwheblocprei4gutpjxi4tsvkvovk2z/include:/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/expat-2.5.0-rbwheblocprei4gutpjxi4tsvkvovk2z/lib:expat' '--with-zlib=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/zlib-ng-2.1.4-rlovcyzw2muliedhqkme3sxzhf6w6gql' '--without-apxs' '--without-trang' '--without-doxygen' '--without-berkeley-db' '--without-sasl' '--without-libmagic' '--without-kwallet' '--without-jdk' '--without-boost' '--with-serf=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/serf-1.3.10-simlzjnc5l5ii5r6whwv226oqro3sppp' '--without-swig' '--enable-nls' 'LIBS=-lintl' 'LDFLAGS=-L/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gettext-0.22.3-ljzxatqvjqscu7ewtjicvntl4gtkltb5/lib'
+
+1 error found in build log:
+     198    configure: Configuring python swig binding
+     199    checking for Python includes... -I/usr/include/python3.6m
+     200    checking for compiling Python extensions... gcc -pthread -fPIC
+     201    checking for linking Python extensions... gcc -pthread -shared
+     202    checking for linking Python libraries...
+     203    checking for apr_int64_t Python/C API format string...
+  >> 204    configure: error: failed to recognize APR_INT64_T_FMT on this platform
+
+See build log for details:
+  /tmp/sauesw/spack-stage/spack-stage-subversion-1.9.7-hbbcrtujlouvxfgaiadq4dfwpx2pvd76/spack-build-out.txt
+
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/py-cffi-1.15.1-2zqe2rmvt4upo6a7n4rgcj6smxogy6wd
+==> Installing raja-0.14.0-ndeu53y4svh2m6koa6lqq2xuuadpmqje [232/286]
+==> No binary for raja-0.14.0-ndeu53y4svh2m6koa6lqq2xuuadpmqje found: installing from source
+==> Warning: Fetching from mirror without a checksum!
+  This package is normally checked out from a version control system, but it has been archived on a spack mirror.  This means we cannot know a checksum for the tarball in advance. Be sure that your connection to this mirror is secure!
+==> Using cached archive: /ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/share/mirrors/sources/_source-cache/git//LLNL/RAJA.git/357933a42842dd91de5c1034204d937fce0a2a44.tar.gz
+==> No patches needed for raja
+==> raja: Executing phase: 'initconfig'
+==> raja: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    '/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/raja-0.14.0-ndeu53y4svh2m6koa6lqq2xuuadpmqje' '-DCMAKE_BUILD_TYPE:STRING=Release' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/raja-0.14.0-ndeu53y4svh2m6koa6lqq2xuuadpmqje/lib;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/raja-0.14.0-ndeu53y4svh2m6koa6lqq2xuuadpmqje/lib64;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/camp-0.2.3-ebnytj3wixoti4xa6z6epmnzceqdzxnw/lib;/opt/rocm-5.7.1/hip/lib;/opt/rocm-5.7.1/lib;/opt/rocm-5.7.1/llvm/lib;/opt/cray/pe/gcc/12.2.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/camp-0.2.3-ebnytj3wixoti4xa6z6epmnzceqdzxnw;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/blt-0.4.1-fxba3zonv3g6vegtkolk5ejvhehpgrzi;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex;/opt/rocm-5.7.1;/opt/rocm-5.7.1/llvm;/opt/rocm-5.7.1;/opt/rocm-5.7.1/hip' '-C' '/tmp/sauesw/spack-stage/spack-stage-raja-0.14.0-ndeu53y4svh2m6koa6lqq2xuuadpmqje/spack-src/login2-linux-sles15-zen3-gcc@12.2.0.cmake' '/tmp/sauesw/spack-stage/spack-stage-raja-0.14.0-ndeu53y4svh2m6koa6lqq2xuuadpmqje/spack-src'
+
+5 errors found in build log:
+     7     -- The CXX compiler identification is unknown
+     8     -- The C compiler identification is GNU 12.2.0
+     9     -- Detecting CXX compiler ABI info
+     10    -- Detecting CXX compiler ABI info - failed
+     11    -- Check for working CXX compiler: /opt/rocm-5.7.1/hip/bin/hipcc
+     12    -- Check for working CXX compiler: /opt/rocm-5.7.1/hip/bin/hipcc - broken
+  >> 13    CMake Error at /autofs/nccs-svm1_sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl/share/cmake-3.20/Modules/
+           CMakeTestCXXCompiler.cmake:59 (message):
+     14      The C++ compiler
+     15    
+     16        "/opt/rocm-5.7.1/hip/bin/hipcc"
+     17    
+     18      is not able to compile a simple test program.
+     19    
+
+     ...
+
+     22        Change Dir: /tmp/sauesw/spack-stage/spack-stage-raja-0.14.0-ndeu53y4svh2m6koa6lqq2xuuadpmqje/spack-build-ndeu53y/CMakeFiles/CMakeTmp
+     23    
+     24        Run Build Command(s):/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex/bin/gmake -f Makefile cmTC_26f55/
+           fast && /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex/bin/gmake  -f CMakeFiles/cmTC_26f55.dir/build.make
+            CMakeFiles/cmTC_26f55.dir/build
+     25        gmake[1]: Entering directory '/tmp/sauesw/spack-stage/spack-stage-raja-0.14.0-ndeu53y4svh2m6koa6lqq2xuuadpmqje/spack-build-ndeu53y/CMakeFiles/CMakeTmp'
+     26        Building CXX object CMakeFiles/cmTC_26f55.dir/testCXXCompiler.cxx.o
+     27        /opt/rocm-5.7.1/hip/bin/hipcc    -o CMakeFiles/cmTC_26f55.dir/testCXXCompiler.cxx.o -c /tmp/sauesw/spack-stage/spack-stage-raja-0.14.0-ndeu53y4svh2m6koa6lqq2xuuadpmq
+           je/spack-build-ndeu53y/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+  >> 28    clang++: error: cannot find HIP runtime; provide its path via '--rocm-path', or pass '-nogpuinc' to build without HIP runtime
+  >> 29        clang++: error: cannot find HIP runtime; provide its path via '--rocm-path', or pass '-nogpuinc' to build without HIP runtime
+  >> 30        gmake[1]: *** [CMakeFiles/cmTC_26f55.dir/build.make:78: CMakeFiles/cmTC_26f55.dir/testCXXCompiler.cxx.o] Error 1
+     31        gmake[1]: Leaving directory '/tmp/sauesw/spack-stage/spack-stage-raja-0.14.0-ndeu53y4svh2m6koa6lqq2xuuadpmqje/spack-build-ndeu53y/CMakeFiles/CMakeTmp'
+  >> 32        gmake: *** [Makefile:127: cmTC_26f55/fast] Error 2
+     33    
+     34    
+     35    
+     36    
+     37    
+     38      CMake will not be able to correctly generate this project.
+
+See build log for details:
+  /tmp/sauesw/spack-stage/spack-stage-raja-0.14.0-ndeu53y4svh2m6koa6lqq2xuuadpmqje/spack-build-out.txt
+
+==> Installing umpire-6.0.0-43lpejsbqvswq6dciirknw75ozcta4rh [233/286]
+==> No binary for umpire-6.0.0-43lpejsbqvswq6dciirknw75ozcta4rh found: installing from source
+==> Warning: Fetching from mirror without a checksum!
+  This package is normally checked out from a version control system, but it has been archived on a spack mirror.  This means we cannot know a checksum for the tarball in advance. Be sure that your connection to this mirror is secure!
+==> Using cached archive: /ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/share/mirrors/sources/_source-cache/git//LLNL/Umpire.git/5f886b4299496b7cb6f9d62dc1372ce6d3832fbc.tar.gz
+==> No patches needed for umpire
+==> umpire: Executing phase: 'initconfig'
+==> umpire: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    '/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/umpire-6.0.0-43lpejsbqvswq6dciirknw75ozcta4rh' '-DCMAKE_BUILD_TYPE:STRING=Release' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/umpire-6.0.0-43lpejsbqvswq6dciirknw75ozcta4rh/lib;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/umpire-6.0.0-43lpejsbqvswq6dciirknw75ozcta4rh/lib64;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/camp-0.2.3-ebnytj3wixoti4xa6z6epmnzceqdzxnw/lib;/opt/rocm-5.7.1/hip/lib;/opt/rocm-5.7.1/lib;/opt/rocm-5.7.1/llvm/lib;/opt/cray/pe/gcc/12.2.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-zen3/gcc-12.2.0/camp-0.2.3-ebnytj3wixoti4xa6z6epmnzceqdzxnw;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/blt-0.4.1-fxba3zonv3g6vegtkolk5ejvhehpgrzi;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl;/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex;/opt/rocm-5.7.1/llvm;/opt/rocm-5.7.1;/opt/rocm-5.7.1/hip' '-C' '/tmp/sauesw/spack-stage/spack-stage-umpire-6.0.0-43lpejsbqvswq6dciirknw75ozcta4rh/spack-src/login2-linux-sles15-zen3-gcc@12.2.0.cmake' '/tmp/sauesw/spack-stage/spack-stage-umpire-6.0.0-43lpejsbqvswq6dciirknw75ozcta4rh/spack-src'
+
+5 errors found in build log:
+     7     -- The CXX compiler identification is unknown
+     8     -- The C compiler identification is GNU 12.2.0
+     9     -- Detecting CXX compiler ABI info
+     10    -- Detecting CXX compiler ABI info - failed
+     11    -- Check for working CXX compiler: /opt/rocm-5.7.1/hip/bin/hipcc
+     12    -- Check for working CXX compiler: /opt/rocm-5.7.1/hip/bin/hipcc - broken
+  >> 13    CMake Error at /autofs/nccs-svm1_sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl/share/cmake-3.20/Modules/
+           CMakeTestCXXCompiler.cmake:59 (message):
+     14      The C++ compiler
+     15    
+     16        "/opt/rocm-5.7.1/hip/bin/hipcc"
+     17    
+     18      is not able to compile a simple test program.
+     19    
+
+     ...
+
+     22        Change Dir: /tmp/sauesw/spack-stage/spack-stage-umpire-6.0.0-43lpejsbqvswq6dciirknw75ozcta4rh/spack-build-43lpejs/CMakeFiles/CMakeTmp
+     23    
+     24        Run Build Command(s):/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex/bin/gmake -f Makefile cmTC_9debb/
+           fast && /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex/bin/gmake  -f CMakeFiles/cmTC_9debb.dir/build.make
+            CMakeFiles/cmTC_9debb.dir/build
+     25        gmake[1]: Entering directory '/tmp/sauesw/spack-stage/spack-stage-umpire-6.0.0-43lpejsbqvswq6dciirknw75ozcta4rh/spack-build-43lpejs/CMakeFiles/CMakeTmp'
+     26        Building CXX object CMakeFiles/cmTC_9debb.dir/testCXXCompiler.cxx.o
+     27        /opt/rocm-5.7.1/hip/bin/hipcc    -o CMakeFiles/cmTC_9debb.dir/testCXXCompiler.cxx.o -c /tmp/sauesw/spack-stage/spack-stage-umpire-6.0.0-43lpejsbqvswq6dciirknw75ozcta
+           4rh/spack-build-43lpejs/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+  >> 28    clang++: error: cannot find HIP runtime; provide its path via '--rocm-path', or pass '-nogpuinc' to build without HIP runtime
+  >> 29        clang++: error: cannot find HIP runtime; provide its path via '--rocm-path', or pass '-nogpuinc' to build without HIP runtime
+  >> 30        gmake[1]: *** [CMakeFiles/cmTC_9debb.dir/build.make:78: CMakeFiles/cmTC_9debb.dir/testCXXCompiler.cxx.o] Error 1
+     31        gmake[1]: Leaving directory '/tmp/sauesw/spack-stage/spack-stage-umpire-6.0.0-43lpejsbqvswq6dciirknw75ozcta4rh/spack-build-43lpejs/CMakeFiles/CMakeTmp'
+  >> 32        gmake: *** [Makefile:127: cmTC_9debb/fast] Error 2
+     33    
+     34    
+     35    
+     36    
+     37    
+     38      CMake will not be able to correctly generate this project.
+
+See build log for details:
+  /tmp/sauesw/spack-stage/spack-stage-umpire-6.0.0-43lpejsbqvswq6dciirknw75ozcta4rh/spack-build-out.txt
+
+==> Warning: Skipping build of chai-2.4.0-5m7lehi354zziotwburu2bmd7yttyt5g since umpire-6.0.0-43lpejsbqvswq6dciirknw75ozcta4rh failed
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/meson-1.2.2-wtppcgbng2phbqcibyvdqcok5buf7vuz
+==> Installing llvm-14.0.6-pcmnlfhwvgjx2tqzchxgh64g4bc7l4he [235/286]
+==> No binary for llvm-14.0.6-pcmnlfhwvgjx2tqzchxgh64g4bc7l4he found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/98/98f15f842700bdb7220a166c8d2739a03a72e775b67031205078f39dd756a055.tar.gz
+==> Fetching https://github.com/JuliaLang/llvm-project/compare/f28c006a5895fc0e329fe15fead81e37457cb1d1...381043941d2c7a5157a011510b6d0386c171aae7.diff
+==> Fetching https://mirror.spack.io/_source-cache/archive/82/82481418766b4b949ea808d956ff3800b9a241a576370114862428bb0e25ee1f
+==> Fetching https://mirror.spack.io/_source-cache/archive/b2/b216cff38659c176c5381e9dda3252edbb204e6f6f1f33e843a9ebcc42732e5d
+==> Fetching https://mirror.spack.io/_source-cache/archive/25/25bc503f7855229620e56e76161cf4654945aef0be493a2d8d9e94a088157b7c
+==> Fetching https://mirror.spack.io/_source-cache/archive/1f/1f4287465b3e499911e039e6cc2f395b8cb00eb8a0a223fa0db3704ba77f9969
+==> Applied patch https://github.com/JuliaLang/llvm-project/compare/f28c006a5895fc0e329fe15fead81e37457cb1d1...381043941d2c7a5157a011510b6d0386c171aae7.diff
+==> Applied patch https://github.com/llvm/llvm-project/commit/1b4fdf18bc2aaa2d46bf072475dd9cbcd44a9fee.patch?full_index=1
+==> Applied patch /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/llvm/llvm13-14-thread.patch
+==> Applied patch https://github.com/llvm/llvm-project/commit/91ccd8248c85385a5654c63c302a37d97f811bab.patch?full_index=1
+==> Applied patch https://github.com/llvm/llvm-project/commit/3a362a9f38b95978160377ee408dbc7d14af9aad.patch?full_index=1
+==> Applied patch https://github.com/llvm/llvm-project/commit/9f1d90bf91570efa124c4a86cd033de374d1049a.patch?full_index=1
+==> Applied patch /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/llvm/add-include-for-libelf-llvm-12-14.patch
+==> Ran patch() for llvm
+==> llvm: Executing phase: 'cmake'

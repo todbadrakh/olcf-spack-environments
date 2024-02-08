@@ -1,0 +1,37 @@
+# OLCF Borg Spack Environment
+# Tuguldur T Odbadrakh 12/29/2023 Borg
+
+config:
+  install_tree:
+    root: ${FACSPACK_ENV}/opt
+    projections:
+      all: '{architecture}/{compiler.name}-{compiler.version}/{name}-{version}-{hash}'
+  template_dirs:
+  - ${FACSPACK_CONF_HOST}/templates
+  - ${FACSPACK_CONF_COMMON}/spack/templates
+  - $spack/share/spack/templates
+  build_stage:
+  - $tempdir/$user/spack-stage
+  - $spack/var/spack/stage
+  source_cache: ${FACSPACK_SOURCE_CACHE}
+  extensions:
+  - /sw/sources/facility-spack/borg/share/spack/extensions/spack-olcf
+  misc_cache: ${FACSPACK_ENV}/.mcache
+  verify_ssl: true
+  install_missing_compilers: false
+  checksum: true
+  dirty: false
+  build_language: C
+  build_jobs: 24
+  ccache: false
+  db_lock_timeout: 120
+  package_lock_timeout: null
+  shared_linking: rpath
+  allow_sgid: true
+  concretizer: clingo
+  locks: true
+  suppress_gpg_warnings: false
+  connect_timeout: 10
+  test_stage: ~/.spack/test
+  concretization: separately
+  view: false

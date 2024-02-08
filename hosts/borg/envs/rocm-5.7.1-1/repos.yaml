@@ -1,0 +1,4 @@
+# Tuguldur T Odbadrakh 1/25/2024 Borg
+
+repos:
+  - ${FACSPACK_CONF_COMMON}/spack/repos/olcf

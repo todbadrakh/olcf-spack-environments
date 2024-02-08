@@ -1,0 +1,665 @@
+==> Installing gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 [1/449]
+==> No binary for gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/dd/dd16fb1d67bfab79a72f5e8390735c49e3e8e70b4945a15ab1f81ddb78658fb3.tar.gz
+==> No patches needed for gmake
+==> gmake: Executing phase: 'install'
+==> Error: FileExistsError: [Errno 17] File exists: '/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6/bin'
+
+/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/gmake/package.py:80, in install:
+         77            build_sh()
+         78            os.mkdir(prefix.bin)
+         79            install("make", prefix.bin)
+  >>     80            os.symlink("make", prefix.bin.gmake)
+
+See build log for details:
+  /tmp/sauesw/spack-stage/spack-stage-gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6/spack-build-out.txt
+
+==> Warning: Skipping build of gperf-3.1-6y55s7kqgemtpm47hpyvd26hpfrecpne since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of fontconfig-2.14.2-konn2ct4nypxaee3goob73iycbdx2lon since gperf-3.1-6y55s7kqgemtpm47hpyvd26hpfrecpne failed
+==> Warning: Skipping build of cairo-1.16.0-7fpcyesixexb5ypn3yhchbzock2onm24 since fontconfig-2.14.2-konn2ct4nypxaee3goob73iycbdx2lon failed
+==> Warning: Skipping build of harfbuzz-7.3.0-n2x6bpa6lzu52vhdptvqysasel3xxmwm since cairo-1.16.0-7fpcyesixexb5ypn3yhchbzock2onm24 failed
+==> Warning: Skipping build of pango-1.48.11-bsvi7urvhrvg4ct2uuzpge7bjd5pgvnr since harfbuzz-7.3.0-n2x6bpa6lzu52vhdptvqysasel3xxmwm failed
+==> Warning: Skipping build of imagemagick-7.1.1-11-2v32tjsjvrzel3sex6tm7d5ucmtqvhnq since pango-1.48.11-bsvi7urvhrvg4ct2uuzpge7bjd5pgvnr failed
+==> Warning: Skipping build of gobject-introspection-1.76.1-mz56mphja5esnz2bojstsnqnd3fbpljb since cairo-1.16.0-7fpcyesixexb5ypn3yhchbzock2onm24 failed
+==> Warning: Skipping build of ccache-3.3.4-twfds7owoso4l2t2xyqntxehvom7iaj6 since gperf-3.1-6y55s7kqgemtpm47hpyvd26hpfrecpne failed
+==> Warning: Skipping build of openlibm-0.8.1-p5bwsbm7vypsm77ynt7dj55tclypnidc since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of julia-master-ede63dgrodqrfjzmlmsbqg3wwfbo6u7j since openlibm-0.8.1-p5bwsbm7vypsm77ynt7dj55tclypnidc failed
+==> Warning: Skipping build of p7zip-17.05-5zxw7mcq2q4opkfi7luxggd7peuf7m6w since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of lzo-2.10-2ykicpupskefvmmu2qwdk6nukrqmy4l5 since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of libarchive-3.7.1-6c52kvuvyi43juvjg3bfsb7y74e2nuob since lzo-2.10-2ykicpupskefvmmu2qwdk6nukrqmy4l5 failed
+==> Warning: Skipping build of mpifileutils-0.11.1-cey57x6bh6isclm4tadrhn2fdmp7426s since libarchive-3.7.1-6c52kvuvyi43juvjg3bfsb7y74e2nuob failed
+==> Warning: Skipping build of elfutils-0.181-ybv2gafz2w3gptz4boqf2qr2qzrxdpmo since libarchive-3.7.1-6c52kvuvyi43juvjg3bfsb7y74e2nuob failed
+==> Warning: Skipping build of libdwarf-20180129-2kvdtrb2lakioi6dnzso47rdbgzjkmuo since elfutils-0.181-ybv2gafz2w3gptz4boqf2qr2qzrxdpmo failed
+==> Warning: Skipping build of hpctoolkit-2021.10.15-25vlaqvj6qrxfwxvbkt3miu3glsj7546 since libdwarf-20180129-2kvdtrb2lakioi6dnzso47rdbgzjkmuo failed
+==> Warning: Skipping build of gdb-10.2-uwzqfqbzj7lyhmrmc3rsgubngtrh6v6q since elfutils-0.181-ybv2gafz2w3gptz4boqf2qr2qzrxdpmo failed
+==> Warning: Skipping build of llvm-openmp-ompt-tr6_forwards-hvkicd7ygeumhoeasraj5x6grmbqtquz since elfutils-0.181-ybv2gafz2w3gptz4boqf2qr2qzrxdpmo failed
+==> Warning: Skipping build of archer-2.0.0-si5rmsnmfj4dfqzm7ndfdj7lmjlckrqt since llvm-openmp-ompt-tr6_forwards-hvkicd7ygeumhoeasraj5x6grmbqtquz failed
+==> Warning: Skipping build of dyninst-11.0.1-rstybrdb5i6bzyw7qvou22zpjyl5lvxj since elfutils-0.181-ybv2gafz2w3gptz4boqf2qr2qzrxdpmo failed
+==> Warning: Skipping build of llvm-8.0.0-ejhmcjltdieywe47h4a54qc4aexedmfh since elfutils-0.181-ybv2gafz2w3gptz4boqf2qr2qzrxdpmo failed
+==> Warning: Skipping build of glib-2.78.0-kh6x4v53vyd2wg4ncv75qagkicfewaun since elfutils-0.181-ybv2gafz2w3gptz4boqf2qr2qzrxdpmo failed
+==> Warning: Skipping build of libsodium-1.0.18-r44ff3pdbeoxcgbv3oseycev2646x6mg since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of libzmq-4.3.5-j2kahorgy6j2ejjppotpeim2sadiahcm since libsodium-1.0.18-r44ff3pdbeoxcgbv3oseycev2646x6mg failed
+==> Warning: Skipping build of czmq-4.1.1-6tpcdds72atyz5zzc3eit3ogj5fskqpw since libzmq-4.3.5-j2kahorgy6j2ejjppotpeim2sadiahcm failed
+==> Warning: Skipping build of flux-core-0.35.0-kenqrtn3gvpioik7mg4rxujbafv6dfvc since czmq-4.1.1-6tpcdds72atyz5zzc3eit3ogj5fskqpw failed
+==> Warning: Skipping build of patchelf-0.18.0-fxd6fcyft4ba453cguisv37h57bx5xpf since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of which-2.21-w3oh6fswjawktwyly3bfuturyfgvy4pj since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of elfutils-0.189-bfrajaxt5aiqbvg45vpdxm2ewynpsrax since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of hpctoolkit-2022.01.15-lbcecingawthphrspxyfk7bexyz5iol6 since elfutils-0.189-bfrajaxt5aiqbvg45vpdxm2ewynpsrax failed
+==> Warning: Skipping build of libdwarf-20180129-glnoda5ljunmfzu32wdr445jma6jb64n since elfutils-0.189-bfrajaxt5aiqbvg45vpdxm2ewynpsrax failed
+==> Warning: Skipping build of dyninst-12.3.0-55paju77kv3u6xv3qvmpjepmeshxmij6 since elfutils-0.189-bfrajaxt5aiqbvg45vpdxm2ewynpsrax failed
+==> Warning: Skipping build of libmicrohttpd-0.9.50-7cwm4yxkgmheqvpwkcvuno3hsz4uz7ui since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of libtool-2.4.6-tpymcgsp546xfecajbrpzuxzhdmc5c6e since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of git-2.42.0-kqnbcmsbods6hztw475ixtgs7jz4te6n since libtool-2.4.6-tpymcgsp546xfecajbrpzuxzhdmc5c6e failed
+==> Warning: Skipping build of go-bootstrap-1.17.13-xgd5f7yn4r2lkjcvnswpl2dtc5ptvwcl since git-2.42.0-kqnbcmsbods6hztw475ixtgs7jz4te6n failed
+==> Warning: Skipping build of go-1.21.3-k2bzn6q54cfnyidbmnscbvzlufi4kk6l since go-bootstrap-1.17.13-xgd5f7yn4r2lkjcvnswpl2dtc5ptvwcl failed
+==> Warning: Skipping build of git-lfs-2.11.0-3rdn32rtihz5wdsgwj7h354msvptnvcb since go-1.21.3-k2bzn6q54cfnyidbmnscbvzlufi4kk6l failed
+==> Warning: Skipping build of py-setuptools-scm-7.1.0-et3fqy77c5dnl6yoygww3fxuiks44rr5 since git-2.42.0-kqnbcmsbods6hztw475ixtgs7jz4te6n failed
+==> Warning: Skipping build of py-pluggy-1.0.0-emdmuygtjpwp5o54i43ixfyr3ejunzzw since py-setuptools-scm-7.1.0-et3fqy77c5dnl6yoygww3fxuiks44rr5 failed
+==> Warning: Skipping build of py-hatchling-1.18.0-qetr6ea6xhqgxdyhg33hs63rfpk27aev since py-pluggy-1.0.0-emdmuygtjpwp5o54i43ixfyr3ejunzzw failed
+==> Warning: Skipping build of py-hatch-fancy-pypi-readme-23.1.0-m4tgtvltv43yliybv2iqv2kmmd2l2rhr since py-hatchling-1.18.0-qetr6ea6xhqgxdyhg33hs63rfpk27aev failed
+==> Warning: Skipping build of py-jsonschema-4.17.3-lkvcxz3hbnctnojy4amal7fzbjem532x since py-hatch-fancy-pypi-readme-23.1.0-m4tgtvltv43yliybv2iqv2kmmd2l2rhr failed
+==> Warning: Skipping build of py-attrs-23.1.0-kszivikue2ziksnmj6scfyptnu4cg4c7 since py-hatch-fancy-pypi-readme-23.1.0-m4tgtvltv43yliybv2iqv2kmmd2l2rhr failed
+==> Warning: Skipping build of py-hatch-vcs-0.3.0-wxpperdwe4iw55ecvjdg5gvpvnnajwks since py-hatchling-1.18.0-qetr6ea6xhqgxdyhg33hs63rfpk27aev failed
+==> Warning: Skipping build of hpx-1.7.1-odzbhzvfw5dngignorunb7hrmzphco5r since git-2.42.0-kqnbcmsbods6hztw475ixtgs7jz4te6n failed
+==> Warning: Skipping build of fribidi-1.0.12-b6kyc2j4bc7xpndlsybhbsmkwjtms5p7 since libtool-2.4.6-tpymcgsp546xfecajbrpzuxzhdmc5c6e failed
+==> Warning: Skipping build of mpfr-4.2.0-al2adcpnrce6xxk6gtdouy4xovr5ahof since libtool-2.4.6-tpymcgsp546xfecajbrpzuxzhdmc5c6e failed
+==> Warning: Skipping build of gawk-5.2.2-qufvgni5pcce7bzljkg5ir7kuw5jqx52 since mpfr-4.2.0-al2adcpnrce6xxk6gtdouy4xovr5ahof failed
+==> Warning: Skipping build of libgpg-error-1.47-z3ppm2ilirwkuigsse72obsymndoucq4 since gawk-5.2.2-qufvgni5pcce7bzljkg5ir7kuw5jqx52 failed
+==> Warning: Skipping build of gnupg-2.4.3-7h4l4vpd5fcqg2vth5s5qxlwb5sbvkyq since libgpg-error-1.47-z3ppm2ilirwkuigsse72obsymndoucq4 failed
+==> Warning: Skipping build of libksba-1.6.4-lxjqnsft7n5bkyla37swel6hnuwozclk since libgpg-error-1.47-z3ppm2ilirwkuigsse72obsymndoucq4 failed
+==> Warning: Skipping build of libassuan-2.5.6-4hpuohvnu4dtmd7ddpqi4vkvks4l5p5e since libgpg-error-1.47-z3ppm2ilirwkuigsse72obsymndoucq4 failed
+==> Warning: Skipping build of pinentry-1.2.1-tlbau4sp4aharrbnhvvanyxpqbe7i57j since libassuan-2.5.6-4hpuohvnu4dtmd7ddpqi4vkvks4l5p5e failed
+==> Warning: Skipping build of libgcrypt-1.10.2-5ya6nayj45qtprotsvewsiyme35lc2wr since libgpg-error-1.47-z3ppm2ilirwkuigsse72obsymndoucq4 failed
+==> Warning: Skipping build of libxslt-1.1.33-hbhwxcnbfrpexapfagwtgwujhkhkx42s since libgcrypt-1.10.2-5ya6nayj45qtprotsvewsiyme35lc2wr failed
+==> Warning: Skipping build of libxml2-2.10.3-4e6nxzcgrbmdyvmrt2m5vvuv4nbvyuu7 since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of precice-2.3.0-dxiiyp2kcuecjw6glldjstbflcjgdurn since libxml2-2.10.3-4e6nxzcgrbmdyvmrt2m5vvuv4nbvyuu7 failed
+==> Warning: Skipping build of hwloc-2.9.1-vfhhonsowpisgch5iguqpnz4slnhxctp since libxml2-2.10.3-4e6nxzcgrbmdyvmrt2m5vvuv4nbvyuu7 failed
+==> Warning: Skipping build of qthreads-1.16-hcddia3nknvfeldmz4zosu6ytwfudopg since hwloc-2.9.1-vfhhonsowpisgch5iguqpnz4slnhxctp failed
+==> Warning: Skipping build of trilinos-13.0.1-vytc6peho5bxubc73l64to2bthp5gjbh since hwloc-2.9.1-vfhhonsowpisgch5iguqpnz4slnhxctp failed
+==> Warning: Skipping build of trilinos-13.2.0-xsmwqxetx76u37vqdkghdu5f3lkngyli since hwloc-2.9.1-vfhhonsowpisgch5iguqpnz4slnhxctp failed
+==> Warning: Skipping build of omega-h-9.34.1-ib4wlbmc4osbntyucepk3q6w5kc27gz3 since trilinos-13.2.0-xsmwqxetx76u37vqdkghdu5f3lkngyli failed
+==> Warning: Skipping build of datatransferkit-3.1-rc3-x4h3f7kz6eegowgdfwj3tyh3fmbea6hz since trilinos-13.2.0-xsmwqxetx76u37vqdkghdu5f3lkngyli failed
+==> Warning: Skipping build of parsec-3.0.2012-ilidqkoc77o5zc2edrjxvgpzgvibbeds since hwloc-2.9.1-vfhhonsowpisgch5iguqpnz4slnhxctp failed
+==> Warning: Skipping build of trilinos-13.0.1-mvmldpb3yopdxtv3jb2ca7mwgwl4agzu since hwloc-2.9.1-vfhhonsowpisgch5iguqpnz4slnhxctp failed
+==> Warning: Skipping build of omega-h-9.34.1-dl47v3f2i7g7a7haygek26qm2dm2tpfa since trilinos-13.0.1-mvmldpb3yopdxtv3jb2ca7mwgwl4agzu failed
+==> Warning: Skipping build of datatransferkit-3.1-rc3-3vw2r3i3vopvkij5xijcma4pnb7262gv since trilinos-13.0.1-mvmldpb3yopdxtv3jb2ca7mwgwl4agzu failed
+==> Warning: Skipping build of fortrilinos-2.0.0-ic5tsytfackqvyy6ljenbuppob23ctsn since trilinos-13.0.1-mvmldpb3yopdxtv3jb2ca7mwgwl4agzu failed
+==> Warning: Skipping build of gettext-0.22.3-vx4jc27mghgjotxktqswbgnbokj2utms since libxml2-2.10.3-4e6nxzcgrbmdyvmrt2m5vvuv4nbvyuu7 failed
+==> Warning: Skipping build of bison-3.8.2-nskcwwrc4se7fknehc5fzhevn63olsjy since gettext-0.22.3-vx4jc27mghgjotxktqswbgnbokj2utms failed
+==> Warning: Skipping build of pixman-0.42.2-r2nobinvryshq4cxeajq3uhitxptbbor since bison-3.8.2-nskcwwrc4se7fknehc5fzhevn63olsjy failed
+==> Warning: Skipping build of krb5-1.20.1-khnld5a6bywerdsk6n3q5ughnkwj5p3o since bison-3.8.2-nskcwwrc4se7fknehc5fzhevn63olsjy failed
+==> Warning: Skipping build of openssh-9.5p1-xnhrug4uo4hjnayrb2tgjd7iala2njez since krb5-1.20.1-khnld5a6bywerdsk6n3q5ughnkwj5p3o failed
+==> Warning: Skipping build of subversion-1.9.7-gxjp5bgrn66elmuf5vhwgp2vjw5jcnxl since gettext-0.22.3-vx4jc27mghgjotxktqswbgnbokj2utms failed
+==> Warning: Skipping build of python-3.11.6-nabguamosaqadd6ai2m6awyawjvp37dx since gettext-0.22.3-vx4jc27mghgjotxktqswbgnbokj2utms failed
+==> Warning: Skipping build of intel-xed-2023.07.09-2uc7q3riemn7pi5fup3lqpm4hmthyzga since python-3.11.6-nabguamosaqadd6ai2m6awyawjvp37dx failed
+==> Warning: Skipping build of py-flit-core-3.9.0-xovafigmjvpficlsxtewpjqcymgflpoi since python-3.11.6-nabguamosaqadd6ai2m6awyawjvp37dx failed
+==> Warning: Skipping build of py-packaging-23.1-wwlk6tsrj4gsejokfxhq6rcw6mpcsr4o since py-flit-core-3.9.0-xovafigmjvpficlsxtewpjqcymgflpoi failed
+==> Warning: Skipping build of py-tomli-2.0.1-ffyb7t63fkxd2gqmtpnclhvrpoxkada4 since py-flit-core-3.9.0-xovafigmjvpficlsxtewpjqcymgflpoi failed
+==> Warning: Skipping build of py-typing-extensions-4.8.0-6fp4vvmnhktycwefztb6w7lmtmnnk4pm since py-flit-core-3.9.0-xovafigmjvpficlsxtewpjqcymgflpoi failed
+==> Warning: Skipping build of py-pathspec-0.11.1-oaszrubyoojogqu74mt6ovpmbcwqzocm since py-flit-core-3.9.0-xovafigmjvpficlsxtewpjqcymgflpoi failed
+==> Warning: Skipping build of py-pyelftools-0.29-eqwx3mj7bxlowb6p6ynaskn4ciqe3r7h since python-3.11.6-nabguamosaqadd6ai2m6awyawjvp37dx failed
+==> Warning: Skipping build of flit-2.1.0-bxk2wjjsfh2edgenimkzy4knwfvy2ro5 since py-pyelftools-0.29-eqwx3mj7bxlowb6p6ynaskn4ciqe3r7h failed
+==> Warning: Skipping build of serf-1.3.10-6ef6r43usa4oo4xsdycg43hniow45btm since python-3.11.6-nabguamosaqadd6ai2m6awyawjvp37dx failed
+==> Warning: Skipping build of py-pyyaml-5.4.1-rhsoonxakc6unhvkee6feglfieydbfoc since python-3.11.6-nabguamosaqadd6ai2m6awyawjvp37dx failed
+==> Warning: Skipping build of py-cython-3.0.4-csyl5mam5fnc73alsaz3qgtycsr3kmch since python-3.11.6-nabguamosaqadd6ai2m6awyawjvp37dx failed
+==> Warning: Skipping build of plumed-2.6.3-pikvfxmwphw7ndtglxegro7r4qlqynxw since py-cython-3.0.4-csyl5mam5fnc73alsaz3qgtycsr3kmch failed
+==> Warning: Skipping build of upcxx-2021.9.0-7zk4il3ihhrygurgg4uhyfg5ksj3ksev since python-3.11.6-nabguamosaqadd6ai2m6awyawjvp37dx failed
+==> Warning: Skipping build of py-pycparser-2.21-5pyhmjzyedbdcplpqiw74cpemlwnwg5t since python-3.11.6-nabguamosaqadd6ai2m6awyawjvp37dx failed
+==> Warning: Skipping build of py-cffi-1.15.1-m7gmd7ox25datoituikpijjjkjhz44zc since py-pycparser-2.21-5pyhmjzyedbdcplpqiw74cpemlwnwg5t failed
+==> Warning: Skipping build of py-setuptools-68.0.0-45bemqfybozswjwhjj54vdw2jw7ylgkf since python-3.11.6-nabguamosaqadd6ai2m6awyawjvp37dx failed
+==> Warning: Skipping build of scons-4.5.2-lazv5hcqktki4k6zif6nusdeiph54k7h since py-setuptools-68.0.0-45bemqfybozswjwhjj54vdw2jw7ylgkf failed
+==> Warning: Skipping build of py-docutils-0.20.1-cslzg4zpyu75ai7iulee42ketzgblaus since py-setuptools-68.0.0-45bemqfybozswjwhjj54vdw2jw7ylgkf failed
+==> Warning: Skipping build of mercurial-6.4.5-6v5viark3leo3n4xtvifrey3xbkmu6st since py-docutils-0.20.1-cslzg4zpyu75ai7iulee42ketzgblaus failed
+==> Warning: Skipping build of py-pygments-2.16.1-wmg645sclhoawrl43a3ldegd5sooike3 since py-setuptools-68.0.0-45bemqfybozswjwhjj54vdw2jw7ylgkf failed
+==> Warning: Skipping build of py-editables-0.3-fup4ljbzcbmrwvabandlo4rc2l7q5foq since py-setuptools-68.0.0-45bemqfybozswjwhjj54vdw2jw7ylgkf failed
+==> Warning: Skipping build of py-certifi-2023.7.22-yglynwwczm626dkqdrczcexai357o2je since py-setuptools-68.0.0-45bemqfybozswjwhjj54vdw2jw7ylgkf failed
+==> Warning: Skipping build of py-pyrsistent-0.19.3-7pwyk67alvvbiyctoj6rbstcfs2xyeje since py-setuptools-68.0.0-45bemqfybozswjwhjj54vdw2jw7ylgkf failed
+==> Warning: Skipping build of py-toml-0.10.2-whonnl4t7ryjljiqsvxb6zados4jlb3z since py-setuptools-68.0.0-45bemqfybozswjwhjj54vdw2jw7ylgkf failed
+==> Warning: Skipping build of py-trove-classifiers-2023.8.7-cnjqvhv6kqoxyigcg55zlzwbxvyg2siu since py-setuptools-68.0.0-45bemqfybozswjwhjj54vdw2jw7ylgkf failed
+==> Warning: Skipping build of py-calver-2022.6.26-y3jvab7yru6otulf4aalifrwbaiti2pr since py-setuptools-68.0.0-45bemqfybozswjwhjj54vdw2jw7ylgkf failed
+==> Warning: Skipping build of meson-1.2.2-m72inus6v4uyu3inqfz3wvfnpgkuukqv since py-setuptools-68.0.0-45bemqfybozswjwhjj54vdw2jw7ylgkf failed
+==> Warning: Skipping build of py-pip-23.1.2-a3fsejwhl7rpaecqn6hkfjsolwencse4 since python-3.11.6-nabguamosaqadd6ai2m6awyawjvp37dx failed
+==> Warning: Skipping build of py-wheel-0.41.2-plokrh2epxczvsvvhhmhtn3e2ga3jwkd since py-pip-23.1.2-a3fsejwhl7rpaecqn6hkfjsolwencse4 failed
+==> Warning: Skipping build of petsc-3.16.4-3n2lfsoecur3d4dmhdzrhj3xeulunp43 since python-3.11.6-nabguamosaqadd6ai2m6awyawjvp37dx failed
+==> Warning: Skipping build of libpressio-0.95.1-xme5uufbh2dmq4ij3zj7trmu5ntjlrde since petsc-3.16.4-3n2lfsoecur3d4dmhdzrhj3xeulunp43 failed
+==> Warning: Skipping build of adios2-2.8.3-2nytfbnbpvagfa5yjffzaug4zgdwaqqg since libpressio-0.95.1-xme5uufbh2dmq4ij3zj7trmu5ntjlrde failed
+==> Warning: Skipping build of openpmd-api-0.14.3-yxyft2vglramm25dpuvfpti6y2cnyc4q since adios2-2.8.3-2nytfbnbpvagfa5yjffzaug4zgdwaqqg failed
+==> Warning: Skipping build of slepc-3.16.2-qnzirj4renpsvkjhcon2xdnpqma7s7ec since petsc-3.16.4-3n2lfsoecur3d4dmhdzrhj3xeulunp43 failed
+==> Warning: Skipping build of ninja-1.10.2-6semojy6wihdqux6q4n32vojmx2y5qbr since python-3.11.6-nabguamosaqadd6ai2m6awyawjvp37dx failed
+==> Warning: Skipping build of bazel-6.1.1-dt3svzscquujzicwotshz4egiirxxdcu since python-3.11.6-nabguamosaqadd6ai2m6awyawjvp37dx failed
+==> Warning: Skipping build of icu4c-67.1-gdghreye5slt5w372rdu5mbwyxoco557 since python-3.11.6-nabguamosaqadd6ai2m6awyawjvp37dx failed
+==> Warning: Skipping build of wget-1.21.3-l3lr6lwfto6rnkfv5axaqjpinceshc5p since gettext-0.22.3-vx4jc27mghgjotxktqswbgnbokj2utms failed
+==> Warning: Skipping build of texinfo-7.0.3-sezccg23b3tzxwhahmccmtqrbvslxbwm since gettext-0.22.3-vx4jc27mghgjotxktqswbgnbokj2utms failed
+==> Warning: Skipping build of binutils-2.39-xzkyhznuyhgcw6xqyiahkhjbuqh777ww since texinfo-7.0.3-sezccg23b3tzxwhahmccmtqrbvslxbwm failed
+==> Warning: Skipping build of libblastrampoline-5.8.0-eu7ao4viowztqucyftanqm3bxgabshdu since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of font-util-1.4.0-dw2243zpmqdqvrn3v24del3k5vmsbxqx since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of papi-6.0.0.1-5ysklvapl6mdtckvtnpro7kytnwgn4rq since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of findutils-4.9.0-p5wuj5isngrrmhzfhykzdg27qxrgswfe since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of flex-2.6.3-dkxcr4bkq3csxkysnhtzzzzjsqs7ord2 since findutils-4.9.0-p5wuj5isngrrmhzfhykzdg27qxrgswfe failed
+==> Warning: Skipping build of vim-9.0.0045-33bjpdwd76sss6zgohoztgscnn3yvwi2 since findutils-4.9.0-p5wuj5isngrrmhzfhykzdg27qxrgswfe failed
+==> Warning: Skipping build of apr-util-1.6.3-lj7xgwlnmqpfqw7iietraek7rlyvh2wp since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of berkeley-db-18.1.40-l7uhf4pjco4gounzdbaervlj6cdyzbpi since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of perl-5.38.0-kvp5gll5ifv27mzgcrlybx7vgyb5c2bx since berkeley-db-18.1.40-l7uhf4pjco4gounzdbaervlj6cdyzbpi failed
+==> Warning: Skipping build of libxcrypt-4.4.35-mwyn5uc6ymu5mbpzuwbv4axm4ohcycvn since perl-5.38.0-kvp5gll5ifv27mzgcrlybx7vgyb5c2bx failed
+==> Warning: Skipping build of autoconf-2.69-smry2wmqugsu66vwey6vvbohfdcaptmx since perl-5.38.0-kvp5gll5ifv27mzgcrlybx7vgyb5c2bx failed
+==> Warning: Skipping build of memkind-1.13.0-zfrhlcasl5ecz7erjlqhvjzrn2fpx3n7 since autoconf-2.69-smry2wmqugsu66vwey6vvbohfdcaptmx failed
+==> Warning: Skipping build of automake-1.16.5-qglm7ginstyuxuez6vkrcgnmdklqxrfh since autoconf-2.69-smry2wmqugsu66vwey6vvbohfdcaptmx failed
+==> Warning: Skipping build of numactl-2.0.14-ngehhw6kngufgh5rxkgo4xgu6yvk5os3 since automake-1.16.5-qglm7ginstyuxuez6vkrcgnmdklqxrfh failed
+==> Warning: Skipping build of gmp-6.2.1-kpssd64gjovd67jv7x2uxxfjjbx6rz3v since automake-1.16.5-qglm7ginstyuxuez6vkrcgnmdklqxrfh failed
+==> Warning: Skipping build of swig-4.0.2-fortran-46uodfkjw2srtfmnuku2klol4nkfot2h since automake-1.16.5-qglm7ginstyuxuez6vkrcgnmdklqxrfh failed
+==> Warning: Skipping build of turbine-1.3.0-gfjcxv77dodaf3kpx7mahdsk4mbm2pxl since swig-4.0.2-fortran-46uodfkjw2srtfmnuku2klol4nkfot2h failed
+==> Warning: Skipping build of asio-1.22.2-xyop66k6soyqobubbqv6ua6cdvattgex since automake-1.16.5-qglm7ginstyuxuez6vkrcgnmdklqxrfh failed
+==> Warning: Skipping build of bolt-2.0-ockgmikkt3saciipimfh7uj77zjw7ml6 since automake-1.16.5-qglm7ginstyuxuez6vkrcgnmdklqxrfh failed
+==> Warning: Skipping build of rempi-1.1.0-aewdyj6xssqngo6njtnocs4ll6utend6 since automake-1.16.5-qglm7ginstyuxuez6vkrcgnmdklqxrfh failed
+==> Warning: Skipping build of parallel-netcdf-1.12.2-gq6fk5rpnh6hw3am4r3u3mvyf3wtxsfa since perl-5.38.0-kvp5gll5ifv27mzgcrlybx7vgyb5c2bx failed
+==> Warning: Skipping build of netcdf-c-4.9.2-wzcik6ndejvamqjdda7hqcxv4on6ixdm since parallel-netcdf-1.12.2-gq6fk5rpnh6hw3am4r3u3mvyf3wtxsfa failed
+==> Warning: Skipping build of nco-5.0.1-4mej3fmyqcr6luoypqqidpoptcrqhery since netcdf-c-4.9.2-wzcik6ndejvamqjdda7hqcxv4on6ixdm failed
+==> Warning: Skipping build of nccmp-1.9.0.1-v2uwigpm4bzhnhcejjhb3zcul2vi5q7r since netcdf-c-4.9.2-wzcik6ndejvamqjdda7hqcxv4on6ixdm failed
+==> Warning: Skipping build of openblas-0.3.17-n4slz3uks67pvs3h3idzrujjmsztl5g5 since perl-5.38.0-kvp5gll5ifv27mzgcrlybx7vgyb5c2bx failed
+==> Warning: Skipping build of superlu-dist-7.2.0-omr25kjyrrgobeazuszitclb5cwaohln since openblas-0.3.17-n4slz3uks67pvs3h3idzrujjmsztl5g5 failed
+==> Warning: Skipping build of perl-data-dumper-2.173-3nfczdzaxzb26ohttjkwefe3gskhwbhs since perl-5.38.0-kvp5gll5ifv27mzgcrlybx7vgyb5c2bx failed
+==> Warning: Skipping build of openblas-0.3.17-ga2y5jxsbwhclrqpboi7fksrh46i4l4j since perl-5.38.0-kvp5gll5ifv27mzgcrlybx7vgyb5c2bx failed
+==> Warning: Skipping build of superlu-dist-7.2.0-iqo6mzsqsqm6ucys3duissad66rmiyxz since openblas-0.3.17-ga2y5jxsbwhclrqpboi7fksrh46i4l4j failed
+==> Warning: Skipping build of autoconf-2.69-3hzen4d47kl24wcerrg6helheyjtnwwc since perl-5.38.0-kvp5gll5ifv27mzgcrlybx7vgyb5c2bx failed
+==> Warning: Skipping build of automake-1.16.5-hxujywefhzqa5oevummm3jjifo326iix since autoconf-2.69-3hzen4d47kl24wcerrg6helheyjtnwwc failed
+==> Warning: Skipping build of bison-3.3.2-ifz573mxpubeuyhbydqbgovqo75a4ndh since perl-5.38.0-kvp5gll5ifv27mzgcrlybx7vgyb5c2bx failed
+==> Warning: Skipping build of openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s since perl-5.38.0-kvp5gll5ifv27mzgcrlybx7vgyb5c2bx failed
+==> Warning: Skipping build of globalarrays-5.8.2-3p4zoyjulkwkg2qm7lf52zb5hn6ywvf5 since openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s failed
+==> Warning: Skipping build of superlu-5.3.0-h4rgpwipsv6jhtqj6lzksrh4vtctqkjo since openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s failed
+==> Warning: Skipping build of butterflypack-2.1.0-h5vsz3gr3v3rvxrmuropihnhbf3y5j6m since openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s failed
+==> Warning: Skipping build of strumpack-6.1.0-np2uakwrj5gr3wdg6gnqxe4gqnlrk3pr since butterflypack-2.1.0-h5vsz3gr3v3rvxrmuropihnhbf3y5j6m failed
+==> Warning: Skipping build of strumpack-6.1.0-ansbacp36wztolmtse5bsi4j6b62jult since butterflypack-2.1.0-h5vsz3gr3v3rvxrmuropihnhbf3y5j6m failed
+==> Warning: Skipping build of strumpack-6.3.0-3j5stmu55nrgj5mwlryxrdncgtwf3a7o since butterflypack-2.1.0-h5vsz3gr3v3rvxrmuropihnhbf3y5j6m failed
+==> Warning: Skipping build of superlu-dist-7.1.1-urohmjedp6kva6w5sfda7hiqqavwtsov since openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s failed
+==> Warning: Skipping build of sundials-5.8.0-u7rznh7lc6qkpwxdij3dnj2b4nu6q7xy since superlu-dist-7.1.1-urohmjedp6kva6w5sfda7hiqqavwtsov failed
+==> Warning: Skipping build of slate-2021.05.02-i6xpzxuu3nctsglieuclumyc2gvzmi4p since openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s failed
+==> Warning: Skipping build of magma-2.6.1-yuswr6fzxspywtsvd2wvjcpfrqv6mc6v since openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s failed
+==> Warning: Skipping build of lapackpp-2023.08.25-cnep3gme2gqshdghhcbt2nf5gn4it2g7 since openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s failed
+==> Warning: Skipping build of blaspp-2023.08.25-ojguyfhbrzpxywn3pqvo34nfwvtqqcti since openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s failed
+==> Warning: Skipping build of hypre-2.23.0-dfc3copa53hwywdslk5plx22wybr74pq since openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s failed
+==> Warning: Skipping build of mfem-4.3.0-pzcznp56vap2imlzmxxe25v5rwcdnkb4 since hypre-2.23.0-dfc3copa53hwywdslk5plx22wybr74pq failed
+==> Warning: Skipping build of suite-sparse-5.7.2-yhy75jg4hk7zwmtfefyaf52vc2cwpwi4 since openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s failed
+==> Warning: Skipping build of arpack-ng-3.9.0-fnyfm6vlz642oohpeobn53wqrkdq47ch since openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s failed
+==> Warning: Skipping build of netlib-scalapack-2.1.0-cuzyv7a7kr4iu5rt6gigqg6qpfjqj25p since openblas-0.3.17-ejgqwdtfdldwgwx4dgnfz5wb6fx2t77s failed
+==> Warning: Skipping build of libidn2-2.3.4-ltnyg77s733vi3hv55jdtsi6h66teafo since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of util-macros-1.19.3-ivxznzkubvg2o2dgu4pcsmh5o2bwfq42 since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of xtrans-1.4.0-3d5kkt6iupwf7by5vkiomqfq43r5ffbl since util-macros-1.19.3-ivxznzkubvg2o2dgu4pcsmh5o2bwfq42 failed
+==> Warning: Skipping build of libxfont-1.5.4-gkudhdc3bbo2qncs7s5jxelrvbky5c76 since xtrans-1.4.0-3d5kkt6iupwf7by5vkiomqfq43r5ffbl failed
+==> Warning: Skipping build of bdftopcf-1.1-bbkfgmdmognnl5rqnyfzyzgwnkkm4jpj since libxfont-1.5.4-gkudhdc3bbo2qncs7s5jxelrvbky5c76 failed
+==> Warning: Skipping build of libsm-1.2.3-dtyvv7z3fqo7rlbv24v4i56xojjikzgd since xtrans-1.4.0-3d5kkt6iupwf7by5vkiomqfq43r5ffbl failed
+==> Warning: Skipping build of libice-1.0.9-innnwm7p2qbzhzfmk5wgvzwepod2e7w6 since xtrans-1.4.0-3d5kkt6iupwf7by5vkiomqfq43r5ffbl failed
+==> Warning: Skipping build of fontsproto-2.1.3-nprkjd3gdtmvsykysormjwgsw56pwczi since util-macros-1.19.3-ivxznzkubvg2o2dgu4pcsmh5o2bwfq42 failed
+==> Warning: Skipping build of mkfontscale-1.2.2-hpp6vbtzqqhmfhlxhe5e37suzvksvdk2 since util-macros-1.19.3-ivxznzkubvg2o2dgu4pcsmh5o2bwfq42 failed
+==> Warning: Skipping build of mkfontdir-1.0.7-ffg2rtap622jwcdewhrmxyjtjdj4wntn since mkfontscale-1.2.2-hpp6vbtzqqhmfhlxhe5e37suzvksvdk2 failed
+==> Warning: Skipping build of xproto-7.0.31-e7bdflbcj7p2rnnmwbgnov5u6nu3cwao since util-macros-1.19.3-ivxznzkubvg2o2dgu4pcsmh5o2bwfq42 failed
+==> Warning: Skipping build of libfontenc-1.1.7-p4bj3h3s33wbnx6hypnm47pukus4vecc since xproto-7.0.31-e7bdflbcj7p2rnnmwbgnov5u6nu3cwao failed
+==> Warning: Skipping build of libpciaccess-0.17-7adhsfv3tmhrvxhy3obhpusopisbbos5 since util-macros-1.19.3-ivxznzkubvg2o2dgu4pcsmh5o2bwfq42 failed
+==> Warning: Skipping build of libcircle-0.3.0-o2jb3rpm72q76h2nrwz6tl5t4kq5gks4 since libpciaccess-0.17-7adhsfv3tmhrvxhy3obhpusopisbbos5 failed
+==> Warning: Skipping build of hwloc-2.9.1-4rvho3bmam5uz32xrqwo7decmsdqphop since libpciaccess-0.17-7adhsfv3tmhrvxhy3obhpusopisbbos5 failed
+==> Warning: Skipping build of flux-core-0.30.0-jdaeguajl6t5av6pggl2apml7tuhrp7v since hwloc-2.9.1-4rvho3bmam5uz32xrqwo7decmsdqphop failed
+==> Warning: Skipping build of trilinos-13.2.0-3fl46oz74izlsai5524duhj7vpldxvnf since hwloc-2.9.1-4rvho3bmam5uz32xrqwo7decmsdqphop failed
+==> Warning: Skipping build of expat-2.5.0-rbwheblocprei4gutpjxi4tsvkvovk2z since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of udunits-2.2.28-zaer7azyc4istz6z6xnqfsgfzplsd3jd since expat-2.5.0-rbwheblocprei4gutpjxi4tsvkvovk2z failed
+==> Warning: Skipping build of dsfmt-2.2.5-prjml7nv67qpzvkygifldrwlwoyhai5e since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of sqlite-3.43.2-iwjag2o6ajcriuvmyu3h27j2bxijj24x since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of pkgconf-1.9.5-cnxd7nd4cu5psaesvfjvqb4iigtiz4mr since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of adios2-2.7.1-tzhokies5fjsqrbo3qrxe773h4r4gfdm since pkgconf-1.9.5-cnxd7nd4cu5psaesvfjvqb4iigtiz4mr failed
+==> Warning: Skipping build of openpmd-api-0.14.4-elpautgt6uywvoaheix6m5r2ervajzdu since adios2-2.7.1-tzhokies5fjsqrbo3qrxe773h4r4gfdm failed
+==> Warning: Skipping build of libedit-3.1-20210216-hegi22fseekdypugr3j3yyjp2zd3canx since pkgconf-1.9.5-cnxd7nd4cu5psaesvfjvqb4iigtiz4mr failed
+==> Warning: Skipping build of hdf5-1.12.0-e2kqrwjq3xjvosyac7axcx4kx6rpum4l since pkgconf-1.9.5-cnxd7nd4cu5psaesvfjvqb4iigtiz4mr failed
+==> Warning: Skipping build of axom-0.6.1-qwmj6gpak5zgsei4rija4ahzqp2t2rii since hdf5-1.12.0-e2kqrwjq3xjvosyac7axcx4kx6rpum4l failed
+==> Warning: Skipping build of conduit-0.7.2-evg3odbturpiszgzbxu57uwaibi3jxwe since hdf5-1.12.0-e2kqrwjq3xjvosyac7axcx4kx6rpum4l failed
+==> Warning: Skipping build of ascent-0.7.1-dxxd6p2o2rkoxksnryilitphdqfneosk since conduit-0.7.2-evg3odbturpiszgzbxu57uwaibi3jxwe failed
+==> Warning: Skipping build of legion-21.03.0-42xry2q66wpexrw4dpscgsg6jfqfo6m3 since hdf5-1.12.0-e2kqrwjq3xjvosyac7axcx4kx6rpum4l failed
+==> Warning: Skipping build of ncurses-6.4-bdmikzikshl3spedc2ztgdayao32xetz since pkgconf-1.9.5-cnxd7nd4cu5psaesvfjvqb4iigtiz4mr failed
+==> Warning: Skipping build of readline-8.2-qqkoob6tvuabergsam5xfea6b434onl3 since ncurses-6.4-bdmikzikshl3spedc2ztgdayao32xetz failed
+==> Warning: Skipping build of gdbm-1.19-sfrtr3uicryf6iuxnm6po7p63cbifsmy since readline-8.2-qqkoob6tvuabergsam5xfea6b434onl3 failed
+==> Warning: Skipping build of lua-5.3.6-jkbalnoj5kjao5jbwzosqv5divl6xpdw since readline-8.2-qqkoob6tvuabergsam5xfea6b434onl3 failed
+==> Warning: Skipping build of lua-luaposix-36.1-eun5qfajgts4lhsxkuobzsx2mjl2ar7e since lua-5.3.6-jkbalnoj5kjao5jbwzosqv5divl6xpdw failed
+==> Warning: Skipping build of cmake-3.27.7-irrghpyr7rj7ldod7npfqxnntacbyfig since ncurses-6.4-bdmikzikshl3spedc2ztgdayao32xetz failed
+==> Warning: Skipping build of amrex-22.02-6mamj3hlvp6turpncj4dfc3yej6dov5w since cmake-3.27.7-irrghpyr7rj7ldod7npfqxnntacbyfig failed
+==> Warning: Skipping build of amrex-21.11-vnkekmqr2etxlithj6xyppdlm6ptj3co since cmake-3.27.7-irrghpyr7rj7ldod7npfqxnntacbyfig failed
+==> Warning: Skipping build of kokkos-3.5.00-nrj5ntmns3q43qeusclwmyz2dr7lrt4h since cmake-3.27.7-irrghpyr7rj7ldod7npfqxnntacbyfig failed
+==> Warning: Skipping build of kokkos-3.4.01-vomjbtchxho2ujnfnsckyltaixlrlqcr since cmake-3.27.7-irrghpyr7rj7ldod7npfqxnntacbyfig failed
+==> Warning: Skipping build of libstdcompat-0.0.17-5f2xzfixf4c6sfypcfv5qvxzs47bmaxb since cmake-3.27.7-irrghpyr7rj7ldod7npfqxnntacbyfig failed
+==> Warning: Skipping build of sundials-5.8.0-fme7mkcnfwobkmizrt7r32c5m4qvotkg since cmake-3.27.7-irrghpyr7rj7ldod7npfqxnntacbyfig failed
+==> Warning: Skipping build of libpng-1.6.39-owla466n7btt43kquyrtp7gbquiewmwr since cmake-3.27.7-irrghpyr7rj7ldod7npfqxnntacbyfig failed
+==> Warning: Skipping build of mgard-2020-10-01-qrfy75haeh23pfxun3wyfbc32jv52vfr since cmake-3.27.7-irrghpyr7rj7ldod7npfqxnntacbyfig failed
+==> Warning: Skipping build of zsh-5.8-h4pg5stage2xkxjgajyzp37pt34iu6sz since ncurses-6.4-bdmikzikshl3spedc2ztgdayao32xetz failed
+==> Warning: Skipping build of cmake-3.16.9-k3qbf64vtovw7liujaojn7y7gcfb7osc since ncurses-6.4-bdmikzikshl3spedc2ztgdayao32xetz failed
+==> Warning: Skipping build of screen-4.8.0-cmwsghgmqx3gbc3sumytzrzboaluboi6 since ncurses-6.4-bdmikzikshl3spedc2ztgdayao32xetz failed
+==> Warning: Skipping build of cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 since ncurses-6.4-bdmikzikshl3spedc2ztgdayao32xetz failed
+==> Warning: Skipping build of libtiff-4.5.1-rmalatdouxhz6g4n7ssaj5htfq6agob3 since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of papyrus-1.0.1-fyf3fhoggnpuvr32mpyab5aagm7zv4az since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of zfp-0.5.5-mymeje46za5rb7a53utv3f7mkiap5bsh since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of strumpack-6.3.0-dzk6m5qcdva5l2eh3kk534hf4xoelhel since zfp-0.5.5-mymeje46za5rb7a53utv3f7mkiap5bsh failed
+==> Warning: Skipping build of redset-0.2.0-5o4wbezavgrolprfxfs7pdvi52nh76la since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of er-0.1.0-bf5d5yfc4hxwdbusugcnbh3442zzrkiz since redset-0.2.0-5o4wbezavgrolprfxfs7pdvi52nh76la failed
+==> Warning: Skipping build of veloc-1.5-vpktguwhhl5f33cyaeltxuro4oqswh6u since er-0.1.0-bf5d5yfc4hxwdbusugcnbh3442zzrkiz failed
+==> Warning: Skipping build of gotcha-1.0.3-g5kym3pjwyenkqlcnzyscqyr7mzebmh3 since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of blt-0.4.1-nw4ef6binpf3lz6eeqxnd2goiyain5zn since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of raja-0.14.0-cgx5n7d5gycty6rcu64o46xpfqpubzv3 since blt-0.4.1-nw4ef6binpf3lz6eeqxnd2goiyain5zn failed
+==> Warning: Skipping build of chai-2.4.0-vahdkx5sloat2yaqj2uzo2q3upuv6qpf since blt-0.4.1-nw4ef6binpf3lz6eeqxnd2goiyain5zn failed
+==> Warning: Skipping build of umpire-6.0.0-ykj6x2goo265c2mrnaqfithriie3i7gd since blt-0.4.1-nw4ef6binpf3lz6eeqxnd2goiyain5zn failed
+==> Warning: Skipping build of camp-0.2.3-lmqwnwuloby5lsstdb3lgwuuzxvzru5p since blt-0.4.1-nw4ef6binpf3lz6eeqxnd2goiyain5zn failed
+==> Warning: Skipping build of kokkos-kernels-3.5.00-ikmn4vda373dexaukwuxjjhbtf5e7ydc since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of mercury-2.1.0-v7ghfiicjeg7iszys7oak6khcoxedemk since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of libpng-1.2.57-e42zibs3gnm6ku7ay3slsmzzowqoaclk since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of freetype-2.11.1-pligarlygpsi2rzbsjzepcyn7i6z3ybu since libpng-1.2.57-e42zibs3gnm6ku7ay3slsmzzowqoaclk failed
+==> Warning: Skipping build of mpark-variant-1.4.0-cf2ixma7h35xr5m44j6ff2mlqoamlv6v since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of eigen-3.4.0-5iujvlifouoxf5wpmc3ecyma2sjow3yj since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of tasmanian-7.7-dovctdslcjysc3eg5fa5o3sjrsfigdx5 since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of axl-0.3.0-4urmgvr6nt6wgxwmfzpmiq6gvsywkwat since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of kokkos-3.5.00-h5kf2dvbbxee5kh4awgxwpyh7ku4xgxk since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of cabana-0.4.0-ctoyzhjiechxoeijnpcihzwz2iyujvcp since kokkos-3.5.00-h5kf2dvbbxee5kh4awgxwpyh7ku4xgxk failed
+==> Warning: Skipping build of arborx-1.1-n7nluz2uw3jokjypxhprfsgjgfnuvuz7 since kokkos-3.5.00-h5kf2dvbbxee5kh4awgxwpyh7ku4xgxk failed
+==> Warning: Skipping build of heffte-2.2.0-7bwy4dhi2l55kgfnmqsycxkppcorlllh since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of kvtree-1.2.0-gfqxaocd4lranljd7wqwllo4icfn3c27 since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of shuffile-0.2.0-xo3mr2iulcn2336wffwvcylzsxdfrnn6 since kvtree-1.2.0-gfqxaocd4lranljd7wqwllo4icfn3c27 failed
+==> Warning: Skipping build of metis-5.1.0-cozqbkguidvcbu3sn43a4rgrynwvnidb since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of superlu-dist-7.2.0-425vsyhysffpke6kadjcuwc7oif7ogaf since metis-5.1.0-cozqbkguidvcbu3sn43a4rgrynwvnidb failed
+==> Warning: Skipping build of petsc-3.16.6-dfoup2wsgtdxeteo2j7jltssdvfi67gc since superlu-dist-7.2.0-425vsyhysffpke6kadjcuwc7oif7ogaf failed
+==> Warning: Skipping build of slepc-3.16.0-xtlxdi23vlr3ldlkydx5jj5sqpb5dxlo since petsc-3.16.6-dfoup2wsgtdxeteo2j7jltssdvfi67gc failed
+==> Warning: Skipping build of conduit-0.8.2-stmxk76spikntzicnyoh34ugrpqh2kfe since metis-5.1.0-cozqbkguidvcbu3sn43a4rgrynwvnidb failed
+==> Warning: Skipping build of parmetis-4.0.3-clqvm6haqoxuf2vr7p64a6geugs4siad since metis-5.1.0-cozqbkguidvcbu3sn43a4rgrynwvnidb failed
+==> Warning: Skipping build of faodel-1.2108.1-ejsaioqu3mboc5gr6ipa67qxk4f6ylg5 since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of libaec-1.0.6-vpkya42u3ljoumatej2gcybrl3jopuuy since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of vtk-h-0.7.1-sji5kdft5weukvtptx5xciwjrutsqoqa since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of umap-2.1.0-wykjaa5gmnppcislzsiwgdzcvoij54hc since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of c-blosc-1.21.5-q2qvh3vgizllabofznye2zvz6l7ddgx2 since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of ginkgo-1.4.0-upev4wrctxaquhxiofylwcxopqkldxzw since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of libjpeg-turbo-3.0.0-aywqehkhgx4hqj6cwgphl2qboag44ivz since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of sundials-6.1.1-3qvchwkwsyvcylwueuk6mrj4ytntalw4 since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of utf8proc-2.8.0-eqq24rahkhewagotvhs57prvpi24m2ai since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of googletest-1.12.1-5oi7xbdxz47rsiapjlfst4vzc6i7hrc7 since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of nlohmann-json-3.11.2-ifpq4mln2zb4o3jsbqmxhqo62cgdrwco since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of pumi-2.2.6-k6xfe5ysgr4nyvamjfsqzrmorjebdfvq since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of amrex-21.11-ponytwmuhr6vluucot7vn3okuuwclj4h since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of metall-0.17-ct66nfrvwwbw2s2tnlhzvbcp5jms2nds since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of sz-2.1.12.5-lzxm2ubwsqiwd4mxdrmpjz6t7dsb4k6h since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of snappy-1.1.10-2qrpgczga232fnsd23xkdkpber7zv25y since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of libgit2-0.28.5-nchfdvkbldtgmgsyersgiecxemxlqdcq since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of rankstr-0.2.0-f27macm4wl7q7skix7m36lgg4ukrc2p3 since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of vtk-m-1.6.0-u33posi2lss4mxbtqzez5nr5omxnwhl4 since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of jansson-2.14-2camv7aohiy5talsxywvq3q7a26jgsrl since cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3 failed
+==> Warning: Skipping build of nano-7.2-xavprqhg367thwjxrzajolhg5nkpmv5c since ncurses-6.4-bdmikzikshl3spedc2ztgdayao32xetz failed
+==> Warning: Skipping build of util-linux-uuid-2.38.1-eb26r3kzp3xnvfs5ztgbqiiagbhd25yo since pkgconf-1.9.5-cnxd7nd4cu5psaesvfjvqb4iigtiz4mr failed
+==> Warning: Skipping build of apr-1.7.4-7ue2wjdlgsl6qeiagg4mg6r4niycvy4w since util-linux-uuid-2.38.1-eb26r3kzp3xnvfs5ztgbqiiagbhd25yo failed
+==> Warning: Skipping build of curl-8.4.0-xh34vkr7bvu4cwnfhhahvmnr72uj45zv since pkgconf-1.9.5-cnxd7nd4cu5psaesvfjvqb4iigtiz4mr failed
+==> Warning: Skipping build of xerces-c-3.2.4-lr3xhcyse2smvezzogigpn2lzhskj2mh since curl-8.4.0-xh34vkr7bvu4cwnfhhahvmnr72uj45zv failed
+==> Warning: Skipping build of nghttp2-1.48.0-rn32j3ptnlzims6mvxl52fx4zdsqy4eu since pkgconf-1.9.5-cnxd7nd4cu5psaesvfjvqb4iigtiz4mr failed
+==> Warning: Skipping build of curl-8.4.0-xbdrqgvixlaxl37e6wfwc6rrnbumcgpx since nghttp2-1.48.0-rn32j3ptnlzims6mvxl52fx4zdsqy4eu failed
+==> Warning: Skipping build of lua-5.3.6-uhgjwvrjums6idyizamz7hnjpfzjcm7x since curl-8.4.0-xbdrqgvixlaxl37e6wfwc6rrnbumcgpx failed
+==> Warning: Skipping build of lua-luaposix-36.1-dg5mtzkjaclomfiqthr2djnggoq6f7hs since lua-5.3.6-uhgjwvrjums6idyizamz7hnjpfzjcm7x failed
+==> Warning: Skipping build of cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl since curl-8.4.0-xbdrqgvixlaxl37e6wfwc6rrnbumcgpx failed
+==> Warning: Skipping build of mercury-2.0.1-e4x4nb6etyyy76qqk32tc54gk4qcszhe since cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl failed
+==> Warning: Skipping build of butterflypack-2.0.0-fypzs6vpjloxlzqlesv4x2toe7p6urfa since cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl failed
+==> Warning: Skipping build of intel-tbb-2020.3-uictlzyfbf5lhtymcothrbzk5s44326b since cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl failed
+==> Warning: Skipping build of heffte-2.2.0-4yddverpi5r3m2jlx7bd4k5zq62eemu2 since cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl failed
+==> Warning: Skipping build of blaspp-2023.08.25-4f5rzilvglcq2i5ikdx2xz3nxem2dmk5 since cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl failed
+==> Warning: Skipping build of slate-2021.05.02-vgigmsyyuc4pgjy6uznikqwcdxsov4dp since blaspp-2023.08.25-4f5rzilvglcq2i5ikdx2xz3nxem2dmk5 failed
+==> Warning: Skipping build of lapackpp-2023.08.25-wcz5eywnaj2klvzktfpxcuvxfgidcnt7 since blaspp-2023.08.25-4f5rzilvglcq2i5ikdx2xz3nxem2dmk5 failed
+==> Warning: Skipping build of sundials-6.1.1-aqmhgbdbevuq2nudulqqidjmulpjytti since cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl failed
+==> Warning: Skipping build of netlib-scalapack-2.2.0-7zkyeeiih5pmnuzbnr3fg3stp2ohoqps since cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl failed
+==> Warning: Skipping build of hdf5-1.12.1-acjicoxlaqscznr34y5oydh6ospv4zlx since cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl failed
+==> Warning: Skipping build of kokkos-3.4.01-eiicwftr3eqgquhwhjgcsybosma4mnqt since cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl failed
+==> Warning: Skipping build of kokkos-kernels-3.4.01-wpubheqtwyretbtuhmzm5e2azstqtc5g since kokkos-3.4.01-eiicwftr3eqgquhwhjgcsybosma4mnqt failed
+==> Warning: Skipping build of camp-0.2.3-3aa4nqa7jgrzkgsac6dw5esew5eed572 since cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl failed
+==> Warning: Skipping build of raja-0.14.0-7bgfvhc2whmocllhe3fhf4wjrkpsy44r since camp-0.2.3-3aa4nqa7jgrzkgsac6dw5esew5eed572 failed
+==> Warning: Skipping build of umpire-6.0.0-en244c2hhfpj4wfv5shrp2u3zam4tgs6 since camp-0.2.3-3aa4nqa7jgrzkgsac6dw5esew5eed572 failed
+==> Warning: Skipping build of chai-2.4.0-5l5dtrjexd3y5lerdcl6hlo2foa4uslf since umpire-6.0.0-en244c2hhfpj4wfv5shrp2u3zam4tgs6 failed
+==> Warning: Skipping build of ginkgo-1.4.0-2lj5ar7xfh23teaac5ecbeudpmyipqyl since cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl failed
+==> Warning: Skipping build of amrex-22.02-pv35icflhp4zsbebvrhe2tgldwgng6kw since cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl failed
+==> Warning: Skipping build of vtk-m-1.7.1-eppdfumqdrmikonrguf5ompdhf62ut7p since cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl failed
+==> Warning: Skipping build of arpack-ng-3.9.0-inns5nvmoppne5qsd7ppafgrptq6472b since cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl failed
+==> Warning: Skipping build of tasmanian-7.7-g72qhmussydanigm3w4rulmh4h4ugydt since cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl failed
+==> Warning: Skipping build of blt-0.4.1-fxba3zonv3g6vegtkolk5ejvhehpgrzi since cmake-3.20.6-uikrfnak5cvnpjugyh3lzvki7gdtnuwl failed
+==> Warning: Skipping build of git-2.42.0-nf24kglgbwgxnsm4gpwrcjcbbtdimx4u since curl-8.4.0-xbdrqgvixlaxl37e6wfwc6rrnbumcgpx failed
+==> Warning: Skipping build of py-setuptools-scm-7.1.0-clhhrj6xsdtchn52f2bz3r6kbwgr57hg since git-2.42.0-nf24kglgbwgxnsm4gpwrcjcbbtdimx4u failed
+==> Warning: Skipping build of py-hatch-vcs-0.3.0-anoh2tcbgosw6yebgncskszbnd6bgnd3 since py-setuptools-scm-7.1.0-clhhrj6xsdtchn52f2bz3r6kbwgr57hg failed
+==> Warning: Skipping build of py-attrs-23.1.0-hfgcnfns3dbqauuzu4pwkiczvl5cpxwp since py-hatch-vcs-0.3.0-anoh2tcbgosw6yebgncskszbnd6bgnd3 failed
+==> Warning: Skipping build of py-jsonschema-4.17.3-twaakhym7cptowqpexbmdhasp3cllvkr since py-attrs-23.1.0-hfgcnfns3dbqauuzu4pwkiczvl5cpxwp failed
+==> Warning: Skipping build of py-pluggy-1.0.0-6haszg4e2mqdje4sdhrxjj5zswtaqqsz since py-setuptools-scm-7.1.0-clhhrj6xsdtchn52f2bz3r6kbwgr57hg failed
+==> Warning: Skipping build of py-hatchling-1.18.0-g2il6supedt5ivyv2npyqyhqx4ielxoz since py-pluggy-1.0.0-6haszg4e2mqdje4sdhrxjj5zswtaqqsz failed
+==> Warning: Skipping build of py-hatch-fancy-pypi-readme-23.1.0-522fbnffqup632vdsljjpqd3njdxx43l since py-hatchling-1.18.0-g2il6supedt5ivyv2npyqyhqx4ielxoz failed
+==> Warning: Skipping build of pigz-2.7-djzk67olbj2w7agi2xkmfhkeqvrdqn25 since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of tar-1.30-dgyt63b65sk55krgijhss5cfgb3dahcn since pigz-2.7-djzk67olbj2w7agi2xkmfhkeqvrdqn25 failed
+==> Warning: Skipping build of diffutils-3.9-jpfpxr5ye7ogf77xjheyde6yprj4ynhd since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of bzip2-1.0.8-4pyvo3bsd7egkhjllkwgvy5v7l7whjjj since diffutils-3.9-jpfpxr5ye7ogf77xjheyde6yprj4ynhd failed
+==> Warning: Skipping build of boost-1.78.0-hpyutd23nehnzdqd2wstjznberymkj2z since bzip2-1.0.8-4pyvo3bsd7egkhjllkwgvy5v7l7whjjj failed
+==> Warning: Skipping build of zip-3.0-z35m6vznxvdayyqgjww2mcsfkskniqjb since bzip2-1.0.8-4pyvo3bsd7egkhjllkwgvy5v7l7whjjj failed
+==> Warning: Skipping build of m4-1.4.18-pcbea3gyc3v7ojatvarnk3msqbkel33i since diffutils-3.9-jpfpxr5ye7ogf77xjheyde6yprj4ynhd failed
+==> Warning: Skipping build of m4-1.4.19-v7ro7dsrml2cllz6lvymcg2z2fgkwpmi since diffutils-3.9-jpfpxr5ye7ogf77xjheyde6yprj4ynhd failed
+==> Warning: Skipping build of xz-5.4.1-oj7ir5gegsw3gr4owe4n77yj22zepock since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of libunwind-1.5.0-calkkrnssc2c4yxo6ppxn33blvd65h3q since xz-5.4.1-oj7ir5gegsw3gr4owe4n77yj22zepock failed
+==> Warning: Skipping build of gperftools-2.13-vujmpregrapxollq643cycjbzafv3k5k since libunwind-1.5.0-calkkrnssc2c4yxo6ppxn33blvd65h3q failed
+==> Warning: Skipping build of libssh2-1.11.0-x5w4bduwqp5eeqwbtatwarm4zdn3ocyc since xz-5.4.1-oj7ir5gegsw3gr4owe4n77yj22zepock failed
+==> Warning: Skipping build of libiconv-1.17-ywgioj6f2u7zjbfrf64tvbyjwl5nvkbx since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of libunistring-1.1-lztmmb4iv7dnhyzdmz76uqbptjpmdhir since libiconv-1.17-ywgioj6f2u7zjbfrf64tvbyjwl5nvkbx failed
+==> Warning: Skipping build of diffutils-3.9-emvtidw6lras5qx6uop4pry3skehkpnx since libiconv-1.17-ywgioj6f2u7zjbfrf64tvbyjwl5nvkbx failed
+==> Warning: Skipping build of m4-1.4.18-zusw6xpnw66r2gnhi72i2u47lcmibowc since diffutils-3.9-emvtidw6lras5qx6uop4pry3skehkpnx failed
+==> Warning: Skipping build of bison-3.8.2-5p2qx6iwutifmkl3ztmetnpqoyijaa7n since m4-1.4.18-zusw6xpnw66r2gnhi72i2u47lcmibowc failed
+==> Warning: Skipping build of krb5-1.20.1-t3ffoo3x4esqbxnp7umn5qfqmree4z6k since bison-3.8.2-5p2qx6iwutifmkl3ztmetnpqoyijaa7n failed
+==> Warning: Skipping build of openssh-9.5p1-luqlij424ty4nucou5fsydxqr2jtbffu since krb5-1.20.1-t3ffoo3x4esqbxnp7umn5qfqmree4z6k failed
+==> Warning: Skipping build of flex-2.6.3-ko2xznisd5hzzklbw2clqef5xmctjj4d since bison-3.8.2-5p2qx6iwutifmkl3ztmetnpqoyijaa7n failed
+==> Warning: Skipping build of libtool-2.4.6-zvlbguuokghqiwalk4qkf34zg2n6qgxg since m4-1.4.18-zusw6xpnw66r2gnhi72i2u47lcmibowc failed
+==> Warning: Skipping build of czmq-4.1.1-reqzbntumiityzxknojcyfrd2b4to6dw since libtool-2.4.6-zvlbguuokghqiwalk4qkf34zg2n6qgxg failed
+==> Warning: Skipping build of autoconf-2.69-fg2q2ctf7l2klrekhcyyiwc65v2nhdml since m4-1.4.18-zusw6xpnw66r2gnhi72i2u47lcmibowc failed
+==> Warning: Skipping build of automake-1.16.5-pd3475g6hw5onzt7ufyrlaek3imrhy5b since autoconf-2.69-fg2q2ctf7l2klrekhcyyiwc65v2nhdml failed
+==> Warning: Skipping build of bzip2-1.0.8-pb2vfxjulvaaaz7wx6x3cpgqetxiv63u since diffutils-3.9-emvtidw6lras5qx6uop4pry3skehkpnx failed
+==> Warning: Skipping build of tar-1.34-gur6hbiqadgp6bugt5npwtdziggt7x73 since bzip2-1.0.8-pb2vfxjulvaaaz7wx6x3cpgqetxiv63u failed
+==> Warning: Skipping build of gettext-0.22.3-mmhkrtgcbirmjv4thfbmeabfbyb3eeae since tar-1.34-gur6hbiqadgp6bugt5npwtdziggt7x73 failed
+==> Warning: Skipping build of python-3.11.6-q7j3kxavq47w2ppqdvq3a6bp5yubw2k7 since gettext-0.22.3-mmhkrtgcbirmjv4thfbmeabfbyb3eeae failed
+==> Warning: Skipping build of py-setuptools-68.0.0-khhl5eera7skb4tivvzcg5t2p7w4daju since python-3.11.6-q7j3kxavq47w2ppqdvq3a6bp5yubw2k7 failed
+==> Warning: Skipping build of py-calver-2022.6.26-fbldtdqmgkhlklrwn4rsl5gg47hw3rp4 since py-setuptools-68.0.0-khhl5eera7skb4tivvzcg5t2p7w4daju failed
+==> Warning: Skipping build of py-trove-classifiers-2023.8.7-awuqlcxfr5qa2wgnzpxeypvnsnzkil64 since py-calver-2022.6.26-fbldtdqmgkhlklrwn4rsl5gg47hw3rp4 failed
+==> Warning: Skipping build of py-editables-0.3-rylrwa4pifa3skaftbggeu3w4skyrcpk since py-setuptools-68.0.0-khhl5eera7skb4tivvzcg5t2p7w4daju failed
+==> Warning: Skipping build of py-pycparser-2.21-tghte6wuaas7ztc6o5hhmwbcf5emzx7w since py-setuptools-68.0.0-khhl5eera7skb4tivvzcg5t2p7w4daju failed
+==> Warning: Skipping build of py-cffi-1.15.1-lymtymedmudcaxkq52q7ugap6vps7wjy since py-pycparser-2.21-tghte6wuaas7ztc6o5hhmwbcf5emzx7w failed
+==> Warning: Skipping build of py-pyyaml-5.4.1-mec4ekwbnonfmeupx335sfvj4n3ignk2 since py-setuptools-68.0.0-khhl5eera7skb4tivvzcg5t2p7w4daju failed
+==> Warning: Skipping build of py-pyrsistent-0.19.3-52kqnyo766yui3agjgc4vsvf4blz4adz since py-setuptools-68.0.0-khhl5eera7skb4tivvzcg5t2p7w4daju failed
+==> Warning: Skipping build of py-tomli-2.0.1-vaemroftxfml6qyu7dyk3f3ipzxtilcg since python-3.11.6-q7j3kxavq47w2ppqdvq3a6bp5yubw2k7 failed
+==> Warning: Skipping build of py-packaging-23.1-qe2dt7ulip4ii4zalfq43zhcgltki6mn since python-3.11.6-q7j3kxavq47w2ppqdvq3a6bp5yubw2k7 failed
+==> Warning: Skipping build of py-flit-core-3.9.0-q7yyhc7fds4lpkaolquo4y2q2jhazdzk since python-3.11.6-q7j3kxavq47w2ppqdvq3a6bp5yubw2k7 failed
+==> Warning: Skipping build of py-pathspec-0.11.1-dvbczjknleghv5fspyjzz3dntmau4pwk since py-flit-core-3.9.0-q7yyhc7fds4lpkaolquo4y2q2jhazdzk failed
+==> Warning: Skipping build of py-typing-extensions-4.8.0-6lp3x7fgllcrnvqg4f6tijtp3ziiyqwf since py-flit-core-3.9.0-q7yyhc7fds4lpkaolquo4y2q2jhazdzk failed
+==> Warning: Skipping build of py-wheel-0.41.2-phkc533q2wp4trfk45adu7rfqp4br4vc since python-3.11.6-q7j3kxavq47w2ppqdvq3a6bp5yubw2k7 failed
+==> Warning: Skipping build of py-pip-23.1.2-njpwhyit5euouuxeiez5jgmnzbzsqgzf since python-3.11.6-q7j3kxavq47w2ppqdvq3a6bp5yubw2k7 failed
+==> Warning: Skipping build of boost-1.78.0-iav2qgcj7v3sc7vu4bdrawerjzgimpuo since bzip2-1.0.8-pb2vfxjulvaaaz7wx6x3cpgqetxiv63u failed
+==> Warning: Skipping build of perl-5.38.0-crjtlo4xdji5capkklcdifnrqcey5kjz since bzip2-1.0.8-pb2vfxjulvaaaz7wx6x3cpgqetxiv63u failed
+==> Warning: Skipping build of libxcrypt-4.4.35-vu3zja2mmtiyo26q74ycyffc2bmwd2g3 since perl-5.38.0-crjtlo4xdji5capkklcdifnrqcey5kjz failed
+==> Warning: Skipping build of exuberant-ctags-5.8-qxieybfgrycb2l7h526sjwp4khzhxp5e since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of pcre2-10.42-xr2n7yuxywtwqqwdlna7kca6bqayb2vz since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of autoconf-archive-2023.02.20-cyjni5vn7ugwjvva6srsoqjmvylbjme3 since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of npth-1.6-qr7pm326drjmgnjdxzdttf63rgeknmxv since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of nasm-2.15.05-63b7j2zrxujrjx2h3aihyg242744fpf3 since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of mbedtls-2.28.2-4cvgdqcumumgfrg7vpii2m6k7refjs7o since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of libmd-1.0.4-xl4souw3rsi3fpm62umvbvkqcbdel3nq since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of libbsd-0.11.7-astffplagxrkwobxzyelt33gpxv335a4 since libmd-1.0.4-xl4souw3rsi3fpm62umvbvkqcbdel3nq failed
+==> Warning: Skipping build of libuv-julia-1.44.2-7ihtfby4pibphsmlhxgupiniw5felnau since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of libsigsegv-2.14-c7usaewws4yplpy37po46vgbpbvw74fr since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of zlib-ng-2.1.4-vleqlyckwss4f7lmkr7sbmie35t2clpk since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of tcl-8.6.12-a36jnq3himiiqqznxnobg5rqcbqu3w2d since zlib-ng-2.1.4-vleqlyckwss4f7lmkr7sbmie35t2clpk failed
+==> Warning: Skipping build of libffi-3.4.4-3sb7l7l3aiiynx4yjs7pzdmjszyuluz2 since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+==> Warning: Skipping build of libyaml-0.2.5-i54woj3svmlk5paevo7vt6s3lh7rub4q since gmake-4.4.1-4clqkfrjnoi5hj5apv2fxvjcf542yoq6 failed
+[+] /usr (external openssl-1.1.1-os-qbjqykddbqdsy5ajk2v7lb5wmqlzvl4u)
+==> Installing gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex [3/449]
+==> No binary for gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex found: installing from source
+==> Using cached archive: /sw/borg/spack/scache/_source-cache/archive/dd/dd16fb1d67bfab79a72f5e8390735c49e3e8e70b4945a15ab1f81ddb78658fb3.tar.gz
+==> No patches needed for gmake
+==> gmake: Executing phase: 'install'
+==> Error: FileExistsError: [Errno 17] File exists: '/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex/bin'
+
+/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/gmake/package.py:80, in install:
+         77            build_sh()
+         78            os.mkdir(prefix.bin)
+         79            install("make", prefix.bin)
+  >>     80            os.symlink("make", prefix.bin.gmake)
+
+See build log for details:
+  /tmp/sauesw/spack-stage/spack-stage-gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex/spack-build-out.txt
+
+==> Warning: Skipping build of papi-6.0.0.1-7j3zjzj543auh3pem5usutm7rvgj3di2 since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of libpthread-stubs-0.4-axpf42ou7sha2mnrk76adc5h5mlrmdfz since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of libsigsegv-2.14-7qq6pk3q5radzmhph2i2q5g7i2smpbqw since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of expat-2.5.0-zbsye6zqifau3mxs5obx3lsp5vz74ami since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of pkgconf-1.9.5-z5tdzwxru2awxbhxbdlalipu4shdsval since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of libedit-3.1-20210216-xpozvlx4dl5d374julc4v23ih2rj6k5w since pkgconf-1.9.5-z5tdzwxru2awxbhxbdlalipu4shdsval failed
+==> Warning: Skipping build of libzmq-4.3.5-qtv5mgppf7tyabtxgqekwzaw7snxdes2 since pkgconf-1.9.5-z5tdzwxru2awxbhxbdlalipu4shdsval failed
+==> Warning: Skipping build of util-linux-uuid-2.38.1-rgnpjp2mksmjm2bwrgvd46sdikmhyjvb since pkgconf-1.9.5-z5tdzwxru2awxbhxbdlalipu4shdsval failed
+==> Warning: Skipping build of libxml2-2.10.3-lod4kqzodo4drwqkhfahzznlf7ij5rda since pkgconf-1.9.5-z5tdzwxru2awxbhxbdlalipu4shdsval failed
+==> Warning: Skipping build of docbook-xsl-1.79.2-gtvbxqjuj773nlu2qyoz66d2aqp2yryl since libxml2-2.10.3-lod4kqzodo4drwqkhfahzznlf7ij5rda failed
+==> Warning: Skipping build of docbook-xml-4.5-kp5rp6to5svm4ma3lwf2viizb3ezcvwo since libxml2-2.10.3-lod4kqzodo4drwqkhfahzznlf7ij5rda failed
+==> Warning: Skipping build of ncurses-6.4-rxak4chbzoqhasvgktm54simlg64q45e since pkgconf-1.9.5-z5tdzwxru2awxbhxbdlalipu4shdsval failed
+==> Warning: Skipping build of readline-8.2-64o53abymoazptm3n75qnremsb76rewv since ncurses-6.4-rxak4chbzoqhasvgktm54simlg64q45e failed
+==> Warning: Skipping build of sqlite-3.43.2-c22bllagils7zuve4dqmjulecejvy42h since readline-8.2-64o53abymoazptm3n75qnremsb76rewv failed
+==> Warning: Skipping build of gdbm-1.19-t4ipr2ivbibnewhph2gizo2xzt2pjbwe since readline-8.2-64o53abymoazptm3n75qnremsb76rewv failed
+==> Warning: Skipping build of pdt-3.25.1-qcigjgulnhw276ankxkz6uzxociofioj since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of zstd-1.5.5-74s56pkoiellpqiem4s7hic3vw77eboi since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of xz-5.4.1-dpusr356b4ingvp3ipni2llpbzq4pd6c since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of libssh2-1.10.0-wklcd6o754beohp4qcer7452b4faem7k since xz-5.4.1-dpusr356b4ingvp3ipni2llpbzq4pd6c failed
+==> Warning: Skipping build of sed-4.9-lhaj54mgaako2ce3a2qhercv33r7ulp5 since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of mbedtls-2.28.2-tnni7uftoodk3sntg2zbfesxrvzshn3v since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of gsl-2.7.1-yctynff6yqirx6epuw324ouj6l35z63g since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of pcre-8.45-7wrvuoy3qaa2megewzgc4zu5jfxkh5hc since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of unzip-6.0-p36eda5dv5lwaibhngr4m2hmypgqk4nb since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of argobots-1.1-xqfuqldriq3xbdaaxnbommtewjnlalc5 since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of antlr-2.7.7-y5jjpxullqc2je5wwuqmkymuofplkikl since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of libiberty-2.41-doumpdqajmo4jlk5ekbk2y67hgyjcbqv since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of libmd-1.0.4-a3uixcro2gl6gztozqkznkdrqxpvhn6s since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of libbsd-0.11.7-z5ynhgfoqtmxkjnjq36meqlppj7ghyhq since libmd-1.0.4-a3uixcro2gl6gztozqkznkdrqxpvhn6s failed
+==> Warning: Skipping build of fftw-3.3.10-ficd3vv7wjk2ucduxqto6rwzr3vkwcki since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of hypre-2.24.0-hwdgqvcyqpqugpmyndterhzkhyqftgbu since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of libyaml-0.2.5-irfkf53m5hhjqgyeh33avfztv7i7dqtl since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of pigz-2.7-hwuyeafpstthww4o2wqcthrfrcf47ja2 since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of loki-0.1.7-66fstvji677dkgul2fxlsa2eg3dtq3wz since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of diffutils-3.9-kc2g3xjzutkh5rn42suqss6ukenye5si since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of lwgrp-1.0.5-iymgrvj72aqaslk7w6rbc4hteqsvb3r6 since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of dtcmp-1.1.4-l6ahjfhqsyfrni53qmmvjd3j2dngceoo since lwgrp-1.0.5-iymgrvj72aqaslk7w6rbc4hteqsvb3r6 failed
+==> Warning: Skipping build of lz4-1.9.4-ykz3z4s5yarownmo4y4y3slgd5cxa3tg since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of exmcutils-0.6.0-noqnhduutzvnsat47t3btbpkn3el3i3p since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of adlbx-1.0.0-xxis7y5ptetf4ypm3w3ot3klcooefskl since exmcutils-0.6.0-noqnhduutzvnsat47t3btbpkn3el3i3p failed
+==> Warning: Skipping build of libiconv-1.17-ftdn3bsix3bxpwwzfuzq6l5shm5bf5e2 since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of libunistring-1.1-jalc3jcpcxmscmnhyzzlfhx4rpfnffxj since libiconv-1.17-ftdn3bsix3bxpwwzfuzq6l5shm5bf5e2 failed
+==> Warning: Skipping build of libidn2-2.3.4-qsw32dht5kwoynuri5uvpn5vkxrv2zib since libunistring-1.1-jalc3jcpcxmscmnhyzzlfhx4rpfnffxj failed
+==> Warning: Skipping build of libcap-2.68-xv23lkxouwnjy74w4h6whvf2dbkk4fh2 since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of zlib-ng-2.1.4-rlovcyzw2muliedhqkme3sxzhf6w6gql since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of libquo-1.3.1-tac3bitw2dn3nyd4qm5zqckni63ftfcv since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of findutils-4.9.0-2xzgslbyembshydznffxbl4tgcyjzaiy since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of libmonitor-2023.03.15-ra5ml7ew2aihxnc4dhsp4brnifzq6l7r since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of libsodium-1.0.18-cxia4uxdvdhfkle3fprmfjo5pdlmr37u since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of pcre2-10.42-yay6thpjqt5wymtf4rr2fprl4fkmk36b since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of berkeley-db-18.1.40-dby6xfzi2vi4ywmoyav546wypx4jo3zh since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+==> Warning: Skipping build of libffi-3.4.4-ebes2wlm47mxdx4wbsacg6yb3u4lbgff since gmake-4.4.1-jhmy5csbgochqvl2pf37whk2pulbp7ex failed
+[+] /opt/cray/pe/mpich/8.1.28/ofi/gnu/9.1 (external cray-mpich-8.1.28-6r5yvwhkhszv3ub6t3kf4ifk5q3v7c6k)
+==> libfabric@1.15.2.0 : has external module in ['libfabric/1.15.2.0']
+[+] /opt/cray/libfabric/1.15.2.0 (external libfabric-1.15.2.0-z6u2da7y3mrhxvlk63jthnlfltu26pkt)
+==> hip@5.7.1 : has external module in ['amd/5.7.1']
+[+] /opt/rocm-5.7.1/hip (external hip-5.7.1-66l5ps735j3rnyaguw6dvmlexa7ippny)
+[+] /opt/rocm-5.7.1 (external hiprand-5.7.1-nd2hchxfrrd5rmyuzbl44562eznubdjh)
+[+] /opt/rocm-5.7.1 (external hsa-rocr-dev-5.7.1-elf467wyj273fv6joy64qrqdnfyr2u7a)
+[+] /opt/rocm-5.7.1/llvm (external llvm-amdgpu-5.7.1-gw247ws2fw5bffq2xwgiroseymfnldr3)
+[+] /opt/rocm-5.7.1 (external rocprim-5.7.1-gbkodm2tsyc5tqrsjdnsw7mayoebg7xc)
+[+] /opt/rocm-5.7.1 (external rocrand-5.7.1-6wjev2ecqwkewnyabewmieuofc7bzz6s)
+[+] /usr (external openssl-1.1.1-os-z4zjkrdbi7mmhrb2awz2qgpy3e2xbwfa)
+==> Installing re2c-2.2-64gdujnayar3hvxvypkiq4nlbciakaqg [13/449]
+==> No binary for re2c-2.2-64gdujnayar3hvxvypkiq4nlbciakaqg found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/0f/0fc45e4130a8a555d68e230d1795de0216dfe99096b61b28e67c86dfd7d86bda.tar.xz
+==> No patches needed for re2c
+==> re2c: Executing phase: 'configure'
+==> re2c: Executing phase: 'build'
+==> re2c: Executing phase: 'install'
+==> re2c: Successfully installed re2c-2.2-64gdujnayar3hvxvypkiq4nlbciakaqg
+  Stage: 0.41s.  Configure: 4.04s.  Build: 4.87s.  Install: 0.13s.  Post-install: 0.13s.  Total: 9.66s
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-12.2.0/re2c-2.2-64gdujnayar3hvxvypkiq4nlbciakaqg
+==> Warning: re2c@2.2%gcc@12.2.0 build_system=generic arch=linux-sles15-x86_64/64gdujn is being updated in the database with prefix /sw/borg/spack-envs/rocm-5.7.1/opt/gcc-12.2.0/re2c-2.2-64gdujnayar3hvxvypkiq4nlbciakaqg, but this directory does not contain an installation of the spec, due to: Install prefix /sw/borg/spack-envs/rocm-5.7.1/opt/gcc-12.2.0/re2c-2.2-64gdujnayar3hvxvypkiq4nlbciakaqg does not exist.
+==> Installing openjdk-11.0.20.1_1-k2edkjdi3vd23rgyhafpehbdokxp6faz [14/449]
+==> No binary for openjdk-11.0.20.1_1-k2edkjdi3vd23rgyhafpehbdokxp6faz found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/39/398a64bff002f0e3b0c01ecd24a1a32c83cb72a5255344219e9757d4ddd9f857.tar.gz
+==> No patches needed for openjdk
+==> openjdk: Executing phase: 'install'
+==> Error: FileExistsError: [Errno 17] File exists: 'ja_JP.UTF-8' -> '/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/openjdk-11.0.20.1_1-k2edkjdi3vd23rgyhafpehbdokxp6faz/man/ja'
+
+/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/openjdk/package.py:418, in install:
+        416    def install(self, spec, prefix):
+        417        top_dir = "Contents/Home/" if platform.system() == "Darwin" else "."
+  >>    418        install_tree(top_dir, prefix)
+
+See build log for details:
+  /tmp/sauesw/spack-stage/spack-stage-openjdk-11.0.20.1_1-k2edkjdi3vd23rgyhafpehbdokxp6faz/spack-build-out.txt
+
+==> Warning: Skipping build of hpcviewer-2023.07-65ynqoge2jjbwwuc7elczjs3n4uc2meg since openjdk-11.0.20.1_1-k2edkjdi3vd23rgyhafpehbdokxp6faz failed
+[+] /opt/cray/pe/libsci/23.12.0/gnu/9.1/x86_64 (external cray-libsci-23.12.0-slynnhtceedxqivazx26kwyokp3ng5rd)
+[+] /opt/rocm-5.7.1 (external hipblas-5.7.1-omei2of2qxafdo3mlrcupfoojtkrqm6p)
+[+] /opt/rocm-5.7.1 (external rocsolver-5.7.1-kagoecitbjhsrvxnjwc22xpnwncsbvgs)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/docbook-xml-4.5-wpjfjfyqpyj2vycl47w6277dciqelrje
+==> Installing gasnet-2021.9.0-jhfbunmwvs4v2sh2givarp7ervarsocy [19/449]
+==> No binary for gasnet-2021.9.0-jhfbunmwvs4v2sh2givarp7ervarsocy found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/1b/1b6ff6cdad5ecf76b92032ef9507e8a0876c9fc3ee0ab008de847c1fad0359ee.tar.gz
+==> No patches needed for gasnet
+==> gasnet: Executing phase: 'install'
+==> gasnet: Successfully installed gasnet-2021.9.0-jhfbunmwvs4v2sh2givarp7ervarsocy
+  Stage: 1.16s.  Install: 36.44s.  Post-install: 2.45s.  Total: 40.09s
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/gcc-12.2.0/gasnet-2021.9.0-jhfbunmwvs4v2sh2givarp7ervarsocy
+[+] /opt/rocm-5.7.1 (external hipfft-5.7.1-rvzvay5q2cahgrvnv73326bqkjf6uayb)
+[+] /opt/rocm-5.7.1 (external hipsparse-5.7.1-e554cajsdxwgmjri2ssw7qcddjtg6qdo)
+[+] /opt/rocm-5.7.1 (external rocthrust-5.7.1-oyxbl5intu6lluxy2wygnm4kaltjm77z)
+==> Installing libwhich-1.1.0-qzypijyfcjcv7yjksbu5rqjsg27mddfi [23/449]
+==> No binary for libwhich-1.1.0-qzypijyfcjcv7yjksbu5rqjsg27mddfi found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/f1/f1c30bf7396859ad437a5db74e9e328fb4b4e1379457121e28a3524b1e3a0b3f.tar.gz
+==> No patches needed for libwhich
+==> libwhich: Executing phase: 'install'
+==> Error: FileExistsError: [Errno 17] File exists: '/sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/libwhich-1.1.0-qzypijyfcjcv7yjksbu5rqjsg27mddfi/bin'
+
+/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/var/spack/repos/builtin/packages/libwhich/package.py:26, in install:
+         24    def install(self, spec, prefix):
+         25        make()
+  >>     26        mkdir(prefix.bin)
+         27        install("libwhich", prefix.bin)
+
+See build log for details:
+  /tmp/sauesw/spack-stage/spack-stage-libwhich-1.1.0-qzypijyfcjcv7yjksbu5rqjsg27mddfi/spack-build-out.txt
+
+==> Error: adios2-2.7.1-tzhokies5fjsqrbo3qrxe773h4r4gfdm: Package was not installed
+==> Error: amrex-21.11-vnkekmqr2etxlithj6xyppdlm6ptj3co: Package was not installed
+==> Error: amrex-21.11-ponytwmuhr6vluucot7vn3okuuwclj4h: Package was not installed
+==> Error: amrex-22.02-6mamj3hlvp6turpncj4dfc3yej6dov5w: Package was not installed
+==> Error: amrex-22.02-pv35icflhp4zsbebvrhe2tgldwgng6kw: Package was not installed
+==> Error: arborx-1.1-n7nluz2uw3jokjypxhprfsgjgfnuvuz7: Package was not installed
+==> Error: archer-2.0.0-si5rmsnmfj4dfqzm7ndfdj7lmjlckrqt: Package was not installed
+==> Error: argobots-1.1-xqfuqldriq3xbdaaxnbommtewjnlalc5: Package was not installed
+==> Error: ascent-0.7.1-dxxd6p2o2rkoxksnryilitphdqfneosk: Package was not installed
+==> Error: axom-0.6.1-qwmj6gpak5zgsei4rija4ahzqp2t2rii: Package was not installed
+==> Error: bazel-6.1.1-dt3svzscquujzicwotshz4egiirxxdcu: Package was not installed
+==> Error: bolt-2.0-ockgmikkt3saciipimfh7uj77zjw7ml6: Package was not installed
+==> Error: butterflypack-2.0.0-fypzs6vpjloxlzqlesv4x2toe7p6urfa: Package was not installed
+==> Error: butterflypack-2.1.0-h5vsz3gr3v3rvxrmuropihnhbf3y5j6m: Package was not installed
+==> Error: cabana-0.4.0-ctoyzhjiechxoeijnpcihzwz2iyujvcp: Package was not installed
+==> Error: ccache-3.3.4-twfds7owoso4l2t2xyqntxehvom7iaj6: Package was not installed
+==> Error: chai-2.4.0-5l5dtrjexd3y5lerdcl6hlo2foa4uslf: Package was not installed
+==> Error: chai-2.4.0-vahdkx5sloat2yaqj2uzo2q3upuv6qpf: Package was not installed
+==> Error: cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3: Package was not installed
+==> Error: cmake-3.27.7-mf5f4tmyhbh44gmzbisqdhjmmvtcyzl3: Package was not installed
+==> Error: conduit-0.7.2-evg3odbturpiszgzbxu57uwaibi3jxwe: Package was not installed
+==> Error: conduit-0.8.2-stmxk76spikntzicnyoh34ugrpqh2kfe: Package was not installed
+==> Error: datatransferkit-3.1-rc3-3vw2r3i3vopvkij5xijcma4pnb7262gv: Package was not installed
+==> Error: datatransferkit-3.1-rc3-x4h3f7kz6eegowgdfwj3tyh3fmbea6hz: Package was not installed
+==> Error: dyninst-11.0.1-rstybrdb5i6bzyw7qvou22zpjyl5lvxj: Package was not installed
+==> Error: exuberant-ctags-5.8-qxieybfgrycb2l7h526sjwp4khzhxp5e: Package was not installed
+==> Error: faodel-1.2108.1-ejsaioqu3mboc5gr6ipa67qxk4f6ylg5: Package was not installed
+==> Error: flit-2.1.0-bxk2wjjsfh2edgenimkzy4knwfvy2ro5: Package was not installed
+==> Error: flux-core-0.30.0-jdaeguajl6t5av6pggl2apml7tuhrp7v: Package was not installed
+==> Error: flux-core-0.35.0-kenqrtn3gvpioik7mg4rxujbafv6dfvc: Package was not installed
+==> Error: fortrilinos-2.0.0-ic5tsytfackqvyy6ljenbuppob23ctsn: Package was not installed
+==> Error: gdb-10.2-uwzqfqbzj7lyhmrmc3rsgubngtrh6v6q: Package was not installed
+==> Error: ginkgo-1.4.0-2lj5ar7xfh23teaac5ecbeudpmyipqyl: Package was not installed
+==> Error: ginkgo-1.4.0-upev4wrctxaquhxiofylwcxopqkldxzw: Package was not installed
+==> Error: git-2.42.0-kqnbcmsbods6hztw475ixtgs7jz4te6n: Package was not installed
+==> Error: git-lfs-2.11.0-3rdn32rtihz5wdsgwj7h354msvptnvcb: Package was not installed
+==> Error: globalarrays-5.8.2-3p4zoyjulkwkg2qm7lf52zb5hn6ywvf5: Package was not installed
+==> Error: gmp-6.2.1-kpssd64gjovd67jv7x2uxxfjjbx6rz3v: Package was not installed
+==> Error: gnupg-2.4.3-7h4l4vpd5fcqg2vth5s5qxlwb5sbvkyq: Package was not installed
+==> Error: go-1.21.3-k2bzn6q54cfnyidbmnscbvzlufi4kk6l: Package was not installed
+==> Error: googletest-1.12.1-5oi7xbdxz47rsiapjlfst4vzc6i7hrc7: Package was not installed
+==> Error: gotcha-1.0.3-g5kym3pjwyenkqlcnzyscqyr7mzebmh3: Package was not installed
+==> Error: hdf5-1.12.1-acjicoxlaqscznr34y5oydh6ospv4zlx: Package was not installed
+==> Error: heffte-2.2.0-7bwy4dhi2l55kgfnmqsycxkppcorlllh: Package was not installed
+==> Error: heffte-2.2.0-4yddverpi5r3m2jlx7bd4k5zq62eemu2: Package was not installed
+==> Error: hpctoolkit-2021.10.15-25vlaqvj6qrxfwxvbkt3miu3glsj7546: Package was not installed
+==> Error: hpctoolkit-2022.01.15-lbcecingawthphrspxyfk7bexyz5iol6: Package was not installed
+==> Error: hpx-1.7.1-odzbhzvfw5dngignorunb7hrmzphco5r: Package was not installed
+==> Error: hypre-2.23.0-dfc3copa53hwywdslk5plx22wybr74pq: Package was not installed
+==> Error: hypre-2.24.0-hwdgqvcyqpqugpmyndterhzkhyqftgbu: Package was not installed
+==> Error: imagemagick-7.1.1-11-2v32tjsjvrzel3sex6tm7d5ucmtqvhnq: Package was not installed
+==> Error: julia-master-ede63dgrodqrfjzmlmsbqg3wwfbo6u7j: Package was not installed
+==> Error: kokkos-3.4.01-vomjbtchxho2ujnfnsckyltaixlrlqcr: Package was not installed
+==> Error: kokkos-3.4.01-eiicwftr3eqgquhwhjgcsybosma4mnqt: Package was not installed
+==> Error: kokkos-3.5.00-nrj5ntmns3q43qeusclwmyz2dr7lrt4h: Package was not installed
+==> Error: kokkos-3.5.00-h5kf2dvbbxee5kh4awgxwpyh7ku4xgxk: Package was not installed
+==> Error: kokkos-kernels-3.4.01-wpubheqtwyretbtuhmzm5e2azstqtc5g: Package was not installed
+==> Error: kokkos-kernels-3.5.00-ikmn4vda373dexaukwuxjjhbtf5e7ydc: Package was not installed
+==> Error: legion-21.03.0-42xry2q66wpexrw4dpscgsg6jfqfo6m3: Package was not installed
+==> Error: libpng-1.2.57-e42zibs3gnm6ku7ay3slsmzzowqoaclk: Package was not installed
+==> Error: libquo-1.3.1-tac3bitw2dn3nyd4qm5zqckni63ftfcv: Package was not installed
+==> Error: libunwind-1.5.0-calkkrnssc2c4yxo6ppxn33blvd65h3q: Package was not installed
+==> Error: loki-0.1.7-66fstvji677dkgul2fxlsa2eg3dtq3wz: Package was not installed
+==> Error: magma-2.6.1-yuswr6fzxspywtsvd2wvjcpfrqv6mc6v: Package was not installed
+==> Error: mercurial-6.4.5-6v5viark3leo3n4xtvifrey3xbkmu6st: Package was not installed
+==> Error: mercury-2.0.1-e4x4nb6etyyy76qqk32tc54gk4qcszhe: Package was not installed
+==> Error: mercury-2.1.0-v7ghfiicjeg7iszys7oak6khcoxedemk: Package was not installed
+==> Error: metall-0.17-ct66nfrvwwbw2s2tnlhzvbcp5jms2nds: Package was not installed
+==> Error: mfem-4.3.0-pzcznp56vap2imlzmxxe25v5rwcdnkb4: Package was not installed
+==> Error: mpark-variant-1.4.0-cf2ixma7h35xr5m44j6ff2mlqoamlv6v: Package was not installed
+==> Error: mpifileutils-0.11.1-cey57x6bh6isclm4tadrhn2fdmp7426s: Package was not installed
+==> Error: mpifileutils-0.11.1-cey57x6bh6isclm4tadrhn2fdmp7426s: Package was not installed
+==> Error: nano-7.2-xavprqhg367thwjxrzajolhg5nkpmv5c: Package was not installed
+==> Error: nccmp-1.9.0.1-v2uwigpm4bzhnhcejjhb3zcul2vi5q7r: Package was not installed
+==> Error: nco-5.0.1-4mej3fmyqcr6luoypqqidpoptcrqhery: Package was not installed
+==> Error: netlib-scalapack-2.1.0-cuzyv7a7kr4iu5rt6gigqg6qpfjqj25p: Package was not installed
+==> Error: ninja-1.10.2-6semojy6wihdqux6q4n32vojmx2y5qbr: Package was not installed
+==> Error: omega-h-9.34.1-dl47v3f2i7g7a7haygek26qm2dm2tpfa: Package was not installed
+==> Error: omega-h-9.34.1-ib4wlbmc4osbntyucepk3q6w5kc27gz3: Package was not installed
+==> Error: openblas-0.3.17-n4slz3uks67pvs3h3idzrujjmsztl5g5: Package was not installed
+==> Error: openpmd-api-0.14.3-yxyft2vglramm25dpuvfpti6y2cnyc4q: Package was not installed
+==> Error: openpmd-api-0.14.4-elpautgt6uywvoaheix6m5r2ervajzdu: Package was not installed
+==> Error: papi-6.0.0.1-5ysklvapl6mdtckvtnpro7kytnwgn4rq: Package was not installed
+==> Error: papi-6.0.0.1-7j3zjzj543auh3pem5usutm7rvgj3di2: Package was not installed
+==> Error: papyrus-1.0.1-fyf3fhoggnpuvr32mpyab5aagm7zv4az: Package was not installed
+==> Error: parallel-netcdf-1.12.2-gq6fk5rpnh6hw3am4r3u3mvyf3wtxsfa: Package was not installed
+==> Error: parsec-3.0.2012-ilidqkoc77o5zc2edrjxvgpzgvibbeds: Package was not installed
+==> Error: pdt-3.25.1-qcigjgulnhw276ankxkz6uzxociofioj: Package was not installed
+==> Error: petsc-3.16.4-3n2lfsoecur3d4dmhdzrhj3xeulunp43: Package was not installed
+==> Error: petsc-3.16.4-3n2lfsoecur3d4dmhdzrhj3xeulunp43: Package was not installed
+==> Error: plumed-2.6.3-pikvfxmwphw7ndtglxegro7r4qlqynxw: Package was not installed
+==> Error: precice-2.3.0-dxiiyp2kcuecjw6glldjstbflcjgdurn: Package was not installed
+==> Error: precice-2.3.0-dxiiyp2kcuecjw6glldjstbflcjgdurn: Package was not installed
+==> Error: pumi-2.2.6-k6xfe5ysgr4nyvamjfsqzrmorjebdfvq: Package was not installed
+==> Error: python-3.11.6-nabguamosaqadd6ai2m6awyawjvp37dx: Package was not installed
+==> Error: qthreads-1.16-hcddia3nknvfeldmz4zosu6ytwfudopg: Package was not installed
+==> Error: raja-0.14.0-7bgfvhc2whmocllhe3fhf4wjrkpsy44r: Package was not installed
+==> Error: raja-0.14.0-cgx5n7d5gycty6rcu64o46xpfqpubzv3: Package was not installed
+==> Error: rempi-1.1.0-aewdyj6xssqngo6njtnocs4ll6utend6: Package was not installed
+==> Error: screen-4.8.0-cmwsghgmqx3gbc3sumytzrzboaluboi6: Package was not installed
+==> Error: slate-2021.05.02-vgigmsyyuc4pgjy6uznikqwcdxsov4dp: Package was not installed
+==> Error: slate-2021.05.02-i6xpzxuu3nctsglieuclumyc2gvzmi4p: Package was not installed
+==> Error: slepc-3.16.0-xtlxdi23vlr3ldlkydx5jj5sqpb5dxlo: Package was not installed
+==> Error: slepc-3.16.2-qnzirj4renpsvkjhcon2xdnpqma7s7ec: Package was not installed
+==> Error: strumpack-6.1.0-np2uakwrj5gr3wdg6gnqxe4gqnlrk3pr: Package was not installed
+==> Error: strumpack-6.1.0-ansbacp36wztolmtse5bsi4j6b62jult: Package was not installed
+==> Error: strumpack-6.3.0-dzk6m5qcdva5l2eh3kk534hf4xoelhel: Package was not installed
+==> Error: strumpack-6.3.0-3j5stmu55nrgj5mwlryxrdncgtwf3a7o: Package was not installed
+==> Error: subversion-1.9.7-gxjp5bgrn66elmuf5vhwgp2vjw5jcnxl: Package was not installed
+==> Error: sundials-5.8.0-u7rznh7lc6qkpwxdij3dnj2b4nu6q7xy: Package was not installed
+==> Error: sundials-5.8.0-fme7mkcnfwobkmizrt7r32c5m4qvotkg: Package was not installed
+==> Error: sundials-6.1.1-aqmhgbdbevuq2nudulqqidjmulpjytti: Package was not installed
+==> Error: sundials-6.1.1-3qvchwkwsyvcylwueuk6mrj4ytntalw4: Package was not installed
+==> Error: superlu-5.3.0-h4rgpwipsv6jhtqj6lzksrh4vtctqkjo: Package was not installed
+==> Error: superlu-dist-7.1.1-urohmjedp6kva6w5sfda7hiqqavwtsov: Package was not installed
+==> Error: superlu-dist-7.1.1-urohmjedp6kva6w5sfda7hiqqavwtsov: Package was not installed
+==> Error: superlu-dist-7.2.0-425vsyhysffpke6kadjcuwc7oif7ogaf: Package was not installed
+==> Error: swig-4.0.2-fortran-46uodfkjw2srtfmnuku2klol4nkfot2h: Package was not installed
+==> Error: swig-4.0.2-fortran-46uodfkjw2srtfmnuku2klol4nkfot2h: Package was not installed
+==> Error: sz-2.1.12.5-lzxm2ubwsqiwd4mxdrmpjz6t7dsb4k6h: Package was not installed
+==> Error: tasmanian-7.7-dovctdslcjysc3eg5fa5o3sjrsfigdx5: Package was not installed
+==> Error: tasmanian-7.7-g72qhmussydanigm3w4rulmh4h4ugydt: Package was not installed
+==> Error: trilinos-13.0.1-vytc6peho5bxubc73l64to2bthp5gjbh: Package was not installed
+==> Error: trilinos-13.0.1-mvmldpb3yopdxtv3jb2ca7mwgwl4agzu: Package was not installed
+==> Error: trilinos-13.2.0-xsmwqxetx76u37vqdkghdu5f3lkngyli: Package was not installed
+==> Error: trilinos-13.2.0-3fl46oz74izlsai5524duhj7vpldxvnf: Package was not installed
+==> Error: turbine-1.3.0-gfjcxv77dodaf3kpx7mahdsk4mbm2pxl: Package was not installed
+==> Error: umap-2.1.0-wykjaa5gmnppcislzsiwgdzcvoij54hc: Package was not installed
+==> Error: umpire-6.0.0-en244c2hhfpj4wfv5shrp2u3zam4tgs6: Package was not installed
+==> Error: umpire-6.0.0-ykj6x2goo265c2mrnaqfithriie3i7gd: Package was not installed
+==> Error: upcxx-2021.9.0-7zk4il3ihhrygurgg4uhyfg5ksj3ksev: Package was not installed
+==> Error: veloc-1.5-vpktguwhhl5f33cyaeltxuro4oqswh6u: Package was not installed
+==> Error: vim-9.0.0045-33bjpdwd76sss6zgohoztgscnn3yvwi2: Package was not installed
+==> Error: vtk-m-1.6.0-u33posi2lss4mxbtqzez5nr5omxnwhl4: Package was not installed
+==> Error: vtk-m-1.7.1-eppdfumqdrmikonrguf5ompdhf62ut7p: Package was not installed
+==> Error: wget-1.21.3-l3lr6lwfto6rnkfv5axaqjpinceshc5p: Package was not installed
+==> Error: zfp-0.5.5-mymeje46za5rb7a53utv3f7mkiap5bsh: Package was not installed
+==> Error: Format string `${PREFIX}` contains old syntax `${PREFIX}`. This is no longer supported.
+[+] /opt/rocm-5.7.1 (external hipsolver-5.7.1-qxt36m7w3xdwwd5lqnswegjuvvmskpqi)
+[+] /opt/rocm-5.7.1 (external rocblas-5.7.1-u26ee6ezatyzu2lyugsgnnw7gwnef66r)
+[+] /opt/rocm-5.7.1 (external rocsparse-5.7.1-r5wltes3puo7hmdlkljxtsnxnzrflzvw)
+[+] /opt/rocm-5.7.1 (external hipify-clang-5.7.1-56ialblde35bgg7al5qys6wymchqtmwj)
+[+] /sw/borg/spack-envs/rocm-5.7.1/opt/linux-sles15-x86_64/gcc-7.5.0/docbook-xsl-1.79.2-aitk6rdhejci4opwyxblx3la5z4chhy7

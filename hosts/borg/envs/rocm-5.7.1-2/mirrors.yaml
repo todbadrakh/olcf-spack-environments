@@ -1,0 +1,5 @@
+# Tuguldur T Odbadrakh 1/25/2024 Borg
+
+mirrors:
+  facility_builds: /sw/borg/spack-env/mirrors/builds
+  source_mirror: /sw/sources/facility-spack/source_mirror

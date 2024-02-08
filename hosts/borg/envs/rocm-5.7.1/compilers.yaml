@@ -1,6 +1,4 @@
-# OLCF Borg Spack Environment
-# Tuguldur T Odbadrakh 12/29/2023 Borg
-
+# Core compiler GCC 7.5.0
 compilers:
 - compiler:
     spec: gcc@7.5.0
@@ -10,25 +8,13 @@ compilers:
       f77: /usr/bin/gfortran
       fc: /usr/bin/gfortran
     operating_system: sles15
-    target: any
+    target: x86_64
     modules: []
     environment:
       append_path:
         PKG_CONFIG_PATH: /usr/lib64/pkgconfig
-- compiler:
-    spec: gcc@7-os
-    paths:
-      cc: /usr/bin/gcc
-      cxx: /usr/bin/g++
-      f77: /usr/bin/gfortran
-      fc: /usr/bin/gfortran
-    operating_system: sles15
-    target: any
-    modules: []
-    environment:
-      append_path:
-        PKG_CONFIG_PATH: /usr/lib64/pkgconfig
-### Tuguldur T Odbadrakh 12/29/2023 Borg
+
+# Cray GCC compilers
 - compiler:
     spec: gcc@12.2.0
     paths:
@@ -37,20 +23,16 @@ compilers:
       f77: /opt/cray/pe/gcc/12.2.0/snos/bin/gfortran
       fc: /opt/cray/pe/gcc/12.2.0/snos/bin/gfortran
     operating_system: sles15
-    target: any
+    target: x86_64
     modules:
     - PrgEnv-gnu/8.5.0
     - gcc/12.2.0
-    - xpmem
-    - craype-x86-trento
-    - libfabric
+    - craype-x86-rome
     - cray-pmi
-    environment:
-      prepend_path:
-        LD_LIBRARY_PATH: /opt/cray/pe/pmi/6.1.13/lib
-      append_path:
-        PKG_CONFIG_PATH: /opt/cray/xpmem/2.6.2-2.5_2.22__gd067c3f.shasta/lib64:/usr/lib64/pkgconfig
-        LD_LIBRARY_PATH: /usr/lib64
+    - libfabric
+    - xpmem
+
+# Cray Compilers
 - compiler:
     spec: cce@17.0.0
     paths:
@@ -59,54 +41,49 @@ compilers:
       f77: /opt/cray/pe/cce/17.0.0/bin/crayftn
       fc: /opt/cray/pe/cce/17.0.0/bin/crayftn
     operating_system: sles15
-    target: any
-    modules:
-    - PrgEnv-cray/8.5.0
-    - cce/17.0.0
-    - xpmem
-    - craype-x86-trento
-    - libfabric
-    - cray-pmi
+    target: x86_64
     environment:
       set:
         RFE_811452_DISABLE: '1'
-        GCC_X86_64: /opt/cray/pe/gcc/12.2.0/snos
-      append_path:
-        PKG_CONFIG_PATH: /opt/cray/xpmem/2.6.2-2.5_2.22__gd067c3f.shasta/lib64:/usr/lib64/pkgconfig
-        LD_LIBRARY_PATH: /opt/cray/pe/gcc-libs:/opt/cray/libfabric/1.15.2.0/lib64:/usr/lib64
       prepend_path:
-        LD_LIBRARY_PATH: /opt/cray/pe/pmi/6.1.13/lib
+        LD_LIBRARY_PATH: /opt/cray/pe/gcc-libs
     extra_rpaths:
     - /opt/cray/pe/gcc-libs
     - /opt/cray/gcc-libs
-- compiler:
-    spec: clang@17.0.0-rocm5.7.1
-    paths:
-      cc: /opt/rocm-5.7.1/llvm/bin/amdclang
-      cxx: /opt/rocm-5.7.1/llvm/bin/amdclang++
-      f77: /opt/rocm-5.7.1/llvm/bin/amdflang
-      fc: /opt/rocm-5.7.1/llvm/bin/amdflang
-    operating_system: sles15
-    target: any
     modules:
-    - PrgEnv-amd/8.5.0
-    - amd/5.7.1
-    - xpmem
-    - craype-x86-trento
-    - libfabric
+    - PrgEnv-cray/8.5.0
+    - cce/17.0.0
+    - craype-x86-rome
     - cray-pmi
+    - libfabric
+    - xpmem
+
+# AMD Compilers
+- compiler:
+    spec: rocmcc@5.7.1
+    paths:
+      cc: /opt/rocm-5.7.1/bin/amdclang
+      cxx: /opt/rocm-5.7.1/bin/amdclang++
+      f77: /opt/rocm-5.7.1/bin/amdflang
+      fc: /opt/rocm-5.7.1/bin/amdflang
+    operating_system: sles15
+    target: x86_64
     environment:
       set:
         RFE_811452_DISABLE: '1'
-      append_path:
-        PKG_CONFIG_PATH: /opt/cray/xpmem/2.6.2-2.5_2.22__gd067c3f.shasta/lib64:/usr/lib64/pkgconfig
-        LD_LIBRARY_PATH: /opt/cray/pe/gcc-libs:/opt/cray/libfabric/1.15.2.0/lib64:/usr/lib64
       prepend_path:
-        LD_LIBRARY_PATH: /opt/cray/pe/pmi/6.1.13/lib
         LIBRARY_PATH: /opt/rocm-5.7.1/lib:/opt/rocm-5.7.1/lib64
+      append_path:
+        LD_LIBRARY_PATH: /opt/cray/pe/gcc-libs
     extra_rpaths:
     - /opt/rocm-5.7.1/lib
     - /opt/rocm-5.7.1/lib64
     - /opt/cray/pe/gcc-libs
     - /opt/cray/gcc-libs
-### ------------------------------------
+    modules:
+    - PrgEnv-amd/8.5.0
+    - amd/5.7.1
+    - craype-x86-rome
+    - cray-pmi
+    - libfabric
+    - xpmem

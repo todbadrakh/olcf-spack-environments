@@ -1,0 +1,437 @@
+==> [2024-01-22-10:16:48.942007] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/config.yaml
+==> [2024-01-22-10:16:48.976865] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/repos.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/repos.yaml'
+==> [2024-01-22-10:16:48.977432] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/packages.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/packages.yaml'
+==> [2024-01-22-10:16:48.978010] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/modules.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/modules.yaml'
+==> [2024-01-22-10:16:48.978454] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/mirrors.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/mirrors.yaml'
+==> [2024-01-22-10:16:48.978896] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/compilers.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/compilers.yaml'
+==> [2024-01-22-10:16:48.979344] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/concretizer.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/concretizer.yaml'
+==> [2024-01-22-10:16:48.979779] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/config.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/config.yaml'
+==> [2024-01-22-10:16:48.979960] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/repos.yaml
+==> [2024-01-22-10:16:48.982259] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/packages.yaml
+==> [2024-01-22-10:16:49.141828] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/modules.yaml
+==> [2024-01-22-10:16:49.299714] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/mirrors.yaml
+==> [2024-01-22-10:16:49.302365] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/compilers.yaml
+==> [2024-01-22-10:16:49.344210] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/concretizer.yaml
+==> [2024-01-22-10:16:49.353310] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/config.yaml
+==> [2024-01-22-10:16:49.368697] Reading config from file /ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/spack.yaml
+==> [2024-01-22-10:16:49.851305] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/config.yaml
+==> [2024-01-22-10:16:49.884784] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/repos.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/repos.yaml'
+==> [2024-01-22-10:16:49.885009] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/packages.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/packages.yaml'
+==> [2024-01-22-10:16:49.885217] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/modules.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/modules.yaml'
+==> [2024-01-22-10:16:49.885418] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/mirrors.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/mirrors.yaml'
+==> [2024-01-22-10:16:49.885615] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/compilers.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/compilers.yaml'
+==> [2024-01-22-10:16:49.885810] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/concretizer.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/concretizer.yaml'
+==> [2024-01-22-10:16:49.886019] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/config.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/config.yaml'
+==> [2024-01-22-10:16:49.886248] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/repos.yaml
+==> [2024-01-22-10:16:49.888185] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/packages.yaml
+==> [2024-01-22-10:16:50.059682] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/modules.yaml
+==> [2024-01-22-10:16:50.218776] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/mirrors.yaml
+==> [2024-01-22-10:16:50.221345] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/compilers.yaml
+==> [2024-01-22-10:16:50.263264] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/concretizer.yaml
+==> [2024-01-22-10:16:50.272564] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/config.yaml
+==> [2024-01-22-10:16:50.288092] Reading config from file /ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/spack.yaml
+==> [2024-01-22-10:16:50.420276] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/config.yaml
+==> [2024-01-22-10:16:50.453539] Using environment '/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1'
+==> [2024-01-22-10:16:50.470374] Imported concretize from built-in commands
+==> [2024-01-22-10:16:50.470951] Imported concretize from built-in commands
+==> [2024-01-22-10:16:50.784544] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/repos.yaml
+==> [2024-01-22-10:16:50.890413] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/packages.yaml
+==> [2024-01-22-10:16:56.102464] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/concretizer.yaml
+==> [2024-01-22-10:16:56.139166] DATABASE LOCK TIMEOUT: 120s
+==> [2024-01-22-10:16:56.139238] PACKAGE LOCK TIMEOUT: No timeout
+==> [2024-01-22-10:16:56.139925] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/bootstrap.yaml
+==> [2024-01-22-10:16:56.150815] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/repos.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/repos.yaml'
+==> [2024-01-22-10:16:56.151298] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/packages.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/packages.yaml'
+==> [2024-01-22-10:16:56.151517] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/modules.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/modules.yaml'
+==> [2024-01-22-10:16:56.151722] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/mirrors.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/mirrors.yaml'
+==> [2024-01-22-10:16:56.151925] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/compilers.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/compilers.yaml'
+==> [2024-01-22-10:16:56.152129] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/concretizer.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/concretizer.yaml'
+==> [2024-01-22-10:16:56.152330] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/config.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/config.yaml'
+==> [2024-01-22-10:16:56.153001] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/repos.yaml
+==> [2024-01-22-10:16:56.155039] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/packages.yaml
+==> [2024-01-22-10:16:56.314719] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/modules.yaml
+==> [2024-01-22-10:16:56.544398] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/mirrors.yaml
+==> [2024-01-22-10:16:56.547214] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/compilers.yaml
+==> [2024-01-22-10:16:56.589466] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/concretizer.yaml
+==> [2024-01-22-10:16:56.598624] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/config.yaml
+==> [2024-01-22-10:16:56.614413] Reading config from file /ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/spack.yaml
+==> [2024-01-22-10:16:56.746892] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/config.yaml
+==> [2024-01-22-10:16:56.786524] Deactivated environment '/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1'
+==> [2024-01-22-10:16:56.808033] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/repos.yaml
+==> [2024-01-22-10:16:56.813225] [BOOTSTRAP CONFIG SCOPE] name=_builtin
+==> [2024-01-22-10:16:56.813593] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/bootstrap.yaml
+==> [2024-01-22-10:16:56.824139] [BOOTSTRAP CONFIG SCOPE] name=defaults, path=/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults
+==> [2024-01-22-10:16:56.824183] [BOOTSTRAP CONFIG SCOPE] name=defaults/linux, path=/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/linux
+==> [2024-01-22-10:16:56.824219] [BOOTSTRAP CONFIG SCOPE] name=bootstrap, path=/ccs/home/sauesw/.spack/bootstrap/config
+==> [2024-01-22-10:16:56.824246] [BOOTSTRAP CONFIG SCOPE] name=bootstrap/linux, path=/ccs/home/sauesw/.spack/bootstrap/config/linux
+==> [2024-01-22-10:16:56.825371] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/config.yaml
+==> [2024-01-22-10:16:56.858804] Reading config from file /ccs/home/sauesw/.spack/bootstrap/config/linux/config.yaml
+==> [2024-01-22-10:16:56.878678] DATABASE LOCK TIMEOUT: 120s
+==> [2024-01-22-10:16:56.878740] PACKAGE LOCK TIMEOUT: No timeout
+==> [2024-01-22-10:16:56.879467] Reading config from file /ccs/home/sauesw/.spack/bootstrap/config/linux/compilers.yaml
+==> [2024-01-22-10:16:56.938523] [BOOTSTRAP ROOT SPEC] patchelf@0.13.1: %gcc target=x86_64
+==> [2024-01-22-10:16:56.939130] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/bootstrap.yaml
+==> [2024-01-22-10:16:56.959105] [BOOTSTRAP EXECUTABLES patchelf] Try installed specs with query 'patchelf@0.13.1: %gcc target=x86_64'
+==> [2024-01-22-10:16:56.969388] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/modules.yaml
+==> [2024-01-22-10:16:56.987231] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/linux/modules.yaml
+==> [2024-01-22-10:16:57.028244] Adding env modifications for patchelf
+==> [2024-01-22-10:16:57.031033] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/packages.yaml
+==> [2024-01-22-10:16:57.083823] [BOOTSTRAP ROOT SPEC] gnupg@2.3: %gcc target=x86_64
+==> [2024-01-22-10:16:57.085469] [BOOTSTRAP ROOT SPEC] clingo-bootstrap@spack+python %gcc target=x86_64
+==> [2024-01-22-10:16:57.085511] [BOOTSTRAP MODULE clingo] Try importing from Python
+==> [2024-01-22-10:16:57.219960] [BOOTSTRAP MODULE clingo] The installed spec "clingo-bootstrap@spack+python %gcc target=x86_64 ^python@3.6/t4yf34cuvquqp5xd66zybmcfyhwbdlsf" provides the "clingo" Python module
+==> [2024-01-22-10:16:57.221019] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/config.yaml
+==> [2024-01-22-10:16:57.255480] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/repos.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/repos.yaml'
+==> [2024-01-22-10:16:57.255709] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/packages.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/packages.yaml'
+==> [2024-01-22-10:16:57.255918] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/modules.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/modules.yaml'
+==> [2024-01-22-10:16:57.256122] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/mirrors.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/mirrors.yaml'
+==> [2024-01-22-10:16:57.256324] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/compilers.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/compilers.yaml'
+==> [2024-01-22-10:16:57.256525] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/concretizer.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/concretizer.yaml'
+==> [2024-01-22-10:16:57.256727] Creating SingleFileScope env:/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1:/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/config.yaml for '/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/config.yaml'
+==> [2024-01-22-10:16:57.256904] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/repos.yaml
+==> [2024-01-22-10:16:57.258871] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/packages.yaml
+==> [2024-01-22-10:16:57.418146] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/modules.yaml
+==> [2024-01-22-10:16:57.576747] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/mirrors.yaml
+==> [2024-01-22-10:16:57.579374] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/compilers.yaml
+==> [2024-01-22-10:16:57.621682] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/concretizer.yaml
+==> [2024-01-22-10:16:57.630979] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/config.yaml
+==> [2024-01-22-10:16:57.646686] Reading config from file /ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1/spack.yaml
+==> [2024-01-22-10:16:57.779529] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/config.yaml
+==> [2024-01-22-10:16:57.812958] Using environment '/ccs/home/sauesw/todbadrakh/borg/olcf-spack-environments/hosts/borg/envs/rocm-5.7.1'
+==> [2024-01-22-10:16:57.813068] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/concretizer.yaml
+==> [2024-01-22-10:16:57.826520] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/packages.yaml
+==> [2024-01-22-10:16:58.396377] DATABASE LOCK TIMEOUT: 120s
+==> [2024-01-22-10:16:58.396450] PACKAGE LOCK TIMEOUT: No timeout
+==> [2024-01-22-10:16:58.545888] Reading config from file /autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/etc/spack/defaults/mirrors.yaml
+==> [2024-01-22-10:16:58.549630] Checking existence of file:///sw/borg/spack-env/mirrors/builds/build_cache/index.json
+==> [2024-01-22-10:16:58.559543] Failure reading URL: <urlopen error [Errno 2] No such file or directory: '/sw/borg/spack-env/mirrors/builds/build_cache/index.json'>
+==> [2024-01-22-10:16:58.559813] Checking existence of file:///sw/sources/facility-spack/source_mirror/build_cache/index.json
+==> [2024-01-22-10:16:58.560175] Failure reading URL: <urlopen error [Errno 2] No such file or directory: '/sw/sources/facility-spack/source_mirror/build_cache/index.json'>
+==> [2024-01-22-10:19:46.585455] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hipsparse'), 0)
+==> [2024-01-22-10:19:46.586014] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='libunwind'), unwind)
+==> [2024-01-22-10:19:46.621142] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='openssh'), 0)
+==> [2024-01-22-10:19:46.621206] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='go-bootstrap'), go-or-gccgo-bootstrap)
+==> [2024-01-22-10:19:46.625022] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='rocprim'), 0)
+==> [2024-01-22-10:19:46.625586] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='libiconv'), iconv)
+==> [2024-01-22-10:19:46.633515] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='llvm-amdgpu'), 0)
+==> [2024-01-22-10:19:46.637114] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='rocthrust'), 0)
+==> [2024-01-22-10:19:46.644768] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='openssl'), 0)
+==> [2024-01-22-10:19:46.647558] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='util-linux-uuid'), uuid)
+==> [2024-01-22-10:19:46.654024] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hsa-rocr-dev'), 0)
+==> [2024-01-22-10:19:46.657027] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='netlib-scalapack'), scalapack)
+==> [2024-01-22-10:19:46.668007] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='openjdk'), java)
+==> [2024-01-22-10:19:46.668220] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='cray-mpich'), 0)
+==> [2024-01-22-10:19:46.706938] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='openblas'), blas)
+==> [2024-01-22-10:19:46.707872] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='rocsparse'), 0)
+==> [2024-01-22-10:19:46.723119] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='lua'), lua-lang)
+==> [2024-01-22-10:19:46.723452] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hipsolver'), 0)
+==> [2024-01-22-10:19:46.726828] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='glx'), gl)
+==> [2024-01-22-10:19:46.731456] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='libjpeg-turbo'), jpeg)
+==> [2024-01-22-10:19:46.737457] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='openblas'), lapack)
+==> [2024-01-22-10:19:46.743178] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='opengl'), libglx)
+==> [2024-01-22-10:19:46.762466] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hip'), 0)
+==> [2024-01-22-10:19:46.780039] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='pkgconf'), pkgconfig)
+==> [2024-01-22-10:19:46.783817] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='zlib-ng'), zlib-api)
+==> [2024-01-22-10:19:46.797284] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='rocrand'), 0)
+==> [2024-01-22-10:19:46.801001] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hipblas'), 0)
+==> [2024-01-22-10:19:46.802756] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='bison'), yacc)
+==> [2024-01-22-10:19:46.809734] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='intel-parallel-studio'), tbb)
+==> [2024-01-22-10:19:46.811483] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='rocsolver'), 0)
+==> [2024-01-22-10:19:46.814017] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='libfabric'), 0)
+==> [2024-01-22-10:19:46.815716] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='rocblas'), 0)
+==> [2024-01-22-10:19:46.825691] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='cray-mpich'), mpi)
+==> [2024-01-22-10:19:46.829953] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='elfutils'), elf)
+==> [2024-01-22-10:19:46.931360] Ordered hashes [serf]: serf/1101/0ac7e33a5dd27f7d6738d29dc43b575a56602dec036deb46007cd8e415d007d4
+==> [2024-01-22-10:19:46.932682] Ordered hashes [python]: python/212/f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4, python/213/b0615b2fc96bb0cf7f180b107183b194b83b34c7614dcd6121e4a76bbf168155, python/218/13fa8bfa3e852cbf2e7b02a0313009df484bb39f55a50ada00e1a5599e956ac9, python/219/ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56
+==> [2024-01-22-10:19:46.940176] Ordered hashes [hdf5]: hdf5/236/ee351eb7dfcb8c857e2d85ef1ab95b61ae59cbd647560e10378fa916043a97f9
+==> [2024-01-22-10:19:46.941579] Ordered hashes [parmetis]: parmetis/930/50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870, parmetis/931/4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b, parmetis/932/704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d
+==> [2024-01-22-10:19:46.941672] Ordered hashes [python]: python/212/f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4, python/213/b0615b2fc96bb0cf7f180b107183b194b83b34c7614dcd6121e4a76bbf168155, python/218/13fa8bfa3e852cbf2e7b02a0313009df484bb39f55a50ada00e1a5599e956ac9, python/219/ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56
+==> [2024-01-22-10:19:46.942591] Ordered hashes [superlu-dist]: superlu-dist/67/8da9e21f724e8f11a5782960cc0322e12f724bf93cead7df517901a788ea3d61
+==> [2024-01-22-10:19:46.948429] Ordered hashes [autoconf]: autoconf/349/7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7, autoconf/350/35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2, autoconf/351/a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee
+==> [2024-01-22-10:19:46.949146] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:46.949897] Ordered hashes [perl]: perl/370/714e4d1c7496e6b23834e7c88da3d69139418860fbc488fe82fd226b450a4be7
+==> [2024-01-22-10:19:46.950731] Ordered hashes [berkeley-db]: berkeley-db/409/b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522, berkeley-db/410/26090f418891757af46ac3b89a9f43d6eb5989f7a3dce3d1cfc99fba547203b3
+==> [2024-01-22-10:19:46.954617] Ordered hashes [netlib-scalapack]: netlib-scalapack/260/f2baedde688ffe4c20943c334f580eb298e04d6f35c86b90a1f4e8cb7ae344a2, netlib-scalapack/261/1c9ce5fee1451a08c2de3cc87f446aeda0b818ebbce4ad0d980ddf2f2a0b2dc4
+==> [2024-01-22-10:19:46.954802] Ordered hashes [parmetis]: parmetis/930/50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870, parmetis/931/4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b, parmetis/932/704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d
+==> [2024-01-22-10:19:46.996733] Ordered hashes [docbook-xsl]: docbook-xsl/643/a92c39715c54949ba9369add1809527b8f155b7e2a2b2e30cb4b39ee715f2e30
+==> [2024-01-22-10:19:46.997471] Ordered hashes [glib]: glib/507/b3fd45063a19c871048aa1f28692293ab8971a871bdcbe65f06f17fdd79db9e2
+==> [2024-01-22-10:19:46.997775] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:46.998666] Ordered hashes [meson]: meson/486/0f0b1bd854856c5f0926723437c9cd0507836bb93b45bdb434f5d3f618cc78dc, meson/488/ae59765faadb40139bfd34c3b0a42787bae6d775029eb1a88723e44fb229528a
+==> [2024-01-22-10:19:46.998769] Ordered hashes [python]: python/212/f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4, python/213/b0615b2fc96bb0cf7f180b107183b194b83b34c7614dcd6121e4a76bbf168155, python/218/13fa8bfa3e852cbf2e7b02a0313009df484bb39f55a50ada00e1a5599e956ac9, python/219/ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56
+==> [2024-01-22-10:19:46.998987] Ordered hashes [perl]: perl/370/714e4d1c7496e6b23834e7c88da3d69139418860fbc488fe82fd226b450a4be7
+==> [2024-01-22-10:19:46.999054] Ordered hashes [berkeley-db]: berkeley-db/409/b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522, berkeley-db/410/26090f418891757af46ac3b89a9f43d6eb5989f7a3dce3d1cfc99fba547203b3
+==> [2024-01-22-10:19:46.999776] Ordered hashes [cairo]: cairo/495/7c4da77767fe9feb03f8051def0832f0c67f99162913275cfa127a88df19cf51
+==> [2024-01-22-10:19:46.999874] Ordered hashes [autoconf]: autoconf/349/7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7, autoconf/350/35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2, autoconf/351/a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee
+==> [2024-01-22-10:19:47.000639] Ordered hashes [gperf]: gperf/438/3dd36dbae6a7e6dc95f42de920a1b687a2a9d0ad3b2e39ad10ad526869a5ee42
+==> [2024-01-22-10:19:47.001452] Ordered hashes [findutils]: findutils/453/440b9543365b4692a2e6e0b5674809659846658d34d1dfc542c4397c8d668b92
+==> [2024-01-22-10:19:47.001722] Ordered hashes [intltool]: intltool/645/ca9d6562f29f06c64150f50369a24402b7aa01a3a0dc73dce55106f3224330a1
+==> [2024-01-22-10:19:47.012744] Ordered hashes [llvm]: llvm/700/2028d52e1a39326bb48fb7463132bbfe7fb4fa18f1adfeea9c3ed0320ed49564, llvm/701/514926d661635de47972c7d403c9c4669235aa51e22e56d44676d2a2709179b6, llvm/704/12df3cce420d50ebfb4b142b3f643d579cb33780209a94ceb16cbd1714972a13, llvm/713/0e121ed460aa6e117f9f5f339d597a96c0fe4f97dc2209aba47b43ffc831ea24, llvm/716/015e750338cf7cc6529093b4c2c0ab9afaabca79b3763c3c21ee6266fde23ec8, llvm/722/6f0cfa55e3ed17ee33346b0a5bca8092adcc1dc75ca712ab83901755fba9767e
+==> [2024-01-22-10:19:47.013055] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:47.013249] Ordered hashes [python]: python/212/f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4, python/213/b0615b2fc96bb0cf7f180b107183b194b83b34c7614dcd6121e4a76bbf168155, python/218/13fa8bfa3e852cbf2e7b02a0313009df484bb39f55a50ada00e1a5599e956ac9, python/219/ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56
+==> [2024-01-22-10:19:47.013458] Ordered hashes [perl]: perl/370/714e4d1c7496e6b23834e7c88da3d69139418860fbc488fe82fd226b450a4be7
+==> [2024-01-22-10:19:47.013525] Ordered hashes [berkeley-db]: berkeley-db/409/b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522, berkeley-db/410/26090f418891757af46ac3b89a9f43d6eb5989f7a3dce3d1cfc99fba547203b3
+==> [2024-01-22-10:19:47.024872] Ordered hashes [flux-core]: flux-core/308/0329f4b38b5ce4e1a3dee212cb93ce40388d1bde47c82a7a8e73bc7c38274c81
+==> [2024-01-22-10:19:47.025004] Ordered hashes [autoconf]: autoconf/349/7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7, autoconf/350/35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2, autoconf/351/a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee
+==> [2024-01-22-10:19:47.025084] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:47.025185] Ordered hashes [perl]: perl/370/714e4d1c7496e6b23834e7c88da3d69139418860fbc488fe82fd226b450a4be7
+==> [2024-01-22-10:19:47.025252] Ordered hashes [berkeley-db]: berkeley-db/409/b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522, berkeley-db/410/26090f418891757af46ac3b89a9f43d6eb5989f7a3dce3d1cfc99fba547203b3
+==> [2024-01-22-10:19:47.025421] Ordered hashes [docbook-xsl]: docbook-xsl/643/a92c39715c54949ba9369add1809527b8f155b7e2a2b2e30cb4b39ee715f2e30
+==> [2024-01-22-10:19:47.025719] Ordered hashes [python]: python/212/f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4, python/213/b0615b2fc96bb0cf7f180b107183b194b83b34c7614dcd6121e4a76bbf168155, python/218/13fa8bfa3e852cbf2e7b02a0313009df484bb39f55a50ada00e1a5599e956ac9, python/219/ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56
+==> [2024-01-22-10:19:47.031160] Ordered hashes [boost]: boost/172/a440f9696d3bbb77e7eab1516c004730f622e59c71d39960b472026ef92f88e8
+==> [2024-01-22-10:19:47.036249] Ordered hashes [python]: python/212/f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4, python/213/b0615b2fc96bb0cf7f180b107183b194b83b34c7614dcd6121e4a76bbf168155, python/218/13fa8bfa3e852cbf2e7b02a0313009df484bb39f55a50ada00e1a5599e956ac9, python/219/ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56
+==> [2024-01-22-10:19:47.045376] Ordered hashes [boost]: boost/172/a440f9696d3bbb77e7eab1516c004730f622e59c71d39960b472026ef92f88e8
+==> [2024-01-22-10:19:47.045734] Ordered hashes [hdf5]: hdf5/236/ee351eb7dfcb8c857e2d85ef1ab95b61ae59cbd647560e10378fa916043a97f9
+==> [2024-01-22-10:19:47.045961] Ordered hashes [parmetis]: parmetis/930/50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870, parmetis/931/4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b, parmetis/932/704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d
+==> [2024-01-22-10:19:47.046055] Ordered hashes [python]: python/212/f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4, python/213/b0615b2fc96bb0cf7f180b107183b194b83b34c7614dcd6121e4a76bbf168155, python/218/13fa8bfa3e852cbf2e7b02a0313009df484bb39f55a50ada00e1a5599e956ac9, python/219/ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56
+==> [2024-01-22-10:19:47.046294] Ordered hashes [superlu-dist]: superlu-dist/67/8da9e21f724e8f11a5782960cc0322e12f724bf93cead7df517901a788ea3d61
+==> [2024-01-22-10:19:47.048674] Ordered hashes [netlib-scalapack]: netlib-scalapack/260/f2baedde688ffe4c20943c334f580eb298e04d6f35c86b90a1f4e8cb7ae344a2, netlib-scalapack/261/1c9ce5fee1451a08c2de3cc87f446aeda0b818ebbce4ad0d980ddf2f2a0b2dc4
+==> [2024-01-22-10:19:47.053964] Ordered hashes [bazel]: bazel/313/3e6448a0dde42bbd72568d29c5646d370dd62ca300cdd10a630908c086844167, bazel/316/0f6940d1cb5dc44630c9e845704da6d5188683eb706e280dafc84f5f0f76999e, bazel/322/dbbf38bd17c63aa923f2433a2013d302739f8043ca427c816e8737dab05ac528, bazel/330/604423c717a5e58cdd76ba8a9ce1d313faf13885be838f4e33dd37845b3940cb, bazel/332/53ca2695663ee0b548ccdaffe22712fe81d876bcdd7f31857debc372286bc0c6
+==> [2024-01-22-10:19:47.054075] Ordered hashes [python]: python/212/f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4, python/213/b0615b2fc96bb0cf7f180b107183b194b83b34c7614dcd6121e4a76bbf168155, python/218/13fa8bfa3e852cbf2e7b02a0313009df484bb39f55a50ada00e1a5599e956ac9, python/219/ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56
+==> [2024-01-22-10:19:47.057118] Ordered hashes [zip]: zip/752/14dc88014812a896e5697553025f451435f69b1b541743f853b8dcae6b4dfe27, zip/753/eb83fc886ded7101ad8ddf10c025b1bd4d33b594766816cce65397d4f5c6a7b9, zip/754/51f48db588b17790aaf6b901d6ca737abdb20124210cf8def17d81841c013d13, zip/755/a95ed93de9284ff68e835387ddb9ff62414712f9b95ec8e120f02cef8f26faca, zip/756/5068e7cb188e520da3cced095292ace13ad5e8321419127bf2ca095e148ab65a, zip/757/3bc30bafdfd29f1d26d1e0c4c7217def2ff5b37a715e482f83c5fefa2aa0ecb6, zip/758/66ab4ce03f342c6624aa14be5fa43b90e5608a4f6babcc9c3680828f2c246a74, zip/759/a92fc4e4f59aa2ca3e8059c6b355ecce8c8c7802cb4f118756bf06eb51455549, zip/760/f7d0bc42e1db9564732ae0aa1ad238b7278a3e68eb0b05e16f1cb6507df2668d, zip/761/fa8312c722a1cf774af588d5534745f2231130da0f40a44bba5b394eb13a5c64
+==> [2024-01-22-10:19:47.060636] Ordered hashes [adios2]: adios2/127/8221073d1b2f8944395a88a5d60a15c7370646b62f5fc6309867bbb6a8c2096c
+==> [2024-01-22-10:19:47.085679] Ordered hashes [gnuplot]: gnuplot/0/ad89f23815fd925889ae78009ba22e6f9e4b12fea389280040cef519deafb052
+==> [2024-01-22-10:19:47.085775] Ordered hashes [cairo]: cairo/495/7c4da77767fe9feb03f8051def0832f0c67f99162913275cfa127a88df19cf51
+==> [2024-01-22-10:19:47.085869] Ordered hashes [autoconf]: autoconf/349/7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7, autoconf/350/35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2, autoconf/351/a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee
+==> [2024-01-22-10:19:47.085946] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:47.086053] Ordered hashes [perl]: perl/370/714e4d1c7496e6b23834e7c88da3d69139418860fbc488fe82fd226b450a4be7
+==> [2024-01-22-10:19:47.086121] Ordered hashes [berkeley-db]: berkeley-db/409/b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522, berkeley-db/410/26090f418891757af46ac3b89a9f43d6eb5989f7a3dce3d1cfc99fba547203b3
+==> [2024-01-22-10:19:47.086492] Ordered hashes [gperf]: gperf/438/3dd36dbae6a7e6dc95f42de920a1b687a2a9d0ad3b2e39ad10ad526869a5ee42
+==> [2024-01-22-10:19:47.086578] Ordered hashes [glib]: glib/507/b3fd45063a19c871048aa1f28692293ab8971a871bdcbe65f06f17fdd79db9e2
+==> [2024-01-22-10:19:47.086808] Ordered hashes [meson]: meson/486/0f0b1bd854856c5f0926723437c9cd0507836bb93b45bdb434f5d3f618cc78dc, meson/488/ae59765faadb40139bfd34c3b0a42787bae6d775029eb1a88723e44fb229528a
+==> [2024-01-22-10:19:47.086893] Ordered hashes [python]: python/212/f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4, python/213/b0615b2fc96bb0cf7f180b107183b194b83b34c7614dcd6121e4a76bbf168155, python/218/13fa8bfa3e852cbf2e7b02a0313009df484bb39f55a50ada00e1a5599e956ac9, python/219/ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56
+==> [2024-01-22-10:19:47.087346] Ordered hashes [findutils]: findutils/453/440b9543365b4692a2e6e0b5674809659846658d34d1dfc542c4397c8d668b92
+==> [2024-01-22-10:19:47.094705] Ordered hashes [trilinos]: trilinos/102/bcd552dd3f8a39695fb0ab310210f679bdaaa492ef7c06366ed03e6e6f2c3d78
+==> [2024-01-22-10:19:47.094805] Ordered hashes [boost]: boost/172/a440f9696d3bbb77e7eab1516c004730f622e59c71d39960b472026ef92f88e8
+==> [2024-01-22-10:19:47.094977] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:47.095249] Ordered hashes [parmetis]: parmetis/930/50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870, parmetis/931/4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b, parmetis/932/704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d
+==> [2024-01-22-10:19:47.095316] Ordered hashes [superlu-dist]: superlu-dist/67/8da9e21f724e8f11a5782960cc0322e12f724bf93cead7df517901a788ea3d61
+==> [2024-01-22-10:19:47.101302] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:47.101438] Ordered hashes [autoconf]: autoconf/349/7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7, autoconf/350/35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2, autoconf/351/a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee
+==> [2024-01-22-10:19:47.101506] Ordered hashes [perl]: perl/370/714e4d1c7496e6b23834e7c88da3d69139418860fbc488fe82fd226b450a4be7
+==> [2024-01-22-10:19:47.101573] Ordered hashes [berkeley-db]: berkeley-db/409/b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522, berkeley-db/410/26090f418891757af46ac3b89a9f43d6eb5989f7a3dce3d1cfc99fba547203b3
+==> [2024-01-22-10:19:47.105521] Ordered hashes [wget]: wget/271/8f50e8a894950f007aba0707697eb5b67a673d2ce8cb39b4733438a918e4f644
+==> [2024-01-22-10:19:47.105775] Ordered hashes [perl]: perl/370/714e4d1c7496e6b23834e7c88da3d69139418860fbc488fe82fd226b450a4be7
+==> [2024-01-22-10:19:47.105846] Ordered hashes [berkeley-db]: berkeley-db/409/b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522, berkeley-db/410/26090f418891757af46ac3b89a9f43d6eb5989f7a3dce3d1cfc99fba547203b3
+==> [2024-01-22-10:19:47.118625] Ordered hashes [boost]: boost/172/a440f9696d3bbb77e7eab1516c004730f622e59c71d39960b472026ef92f88e8
+==> [2024-01-22-10:19:47.118944] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:47.119582] Ordered hashes [intel-tbb]: intel-tbb/833/91755c663fb80416cb3ab36871eea430e9b64c1d197e453ca0983bc3742cd065
+==> [2024-01-22-10:19:47.119734] Ordered hashes [python]: python/212/f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4, python/213/b0615b2fc96bb0cf7f180b107183b194b83b34c7614dcd6121e4a76bbf168155, python/218/13fa8bfa3e852cbf2e7b02a0313009df484bb39f55a50ada00e1a5599e956ac9, python/219/ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56
+==> [2024-01-22-10:19:47.119996] Ordered hashes [autoconf]: autoconf/349/7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7, autoconf/350/35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2, autoconf/351/a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee
+==> [2024-01-22-10:19:47.120062] Ordered hashes [perl]: perl/370/714e4d1c7496e6b23834e7c88da3d69139418860fbc488fe82fd226b450a4be7
+==> [2024-01-22-10:19:47.120128] Ordered hashes [berkeley-db]: berkeley-db/409/b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522, berkeley-db/410/26090f418891757af46ac3b89a9f43d6eb5989f7a3dce3d1cfc99fba547203b3
+==> [2024-01-22-10:19:47.121306] Ordered hashes [numactl]: numactl/674/4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94, numactl/675/62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006, numactl/676/ff37630df599cfabf0740518b91ec8daaf18e8f288b19adaae5364dc1f6b2296
+==> [2024-01-22-10:19:47.126341] Ordered hashes [boost]: boost/172/a440f9696d3bbb77e7eab1516c004730f622e59c71d39960b472026ef92f88e8
+==> [2024-01-22-10:19:47.132586] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:47.132701] Ordered hashes [perl]: perl/370/714e4d1c7496e6b23834e7c88da3d69139418860fbc488fe82fd226b450a4be7
+==> [2024-01-22-10:19:47.132773] Ordered hashes [berkeley-db]: berkeley-db/409/b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522, berkeley-db/410/26090f418891757af46ac3b89a9f43d6eb5989f7a3dce3d1cfc99fba547203b3
+==> [2024-01-22-10:19:47.139105] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:47.143746] Ordered hashes [ascent]: ascent/130/7b36845849745a2265ca657587e39f1f90b6e453c0df2e5e179049a3fd254e88
+==> [2024-01-22-10:19:47.143938] Ordered hashes [conduit]: conduit/307/784d74942a63acf698c31b39848b46b4b755bf06faa6aa6fb81be61783ec0c30
+==> [2024-01-22-10:19:47.144020] Ordered hashes [hdf5]: hdf5/236/ee351eb7dfcb8c857e2d85ef1ab95b61ae59cbd647560e10378fa916043a97f9
+==> [2024-01-22-10:19:47.144181] Ordered hashes [parmetis]: parmetis/930/50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870, parmetis/931/4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b, parmetis/932/704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d
+==> [2024-01-22-10:19:47.144813] Ordered hashes [vtk-m]: vtk-m/206/9efa2649cc28372801cf48530aa999a633c68a2228043650f33107a590dcde81
+==> [2024-01-22-10:19:47.153092] Ordered hashes [gdb]: gdb/247/0b73f4c573768130ab59fa218cfc352d1db9678423ce787012e46e589154745c, gdb/251/1d2eb3563b8502ded12e89cd86c443b565c6b7ae0494983737535a0ac08f3d38
+==> [2024-01-22-10:19:47.153445] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:47.153559] Ordered hashes [python]: python/212/f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4, python/213/b0615b2fc96bb0cf7f180b107183b194b83b34c7614dcd6121e4a76bbf168155, python/218/13fa8bfa3e852cbf2e7b02a0313009df484bb39f55a50ada00e1a5599e956ac9, python/219/ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56
+==> [2024-01-22-10:19:47.153771] Ordered hashes [perl]: perl/370/714e4d1c7496e6b23834e7c88da3d69139418860fbc488fe82fd226b450a4be7
+==> [2024-01-22-10:19:47.153837] Ordered hashes [berkeley-db]: berkeley-db/409/b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522, berkeley-db/410/26090f418891757af46ac3b89a9f43d6eb5989f7a3dce3d1cfc99fba547203b3
+==> [2024-01-22-10:19:47.161762] Ordered hashes [trilinos]: trilinos/102/bcd552dd3f8a39695fb0ab310210f679bdaaa492ef7c06366ed03e6e6f2c3d78
+==> [2024-01-22-10:19:47.161855] Ordered hashes [boost]: boost/172/a440f9696d3bbb77e7eab1516c004730f622e59c71d39960b472026ef92f88e8
+==> [2024-01-22-10:19:47.162037] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:47.162315] Ordered hashes [parmetis]: parmetis/930/50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870, parmetis/931/4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b, parmetis/932/704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d
+==> [2024-01-22-10:19:47.162381] Ordered hashes [superlu-dist]: superlu-dist/67/8da9e21f724e8f11a5782960cc0322e12f724bf93cead7df517901a788ea3d61
+==> [2024-01-22-10:19:47.164316] Ordered hashes [hdf5]: hdf5/236/ee351eb7dfcb8c857e2d85ef1ab95b61ae59cbd647560e10378fa916043a97f9
+==> [2024-01-22-10:19:47.166903] Ordered hashes [boost]: boost/172/a440f9696d3bbb77e7eab1516c004730f622e59c71d39960b472026ef92f88e8
+==> [2024-01-22-10:19:47.192740] Ordered hashes [autoconf]: autoconf/349/7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7, autoconf/350/35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2, autoconf/351/a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee
+==> [2024-01-22-10:19:47.192833] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:47.192936] Ordered hashes [perl]: perl/370/714e4d1c7496e6b23834e7c88da3d69139418860fbc488fe82fd226b450a4be7
+==> [2024-01-22-10:19:47.193002] Ordered hashes [berkeley-db]: berkeley-db/409/b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522, berkeley-db/410/26090f418891757af46ac3b89a9f43d6eb5989f7a3dce3d1cfc99fba547203b3
+==> [2024-01-22-10:19:47.193344] Ordered hashes [gperf]: gperf/438/3dd36dbae6a7e6dc95f42de920a1b687a2a9d0ad3b2e39ad10ad526869a5ee42
+==> [2024-01-22-10:19:47.193547] Ordered hashes [cairo]: cairo/495/7c4da77767fe9feb03f8051def0832f0c67f99162913275cfa127a88df19cf51
+==> [2024-01-22-10:19:47.193630] Ordered hashes [glib]: glib/507/b3fd45063a19c871048aa1f28692293ab8971a871bdcbe65f06f17fdd79db9e2
+==> [2024-01-22-10:19:47.193864] Ordered hashes [meson]: meson/486/0f0b1bd854856c5f0926723437c9cd0507836bb93b45bdb434f5d3f618cc78dc, meson/488/ae59765faadb40139bfd34c3b0a42787bae6d775029eb1a88723e44fb229528a
+==> [2024-01-22-10:19:47.193949] Ordered hashes [python]: python/212/f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4, python/213/b0615b2fc96bb0cf7f180b107183b194b83b34c7614dcd6121e4a76bbf168155, python/218/13fa8bfa3e852cbf2e7b02a0313009df484bb39f55a50ada00e1a5599e956ac9, python/219/ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56
+==> [2024-01-22-10:19:47.194396] Ordered hashes [findutils]: findutils/453/440b9543365b4692a2e6e0b5674809659846658d34d1dfc542c4397c8d668b92
+==> [2024-01-22-10:19:47.201674] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:47.201760] Ordered hashes [perl]: perl/370/714e4d1c7496e6b23834e7c88da3d69139418860fbc488fe82fd226b450a4be7
+==> [2024-01-22-10:19:47.201828] Ordered hashes [berkeley-db]: berkeley-db/409/b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522, berkeley-db/410/26090f418891757af46ac3b89a9f43d6eb5989f7a3dce3d1cfc99fba547203b3
+==> [2024-01-22-10:19:47.201982] Ordered hashes [findutils]: findutils/453/440b9543365b4692a2e6e0b5674809659846658d34d1dfc542c4397c8d668b92
+==> [2024-01-22-10:19:47.202106] Ordered hashes [python]: python/212/f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4, python/213/b0615b2fc96bb0cf7f180b107183b194b83b34c7614dcd6121e4a76bbf168155, python/218/13fa8bfa3e852cbf2e7b02a0313009df484bb39f55a50ada00e1a5599e956ac9, python/219/ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56
+==> [2024-01-22-10:19:47.209858] Ordered hashes [sundials]: sundials/94/5e812760a190c4b1100e183919c50796041c6887520d99fe75ee01b248ff16c5
+==> [2024-01-22-10:19:47.219499] Ordered hashes [autoconf]: autoconf/349/7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7, autoconf/350/35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2, autoconf/351/a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee
+==> [2024-01-22-10:19:47.219588] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:47.219691] Ordered hashes [perl]: perl/370/714e4d1c7496e6b23834e7c88da3d69139418860fbc488fe82fd226b450a4be7
+==> [2024-01-22-10:19:47.219760] Ordered hashes [berkeley-db]: berkeley-db/409/b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522, berkeley-db/410/26090f418891757af46ac3b89a9f43d6eb5989f7a3dce3d1cfc99fba547203b3
+==> [2024-01-22-10:19:47.219911] Ordered hashes [boost]: boost/172/a440f9696d3bbb77e7eab1516c004730f622e59c71d39960b472026ef92f88e8
+==> [2024-01-22-10:19:47.220273] Ordered hashes [python]: python/212/f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4, python/213/b0615b2fc96bb0cf7f180b107183b194b83b34c7614dcd6121e4a76bbf168155, python/218/13fa8bfa3e852cbf2e7b02a0313009df484bb39f55a50ada00e1a5599e956ac9, python/219/ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56
+==> [2024-01-22-10:19:47.223824] Ordered hashes [mpark-variant]: mpark-variant/272/21a4f8de3525204ee6db2e53758a3e3fd9c13817df29d2926d24376858a369e7, mpark-variant/273/4e173fe8c853eb92956a40371688b4a19498189fe65b7ceac30f6b9d6663a985, mpark-variant/274/b3501f726fd40129b4aaa11453a5891c8953a34af8ac84f5ab10a22afa5e7b9b
+==> [2024-01-22-10:19:47.230393] Ordered hashes [boost]: boost/172/a440f9696d3bbb77e7eab1516c004730f622e59c71d39960b472026ef92f88e8
+==> [2024-01-22-10:19:47.230611] Ordered hashes [trilinos]: trilinos/102/bcd552dd3f8a39695fb0ab310210f679bdaaa492ef7c06366ed03e6e6f2c3d78
+==> [2024-01-22-10:19:47.230757] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:47.231031] Ordered hashes [parmetis]: parmetis/930/50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870, parmetis/931/4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b, parmetis/932/704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d
+==> [2024-01-22-10:19:47.231096] Ordered hashes [superlu-dist]: superlu-dist/67/8da9e21f724e8f11a5782960cc0322e12f724bf93cead7df517901a788ea3d61
+==> [2024-01-22-10:19:47.233646] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:47.235839] Ordered hashes [ginkgo]: ginkgo/68/43e571a49ea774793d89d145571c95ae7cdf991f5220d8fe84db217a3c613a32
+==> [2024-01-22-10:19:47.239081] Ordered hashes [mfem]: mfem/197/ccc98d6d874a760218c9f6e4bcf3a97ea79746b0f28997f4312fcf02a0beae6e
+==> [2024-01-22-10:19:47.243194] Ordered hashes [autoconf]: autoconf/349/7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7, autoconf/350/35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2, autoconf/351/a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee
+==> [2024-01-22-10:19:47.243274] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:47.243376] Ordered hashes [perl]: perl/370/714e4d1c7496e6b23834e7c88da3d69139418860fbc488fe82fd226b450a4be7
+==> [2024-01-22-10:19:47.243443] Ordered hashes [berkeley-db]: berkeley-db/409/b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522, berkeley-db/410/26090f418891757af46ac3b89a9f43d6eb5989f7a3dce3d1cfc99fba547203b3
+==> [2024-01-22-10:19:47.248355] Ordered hashes [rempi]: rempi/245/2296f83201ecf579861025b0312538fd26455fa09e5e0146318671caa8604399
+==> [2024-01-22-10:19:47.248448] Ordered hashes [autoconf]: autoconf/349/7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7, autoconf/350/35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2, autoconf/351/a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee
+==> [2024-01-22-10:19:47.248527] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:47.248628] Ordered hashes [perl]: perl/370/714e4d1c7496e6b23834e7c88da3d69139418860fbc488fe82fd226b450a4be7
+==> [2024-01-22-10:19:47.248695] Ordered hashes [berkeley-db]: berkeley-db/409/b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522, berkeley-db/410/26090f418891757af46ac3b89a9f43d6eb5989f7a3dce3d1cfc99fba547203b3
+==> [2024-01-22-10:19:47.256255] Ordered hashes [gmp]: gmp/270/69ad2e25f05ff4f347e5372f35f385163c66527000b15f57f0496b5fab62f48c
+==> [2024-01-22-10:19:47.256344] Ordered hashes [autoconf]: autoconf/349/7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7, autoconf/350/35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2, autoconf/351/a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee
+==> [2024-01-22-10:19:47.256424] Ordered hashes [m4]: m4/352/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/362/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2024-01-22-10:19:47.256523] Ordered hashes [perl]: perl/370/714e4d1c7496e6b23834e7c88da3d69139418860fbc488fe82fd226b450a4be7
+==> [2024-01-22-10:19:47.256589] Ordered hashes [berkeley-db]: berkeley-db/409/b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522, berkeley-db/410/26090f418891757af46ac3b89a9f43d6eb5989f7a3dce3d1cfc99fba547203b3
+==> [2024-01-22-10:19:47.263191] Ordered hashes [python]: python/212/f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4, python/213/b0615b2fc96bb0cf7f180b107183b194b83b34c7614dcd6121e4a76bbf168155, python/218/13fa8bfa3e852cbf2e7b02a0313009df484bb39f55a50ada00e1a5599e956ac9, python/219/ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56
+==> [2024-01-22-10:19:47.267703] Ordered hashes [boost]: boost/172/a440f9696d3bbb77e7eab1516c004730f622e59c71d39960b472026ef92f88e8
+==> [2024-01-22-10:19:47.273969] Ordered hashes [python]: python/212/f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4, python/213/b0615b2fc96bb0cf7f180b107183b194b83b34c7614dcd6121e4a76bbf168155, python/218/13fa8bfa3e852cbf2e7b02a0313009df484bb39f55a50ada00e1a5599e956ac9, python/219/ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56
+==> [2024-01-22-10:19:47.279070] module_cmd.load_module: PrgEnv-gnu/8.5.0
+==> [2024-01-22-10:19:48.123088] module_cmd.load_module: gcc/12.2.0
+==> [2024-01-22-10:19:48.867793] module_cmd.load_module: xpmem
+==> [2024-01-22-10:19:49.211935] module_cmd.load_module: craype-x86-trento
+==> [2024-01-22-10:19:49.552328] module_cmd.load_module: cray-pmi
+==> [2024-01-22-10:19:49.887644] module_cmd.load_module: libfabric
+==> [2024-01-22-10:19:50.468550] Module name: cray-mpich/8.1.28
+==> [2024-01-22-10:19:50.468729] Package directory variable prefix: CRAY_MPICH
+==> [2024-01-22-10:20:39.030537] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hipsparse'), 0)
+==> [2024-01-22-10:20:39.030642] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='libunwind'), unwind)
+==> [2024-01-22-10:20:39.040673] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='llvm'), libllvm)
+==> [2024-01-22-10:20:39.040870] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='rocprim'), 0)
+==> [2024-01-22-10:20:39.041041] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='libiconv'), iconv)
+==> [2024-01-22-10:20:39.042943] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='cray-libsci'), 0)
+==> [2024-01-22-10:20:39.043004] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='llvm-amdgpu'), 0)
+==> [2024-01-22-10:20:39.043802] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='rocthrust'), 0)
+==> [2024-01-22-10:20:39.045641] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='openssl'), 0)
+==> [2024-01-22-10:20:39.046544] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='util-linux-uuid'), uuid)
+==> [2024-01-22-10:20:39.048126] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hsa-rocr-dev'), 0)
+==> [2024-01-22-10:20:39.051988] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='cray-mpich'), 0)
+==> [2024-01-22-10:20:39.061190] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='cray-libsci'), lapack)
+==> [2024-01-22-10:20:39.062183] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='openblas'), blas)
+==> [2024-01-22-10:20:39.062402] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='rocsparse'), 0)
+==> [2024-01-22-10:20:39.062466] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hipfft'), 0)
+==> [2024-01-22-10:20:39.069310] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='openblas'), lapack)
+==> [2024-01-22-10:20:39.070336] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hiprand'), 0)
+==> [2024-01-22-10:20:39.075945] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hip'), 0)
+==> [2024-01-22-10:20:39.077558] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hipify-clang'), 0)
+==> [2024-01-22-10:20:39.080532] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='pkgconf'), pkgconfig)
+==> [2024-01-22-10:20:39.081068] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='zlib-ng'), zlib-api)
+==> [2024-01-22-10:20:39.083529] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='cray-libsci'), blas)
+==> [2024-01-22-10:20:39.084929] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='rocrand'), 0)
+==> [2024-01-22-10:20:39.085991] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hipblas'), 0)
+==> [2024-01-22-10:20:39.088497] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='intel-parallel-studio'), scalapack)
+==> [2024-01-22-10:20:39.089137] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='rocsolver'), 0)
+==> [2024-01-22-10:20:39.089826] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='libfabric'), 0)
+==> [2024-01-22-10:20:39.090156] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='rocblas'), 0)
+==> [2024-01-22-10:20:39.093019] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='cray-mpich'), mpi)
+==> [2024-01-22-10:20:39.094360] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='elfutils'), elf)
+==> [2024-01-22-10:20:39.320398] Ordered hashes [adios2]: adios2/127/8221073d1b2f8944395a88a5d60a15c7370646b62f5fc6309867bbb6a8c2096c
+==> [2024-01-22-10:20:39.330199] Ordered hashes [ginkgo]: ginkgo/68/43e571a49ea774793d89d145571c95ae7cdf991f5220d8fe84db217a3c613a32
+==> [2024-01-22-10:20:39.338587] Ordered hashes [trilinos]: trilinos/102/bcd552dd3f8a39695fb0ab310210f679bdaaa492ef7c06366ed03e6e6f2c3d78
+==> [2024-01-22-10:20:39.338964] Ordered hashes [parmetis]: parmetis/930/50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870, parmetis/931/4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b, parmetis/932/704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d
+==> [2024-01-22-10:20:39.339040] Ordered hashes [superlu-dist]: superlu-dist/67/8da9e21f724e8f11a5782960cc0322e12f724bf93cead7df517901a788ea3d61
+==> [2024-01-22-10:20:39.344240] Ordered hashes [parmetis]: parmetis/930/50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870, parmetis/931/4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b, parmetis/932/704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d
+==> [2024-01-22-10:20:39.348259] Ordered hashes [sundials]: sundials/100/a707dfdef6850279a39804a850dcb9f824fea52529c1656002015841fa0c2dcf
+==> [2024-01-22-10:20:39.351122] module_cmd.load_module: PrgEnv-gnu/8.5.0
+==> [2024-01-22-10:20:40.023869] module_cmd.load_module: gcc/12.2.0
+==> [2024-01-22-10:20:40.782585] module_cmd.load_module: xpmem
+==> [2024-01-22-10:20:41.145380] module_cmd.load_module: craype-x86-trento
+==> [2024-01-22-10:20:41.499995] module_cmd.load_module: cray-pmi
+==> [2024-01-22-10:20:41.852732] module_cmd.load_module: libfabric
+==> [2024-01-22-10:20:42.462661] Module name: cray-mpich/8.1.28
+==> [2024-01-22-10:20:42.462831] Package directory variable prefix: CRAY_MPICH
+==> [2024-01-22-10:20:42.710042] module_cmd.load_module: PrgEnv-gnu/8.5.0
+==> [2024-01-22-10:20:43.382006] module_cmd.load_module: gcc/12.2.0
+==> [2024-01-22-10:20:44.128938] module_cmd.load_module: xpmem
+==> [2024-01-22-10:20:44.495674] module_cmd.load_module: craype-x86-trento
+==> [2024-01-22-10:20:44.850562] module_cmd.load_module: cray-pmi
+==> [2024-01-22-10:20:45.191109] module_cmd.load_module: libfabric
+==> [2024-01-22-10:20:45.807629] Module name: cpe/23.12
+==> [2024-01-22-10:20:45.807796] Package directory variable prefix: CPE
+==> [2024-01-22-10:20:46.059897] Module name: cray-libsci/23.12.5
+==> [2024-01-22-10:20:46.060005] Package directory variable prefix: CRAY_LIBSCI
+==> [2024-01-22-10:21:28.828282] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='openssl'), 0)
+==> [2024-01-22-10:21:28.830873] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hiprand'), 0)
+==> [2024-01-22-10:21:28.833118] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='llvm-amdgpu'), 0)
+==> [2024-01-22-10:21:28.833218] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='cray-mpich'), 0)
+==> [2024-01-22-10:21:28.833671] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='cray-mpich'), mpi)
+==> [2024-01-22-10:21:28.835075] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hip'), 0)
+==> [2024-01-22-10:21:28.836107] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hsa-rocr-dev'), 0)
+==> [2024-01-22-10:21:28.837603] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='rocrand'), 0)
+==> [2024-01-22-10:21:28.838941] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='zlib-ng'), zlib-api)
+==> [2024-01-22-10:21:28.839192] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='rocprim'), 0)
+==> [2024-01-22-10:21:28.903251] Ordered hashes [sundials]: sundials/100/a707dfdef6850279a39804a850dcb9f824fea52529c1656002015841fa0c2dcf
+==> [2024-01-22-10:21:28.904622] module_cmd.load_module: PrgEnv-gnu/8.5.0
+==> [2024-01-22-10:21:29.639360] module_cmd.load_module: gcc/12.2.0
+==> [2024-01-22-10:21:30.400932] module_cmd.load_module: xpmem
+==> [2024-01-22-10:21:30.768560] module_cmd.load_module: craype-x86-trento
+==> [2024-01-22-10:21:31.133591] module_cmd.load_module: cray-pmi
+==> [2024-01-22-10:21:31.485019] module_cmd.load_module: libfabric
+==> [2024-01-22-10:21:32.110863] Module name: cray-mpich/8.1.28
+==> [2024-01-22-10:21:32.111023] Package directory variable prefix: CRAY_MPICH
+==> [2024-01-22-10:21:58.307158] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='openssl'), 0)
+==> [2024-01-22-10:21:58.309530] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='llvm-amdgpu'), 0)
+==> [2024-01-22-10:21:58.309932] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hip'), 0)
+==> [2024-01-22-10:21:58.310397] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hsa-rocr-dev'), 0)
+==> [2024-01-22-10:21:58.310712] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='zlib-ng'), zlib-api)
+==> [2024-01-22-10:22:24.637716] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='cray-libsci'), lapack)
+==> [2024-01-22-10:22:24.637864] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hipblas'), 0)
+==> [2024-01-22-10:22:24.638946] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='openssl'), 0)
+==> [2024-01-22-10:22:24.641072] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='llvm-amdgpu'), 0)
+==> [2024-01-22-10:22:24.641151] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='cray-mpich'), 0)
+==> [2024-01-22-10:22:24.641366] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='cray-mpich'), mpi)
+==> [2024-01-22-10:22:24.641431] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='intel-parallel-studio'), scalapack)
+==> [2024-01-22-10:22:24.641752] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='cray-libsci'), blas)
+==> [2024-01-22-10:22:24.642197] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hip'), 0)
+==> [2024-01-22-10:22:24.642633] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='rocsolver'), 0)
+==> [2024-01-22-10:22:24.642716] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='hsa-rocr-dev'), 0)
+==> [2024-01-22-10:22:24.643070] UNKNOWN SYMBOL: attr("external_conditions_hold", NodeArgument(id='0', pkg='rocthrust'), 0)
+==> [2024-01-22-10:22:24.644188] UNKNOWN SYMBOL: attr("virtual_on_incoming_edges", NodeArgument(id='0', pkg='zlib-ng'), zlib-api)
+==> [2024-01-22-10:22:24.722846] module_cmd.load_module: PrgEnv-gnu/8.5.0
+==> [2024-01-22-10:22:25.392115] module_cmd.load_module: gcc/12.2.0
+==> [2024-01-22-10:22:26.142986] module_cmd.load_module: xpmem
+==> [2024-01-22-10:22:26.506751] module_cmd.load_module: craype-x86-trento
+==> [2024-01-22-10:22:26.856483] module_cmd.load_module: cray-pmi
+==> [2024-01-22-10:22:27.209203] module_cmd.load_module: libfabric
+==> [2024-01-22-10:22:27.820658] Module name: cray-mpich/8.1.28
+==> [2024-01-22-10:22:27.820834] Package directory variable prefix: CRAY_MPICH
+==> [2024-01-22-10:22:50.625121] UnsatisfiableSpecError: concretization failed for the following reasons:
+
+   1. Cannot satisfy 'caliper@2.7.0'
+   2. Cannot satisfy 'caliper@2.7.0'
+        required because caliper@2.7.0%gcc@12.2.0~cuda arch=linux-sles15-zen3 ^papi~cuda requested explicitly 
+==> [2024-01-22-10:22:50.625199] Error: concretization failed for the following reasons:
+
+   1. Cannot satisfy 'caliper@2.7.0'
+   2. Cannot satisfy 'caliper@2.7.0'
+        required because caliper@2.7.0%gcc@12.2.0~cuda arch=linux-sles15-zen3 ^papi~cuda requested explicitly 
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/main.py", line 1066, in main
+    return _main(argv)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/main.py", line 1019, in _main
+    return finish_parse_and_run(parser, cmd_name, args, env_format_error)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/main.py", line 1049, in finish_parse_and_run
+    return _invoke_command(command, parser, args, unknown)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/main.py", line 648, in _invoke_command
+    return_val = command(parser, args)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/cmd/concretize.py", line 44, in concretize
+    concretized_specs = env.concretize(force=args.force, tests=tests)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/environment/environment.py", line 1365, in concretize
+    return self._concretize_together_where_possible(tests=tests)
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/environment/environment.py", line 1456, in _concretize_together_where_possible
+    specs_to_concretize, tests=tests, allow_deprecated=allow_deprecated
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/solver/asp.py", line 3250, in solve_in_rounds
+    allow_deprecated=allow_deprecated,
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/solver/asp.py", line 997, in solve
+    error_handler.raise_if_errors()
+  File "/autofs/nccs-svm1_home2/sauesw/todbadrakh/borg/olcf-spack-environments/spack/lib/spack/spack/solver/asp.py", line 823, in raise_if_errors
+    raise UnsatisfiableSpecError(msg)
+spack.solver.asp.UnsatisfiableSpecError: concretization failed for the following reasons:
+
+   1. Cannot satisfy 'caliper@2.7.0'
+   2. Cannot satisfy 'caliper@2.7.0'
+        required because caliper@2.7.0%gcc@12.2.0~cuda arch=linux-sles15-zen3 ^papi~cuda requested explicitly 

@@ -1,37 +1,47 @@
-# OLCF Borg Spack Environment
-# Tuguldur T Odbadrakh 12/29/2023 Borg
+# Base environment configuration
+# Tuguldur T. Odbadrakh
+# 1/25/2024 Borg
 
 config:
   install_tree:
-    root: ${FACSPACK_ENV}/opt
+    root: '${FACSPACK_ENV}/opt'
     projections:
-      all: '{architecture}/{compiler.name}-{compiler.version}/{name}-{version}-{hash}'
+      all: '{compiler.name}-{compiler.version}/{name}-{version}-{hash}'
+        
   template_dirs:
-  - ${FACSPACK_CONF_HOST}/templates
-  - ${FACSPACK_CONF_COMMON}/spack/templates
+  - /sw/borg/spack/templates
   - $spack/share/spack/templates
-  build_stage:
-  - $tempdir/$user/spack-stage
-  - $spack/var/spack/stage
-  source_cache: ${FACSPACK_SOURCE_CACHE}
+ 
+  build_stage: '/tmp/sauesw/spack-stage'
+  test_stage: '/tmp/sauesw/spack-test'
+  source_cache: '/sw/borg/spack/scache'
+  misc_cache: '/sw/borg/spack/mcache'
+
   extensions:
-  - /sw/sources/facility-spack/borg/share/spack/extensions/spack-olcf
-  misc_cache: ${FACSPACK_ENV}/.mcache
+  - ${FACSPACK_CONF_COMMON}/spack/extensions/spack-olcf
+  
   verify_ssl: true
   install_missing_compilers: false
   checksum: true
   dirty: false
   build_language: C
-  build_jobs: 24
+  build_jobs: 32
   ccache: false
   db_lock_timeout: 120
   package_lock_timeout: null
   shared_linking: rpath
   allow_sgid: true
-  concretizer: clingo
+  concretizer: 'clingo'
   locks: true
   suppress_gpg_warnings: false
   connect_timeout: 10
-  test_stage: ~/.spack/test
   concretization: separately
   view: false
+
+concretizer:
+  unify: when_possible
+    #unify: true
+
+mirrors:
+  facility_builds: /sw/borg/spack/bmirrors
+  source_mirror: /sw/borg/spack/smirrors
