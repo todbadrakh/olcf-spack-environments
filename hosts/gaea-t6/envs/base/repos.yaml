@@ -1,0 +1,5 @@
+# OLCF Gaea-T6 Spack Environment Repos
+
+repos:
+- ${FACSPACK_CONF_COMMON}/spack/repos/ncrc
+- ${FACSPACK_CONF_COMMON}/spack/repos/olcf

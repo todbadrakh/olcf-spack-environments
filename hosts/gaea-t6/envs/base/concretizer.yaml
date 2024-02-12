@@ -1,0 +1,4 @@
+# OLCF Gaea-T6 Spack Environment Concretizer
+
+concretizer:
+  unify: when_possible

@@ -1,0 +1,40 @@
+# OLCF Gaea-T6 Spack Environment Config
+
+config:
+  install_tree:
+    root: '${FACSPACK_ENV}/opt'
+    projections:
+      all: '{architecture}/{compiler.name}-{compiler.version}/{name}-{version}-{hash}'
+
+  template_dirs:
+  - ${FACSPACK_CONF_HOST}/templates
+  - ${FACSPACK_CONF_COMMON}/spack/templates
+  - $spack/share/spack/templates
+
+  build_stage:
+  - $tempdir/$user/spack-stage
+  - $spack/var/spack/stage
+
+  source_cache: ${FACSPACK_SOURCE_CACHE}
+
+  extensions:
+  - /sw/sources/facility-spack/gaea-t5/share/spack/extensions/spack-olcf
+  
+  install_status: true
+  misc_cache: ${FACSPACK_ENV}/.mcache
+  verify_ssl: true
+  install_missing_compilers: false
+  checksum: true
+  dirty: false
+  build_language: C
+  build_jobs: 32
+  ccache: false
+  db_lock_timeout: 120
+  package_lock_timeout: null
+  shared_linking: rpath
+  allow_sgid: true
+  concretizer: 'clingo'
+  locks: true
+  suppress_gpg_warnings: false
+  connect_timeout: 10
+  test_stage: ~/.spack/test

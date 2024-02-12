@@ -1,0 +1,5 @@
+# OLCF Gaea-T6 Spack Environment Mirrors
+
+mirrors:
+  facility_builds: /sw/gaea-t6/spack-env/mirrors/builds
+  source_mirror: /sw/sources/facility-spack/source_mirror

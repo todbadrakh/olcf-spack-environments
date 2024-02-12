@@ -1,0 +1,148 @@
+# OLCF Gaea-T6 Spack Environment Packages
+
+packages:
+  all:
+    buildable: true
+    compiler:
+    - gcc@7.5.0
+    providers:
+      blas:
+      - openblas
+      - cray-libsci
+      lapack:
+      - openblas
+      - cray-libsci
+      mpi:
+      - cray-mpich
+      scalapack:
+      - netlib-scalapack
+      tbb:
+      - intel-tbb
+    target:
+    - x86_64
+  axom:
+    variants: ~examples~openmp+hdf5+umpire+raja+mpi
+  binutils:
+    buildable: true
+    variants: +libiberty
+  camp:
+    variants: ~rocm
+  chai:
+    variants: ~examples~benchmarks~tests~rocm
+  cray-libsci:
+    buildable: false
+    externals:
+    - modules:
+      - cray-libsci/23.12.5
+      spec: cray-libsci@23.12.5
+    version:
+    - 23.12.5
+  cray-mpich:
+    buildable: false
+    externals:
+    - modules:
+      - cray-mpich/8.1.28
+      spec: cray-mpich@8.1.28
+    variants: ~wrappers
+    version:
+    - 8.1.28
+  darshan-runtime:
+    buildable: true
+    variants: +grouplogs scheduler=slurm logpath="/lustre/f2/darshan"
+  fftw:
+    buildable: true
+    variants: precision=float,double,long_double
+  gdbm:
+    version:
+    - 1.19
+  hdf5:
+    buildable: true
+    variants: +hl+cxx+fortran
+  intel-parallel-studio:
+    buildable: false
+  libfabric:
+    buildable: true
+    externals:
+    - prefix: /opt/cray/libfabric/1.15.0.0
+      spec: libfabric@1.15.0.0
+    - prefix: /opt/cray/libfabric/1.13.0.0
+      spec: libfabric@1.13.0.0
+    version:
+    - 1.15.0.0
+    - 1.13.0.0
+    variants: fabrics=rxm,sockets,tcp,udp
+  libtool:
+    buildable: true
+    version:
+    - 2.4.6
+  m4:
+    buildable: true
+    version:
+    - 1.4.18
+  mpich:
+    buildable: true
+    variants: +verbs+slurm device=ch4 netmod=ofi pmi=pmi
+    version:
+    - 3.4.1
+  netcdf-c:
+    buildable: true
+    variants: ~hdf4+mpi+parallel-netcdf+shared
+  netlib-scalapack:
+    buildable: true
+    variants: +fpic
+  octave:
+    buildable: true
+    variants: +magick+arpack+curl+fftw+fontconfig+freetype+glpk+gnuplot+hdf5+opengl+qhull+qrupdate+qt+readline+suitesparse+zlib
+  openmpi:
+    buildable: false
+  openssh:
+    buildable: false
+    externals:
+    - prefix: /usr
+      spec: openssh@8.4
+    version:
+    - 8.4
+  openssl:
+    buildable: false
+    externals:
+    - spec: openssl@1.1.1l-fips
+      prefix: /usr
+    version:
+    - 1.1.1l-fips
+  parallel-netcdf:
+    buildable: true
+    variants: +cxx+fortran+fpic
+  perl:
+    externals:
+    - spec: perl@5.26.1-os
+      prefix: /usr
+  petsc:
+    variants: +batch
+  qt:
+    buildable: true
+    variants: ~ssl
+  r:
+    buildable: true
+    variants: ~X
+  raja:
+    variants: ~exercises~examples~tests~openmp~rocm
+  slurm:
+    buildable: false
+    externals:
+    - prefix: /usr
+      spec: slurm@23.02.6
+    version:
+    - 23.02.6
+  sundials:
+    variants: ~examples~examples-install
+  tcsh:
+    buildable: false
+    externals:
+    - prefix: /usr
+      spec: tcsh@6.20.00
+    version:
+    - 6.20.00
+  trilinos:
+    variants: +amesos +amesos2 +anasazi +aztec +belos +boost +epetra +epetraext +ifpack +ifpack2 +intrepid +intrepid2 +isorropia +kokkos +ml +minitensor +muelu +nox +piro +phalanx +rol +rythmos +sacado +stk +shards +shylu +stokhos +stratimikos +teko +tempus +tpetra +trilinoscouplings +zoltan +zoltan2 +superlu-dist gotype=long_long
+  umpire:
+    variants: ~examples~rocm

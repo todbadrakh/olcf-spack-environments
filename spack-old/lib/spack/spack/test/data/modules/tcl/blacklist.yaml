@@ -1,0 +1,12 @@
+# DEPRECATED: remove this in v0.20
+# See `exclude.yaml` for the new syntax
+enable:
+  - tcl
+tcl:
+  whitelist:
+    - zmpi
+  blacklist:
+    - callpath
+    - mpi
+  all:
+    autoload: direct

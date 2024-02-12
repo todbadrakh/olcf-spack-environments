@@ -1,0 +1,112 @@
+# OLCF Gaea-T6 Spack Environment Specs
+
+spack:
+  include:
+  - config.yaml
+  - concretizer.yaml
+  - compilers.yaml
+  - mirrors.yaml
+  - modules.yaml
+  - packages.yaml
+    #- repos.yaml
+
+  definitions:
+
+  - core_compiler:
+    - '%gcc@7.5.0'
+  - gcc_compilers:
+    - '%gcc@12.3.0-native'
+  - cray_compilers:
+    - '%cce@17.0.0'
+  - intel_compilers:
+    - '%intel@2023.2.0'
+  - all_compilers:
+    - $gcc_compilers
+    - $cray_compilers
+    - $intel_compilers
+
+  - core_packages:
+    - bazel ^openjdk@11.0:11.99
+    - boost
+    - ccache
+    - cdo@1.9.10+hdf5+netcdf ^hdf5~mpi+cxx+fortran ^fftw~mpi+openmp ^netcdf-c~mpi~parallel-netcdf
+    - cdo@1.9.10~szip+hdf5+netcdf ^hdf5~mpi+cxx+fortran ^fftw~mpi+openmp ^netcdf-c~mpi~parallel-netcdf ^eccodes+aec
+    - cmake
+    - darshan-util
+    - emacs +X
+    - esmf~mpi~pnetcdf ^netcdf-c~mpi~parallel-netcdf ^hdf5+szip~mpi
+    - exuberant-ctags@5.8
+    - gdb@10.2
+    - git
+    - git-lfs
+    - glew
+    - gnupg
+    - gnuplot +X
+    - go
+    - googletest
+      #- grib-api@1.24.0
+      #- gridcf-gct
+    - htop
+    - imagemagick
+    - julia
+    - libyaml
+    - libzmq
+    - mercurial
+    - nag
+    - nano
+    - nccmp ^netcdf-c~mpi~parallel-netcdf ^hdf5~mpi
+      #- nccmp@1.8.6.5 #^netcdf-c~mpi~parallel-netcdf ^hdf5~mpi
+    - nco
+    - nco@4.7.9
+      #- nedit
+    - openblas@0.3.17 threads=none
+    - openblas@0.3.17 threads=openmp
+    - openblas@0.3.17 threads=pthreads
+    - papi~cuda
+    - pcre
+    - pdt
+    - python
+    - r
+    - screen
+    - subversion
+      #- tkdiff
+    - tmux
+      #- uberftp
+    - vim
+    - wget
+      #- wgrib
+    - wgrib2 #^netcdf-c~mpi~parallel-netcdf ^hdf5~mpi
+    - darshan-util@3.4.0
+
+  - compute_packages:
+    - cdo
+    - esmf@8.2.0
+    - ferret
+    - geos
+    - hpctoolkit
+    - nccmp
+    - ncl
+    - nco
+    - ncview
+    - darshan-runtime@3.4.0
+
+  - core_specs:
+    - matrix:
+      - - $core_packages
+      - - $core_compiler
+      - - arch=linux-sles15-x86_64
+      exclude:
+      - julia@1.7.2 # Needs gfortran.so.5
+  - compute_specs:
+    - matrix:
+      - - $compute_packages
+      - - '%intel@2023.2.0'
+        - '%gcc@12.3.0-native'
+        - '%cce@17.0.0'
+      - - arch=linux-sles15-x86_64
+
+  specs:
+  - $core_specs
+  - $compute_specs
+
+  view: false

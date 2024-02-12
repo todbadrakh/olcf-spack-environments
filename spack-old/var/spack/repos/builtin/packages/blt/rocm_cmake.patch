@@ -1,0 +1,11 @@
+--- a/cmake/BLTOptions.cmake    2021-07-20 20:02:53.000000000 -0400
++++ b/cmake/BLTOptions.cmake    2021-10-26 16:03:32.710512374 -0400
+@@ -66,6 +66,7 @@
+ mark_as_advanced(BLT_CLANG_HIP_ARCH)
+ option(ENABLE_HCC         "Enable HCC support" OFF)
+ set(BLT_ROCM_ARCH "gfx900" CACHE STRING "gfx architecture to use when generating ROCm code")
++set(CMAKE_HIP_ARCHITECTURES "${BLT_ROCM_ARCH}" CACHE STRING "")
+ 
+ #------------------------------------------------------------------------------
+ # Test Options
+
