@@ -1,5 +1,0 @@
-config:
-  locks: false
-  concretizer: original
-  build_stage::
-    - '$spack/.staging'
